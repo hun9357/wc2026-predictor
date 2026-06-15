@@ -1,7 +1,13 @@
 import { formatKickoff, confidenceLevel, confidenceLabel, verdictFromProb } from './format.js';
+import { flagPath } from './flags.js';
 
 export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+export function flagImg(id, name) {
+  const p = flagPath(id);
+  return p ? `<img class="flag" src="${p}" alt="" width="22" height="16" loading="lazy">` : '';
 }
 
 export function teamCode(team, id) {
@@ -49,9 +55,9 @@ export function renderCard(match, byId, now = new Date()) {
   return `<article class="match-card${toss ? ' is-tossup' : ''}" data-match="${esc(match.id)}" data-group="${esc(match.group)}" data-md="${esc(match.matchday)}">` +
     `<div class="match-meta"><span class="meta-chip">${esc(match.group)}조 · MD${esc(match.matchday)}</span><span>${esc(k.label)}</span></div>` +
     `<div class="team-row">` +
-      `<div class="team"><span class="team-name">${esc(home?.name ?? match.home)}</span><span class="team-code">${teamCode(home, match.home)}</span></div>` +
+      `<div class="team"><span class="team-name">${flagImg(match.home, home?.name)}${esc(home?.name ?? match.home)}</span><span class="team-code">${teamCode(home, match.home)}</span></div>` +
       `<span class="vs">VS</span>` +
-      `<div class="team away"><span class="team-name">${esc(away?.name ?? match.away)}</span><span class="team-code">${teamCode(away, match.away)}</span></div>` +
+      `<div class="team away"><span class="team-name">${flagImg(match.away, away?.name)}${esc(away?.name ?? match.away)}</span><span class="team-code">${teamCode(away, match.away)}</span></div>` +
     `</div>` +
     renderProbability(match.prob) +
     `<div class="verdict"><span>${esc(verdictText(match, byId))}</span><small>${esc(confidenceLabel(match.prob))}</small></div>` +
@@ -98,7 +104,7 @@ export function renderTeamProfile(team) {
   const gd = team.record?.gd;
   const gdStr = gd === undefined || gd === null ? '—' : gd > 0 ? `+${gd}` : `${gd}`;
   return `<section class="team-profile">` +
-    `<h3>${esc(team.name)} · ${esc(team.id)}</h3>` +
+    `<h3>${flagImg(team.id, team.name)}${esc(team.name)} · ${esc(team.id)}</h3>` +
     `<div class="profile-stat-row">` +
       `<div class="profile-stat"><span>포메이션</span><b>${esc(team.formation ?? '—')}</b></div>` +
       `<div class="profile-stat"><span>승점</span><b>${esc(team.record?.pts ?? '—')}</b></div>` +
@@ -119,6 +125,72 @@ export function renderProfileSheet(match, byId) {
     `<button class="icon-button" id="sheet-close" type="button" aria-label="닫기">` +
     `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 6l12 12M18 6 6 18"/></svg></button></div>` +
     renderTeamProfile(home) + renderTeamProfile(away);
+}
+
+function teamPathRows(team, allMatches, byId) {
+  if (!team) return '<p class="muted">정보 없음</p>';
+  const ms = (allMatches || []).filter(m => m.home === team.id || m.away === team.id)
+    .sort((a, b) => Number(a.matchday) - Number(b.matchday));
+  if (!ms.length) return '<p class="muted">경기 없음</p>';
+  return `<ul class="path-list">` + ms.map(m => {
+    const isHome = m.home === team.id;
+    const oppId = isHome ? m.away : m.home;
+    const opp = byId.get(oppId);
+    let pick = '무';
+    if (m.verdict !== 'draw') pick = (m.verdict === 'home_win') === isHome ? '승' : '패';
+    const pc = pick === '승' ? 'w' : pick === '무' ? 'd' : 'l';
+    const st = m.status === 'played' ? '종료' : '예정';
+    return `<li class="path-row"><span class="pr-md">MD${esc(m.matchday)}</span>` +
+      `<span class="pr-opp">${flagImg(oppId, opp?.name)}${esc(opp?.name ?? oppId)}</span>` +
+      `<span class="pr-state">${st}</span>` +
+      `<span class="pr-pick pick-${pc}">예측 ${pick}</span></li>`;
+  }).join('') + `</ul>`;
+}
+
+export function renderMatchDetail(match, teams, allMatches = [], now = new Date()) {
+  if (!match) return renderStatePanel({ icon: 'alert', title: '경기를 찾을 수 없습니다', body: '목록으로 돌아가세요.' });
+  const byId = new Map((teams || []).map(t => [t.id, t]));
+  const home = byId.get(match.home), away = byId.get(match.away);
+  const k = formatKickoff(match.kickoff, now);
+  const inj = [...(home?.injuries || []).map(i => `${home.name}: ${i}`), ...(away?.injuries || []).map(i => `${away.name}: ${i}`)];
+  const srcs = (match.sources || []).filter(s => /^https?:\/\//.test(s));
+  return `<div class="detail">` +
+    `<a class="back-link" href="#">← 목록으로</a>` +
+    `<header class="detail-head">` +
+      `<div class="detail-meta">${esc(match.group)}조 · 매치데이 ${esc(match.matchday)} · ${esc(k.label)} · ${match.status === 'played' ? '종료' : '예정'}</div>` +
+      `<div class="detail-teams">` +
+        `<div class="dt-team">${flagImg(match.home, home?.name)}<b>${esc(home?.name ?? match.home)}</b><span>${teamCode(home, match.home)}</span></div>` +
+        `<span class="dt-vs">VS</span>` +
+        `<div class="dt-team away">${flagImg(match.away, away?.name)}<b>${esc(away?.name ?? match.away)}</b><span>${teamCode(away, match.away)}</span></div>` +
+      `</div>` +
+      renderProbability(match.prob) +
+      `<div class="verdict"><span>${esc(verdictText(match, byId))}</span><small>${esc(confidenceLabel(match.prob))}</small></div>` +
+    `</header>` +
+    `<section class="detail-block"><h3>전술 분석</h3>` +
+      (match.rationale ? `<p>${esc(match.rationale)}</p>` : '') +
+      `<div class="note-grid">` +
+        `<div class="note"><b>${esc(home?.name ?? match.home)} · ${esc(home?.formation ?? '—')}</b>${home?.aimed_tactics ? ' ' + esc(home.aimed_tactics) : ''}${home?.style ? ` <small>(${esc(home.style)})</small>` : ''}</div>` +
+        `<div class="note"><b>${esc(away?.name ?? match.away)} · ${esc(away?.formation ?? '—')}</b>${away?.aimed_tactics ? ' ' + esc(away.aimed_tactics) : ''}${away?.style ? ` <small>(${esc(away.style)})</small>` : ''}</div>` +
+      `</div>` +
+      ((match.team_notes?.home || match.team_notes?.away) ? `<ul class="notes-list">` +
+        (match.team_notes?.home ? `<li><b>홈</b> ${esc(match.team_notes.home)}</li>` : '') +
+        (match.team_notes?.away ? `<li><b>원정</b> ${esc(match.team_notes.away)}</li>` : '') + `</ul>` : '') +
+    `</section>` +
+    `<section class="detail-block"><h3>키포인트</h3>` +
+      ((match.key_variables?.length) ? `<ul class="keypoints">${match.key_variables.map(v => `<li>${esc(v)}</li>`).join('')}</ul>` : '') +
+      (match.flip_condition && match.flip_condition !== '—' ? `<p class="flip">⚠️ 뒤집힐 조건: ${esc(match.flip_condition)}</p>` : '') +
+      (match.qualification_context ? `<p class="qual">🎯 진출 시나리오: ${esc(match.qualification_context)}</p>` : '') +
+      (inj.length ? `<p class="inj">🩹 부상: ${esc(inj.join(' / '))}</p>` : '') +
+    `</section>` +
+    `<section class="detail-block"><h3>양 팀 명단</h3><div class="detail-2col">` +
+      renderTeamProfile(home) + renderTeamProfile(away) +
+    `</div></section>` +
+    `<section class="detail-block"><h3>조별리그 경로</h3><div class="detail-2col">` +
+      `<div class="path-col"><h4>${flagImg(match.home, home?.name)}${esc(home?.name ?? match.home)}</h4>${teamPathRows(home, allMatches, byId)}</div>` +
+      `<div class="path-col"><h4>${flagImg(match.away, away?.name)}${esc(away?.name ?? match.away)}</h4>${teamPathRows(away, allMatches, byId)}</div>` +
+    `</div></section>` +
+    (srcs.length ? `<section class="detail-block"><h3>출처</h3><div class="source-row">${srcs.map((s, i) => `<a href="${esc(s)}" target="_blank" rel="noopener">출처 ${i + 1}</a>`).join('')}</div></section>` : '') +
+  `</div>`;
 }
 
 const STATE_ICONS = {

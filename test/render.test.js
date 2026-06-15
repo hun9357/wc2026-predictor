@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { esc, teamCode, verdictText, renderProbability, renderCard, renderList, renderTeamProfile, renderProfileSheet, renderStatePanel, renderStandings, headerStatus } from '../src/render.js';
+import { esc, teamCode, verdictText, renderProbability, renderCard, renderList, renderTeamProfile, renderProfileSheet, renderStatePanel, renderStandings, headerStatus, flagImg, renderMatchDetail } from '../src/render.js';
 
 const teams = [
   { id: 'MEX', name: '멕시코', group: 'A', formation: '4-3-3', style: '압박', aimed_tactics: '측면 과부하', record: { w: 1, d: 1, l: 0, pts: 4, gd: 2 }, form: ['W', 'D'], injuries: [] },
@@ -102,4 +102,24 @@ test('renderTeamProfile shows key players and a collapsible full squad', () => {
 test('renderTeamProfile omits squad block when no squad', () => {
   const h = renderTeamProfile({ id: 'X', name: 'X', record: { pts: 0, gd: 0 }, form: [] });
   assert.ok(!h.includes('주요 선수'));
+});
+test('flagImg builds an img for a mapped team, empty for unmapped', () => {
+  const h = flagImg('MEX', '멕시코');
+  assert.ok(h.includes('mx.svg') && h.includes('class="flag"'));
+  assert.equal(flagImg('XXX', '?'), '');
+});
+test('renderCard includes a flag image for mapped teams', () => {
+  assert.ok(renderCard(match, byId, NOW).includes('flags/mx.svg'));
+});
+test('renderMatchDetail shows summary, tactics, keypoints, squads, path, back link', () => {
+  const all = [match, { id: 'A-MD2-1', group: 'A', matchday: 2, kickoff: '2026-06-19T17:00:00-05:00', status: 'played', home: 'MEX', away: 'POL', prob: { win: 50, draw: 30, loss: 20 }, verdict: 'home_win' }];
+  const h = renderMatchDetail(match, teams, all, NOW);
+  assert.ok(h.includes('← 목록으로'));
+  assert.ok(h.includes('전술 분석') && h.includes('키포인트') && h.includes('양 팀 명단') && h.includes('조별리그 경로'));
+  assert.ok(h.includes('멕시코') && h.includes('폴란드'));
+  assert.ok(h.includes('mx.svg'));
+  assert.ok(/예측 [승무패]/.test(h));
+});
+test('renderMatchDetail handles a missing match', () => {
+  assert.ok(renderMatchDetail(null, teams, [], NOW).includes('찾을 수 없습니다'));
 });

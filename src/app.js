@@ -1,7 +1,7 @@
 import { normalizeProb, validateData } from './validate.js';
 import { isStale } from './format.js';
 import { filterMatches } from './filters.js';
-import { renderList, renderProfileSheet, renderStatePanel, renderStandings, headerStatus, esc } from './render.js';
+import { renderList, renderMatchDetail, renderStatePanel, renderStandings, headerStatus, esc } from './render.js';
 
 const PRED_URL = './data/predictions.json';
 const TEAMS_URL = './data/teams.json';
@@ -83,15 +83,25 @@ function syncDetails() {
 }
 function renderAll() { renderHeaderStatus(); renderTabs(); renderContent(); }
 
-function openSheet(matchId) {
-  const m = (state.predictions.matches || []).find(x => x.id === matchId);
-  if (!m) return;
-  const byId = new Map(state.teams.map(t => [t.id, t]));
-  $('profile-sheet').innerHTML = renderProfileSheet(m, byId);
-  $('profile-sheet').hidden = false;
-  $('scrim').hidden = false;
+function showDetail(match) {
+  document.querySelector('.filters').hidden = true;
+  document.querySelector('.section-heading').hidden = true;
+  $('list').innerHTML = renderMatchDetail(match, state.teams, state.predictions.matches || [], new Date());
+  window.scrollTo(0, 0);
 }
-function closeSheet() { $('profile-sheet').hidden = true; $('scrim').hidden = true; }
+function showBoard() {
+  document.querySelector('.filters').hidden = false;
+  document.querySelector('.section-heading').hidden = false;
+  renderAll();
+}
+function route() {
+  const m = location.hash.match(/^#\/match\/(.+)$/);
+  if (m) {
+    const match = (state.predictions.matches || []).find(x => x.id === decodeURIComponent(m[1]));
+    if (match) { showDetail(match); return; }
+  }
+  showBoard();
+}
 
 function wire() {
   $('group-tabs').addEventListener('click', e => {
@@ -108,12 +118,11 @@ function wire() {
   $('search').addEventListener('input', e => { state.criteria.query = e.target.value; renderContent(); });
   $('list').addEventListener('click', e => {
     if (e.target.closest('#retry')) { main(); return; }
-    if (e.target.closest('details.details')) return;
-    const card = e.target.closest('.match-card'); if (card) openSheet(card.dataset.match);
+    if (e.target.closest('details')) return;
+    const card = e.target.closest('.match-card');
+    if (card) location.hash = '#/match/' + encodeURIComponent(card.dataset.match);
   });
-  $('profile-sheet').addEventListener('click', e => { if (e.target.closest('#sheet-close')) closeSheet(); });
-  $('scrim').addEventListener('click', closeSheet);
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
+  window.addEventListener('hashchange', route);
   window.matchMedia(DESKTOP).addEventListener('change', syncDetails);
 }
 
@@ -132,7 +141,7 @@ async function main() {
   const res = validateData(state.predictions, state.teams);
   res.warnings.forEach(w => console.warn('[data]', w));
   res.errors.forEach(er => console.error('[data]', er));
-  renderAll();
+  route();
 }
 
 wire();
