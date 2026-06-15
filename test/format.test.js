@@ -26,6 +26,12 @@ test('isStale compares against threshold hours', () => {
   assert.equal(isStale(gen, new Date('2026-06-16T12:00:00-05:00')), true);
 });
 
+test('verdictFromProb prefers draw on a top tie', () => {
+  assert.equal(verdictFromProb({ win: 40, draw: 40, loss: 20 }), 'draw');
+  assert.equal(verdictFromProb({ win: 20, draw: 40, loss: 40 }), 'draw');
+  assert.equal(verdictFromProb({ win: 40, draw: 20, loss: 40 }), 'home_win');
+});
+
 test('formatKickoff returns CT time with relative day', () => {
   const k = '2026-06-24T17:00:00-05:00';
   assert.deepEqual(formatKickoff(k, new Date('2026-06-24T09:00:00-05:00')), { time: '17:00', rel: '오늘', label: '오늘 17:00 CT' });

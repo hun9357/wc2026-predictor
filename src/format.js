@@ -3,9 +3,10 @@ const TZ = 'America/Chicago';
 export function verdictFromProb(prob) {
   const win = Number(prob?.win) || 0, draw = Number(prob?.draw) || 0, loss = Number(prob?.loss) || 0;
   const max = Math.max(win, draw, loss);
-  if (max === win) return 'home_win';
-  if (max === loss) return 'away_win';
-  return 'draw';
+  // On a top tie, prefer the conservative 'draw' when draw shares the max.
+  if (draw === max) return 'draw';
+  if (win === max) return 'home_win';
+  return 'away_win';
 }
 
 export function confidenceLevel(prob) {
