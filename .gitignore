@@ -1,0 +1,13 @@
+# deps / build
+node_modules/
+dist/
+.cache/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# local env
+.env
+.env.local
