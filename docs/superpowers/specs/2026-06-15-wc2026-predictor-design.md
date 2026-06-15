@@ -28,7 +28,7 @@
 
 ## 2. 사용자 & 사용 맥락
 
-- 단일 사용자(본인). **US Central Time (`America/Chicago`)**.
+- 단일 사용자(본인). **US Central Time (`America/Chicago`)** 기준.
 - 주 사용 기기: **스마트폰** (베팅 직전/경기 당일 조회) → 모바일 우선 설계.
 - 부차 기기: PC.
 - 사용 시점: 매일 아침 갱신된 예측을 보고 그날 경기 베팅 판단에 참고.
@@ -71,7 +71,7 @@
 | 호스팅 | **GitHub Pages** | push 시 자동 배포. 대안: Vercel |
 | 갱신 | **Claude 루틴 (cowork scheduled)** | 클라우드, 매일 07:00 CT |
 
-- **저장소 위치**: `wc2026-predictor` (디지몬 프로젝트와 분리된 신규 repo, `main` 브랜치)
+- **저장소 위치**: 별도 신규 repo `wc2026-predictor` (다른 프로젝트와 분리, `main` 브랜치)
 - **배포 URL**: GitHub Pages 설정 후 확정 (오픈 이슈 §12).
 
 ### 디렉터리 구조 (목표)
