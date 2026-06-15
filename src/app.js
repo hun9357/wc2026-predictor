@@ -150,9 +150,8 @@ async function main() {
   state.predictions = normalizeAll(predictions);
   state.teams = teams || [];
   state.cached = cached;
-  const groups = groupsPresent();
-  state.criteria.group = groups.find(hasUpcoming) || groups[0] || null;
-  state.criteria.matchday = firstUpcomingMd(state.criteria.group);
+  state.criteria.group = 'ALL';
+  state.criteria.matchday = 'ALL';
   const res = validateData(state.predictions, state.teams);
   res.warnings.forEach(w => console.warn('[data]', w));
   res.errors.forEach(er => console.error('[data]', er));
