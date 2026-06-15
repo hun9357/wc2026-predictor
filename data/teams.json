@@ -1,135 +1,3373 @@
 [
-  { "id": "MEX", "name": "멕시코", "group": "A", "formation": "4-3-3", "style": "수비 안정 후 빠른 역습 전환", "aimed_tactics": "알바레스 앵커 기반 4-3-3, 홈 이점 활용", "record": { "w": 1, "d": 0, "l": 0, "pts": 3, "gd": 2 }, "form": ["W"], "squad": [
-    { "name": "라울 랑헬", "position": "GK", "club": "과달라하라", "key": false },
-    { "name": "기예르모 오초아", "position": "GK", "club": "AEL 리마솔", "key": true },
-    { "name": "에드손 알바레스", "position": "MF", "club": "페네르바흐체", "key": true },
-    { "name": "세사르 몬테스", "position": "DF", "club": "로코모티프 모스크바", "key": true },
-    { "name": "요한 바스케스", "position": "DF", "club": "제노아", "key": true },
-    { "name": "헤수스 가야르도", "position": "DF", "club": "톨루카", "key": false },
-    { "name": "이스라엘 레예스", "position": "DF", "club": "아메리카", "key": false },
-    { "name": "에릭 리라", "position": "MF", "club": "크루스 아술", "key": false },
-    { "name": "알바로 피달고", "position": "MF", "club": "레알 베티스", "key": false },
-    { "name": "오르벨린 피네다", "position": "MF", "club": "AEK 아테네", "key": true },
-    { "name": "길베르토 모라", "position": "MF", "club": "티후아나", "key": false },
-    { "name": "라울 히메네스", "position": "FW", "club": "풀럼", "key": true },
-    { "name": "산티아고 히메네스", "position": "FW", "club": "AC 밀란", "key": true },
-    { "name": "훌리안 키뇨네스", "position": "FW", "club": "알 카디시아", "key": false },
-    { "name": "알렉시스 베가", "position": "FW", "club": "톨루카", "key": false },
-    { "name": "로베르토 알바라도", "position": "FW", "club": "과달라하라", "key": false }
-  ], "injuries": ["세사르 몬테스 퇴장(남아공전)으로 한국전 출전정지"], "updated_at": "2026-06-15T14:33:15-05:00" },
-  { "id": "KOR", "name": "대한민국", "group": "A", "formation": "3-4-3", "style": "점유 기반 기술 빌드업", "aimed_tactics": "이강인·황인범 축의 중원 전개와 측면 침투", "record": { "w": 1, "d": 0, "l": 0, "pts": 3, "gd": 1 }, "form": ["W"], "squad": [
-    { "name": "김승규", "position": "GK", "club": "FC 도쿄", "key": false },
-    { "name": "조현우", "position": "GK", "club": "울산 HD", "key": false },
-    { "name": "김민재", "position": "DF", "club": "바이에른 뮌헨", "key": true },
-    { "name": "김문환", "position": "DF", "club": "대전 하나시티즌", "key": false },
-    { "name": "설영우", "position": "DF", "club": "츠르베나 즈베즈다", "key": false },
-    { "name": "김태현", "position": "DF", "club": "카시마 앤틀러스", "key": false },
-    { "name": "이강인", "position": "MF", "club": "파리 생제르맹", "key": true },
-    { "name": "황인범", "position": "MF", "club": "페예노르트", "key": true },
-    { "name": "황희찬", "position": "FW", "club": "울버햄프턴", "key": true },
-    { "name": "이재성", "position": "MF", "club": "마인츠", "key": false },
-    { "name": "백승호", "position": "MF", "club": "버밍엄 시티", "key": false },
-    { "name": "양현준", "position": "MF", "club": "셀틱", "key": false },
-    { "name": "손흥민", "position": "FW", "club": "LAFC", "key": true },
-    { "name": "오현규", "position": "FW", "club": "베식타시", "key": false },
-    { "name": "조규성", "position": "FW", "club": "미트윌란", "key": false }
-  ], "injuries": ["배준호 발목 의심(미확정)"], "updated_at": "2026-06-15T14:33:15-05:00" },
-  { "id": "CZE", "name": "체코", "group": "A", "formation": "5-3-2", "style": "조직적 수비 블록", "aimed_tactics": "세트피스 효율과 빠른 역습", "record": { "w": 0, "d": 0, "l": 1, "pts": 0, "gd": -1 }, "form": ["L"], "squad": [
-    { "name": "마테이 코바르", "position": "GK", "club": "PSV 에인트호번", "key": false },
-    { "name": "인드르지흐 스타네크", "position": "GK", "club": "슬라비아 프라하", "key": false },
-    { "name": "라디슬라프 크레이치", "position": "DF", "club": "울버햄프턴", "key": true },
-    { "name": "블라디미르 초우팔", "position": "DF", "club": "호펜하임", "key": false },
-    { "name": "로빈 흐라나치", "position": "DF", "club": "호펜하임", "key": false },
-    { "name": "다비드 지마", "position": "DF", "club": "슬라비아 프라하", "key": false },
-    { "name": "토마시 홀레시", "position": "DF", "club": "슬라비아 프라하", "key": false },
-    { "name": "토마시 소우체크", "position": "MF", "club": "웨스트햄", "key": true },
-    { "name": "루카시 프로보드", "position": "MF", "club": "슬라비아 프라하", "key": false },
-    { "name": "루카시 체르브", "position": "MF", "club": "비크토리아 플젠", "key": false },
-    { "name": "파벨 슐츠", "position": "FW", "club": "리옹", "key": true },
-    { "name": "파트리크 시크", "position": "FW", "club": "바이엘 레버쿠젠", "key": true },
-    { "name": "아담 흘로젝", "position": "FW", "club": "호펜하임", "key": true },
-    { "name": "얀 쿠흐타", "position": "FW", "club": "스파르타 프라하", "key": false }
-  ], "injuries": [], "updated_at": "2026-06-15T14:33:15-05:00" },
-  { "id": "RSA", "name": "남아프리카공화국", "group": "A", "formation": "4-3-3", "style": "풀백 오버랩 기반 공격 지향", "aimed_tactics": "조직력 유지 후 측면 1대1과 전환", "record": { "w": 0, "d": 0, "l": 1, "pts": 0, "gd": -2 }, "form": ["L"], "squad": [
-    { "name": "론웬 윌리엄스", "position": "GK", "club": "마멜로디 선다운스", "key": true },
-    { "name": "시야봉가 차이네", "position": "GK", "club": "올랜도 파이러츠", "key": false },
-    { "name": "쿠트소 모다우", "position": "DF", "club": "마멜로디 선다운스", "key": false },
-    { "name": "카고 모디바", "position": "DF", "club": "마멜로디 선다운스", "key": false },
-    { "name": "음포 음보카지", "position": "DF", "club": "시카고 파이어", "key": false },
-    { "name": "시야본가 시비시", "position": "DF", "club": "올랜도 파이러츠", "key": false },
-    { "name": "테보호 모코에나", "position": "MF", "club": "마멜로디 선다운스", "key": true },
-    { "name": "음둠비 음바타", "position": "MF", "club": "올랜도 파이러츠", "key": false },
-    { "name": "아우브리 아담스", "position": "MF", "club": "마멜로디 선다운스", "key": false },
-    { "name": "테보호 즈와네", "position": "MF", "club": "마멜로디 선다운스", "key": true },
-    { "name": "릴 포스터", "position": "FW", "club": "번리", "key": true },
-    { "name": "렐레 모펭", "position": "FW", "club": "올랜도 파이러츠", "key": true },
-    { "name": "오스왈드 아폴리스", "position": "FW", "club": "올랜도 파이러츠", "key": false },
-    { "name": "에반스 레이너스", "position": "FW", "club": "마멜로디 선다운스", "key": false }
-  ], "injuries": ["테보호 즈와네 퇴장(멕시코전)으로 체코전 출전정지", "스페펠로 시톨레 퇴장(멕시코전)으로 체코전 출전정지"], "updated_at": "2026-06-15T14:33:15-05:00" },
-  { "id": "CAN", "name": "캐나다", "group": "B", "formation": "4-4-2", "style": "고강도 압박과 빠른 수직 전환", "aimed_tactics": "높은 지점 회수 후 속공(메이플프레스)", "record": { "w": 0, "d": 1, "l": 0, "pts": 1, "gd": 0 }, "form": ["D"], "squad": [
-    { "name": "막심 크레포", "position": "GK", "club": "올랜도 시티", "key": false },
-    { "name": "데이언 세인트 클레어", "position": "GK", "club": "인터 마이애미", "key": false },
-    { "name": "알폰소 데이비스", "position": "DF", "club": "바이에른 뮌헨", "key": true },
-    { "name": "알리스테어 존스턴", "position": "DF", "club": "셀틱", "key": false },
-    { "name": "모이즈 봉비토", "position": "DF", "club": "OGC 니스", "key": false },
-    { "name": "데릭 코르넬리우스", "position": "DF", "club": "레인저스", "key": false },
-    { "name": "리치 라리아", "position": "DF", "club": "토론토 FC", "key": false },
-    { "name": "스티븐 에우스타키오", "position": "MF", "club": "포르투", "key": true },
-    { "name": "타종 뷰캐넌", "position": "MF", "club": "비야레알", "key": true },
-    { "name": "이스마엘 코네", "position": "MF", "club": "사수올로", "key": false },
-    { "name": "조나단 오소리오", "position": "MF", "club": "토론토 FC", "key": false },
-    { "name": "리암 밀라", "position": "MF", "club": "헐 시티", "key": false },
-    { "name": "조나단 데이비드", "position": "FW", "club": "유벤투스", "key": true },
-    { "name": "사일 라린", "position": "FW", "club": "마요르카", "key": true },
-    { "name": "프로미스 데이비드", "position": "FW", "club": "위니옹 생질루아즈", "key": false }
-  ], "injuries": ["알폰소 데이비스 햄스트링(개막전 결장, 카타르전 복귀 불투명)"], "updated_at": "2026-06-15T14:33:15-05:00" },
-  { "id": "BIH", "name": "보스니아 헤르체고비나", "group": "B", "formation": "4-4-2", "style": "피지컬 기반 고강도·빠른 전환", "aimed_tactics": "투톱 운용, 한 명이 연결·수비 가담", "record": { "w": 0, "d": 1, "l": 0, "pts": 1, "gd": 0 }, "form": ["D"], "squad": [
-    { "name": "니콜라 바실리", "position": "GK", "club": "장크트파울리", "key": false },
-    { "name": "세아드 콜라시나츠", "position": "DF", "club": "아탈란타", "key": true },
-    { "name": "아마르 데디치", "position": "DF", "club": "벤피카", "key": true },
-    { "name": "니콜라 카티치", "position": "DF", "club": "샬케 04", "key": false },
-    { "name": "데니스 하지카두니치", "position": "DF", "club": "삼프도리아", "key": false },
-    { "name": "베냐민 타히로비치", "position": "MF", "club": "브뢴뷔", "key": false },
-    { "name": "베나르 메미치", "position": "MF", "club": "비크토리아 플젠", "key": false },
-    { "name": "토니 바시치", "position": "MF", "club": "아스타나", "key": false },
-    { "name": "사니트 하지아흐메토비치", "position": "MF", "club": "헐 시티", "key": false },
-    { "name": "케말딘 가고비치", "position": "MF", "club": "영 보이스", "key": false },
-    { "name": "에딘 제코", "position": "FW", "club": "샬케 04", "key": true },
-    { "name": "에르메딘 데미로비치", "position": "FW", "club": "슈투트가르트", "key": true },
-    { "name": "요보 루키치", "position": "FW", "club": "우니베르시타테아 클루지", "key": true },
-    { "name": "하리스 타바코비치", "position": "FW", "club": "보루시아 묀헨글라트바흐", "key": false }
-  ], "injuries": [], "updated_at": "2026-06-15T14:33:15-05:00" },
-  { "id": "QAT", "name": "카타르", "group": "B", "formation": "4-3-3", "style": "밀집 수비 후 역습", "aimed_tactics": "아피프 중심의 제한적 측면 침투", "record": { "w": 0, "d": 1, "l": 0, "pts": 1, "gd": 0 }, "form": ["D"], "squad": [
-    { "name": "메샬 바르샴", "position": "GK", "club": "알 사드", "key": false },
-    { "name": "마흐무드 아부나다", "position": "GK", "club": "카타르 스타스리그", "key": false },
-    { "name": "부알렘 쿠키", "position": "DF", "club": "카타르 스타스리그", "key": true },
-    { "name": "페드루 미겔", "position": "DF", "club": "카타르 스타스리그", "key": false },
-    { "name": "호맘 아흐메드", "position": "DF", "club": "쿨투랄 레오네사", "key": false },
-    { "name": "아심 마디보", "position": "MF", "club": "카타르 스타스리그", "key": false },
-    { "name": "카림 부디아프", "position": "MF", "club": "카타르 스타스리그", "key": false },
-    { "name": "압둘아지즈 하템", "position": "MF", "club": "카타르 스타스리그", "key": false },
-    { "name": "아크람 아피프", "position": "FW", "club": "알 사드", "key": true },
-    { "name": "알모에즈 알리", "position": "FW", "club": "알 두하일", "key": true },
-    { "name": "하산 알 하이도스", "position": "FW", "club": "알 사드", "key": true },
-    { "name": "에드밀손 주니오르", "position": "FW", "club": "카타르 스타스리그", "key": false },
-    { "name": "유수프 압두리사그", "position": "FW", "club": "카타르 스타스리그", "key": false }
-  ], "injuries": [], "updated_at": "2026-06-15T14:33:15-05:00" },
-  { "id": "SUI", "name": "스위스", "group": "B", "formation": "4-2-3-1", "style": "경험 기반 점유와 견고한 블록", "aimed_tactics": "샤카·프로일러 더블 피벗으로 템포 장악", "record": { "w": 0, "d": 1, "l": 0, "pts": 1, "gd": 0 }, "form": ["D"], "squad": [
-    { "name": "그레고어 코벨", "position": "GK", "club": "보루시아 도르트문트", "key": false },
-    { "name": "야닉 음보고", "position": "GK", "club": "로리앙", "key": false },
-    { "name": "마누엘 아칸지", "position": "DF", "club": "인터 밀란", "key": true },
-    { "name": "리카르도 로드리게스", "position": "DF", "club": "레알 베티스", "key": false },
-    { "name": "니코 엘베디", "position": "DF", "club": "보루시아 묀헨글라트바흐", "key": false },
-    { "name": "질반 비드머", "position": "DF", "club": "마인츠", "key": false },
-    { "name": "미로 무하임", "position": "DF", "club": "함부르크", "key": false },
-    { "name": "그라니트 샤카", "position": "MF", "club": "선덜랜드", "key": true },
-    { "name": "레모 프로일러", "position": "MF", "club": "볼로냐", "key": false },
-    { "name": "데니스 자카리아", "position": "MF", "club": "모나코", "key": false },
-    { "name": "아르디안 야샤리", "position": "MF", "club": "AC 밀란", "key": false },
-    { "name": "요한 만잠비", "position": "MF", "club": "프라이부르크", "key": false },
-    { "name": "브렐 엠볼로", "position": "FW", "club": "스타드 렌", "key": true },
-    { "name": "단 은도예", "position": "FW", "club": "노팅엄 포레스트", "key": true },
-    { "name": "루벵 바르가스", "position": "FW", "club": "세비야", "key": false },
-    { "name": "노아 오카포르", "position": "FW", "club": "리즈 유나이티드", "key": false }
-  ], "injuries": [], "updated_at": "2026-06-15T14:33:15-05:00" }
+  {
+    "id": "MEX",
+    "name": "멕시코",
+    "group": "A",
+    "formation": "4-3-3",
+    "style": "수비 안정 후 빠른 역습 전환",
+    "aimed_tactics": "알바레스 앵커 기반 4-3-3, 홈 이점 활용",
+    "record": {
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pts": 3,
+      "gd": 2
+    },
+    "form": [
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "라울 랑헬",
+        "position": "GK",
+        "club": "과달라하라",
+        "key": false
+      },
+      {
+        "name": "기예르모 오초아",
+        "position": "GK",
+        "club": "AEL 리마솔",
+        "key": true
+      },
+      {
+        "name": "에드손 알바레스",
+        "position": "MF",
+        "club": "페네르바흐체",
+        "key": true
+      },
+      {
+        "name": "세사르 몬테스",
+        "position": "DF",
+        "club": "로코모티프 모스크바",
+        "key": true
+      },
+      {
+        "name": "요한 바스케스",
+        "position": "DF",
+        "club": "제노아",
+        "key": true
+      },
+      {
+        "name": "헤수스 가야르도",
+        "position": "DF",
+        "club": "톨루카",
+        "key": false
+      },
+      {
+        "name": "이스라엘 레예스",
+        "position": "DF",
+        "club": "아메리카",
+        "key": false
+      },
+      {
+        "name": "에릭 리라",
+        "position": "MF",
+        "club": "크루스 아술",
+        "key": false
+      },
+      {
+        "name": "알바로 피달고",
+        "position": "MF",
+        "club": "레알 베티스",
+        "key": false
+      },
+      {
+        "name": "오르벨린 피네다",
+        "position": "MF",
+        "club": "AEK 아테네",
+        "key": true
+      },
+      {
+        "name": "길베르토 모라",
+        "position": "MF",
+        "club": "티후아나",
+        "key": false
+      },
+      {
+        "name": "라울 히메네스",
+        "position": "FW",
+        "club": "풀럼",
+        "key": true
+      },
+      {
+        "name": "산티아고 히메네스",
+        "position": "FW",
+        "club": "AC 밀란",
+        "key": true
+      },
+      {
+        "name": "훌리안 키뇨네스",
+        "position": "FW",
+        "club": "알 카디시아",
+        "key": false
+      },
+      {
+        "name": "알렉시스 베가",
+        "position": "FW",
+        "club": "톨루카",
+        "key": false
+      },
+      {
+        "name": "로베르토 알바라도",
+        "position": "FW",
+        "club": "과달라하라",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "세사르 몬테스 퇴장(남아공전)으로 한국전 출전정지"
+    ],
+    "updated_at": "2026-06-15T14:33:15-05:00"
+  },
+  {
+    "id": "KOR",
+    "name": "대한민국",
+    "group": "A",
+    "formation": "3-4-3",
+    "style": "점유 기반 기술 빌드업",
+    "aimed_tactics": "이강인·황인범 축의 중원 전개와 측면 침투",
+    "record": {
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pts": 3,
+      "gd": 1
+    },
+    "form": [
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "김승규",
+        "position": "GK",
+        "club": "FC 도쿄",
+        "key": false
+      },
+      {
+        "name": "조현우",
+        "position": "GK",
+        "club": "울산 HD",
+        "key": false
+      },
+      {
+        "name": "김민재",
+        "position": "DF",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "김문환",
+        "position": "DF",
+        "club": "대전 하나시티즌",
+        "key": false
+      },
+      {
+        "name": "설영우",
+        "position": "DF",
+        "club": "츠르베나 즈베즈다",
+        "key": false
+      },
+      {
+        "name": "김태현",
+        "position": "DF",
+        "club": "카시마 앤틀러스",
+        "key": false
+      },
+      {
+        "name": "이강인",
+        "position": "MF",
+        "club": "파리 생제르맹",
+        "key": true
+      },
+      {
+        "name": "황인범",
+        "position": "MF",
+        "club": "페예노르트",
+        "key": true
+      },
+      {
+        "name": "황희찬",
+        "position": "FW",
+        "club": "울버햄프턴",
+        "key": true
+      },
+      {
+        "name": "이재성",
+        "position": "MF",
+        "club": "마인츠",
+        "key": false
+      },
+      {
+        "name": "백승호",
+        "position": "MF",
+        "club": "버밍엄 시티",
+        "key": false
+      },
+      {
+        "name": "양현준",
+        "position": "MF",
+        "club": "셀틱",
+        "key": false
+      },
+      {
+        "name": "손흥민",
+        "position": "FW",
+        "club": "LAFC",
+        "key": true
+      },
+      {
+        "name": "오현규",
+        "position": "FW",
+        "club": "베식타시",
+        "key": false
+      },
+      {
+        "name": "조규성",
+        "position": "FW",
+        "club": "미트윌란",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "배준호 발목 의심(미확정)"
+    ],
+    "updated_at": "2026-06-15T14:33:15-05:00"
+  },
+  {
+    "id": "CZE",
+    "name": "체코",
+    "group": "A",
+    "formation": "5-3-2",
+    "style": "조직적 수비 블록",
+    "aimed_tactics": "세트피스 효율과 빠른 역습",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "pts": 0,
+      "gd": -1
+    },
+    "form": [
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "마테이 코바르",
+        "position": "GK",
+        "club": "PSV 에인트호번",
+        "key": false
+      },
+      {
+        "name": "인드르지흐 스타네크",
+        "position": "GK",
+        "club": "슬라비아 프라하",
+        "key": false
+      },
+      {
+        "name": "라디슬라프 크레이치",
+        "position": "DF",
+        "club": "울버햄프턴",
+        "key": true
+      },
+      {
+        "name": "블라디미르 초우팔",
+        "position": "DF",
+        "club": "호펜하임",
+        "key": false
+      },
+      {
+        "name": "로빈 흐라나치",
+        "position": "DF",
+        "club": "호펜하임",
+        "key": false
+      },
+      {
+        "name": "다비드 지마",
+        "position": "DF",
+        "club": "슬라비아 프라하",
+        "key": false
+      },
+      {
+        "name": "토마시 홀레시",
+        "position": "DF",
+        "club": "슬라비아 프라하",
+        "key": false
+      },
+      {
+        "name": "토마시 소우체크",
+        "position": "MF",
+        "club": "웨스트햄",
+        "key": true
+      },
+      {
+        "name": "루카시 프로보드",
+        "position": "MF",
+        "club": "슬라비아 프라하",
+        "key": false
+      },
+      {
+        "name": "루카시 체르브",
+        "position": "MF",
+        "club": "비크토리아 플젠",
+        "key": false
+      },
+      {
+        "name": "파벨 슐츠",
+        "position": "FW",
+        "club": "리옹",
+        "key": true
+      },
+      {
+        "name": "파트리크 시크",
+        "position": "FW",
+        "club": "바이엘 레버쿠젠",
+        "key": true
+      },
+      {
+        "name": "아담 흘로젝",
+        "position": "FW",
+        "club": "호펜하임",
+        "key": true
+      },
+      {
+        "name": "얀 쿠흐타",
+        "position": "FW",
+        "club": "스파르타 프라하",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T14:33:15-05:00"
+  },
+  {
+    "id": "RSA",
+    "name": "남아프리카공화국",
+    "group": "A",
+    "formation": "4-3-3",
+    "style": "풀백 오버랩 기반 공격 지향",
+    "aimed_tactics": "조직력 유지 후 측면 1대1과 전환",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "pts": 0,
+      "gd": -2
+    },
+    "form": [
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "론웬 윌리엄스",
+        "position": "GK",
+        "club": "마멜로디 선다운스",
+        "key": true
+      },
+      {
+        "name": "시야봉가 차이네",
+        "position": "GK",
+        "club": "올랜도 파이러츠",
+        "key": false
+      },
+      {
+        "name": "쿠트소 모다우",
+        "position": "DF",
+        "club": "마멜로디 선다운스",
+        "key": false
+      },
+      {
+        "name": "카고 모디바",
+        "position": "DF",
+        "club": "마멜로디 선다운스",
+        "key": false
+      },
+      {
+        "name": "음포 음보카지",
+        "position": "DF",
+        "club": "시카고 파이어",
+        "key": false
+      },
+      {
+        "name": "시야본가 시비시",
+        "position": "DF",
+        "club": "올랜도 파이러츠",
+        "key": false
+      },
+      {
+        "name": "테보호 모코에나",
+        "position": "MF",
+        "club": "마멜로디 선다운스",
+        "key": true
+      },
+      {
+        "name": "음둠비 음바타",
+        "position": "MF",
+        "club": "올랜도 파이러츠",
+        "key": false
+      },
+      {
+        "name": "아우브리 아담스",
+        "position": "MF",
+        "club": "마멜로디 선다운스",
+        "key": false
+      },
+      {
+        "name": "테보호 즈와네",
+        "position": "MF",
+        "club": "마멜로디 선다운스",
+        "key": true
+      },
+      {
+        "name": "릴 포스터",
+        "position": "FW",
+        "club": "번리",
+        "key": true
+      },
+      {
+        "name": "렐레 모펭",
+        "position": "FW",
+        "club": "올랜도 파이러츠",
+        "key": true
+      },
+      {
+        "name": "오스왈드 아폴리스",
+        "position": "FW",
+        "club": "올랜도 파이러츠",
+        "key": false
+      },
+      {
+        "name": "에반스 레이너스",
+        "position": "FW",
+        "club": "마멜로디 선다운스",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "테보호 즈와네 퇴장(멕시코전)으로 체코전 출전정지",
+      "스페펠로 시톨레 퇴장(멕시코전)으로 체코전 출전정지"
+    ],
+    "updated_at": "2026-06-15T14:33:15-05:00"
+  },
+  {
+    "id": "CAN",
+    "name": "캐나다",
+    "group": "B",
+    "formation": "4-4-2",
+    "style": "고강도 압박과 빠른 수직 전환",
+    "aimed_tactics": "높은 지점 회수 후 속공(메이플프레스)",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "막심 크레포",
+        "position": "GK",
+        "club": "올랜도 시티",
+        "key": false
+      },
+      {
+        "name": "데이언 세인트 클레어",
+        "position": "GK",
+        "club": "인터 마이애미",
+        "key": false
+      },
+      {
+        "name": "알폰소 데이비스",
+        "position": "DF",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "알리스테어 존스턴",
+        "position": "DF",
+        "club": "셀틱",
+        "key": false
+      },
+      {
+        "name": "모이즈 봉비토",
+        "position": "DF",
+        "club": "OGC 니스",
+        "key": false
+      },
+      {
+        "name": "데릭 코르넬리우스",
+        "position": "DF",
+        "club": "레인저스",
+        "key": false
+      },
+      {
+        "name": "리치 라리아",
+        "position": "DF",
+        "club": "토론토 FC",
+        "key": false
+      },
+      {
+        "name": "스티븐 에우스타키오",
+        "position": "MF",
+        "club": "포르투",
+        "key": true
+      },
+      {
+        "name": "타종 뷰캐넌",
+        "position": "MF",
+        "club": "비야레알",
+        "key": true
+      },
+      {
+        "name": "이스마엘 코네",
+        "position": "MF",
+        "club": "사수올로",
+        "key": false
+      },
+      {
+        "name": "조나단 오소리오",
+        "position": "MF",
+        "club": "토론토 FC",
+        "key": false
+      },
+      {
+        "name": "리암 밀라",
+        "position": "MF",
+        "club": "헐 시티",
+        "key": false
+      },
+      {
+        "name": "조나단 데이비드",
+        "position": "FW",
+        "club": "유벤투스",
+        "key": true
+      },
+      {
+        "name": "사일 라린",
+        "position": "FW",
+        "club": "마요르카",
+        "key": true
+      },
+      {
+        "name": "프로미스 데이비드",
+        "position": "FW",
+        "club": "위니옹 생질루아즈",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "알폰소 데이비스 햄스트링(개막전 결장, 카타르전 복귀 불투명)"
+    ],
+    "updated_at": "2026-06-15T14:33:15-05:00"
+  },
+  {
+    "id": "BIH",
+    "name": "보스니아 헤르체고비나",
+    "group": "B",
+    "formation": "4-4-2",
+    "style": "피지컬 기반 고강도·빠른 전환",
+    "aimed_tactics": "투톱 운용, 한 명이 연결·수비 가담",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "니콜라 바실리",
+        "position": "GK",
+        "club": "장크트파울리",
+        "key": false
+      },
+      {
+        "name": "세아드 콜라시나츠",
+        "position": "DF",
+        "club": "아탈란타",
+        "key": true
+      },
+      {
+        "name": "아마르 데디치",
+        "position": "DF",
+        "club": "벤피카",
+        "key": true
+      },
+      {
+        "name": "니콜라 카티치",
+        "position": "DF",
+        "club": "샬케 04",
+        "key": false
+      },
+      {
+        "name": "데니스 하지카두니치",
+        "position": "DF",
+        "club": "삼프도리아",
+        "key": false
+      },
+      {
+        "name": "베냐민 타히로비치",
+        "position": "MF",
+        "club": "브뢴뷔",
+        "key": false
+      },
+      {
+        "name": "베나르 메미치",
+        "position": "MF",
+        "club": "비크토리아 플젠",
+        "key": false
+      },
+      {
+        "name": "토니 바시치",
+        "position": "MF",
+        "club": "아스타나",
+        "key": false
+      },
+      {
+        "name": "사니트 하지아흐메토비치",
+        "position": "MF",
+        "club": "헐 시티",
+        "key": false
+      },
+      {
+        "name": "케말딘 가고비치",
+        "position": "MF",
+        "club": "영 보이스",
+        "key": false
+      },
+      {
+        "name": "에딘 제코",
+        "position": "FW",
+        "club": "샬케 04",
+        "key": true
+      },
+      {
+        "name": "에르메딘 데미로비치",
+        "position": "FW",
+        "club": "슈투트가르트",
+        "key": true
+      },
+      {
+        "name": "요보 루키치",
+        "position": "FW",
+        "club": "우니베르시타테아 클루지",
+        "key": true
+      },
+      {
+        "name": "하리스 타바코비치",
+        "position": "FW",
+        "club": "보루시아 묀헨글라트바흐",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T14:33:15-05:00"
+  },
+  {
+    "id": "QAT",
+    "name": "카타르",
+    "group": "B",
+    "formation": "4-3-3",
+    "style": "밀집 수비 후 역습",
+    "aimed_tactics": "아피프 중심의 제한적 측면 침투",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "메샬 바르샴",
+        "position": "GK",
+        "club": "알 사드",
+        "key": false
+      },
+      {
+        "name": "마흐무드 아부나다",
+        "position": "GK",
+        "club": "카타르 스타스리그",
+        "key": false
+      },
+      {
+        "name": "부알렘 쿠키",
+        "position": "DF",
+        "club": "카타르 스타스리그",
+        "key": true
+      },
+      {
+        "name": "페드루 미겔",
+        "position": "DF",
+        "club": "카타르 스타스리그",
+        "key": false
+      },
+      {
+        "name": "호맘 아흐메드",
+        "position": "DF",
+        "club": "쿨투랄 레오네사",
+        "key": false
+      },
+      {
+        "name": "아심 마디보",
+        "position": "MF",
+        "club": "카타르 스타스리그",
+        "key": false
+      },
+      {
+        "name": "카림 부디아프",
+        "position": "MF",
+        "club": "카타르 스타스리그",
+        "key": false
+      },
+      {
+        "name": "압둘아지즈 하템",
+        "position": "MF",
+        "club": "카타르 스타스리그",
+        "key": false
+      },
+      {
+        "name": "아크람 아피프",
+        "position": "FW",
+        "club": "알 사드",
+        "key": true
+      },
+      {
+        "name": "알모에즈 알리",
+        "position": "FW",
+        "club": "알 두하일",
+        "key": true
+      },
+      {
+        "name": "하산 알 하이도스",
+        "position": "FW",
+        "club": "알 사드",
+        "key": true
+      },
+      {
+        "name": "에드밀손 주니오르",
+        "position": "FW",
+        "club": "카타르 스타스리그",
+        "key": false
+      },
+      {
+        "name": "유수프 압두리사그",
+        "position": "FW",
+        "club": "카타르 스타스리그",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T14:33:15-05:00"
+  },
+  {
+    "id": "SUI",
+    "name": "스위스",
+    "group": "B",
+    "formation": "4-2-3-1",
+    "style": "경험 기반 점유와 견고한 블록",
+    "aimed_tactics": "샤카·프로일러 더블 피벗으로 템포 장악",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "그레고어 코벨",
+        "position": "GK",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "야닉 음보고",
+        "position": "GK",
+        "club": "로리앙",
+        "key": false
+      },
+      {
+        "name": "마누엘 아칸지",
+        "position": "DF",
+        "club": "인터 밀란",
+        "key": true
+      },
+      {
+        "name": "리카르도 로드리게스",
+        "position": "DF",
+        "club": "레알 베티스",
+        "key": false
+      },
+      {
+        "name": "니코 엘베디",
+        "position": "DF",
+        "club": "보루시아 묀헨글라트바흐",
+        "key": false
+      },
+      {
+        "name": "질반 비드머",
+        "position": "DF",
+        "club": "마인츠",
+        "key": false
+      },
+      {
+        "name": "미로 무하임",
+        "position": "DF",
+        "club": "함부르크",
+        "key": false
+      },
+      {
+        "name": "그라니트 샤카",
+        "position": "MF",
+        "club": "선덜랜드",
+        "key": true
+      },
+      {
+        "name": "레모 프로일러",
+        "position": "MF",
+        "club": "볼로냐",
+        "key": false
+      },
+      {
+        "name": "데니스 자카리아",
+        "position": "MF",
+        "club": "모나코",
+        "key": false
+      },
+      {
+        "name": "아르디안 야샤리",
+        "position": "MF",
+        "club": "AC 밀란",
+        "key": false
+      },
+      {
+        "name": "요한 만잠비",
+        "position": "MF",
+        "club": "프라이부르크",
+        "key": false
+      },
+      {
+        "name": "브렐 엠볼로",
+        "position": "FW",
+        "club": "스타드 렌",
+        "key": true
+      },
+      {
+        "name": "단 은도예",
+        "position": "FW",
+        "club": "노팅엄 포레스트",
+        "key": true
+      },
+      {
+        "name": "루벵 바르가스",
+        "position": "FW",
+        "club": "세비야",
+        "key": false
+      },
+      {
+        "name": "노아 오카포르",
+        "position": "FW",
+        "club": "리즈 유나이티드",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T14:33:15-05:00"
+  },
+  {
+    "id": "BRA",
+    "name": "브라질",
+    "group": "C",
+    "formation": "4-3-3",
+    "style": "개인 기술과 창의성을 바탕으로 한 공격적 패싱 축구",
+    "aimed_tactics": "빠른 측면 돌파와 윙플레이를 통해 상대 수비를 분산시키고 중앙 침투로 마무리",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "알리송 베커",
+        "position": "GK",
+        "club": "리버풀",
+        "key": false
+      },
+      {
+        "name": "마르키뉴스",
+        "position": "DF",
+        "club": "파리 생제르맹",
+        "key": true
+      },
+      {
+        "name": "카세미루",
+        "position": "MF",
+        "club": "맨체스터 유나이티드",
+        "key": false
+      },
+      {
+        "name": "비니시우스 주니오르",
+        "position": "FW",
+        "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "하피냐",
+        "position": "MF",
+        "club": "FC 바르셀로나",
+        "key": true
+      },
+      {
+        "name": "엔드릭",
+        "position": "FW",
+        "club": "리옹",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "네이마르 (부상 제외)"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "MAR",
+    "name": "모로코",
+    "group": "C",
+    "formation": "4-3-3",
+    "style": "수비 견고성과 역습을 결합한 조직적 압박 축구",
+    "aimed_tactics": "아흐라프 하키미의 측면 오버래핑과 암라바트의 중원 장악으로 수비와 공격 전환을 빠르게 연결",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "야신 부누",
+        "position": "GK",
+        "club": "세비야",
+        "key": false
+      },
+      {
+        "name": "아흐라프 하키미",
+        "position": "DF",
+        "club": "파리 생제르맹",
+        "key": true
+      },
+      {
+        "name": "소피안 암라바트",
+        "position": "MF",
+        "club": "맨체스터 유나이티드",
+        "key": true
+      },
+      {
+        "name": "이스마일 사이바리",
+        "position": "MF",
+        "club": "아인트라흐트 프랑크푸르트",
+        "key": true
+      },
+      {
+        "name": "나예프 아게르드",
+        "position": "DF",
+        "club": "웨스트햄",
+        "key": false
+      },
+      {
+        "name": "빌랄 엘 카누스",
+        "position": "MF",
+        "club": "헨크",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "SCO",
+    "name": "스코틀랜드",
+    "group": "C",
+    "formation": "3-5-2",
+    "style": "조직적 수비 블록과 세트피스 및 강인한 피지컬을 앞세운 실용주의 축구",
+    "aimed_tactics": "3백 또는 4백의 유연한 수비 조직으로 상대 공격을 차단하고 맥토미니·맥긴의 박스 침투로 득점 기회 창출",
+    "record": {
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pts": 3,
+      "gd": 1
+    },
+    "form": [
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "크레이그 고든",
+        "position": "GK",
+        "club": "하트 오브 미들로디언",
+        "key": false
+      },
+      {
+        "name": "앤디 로버트슨",
+        "position": "DF",
+        "club": "리버풀",
+        "key": true
+      },
+      {
+        "name": "스콧 맥토미니",
+        "position": "MF",
+        "club": "나폴리",
+        "key": true
+      },
+      {
+        "name": "존 맥긴",
+        "position": "MF",
+        "club": "아스턴 빌라",
+        "key": true
+      },
+      {
+        "name": "아론 히키",
+        "position": "DF",
+        "club": "브렌트퍼드",
+        "key": false
+      },
+      {
+        "name": "체 아담스",
+        "position": "FW",
+        "club": "토리노",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "빌리 길모어 (부상 제외, 토리노 소속 체 아담스 부상 회복 중 출전 여부 불투명)"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "HAI",
+    "name": "아이티",
+    "group": "C",
+    "formation": "5-4-1",
+    "style": "낮은 수비 블록과 빠른 역습을 기반으로 한 수비 우선 축구",
+    "aimed_tactics": "5-4-1 낮은 블록으로 컴팩트하게 수비하고 이소도르의 개인 능력에 의존한 역습 전개",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "pts": 0,
+      "gd": -1
+    },
+    "form": [
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "조니 플라시드",
+        "position": "GK",
+        "club": "앙제",
+        "key": false
+      },
+      {
+        "name": "리카르도 아데",
+        "position": "DF",
+        "club": "앙제",
+        "key": false
+      },
+      {
+        "name": "장-리크네르 벨가르드",
+        "position": "MF",
+        "club": "울버햄튼 원더러스",
+        "key": true
+      },
+      {
+        "name": "윌슨 이소도르",
+        "position": "FW",
+        "club": "선덜랜드",
+        "key": true
+      },
+      {
+        "name": "케빈 마나시",
+        "position": "MF",
+        "club": "로리앙",
+        "key": false
+      },
+      {
+        "name": "로스닐도 에반젤리스타",
+        "position": "MF",
+        "club": "마르세유",
+        "key": true
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "USA",
+    "name": "미국",
+    "group": "D",
+    "formation": "3-4-2-1",
+    "style": "고강도 압박과 빠른 전환을 바탕으로 한 역동적 공격 축구",
+    "aimed_tactics": "3백 빌드업으로 중원 점유 후 풀백 오버래핑과 풀리식·레이나의 창의적 플레이로 최전방 발로건 공략",
+    "record": {
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pts": 3,
+      "gd": 3
+    },
+    "form": [
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "맷 터너",
+        "position": "GK",
+        "club": "크리스탈 팰리스",
+        "key": false
+      },
+      {
+        "name": "크리스 리처즈",
+        "position": "DF",
+        "club": "크리스탈 팰리스",
+        "key": false
+      },
+      {
+        "name": "타일러 애덤스",
+        "position": "MF",
+        "club": "본머스",
+        "key": false
+      },
+      {
+        "name": "크리스티안 풀리식",
+        "position": "MF",
+        "club": "AC 밀란",
+        "key": true
+      },
+      {
+        "name": "지오반니 레이나",
+        "position": "MF",
+        "club": "보루시아 도르트문트",
+        "key": true
+      },
+      {
+        "name": "폴라린 발로건",
+        "position": "FW",
+        "club": "모나코",
+        "key": true
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "AUS",
+    "name": "호주",
+    "group": "D",
+    "formation": "3-4-2-1",
+    "style": "조직적 수비와 빠른 역습, 고강도 압박을 결합한 집단적 축구",
+    "aimed_tactics": "컴팩트한 3백 수비 블록에서 이란쿤다의 속도를 이용한 카운터어택과 미드필드 압박으로 볼 탈취 후 빠른 전개",
+    "record": {
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pts": 3,
+      "gd": 2
+    },
+    "form": [
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "매티 라이언",
+        "position": "GK",
+        "club": "레반테",
+        "key": false
+      },
+      {
+        "name": "해리 수타르",
+        "position": "DF",
+        "club": "레스터 시티",
+        "key": false
+      },
+      {
+        "name": "잭슨 어빈",
+        "position": "MF",
+        "club": "FC 장크트 파울리",
+        "key": true
+      },
+      {
+        "name": "코너 메트칼프",
+        "position": "MF",
+        "club": "왓포드",
+        "key": false
+      },
+      {
+        "name": "네스토리 이란쿤다",
+        "position": "FW",
+        "club": "왓포드",
+        "key": true
+      },
+      {
+        "name": "크리스티안 볼파토",
+        "position": "MF",
+        "club": "로마",
+        "key": true
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "TUR",
+    "name": "튀르키예",
+    "group": "D",
+    "formation": "4-2-3-1",
+    "style": "점유율 기반의 공격 축구와 창의적인 플레이메이킹",
+    "aimed_tactics": "더블 피벗에서 찰하노을루 중원 장악 후 귈레르·이을드즈의 창의성으로 공간을 창출하고 최전방 스트라이커 연결",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "pts": 0,
+      "gd": -2
+    },
+    "form": [
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "알테이 바이인디르",
+        "position": "GK",
+        "club": "맨체스터 유나이티드",
+        "key": false
+      },
+      {
+        "name": "메리흐 데미랄",
+        "position": "DF",
+        "club": "알 아흘리",
+        "key": false
+      },
+      {
+        "name": "하칸 찰하노을루",
+        "position": "MF",
+        "club": "인테르 밀란",
+        "key": true
+      },
+      {
+        "name": "아르다 귈레르",
+        "position": "MF",
+        "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "케난 이을드즈",
+        "position": "MF",
+        "club": "유벤투스",
+        "key": true
+      },
+      {
+        "name": "제키 첼리크",
+        "position": "DF",
+        "club": "AS 로마",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "PAR",
+    "name": "파라과이",
+    "group": "D",
+    "formation": "4-4-2",
+    "style": "수비 조직력과 피지컬을 앞세운 낮은 블록 수비 축구",
+    "aimed_tactics": "4-4-2 로우 블록으로 상대 공격을 차단하고 알미론과 엔시소의 카운터어택 및 세트피스로 득점 기회 모색",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "pts": 0,
+      "gd": -3
+    },
+    "form": [
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "안토니오 실바",
+        "position": "GK",
+        "club": "리베르타드",
+        "key": false
+      },
+      {
+        "name": "구스타보 고메스",
+        "position": "DF",
+        "club": "팔메이라스",
+        "key": true
+      },
+      {
+        "name": "오마르 알데레테",
+        "position": "DF",
+        "club": "선덜랜드",
+        "key": false
+      },
+      {
+        "name": "미겔 알미론",
+        "position": "MF",
+        "club": "애틀랜타 유나이티드",
+        "key": true
+      },
+      {
+        "name": "훌리오 엔시소",
+        "position": "FW",
+        "club": "브라이튼 앤 호브 앨비언",
+        "key": true
+      },
+      {
+        "name": "안토니오 사나브리아",
+        "position": "FW",
+        "club": "토리노",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "GER",
+    "name": "독일",
+    "group": "E",
+    "formation": "4-2-3-1",
+    "style": "고강도 압박과 수직 패싱을 기반으로 한 빠른 전환 플레이",
+    "aimed_tactics": "측면 공간 활용과 공격형 미드필더의 창의적 움직임으로 수비 블록 파괴",
+    "record": {
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pts": 3,
+      "gd": 6
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "야말 무시알라",
+        "position": "MF",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "플로리안 비르츠",
+        "position": "MF",
+        "club": "리버풀",
+        "key": true
+      },
+      {
+        "name": "조슈아 키미히",
+        "position": "MF",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "안토니오 뤼디거",
+        "position": "DF",
+        "club": "레알 마드리드",
+        "key": false
+      },
+      {
+        "name": "요나탄 타",
+        "position": "DF",
+        "club": "바이에른 뮌헨",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "레나르트 카를 — 허벅지 근육 파열로 대회 전 낙마"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "ECU",
+    "name": "에콰도르",
+    "group": "E",
+    "formation": "4-4-2",
+    "style": "수비 조직력을 바탕으로 한 컴팩트 블록과 역습 중심 전술",
+    "aimed_tactics": "카이세도의 중원 장악력으로 볼을 빠르게 회수하고 파초·인카피에의 단단한 수비 라인 유지",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "pts": 0,
+      "gd": -1
+    },
+    "form": [
+      "D",
+      "D",
+      "D",
+      "W",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "모이세스 카이세도",
+        "position": "MF",
+        "club": "첼시",
+        "key": true
+      },
+      {
+        "name": "윌리안 파초",
+        "position": "DF",
+        "club": "파리 생제르맹",
+        "key": true
+      },
+      {
+        "name": "피에로 인카피에",
+        "position": "DF",
+        "club": "아스날",
+        "key": false
+      },
+      {
+        "name": "켄드리 파에스",
+        "position": "MF",
+        "club": "리버 플레이트 (임대)",
+        "key": false
+      },
+      {
+        "name": "에네르 발렌시아",
+        "position": "FW",
+        "club": "파추카",
+        "key": true
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "CIV",
+    "name": "코트디부아르",
+    "group": "E",
+    "formation": "4-3-3",
+    "style": "빠른 측면 공격과 체력적 압박을 결합한 아프리카 특유의 역동적 플레이",
+    "aimed_tactics": "디알로·얀 디오만데의 측면 돌파와 케시에의 중원 장악으로 상대 수비를 분산",
+    "record": {
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pts": 3,
+      "gd": 1
+    },
+    "form": [
+      "W",
+      "L",
+      "W",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "프랑크 케시에",
+        "position": "MF",
+        "club": "알 아흘리",
+        "key": true
+      },
+      {
+        "name": "우스만 디오만데",
+        "position": "DF",
+        "club": "스포르팅 CP",
+        "key": true
+      },
+      {
+        "name": "아마드 디알로",
+        "position": "FW",
+        "club": "맨체스터 유나이티드",
+        "key": true
+      },
+      {
+        "name": "얀 디오만데",
+        "position": "FW",
+        "club": "RB 라이프치히",
+        "key": false
+      },
+      {
+        "name": "윌프리드 싱고",
+        "position": "DF",
+        "club": "나폴리",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "CUW",
+    "name": "퀴라소",
+    "group": "E",
+    "formation": "4-4-2",
+    "style": "컴팩트 수비 블록을 유지하며 세트피스와 역습을 노리는 실리 축구",
+    "aimed_tactics": "레안드로 바쿠나 형제의 미드필드 장악력으로 볼 소유를 유지하고 로카디아의 전방 압박 활용",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "pts": 0,
+      "gd": -6
+    },
+    "form": [
+      "D",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "레안드로 바쿠나",
+        "position": "MF",
+        "club": "반드르마스포르",
+        "key": true
+      },
+      {
+        "name": "엘로이 룸",
+        "position": "GK",
+        "club": "무소속",
+        "key": false
+      },
+      {
+        "name": "위르헌 로카디아",
+        "position": "FW",
+        "club": "무소속",
+        "key": true
+      },
+      {
+        "name": "리바노 코메넨시아",
+        "position": "MF",
+        "club": "미정",
+        "key": false
+      },
+      {
+        "name": "주니뉴 바쿠나",
+        "position": "MF",
+        "club": "미정",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "정보 부족 — 선발 명단 외 부상 정보 미확인"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "NED",
+    "name": "네덜란드",
+    "group": "F",
+    "formation": "4-3-3",
+    "style": "높은 점유율과 삼각형 패스 구조를 활용한 기술 기반 포제션 축구",
+    "aimed_tactics": "판다이크의 빌드업 주도 + 가크포·마렌의 측면 침투로 상대 수비 공간 창출",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "피르힐 판다이크",
+        "position": "DF",
+        "club": "리버풀",
+        "key": true
+      },
+      {
+        "name": "프렝키 더용",
+        "position": "MF",
+        "club": "바르셀로나",
+        "key": true
+      },
+      {
+        "name": "코디 가크포",
+        "position": "FW",
+        "club": "리버풀",
+        "key": true
+      },
+      {
+        "name": "멤피스 데파이",
+        "position": "FW",
+        "club": "코린티안스",
+        "key": false
+      },
+      {
+        "name": "미키 판더벤",
+        "position": "DF",
+        "club": "토트넘 홋스퍼",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "자비 시몬스 — ACL 파열로 전 대회 결장",
+      "제르디 스하우턴 — ACL 파열로 결장",
+      "마티스 더리흐트 — 부상으로 결장",
+      "스테판 더프레이 — 부상으로 결장",
+      "유리엔 팀버 — 부상으로 결장"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "JPN",
+    "name": "일본",
+    "group": "F",
+    "formation": "4-2-3-1",
+    "style": "고강도 집단 압박과 빠른 전환을 기반으로 한 조직적 전술 축구",
+    "aimed_tactics": "전방 압박으로 상대 빌드업을 차단하고 구보·우에다의 민첩한 침투를 통한 속공 전개",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "구보 다케후사",
+        "position": "MF",
+        "club": "레알 소시에다드",
+        "key": true
+      },
+      {
+        "name": "카마다 다이치",
+        "position": "MF",
+        "club": "크리스탈 팰리스",
+        "key": true
+      },
+      {
+        "name": "우에다 아야세",
+        "position": "FW",
+        "club": "페예노르트",
+        "key": true
+      },
+      {
+        "name": "나카무라 게이토",
+        "position": "MF",
+        "club": "랭스",
+        "key": false
+      },
+      {
+        "name": "이타쿠라 코",
+        "position": "DF",
+        "club": "아약스",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "엔도 와타루 — 발 부상으로 대회 직전 낙마, 주장 박탈",
+      "미토마 카오루 — 부상으로 결장",
+      "미나미노 다쿠미 — 부상으로 결장",
+      "마치다 코키 — 부상으로 결장"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "SWE",
+    "name": "스웨덴",
+    "group": "F",
+    "formation": "3-4-3",
+    "style": "뒤에서 빌드업하되 빠른 역습으로 공간을 파고드는 그레이엄 포터식 하이브리드 전술",
+    "aimed_tactics": "요쾨레스·이삭 투톱 구조로 상대 수비 분산, 베르그발의 전진 침투와 엘랑가의 측면 독파 결합",
+    "record": {
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pts": 3,
+      "gd": 4
+    },
+    "form": [
+      "L",
+      "L",
+      "D",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "빅토르 요쾨레스",
+        "position": "FW",
+        "club": "아스날",
+        "key": true
+      },
+      {
+        "name": "알렉산데르 이삭",
+        "position": "FW",
+        "club": "리버풀",
+        "key": true
+      },
+      {
+        "name": "빅토르 린델뢰프",
+        "position": "DF",
+        "club": "아스톤 빌라",
+        "key": false
+      },
+      {
+        "name": "루카스 베르그발",
+        "position": "MF",
+        "club": "토트넘 홋스퍼",
+        "key": true
+      },
+      {
+        "name": "앤서니 엘랑가",
+        "position": "FW",
+        "club": "뉴캐슬 유나이티드",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "TUN",
+    "name": "튀니지",
+    "group": "F",
+    "formation": "4-3-3",
+    "style": "수비적 규율과 강한 조직력을 바탕으로 한 안정적 블록 축구",
+    "aimed_tactics": "스키리의 단일 수비형 미드필더 역할로 중앙 공간을 봉쇄하고 한니발·사노의 역습 연결",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "pts": 0,
+      "gd": -4
+    },
+    "form": [
+      "W",
+      "W",
+      "L",
+      "D",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "엘리에스 스키리",
+        "position": "MF",
+        "club": "아인트라흐트 프랑크푸르트",
+        "key": true
+      },
+      {
+        "name": "한니발 메즈브리",
+        "position": "MF",
+        "club": "번리",
+        "key": true
+      },
+      {
+        "name": "몬타사르 탈비",
+        "position": "DF",
+        "club": "로리앙",
+        "key": false
+      },
+      {
+        "name": "아니스 벤 슬리마네",
+        "position": "MF",
+        "club": "노리치 시티",
+        "key": false
+      },
+      {
+        "name": "이스마일 가르비",
+        "position": "MF",
+        "club": "FC 아우크스부르크",
+        "key": true
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "BEL",
+    "name": "벨기에",
+    "group": "G",
+    "formation": "4-2-3-1",
+    "style": "더블 피벗 기반 조직적 점유 축구, 측면 돌파와 10번의 창의적 연결 플레이",
+    "aimed_tactics": "오나나·티에레망 이중 수비형 미드필더로 중원을 안정시키고 드 브라위너의 배후 침투 패스와 도쿠·트로사르의 측면 질주로 공략",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "pts": 0,
+      "gd": -1
+    },
+    "form": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "티보 쿠르투아",
+        "position": "GK",
+        "club": "레알 마드리드",
+        "key": false
+      },
+      {
+        "name": "케빈 드 브라위너",
+        "position": "MF",
+        "club": "나폴리",
+        "key": true
+      },
+      {
+        "name": "로멜루 루카쿠",
+        "position": "FW",
+        "club": "나폴리",
+        "key": true
+      },
+      {
+        "name": "제레미 도쿠",
+        "position": "FW",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "아마두 오나나",
+        "position": "MF",
+        "club": "에버턴",
+        "key": false
+      },
+      {
+        "name": "유리 티에레망",
+        "position": "MF",
+        "club": "아스톤 빌라",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "드 브라위너 — 2025년 10월~2026년 3월 허벅지 부상으로 장기 결장 후 복귀, 현재 가용",
+      "루카쿠 — 나폴리에서 시즌 내내 부상 반복, 컨디션 최상 아님"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "EGY",
+    "name": "이집트",
+    "group": "G",
+    "formation": "4-2-3-1",
+    "style": "살라의 개인기와 마르무시의 연결 플레이를 중심으로 한 역습 중심 공격 축구",
+    "aimed_tactics": "수비 블록을 낮게 유지하다 살라의 개인 돌파 혹은 빠른 전환 패스로 역습 발동, 세트피스 활용",
+    "record": {
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pts": 3,
+      "gd": 1
+    },
+    "form": [
+      "D",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "무함마드 엘 셰나위",
+        "position": "GK",
+        "club": "알 아흘리",
+        "key": false
+      },
+      {
+        "name": "모하메드 살라",
+        "position": "FW",
+        "club": "리버풀",
+        "key": true
+      },
+      {
+        "name": "오마르 마르무시",
+        "position": "FW",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "이맘 아슈르",
+        "position": "MF",
+        "club": "알 아흘리",
+        "key": true
+      },
+      {
+        "name": "마흐무드 하산 트레제게",
+        "position": "FW",
+        "club": "트라브존스포르",
+        "key": false
+      },
+      {
+        "name": "오마르 가베르",
+        "position": "MF",
+        "club": "알 아흘리",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "살라 — 4월 말 리버풀 경기 중 햄스트링 부상, 6월 6일 브라질 평가전에서 45분 출전하며 복귀 중; 컨디션 주시 필요"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "IRN",
+    "name": "이란",
+    "group": "G",
+    "formation": "4-1-4-1",
+    "style": "수비 블록 기반 조직 방어 후 타레미를 타깃으로 한 신속한 역습 전개",
+    "aimed_tactics": "갈레노에이 감독의 4-1-4-1 시스템으로 중원 밀집 수비, 타레미 단독 전방 배치로 볼 유지 및 연결 플레이",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "D",
+      "L",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "알리레자 베이란반드",
+        "position": "GK",
+        "club": "안트베르펜",
+        "key": false
+      },
+      {
+        "name": "메흐디 타레미",
+        "position": "FW",
+        "club": "올림피아코스",
+        "key": true
+      },
+      {
+        "name": "알리레자 자한박쉬",
+        "position": "MF",
+        "club": "알 에티파크",
+        "key": true
+      },
+      {
+        "name": "메흐디 가예디",
+        "position": "MF",
+        "club": "카라박",
+        "key": false
+      },
+      {
+        "name": "아미르호세인 호세인자데",
+        "position": "FW",
+        "club": "포르투",
+        "key": true
+      },
+      {
+        "name": "루즈베 체시미",
+        "position": "DF",
+        "club": "에스테그랄",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "자한박쉬 — 부상 의혹으로 개막전 출전 불투명",
+      "체시미 — 개막전 전 컨디션 평가 중",
+      "이란 언론진 미국 비자 거부로 정치적 혼란, 팀 집중력 영향 가능성"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "NZL",
+    "name": "뉴질랜드",
+    "group": "G",
+    "formation": "4-4-2",
+    "style": "조직적 수비 블록과 크리스 우드를 목표물로 한 롱볼·세트피스 중심 공격",
+    "aimed_tactics": "크리스 우드의 피지컬을 활용한 에어리얼 듀얼과 수비 라인 배후 침투, 역습 시 카카체의 왼쪽 측면 추진력 활용",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "L",
+      "D",
+      "W",
+      "L",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "맥스 크로콤브",
+        "position": "GK",
+        "club": "보르도",
+        "key": false
+      },
+      {
+        "name": "크리스 우드",
+        "position": "FW",
+        "club": "노팅엄 포레스트",
+        "key": true
+      },
+      {
+        "name": "리베라토 카카체",
+        "position": "DF",
+        "club": "엠폴리",
+        "key": true
+      },
+      {
+        "name": "조 벨",
+        "position": "MF",
+        "club": "허더즈필드 타운",
+        "key": true
+      },
+      {
+        "name": "벤 올드",
+        "position": "MF",
+        "club": "파르마",
+        "key": false
+      },
+      {
+        "name": "마이클 복살",
+        "position": "DF",
+        "club": "내슈빌 SC",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "우드 — 2025년 12월 왼쪽 무릎 수술 후 복귀, 본인은 완전히 준비됐다고 밝혔으나 시즌 내 경기력 회복 여부 주시"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "ESP",
+    "name": "스페인",
+    "group": "H",
+    "formation": "4-3-3",
+    "style": "유럽 챔피언의 빠른 템포 티키타카 변형 — 고강도 압박과 짧은 패스 연계로 상대 공간 제거",
+    "aimed_tactics": "로드리의 중원 장악과 페드리의 수직 전진 패스, 라미네 야말의 1대1 돌파로 좁은 공간 타개; 측면 풀백 오버래핑 병행",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "다비드 라야",
+        "position": "GK",
+        "club": "아스널",
+        "key": false
+      },
+      {
+        "name": "로드리",
+        "position": "MF",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "라미네 야말",
+        "position": "FW",
+        "club": "FC 바르셀로나",
+        "key": true
+      },
+      {
+        "name": "페드리",
+        "position": "MF",
+        "club": "FC 바르셀로나",
+        "key": true
+      },
+      {
+        "name": "미켈 오야르사발",
+        "position": "FW",
+        "club": "레알 소시에다드",
+        "key": false
+      },
+      {
+        "name": "막 쿠쿠렐라",
+        "position": "DF",
+        "club": "첼시",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "야말 — 4월 바르셀로나 시즌 중 햄스트링 부상으로 장기 결장 후 훈련 복귀; 감독은 개막전 출전 가능하다고 밝혔으나 컨디션 조절 중",
+      "메리노 — 2월 오른발 피로 골절로 수술, 대회 초반 출전 불투명"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "CPV",
+    "name": "카보베르데",
+    "group": "H",
+    "formation": "4-4-2",
+    "style": "견고한 수비 블록 구축 후 빠른 측면 전환을 통한 역습 전개",
+    "aimed_tactics": "볼 점유를 양보하고 조직적인 5-4-1 블록으로 수비 후 리바마투, 멘데스의 측면 스피드로 역습 발동",
+    "record": {
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "pts": 1,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "보지냐",
+        "position": "GK",
+        "club": "코임브라",
+        "key": true
+      },
+      {
+        "name": "라이언 멘데스",
+        "position": "FW",
+        "club": "이으드르 FK",
+        "key": true
+      },
+      {
+        "name": "다일론 로차 리바마투",
+        "position": "FW",
+        "club": "알바세테",
+        "key": true
+      },
+      {
+        "name": "조바네 카브랄",
+        "position": "MF",
+        "club": "스포르팅 CP",
+        "key": false
+      },
+      {
+        "name": "스티브 모레이라",
+        "position": "DF",
+        "club": "콜럼버스 크루",
+        "key": false
+      },
+      {
+        "name": "로베르투 로페스",
+        "position": "DF",
+        "club": "섐록 로버스",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "KSA",
+    "name": "사우디아라비아",
+    "group": "H",
+    "formation": "4-3-3",
+    "style": "조직적 수비 블록과 알다우사리의 측면 침투를 결합한 역습 축구",
+    "aimed_tactics": "중앙 밀집 수비로 상대 공격을 차단한 뒤 알부라이칸·알다우사리의 스피드로 빠른 전환 공격 전개",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "L",
+      "D",
+      "W",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "무함마드 알오와이스",
+        "position": "GK",
+        "club": "알 힐랄",
+        "key": false
+      },
+      {
+        "name": "살렘 알다우사리",
+        "position": "MF",
+        "club": "알 힐랄",
+        "key": true
+      },
+      {
+        "name": "피라스 알부라이칸",
+        "position": "FW",
+        "club": "알 아흘리",
+        "key": true
+      },
+      {
+        "name": "사우드 압둘하미드",
+        "position": "DF",
+        "club": "RC 랑스",
+        "key": false
+      },
+      {
+        "name": "모하메드 칸노",
+        "position": "MF",
+        "club": "알 힐랄",
+        "key": true
+      },
+      {
+        "name": "압둘라 알함단",
+        "position": "FW",
+        "club": "알 나스르",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "URU",
+    "name": "우루과이",
+    "group": "H",
+    "formation": "4-3-3",
+    "style": "비엘사 감독의 고강도 압박과 강한 피지컬, 다윈 누녜스의 파괴적 전방 압박",
+    "aimed_tactics": "발베르데·우가르테의 중원 지배와 전방 강도 높은 압박으로 상대 빌드업을 차단, 누녜스의 돌파력으로 마무리",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "페르난도 무슬레라",
+        "position": "GK",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "다윈 누녜스",
+        "position": "FW",
+        "club": "알 힐랄",
+        "key": true
+      },
+      {
+        "name": "페데리코 발베르데",
+        "position": "MF",
+        "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "마누엘 우가르테",
+        "position": "MF",
+        "club": "맨체스터 유나이티드",
+        "key": true
+      },
+      {
+        "name": "호세 마리아 히메네스",
+        "position": "DF",
+        "club": "아틀레티코 마드리드",
+        "key": false
+      },
+      {
+        "name": "로드리고 벤탄쿠르",
+        "position": "MF",
+        "club": "토트넘 홋스퍼",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "벤탄쿠르 — 1월 이후 햄스트링 부상으로 장기 결장, 대회 참가 불투명",
+      "아라우호 — 부상 회복 중, 수비 라인 재편 필요",
+      "수아레스·카바니 불참 — 2026 대회에서 두 레전드 모두 제외됨"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "FRA",
+    "name": "프랑스",
+    "group": "I",
+    "formation": "4-2-3-1",
+    "style": "수비 안정성을 기반으로 개인 기량이 뛰어난 공격진을 통해 효율적으로 득점을 노리는 실용주의 축구",
+    "aimed_tactics": "캉테·차메니의 더블 피벗으로 중원을 장악하고 음바페·뎀벨레의 빠른 전환 공격을 극대화",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "L",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "마이크 메냥",
+        "position": "GK",
+        "club": "AC 밀란",
+        "key": false
+      },
+      {
+        "name": "킬리안 음바페",
+        "position": "FW",
+        "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "우스만 뎀벨레",
+        "position": "FW",
+        "club": "파리 생제르맹",
+        "key": true
+      },
+      {
+        "name": "오렐리앙 차메니",
+        "position": "MF",
+        "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "윌리엄 살리바",
+        "position": "DF",
+        "club": "아스날",
+        "key": false
+      },
+      {
+        "name": "엔골로 캉테",
+        "position": "MF",
+        "club": "페네르바체",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "윌리엄 살리바 허리 부상 — 출전 가능 전망",
+      "음바페 허벅지 근육 부상 후 회복 완료 — 출전 확정"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "SEN",
+    "name": "세네갈",
+    "group": "I",
+    "formation": "4-3-3",
+    "style": "탄탄한 수비 조직력과 빠른 윙 플레이를 결합한 아프리카 특유의 역동적 공수 균형 축구",
+    "aimed_tactics": "쿨리발리의 수비 리더십과 니콜라 잭슨의 최전방 압박으로 상대 빌드업을 차단, 이스마일라 사르의 역습 활용",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "L",
+      "D",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "에두아르 멘디",
+        "position": "GK",
+        "club": "알힐랄",
+        "key": false
+      },
+      {
+        "name": "사디오 마네",
+        "position": "FW",
+        "club": "알나스르",
+        "key": true
+      },
+      {
+        "name": "니콜라 잭슨",
+        "position": "FW",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "이스마일라 사르",
+        "position": "FW",
+        "club": "크리스탈 팰리스",
+        "key": false
+      },
+      {
+        "name": "칼리두 쿨리발리",
+        "position": "DF",
+        "club": "알힐랄",
+        "key": true
+      },
+      {
+        "name": "파페 마타르 사르",
+        "position": "MF",
+        "club": "토트넘",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "IRQ",
+    "name": "이라크",
+    "group": "I",
+    "formation": "4-4-2",
+    "style": "강인한 수비 블록을 기반으로 직접적이고 물리적인 공격 전환을 추구하는 현실적 저블록 전술",
+    "aimed_tactics": "컴팩트한 4-4-2 수비 블록 유지 후 아이맨 후세인과 알리 알하마디의 투톱으로 빠른 전환 공격",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "D",
+      "L",
+      "W",
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "잘랄 하산",
+        "position": "GK",
+        "club": "알쇼르타",
+        "key": false
+      },
+      {
+        "name": "아이맨 후세인",
+        "position": "FW",
+        "club": "알쇼르타",
+        "key": true
+      },
+      {
+        "name": "알리 알하마디",
+        "position": "FW",
+        "club": "루턴 타운",
+        "key": true
+      },
+      {
+        "name": "지단 이크발",
+        "position": "MF",
+        "club": "FC 위트레흐트",
+        "key": true
+      },
+      {
+        "name": "아미르 알암마리",
+        "position": "MF",
+        "club": "크라코비아",
+        "key": false
+      },
+      {
+        "name": "알리 자심",
+        "position": "MF",
+        "club": "알쇼르타",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "아이맨 후세인 미국 입국 심사로 인한 컨디션 우려"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "NOR",
+    "name": "노르웨이",
+    "group": "I",
+    "formation": "4-3-3",
+    "style": "홀란드와 오데가르의 창의적 연계를 중심으로 적극적인 전방 압박과 빠른 공격 전환을 추구하는 현대적 공격 축구",
+    "aimed_tactics": "오데가르의 중원 창조력으로 홀란드를 활성화하고, 안토니오 누사의 측면 드리블로 상대 수비를 분산",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "D",
+      "D",
+      "W",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "오르얀 닐란드",
+        "position": "GK",
+        "club": "알나스르",
+        "key": false
+      },
+      {
+        "name": "에를링 홀란드",
+        "position": "FW",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "마르틴 오데가르",
+        "position": "MF",
+        "club": "아스날",
+        "key": true
+      },
+      {
+        "name": "알렉산드르 쇠를로트",
+        "position": "FW",
+        "club": "아틀레티코 마드리드",
+        "key": false
+      },
+      {
+        "name": "안토니오 누사",
+        "position": "FW",
+        "club": "브뤼헤",
+        "key": true
+      },
+      {
+        "name": "율리안 리에르손",
+        "position": "DF",
+        "club": "도르트문트",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "ARG",
+    "name": "아르헨티나",
+    "group": "J",
+    "formation": "4-3-3",
+    "style": "메시를 중심으로 창의적인 중원 압박과 공간 침투를 결합하며 타이틀 방어에 나서는 세계 최강 조직력",
+    "aimed_tactics": "맥알리스터·엔조 페르난데스·데파울의 중원 삼각형으로 볼을 장악하고 메시·알바레스의 연계 플레이로 결정적 찬스 창출",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "에밀리아노 마르티네스",
+        "position": "GK",
+        "club": "아스톤 빌라",
+        "key": false
+      },
+      {
+        "name": "리오넬 메시",
+        "position": "FW",
+        "club": "인테르 마이애미",
+        "key": true
+      },
+      {
+        "name": "훌리안 알바레스",
+        "position": "FW",
+        "club": "아틀레티코 마드리드",
+        "key": true
+      },
+      {
+        "name": "알렉시스 맥앨리스터",
+        "position": "MF",
+        "club": "리버풀",
+        "key": true
+      },
+      {
+        "name": "크리스티안 로메로",
+        "position": "DF",
+        "club": "토트넘",
+        "key": false
+      },
+      {
+        "name": "라우타로 마르티네스",
+        "position": "FW",
+        "club": "인테르 밀란",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "메시 왼쪽 햄스트링 근육 피로 — 회복 후 출전 가능 전망"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "ALG",
+    "name": "알제리",
+    "group": "J",
+    "formation": "4-3-3",
+    "style": "마에즈의 창조력과 빠른 역습 전환을 핵심으로 하는 압박 축구, 수비 조직 때는 4-2-3-1로 변형",
+    "aimed_tactics": "마에즈의 우측 창조 플레이와 아무라의 폭발적 공간 침투로 측면에서 상대 수비를 무너뜨리는 역습 전술",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "라이드 마에즈",
+        "position": "FW",
+        "club": "Al-Qadsiah",
+        "key": true
+      },
+      {
+        "name": "모하메드 아무라",
+        "position": "FW",
+        "club": "VfL 볼프스부르크",
+        "key": true
+      },
+      {
+        "name": "일란 케발",
+        "position": "MF",
+        "club": "RC 스트라스부르",
+        "key": false
+      },
+      {
+        "name": "유네스 아부사다",
+        "position": "MF",
+        "club": "카르타헤나",
+        "key": false
+      },
+      {
+        "name": "디에드 우타",
+        "position": "DF",
+        "club": "나폴리",
+        "key": true
+      },
+      {
+        "name": "라이스 음볼히",
+        "position": "GK",
+        "club": "알 아흘리",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "이스마엘 벤나세르 햄스트링 부상으로 최종 명단 제외"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "AUT",
+    "name": "오스트리아",
+    "group": "J",
+    "formation": "4-2-3-1",
+    "style": "란그닉 감독의 고강도 전방 압박과 집단 움직임을 기반으로 하는 게겐프레싱 스타일 축구",
+    "aimed_tactics": "라이머·자비처의 중원 이중 피벗으로 볼 회수 후 아르나우토비치를 중심으로 한 빠른 전환 공격",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "패트릭 페너",
+        "position": "GK",
+        "club": "맨체스터 시티",
+        "key": false
+      },
+      {
+        "name": "다비드 알라바",
+        "position": "DF",
+        "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "마르셀 자비처",
+        "position": "MF",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "콘라트 라이머",
+        "position": "MF",
+        "club": "바이에른 뮌헨",
+        "key": false
+      },
+      {
+        "name": "마르코 아르나우토비치",
+        "position": "FW",
+        "club": "인테르 밀란",
+        "key": true
+      },
+      {
+        "name": "크리스토프 바움가르트너",
+        "position": "MF",
+        "club": "RB 라이프치히",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "크리스토프 바움가르트너 부상으로 토너먼트 제외 확정 — 교체 선수 미소집"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "JOR",
+    "name": "요르단",
+    "group": "J",
+    "formation": "3-4-2-1",
+    "style": "3백 수비 블록을 기반으로 측면 압박과 빠른 역습 전환을 추구하는 모로코식 수비 전술 추구",
+    "aimed_tactics": "수비 시 5-2-3으로 변형해 상대 공간을 차단하고 알타마리의 개인 기량으로 역습 찬스 극대화",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "L",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "야잔 알니마트",
+        "position": "GK",
+        "club": "알파이살리",
+        "key": false
+      },
+      {
+        "name": "무사 알타마리",
+        "position": "FW",
+        "club": "스타드 렌",
+        "key": true
+      },
+      {
+        "name": "알리 올완",
+        "position": "FW",
+        "club": "알사일리야",
+        "key": true
+      },
+      {
+        "name": "에흐산 하다드",
+        "position": "DF",
+        "club": "알후세인",
+        "key": false
+      },
+      {
+        "name": "니자르 알라쉬단",
+        "position": "MF",
+        "club": "카타르 클럽",
+        "key": true
+      },
+      {
+        "name": "무사 알루사",
+        "position": "MF",
+        "club": "알자지라",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "야잔 알네마트 ACL 부상으로 토너먼트 출전 불가"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "POR",
+    "name": "포르투갈",
+    "group": "K",
+    "formation": "4-3-3",
+    "style": "높은 점유율 기반의 압박 축구, 측면 과부하와 창의적 미드필더 운영",
+    "aimed_tactics": "전방 압박으로 볼 회수 후 측면과 중앙을 유기적으로 활용하는 포지셔널 플레이",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "D"
+    ],
+    "squad": [
+      {
+        "name": "디오구 코스타",
+        "position": "GK",
+        "club": "FC 포르투",
+        "key": false
+      },
+      {
+        "name": "루벤 디아스",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "주앙 캉셀루",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": false
+      },
+      {
+        "name": "브루누 페르난데스",
+        "position": "MF",
+        "club": "맨체스터 유나이티드",
+        "key": true
+      },
+      {
+        "name": "베르나르두 시우바",
+        "position": "MF",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "라파엘 레앙",
+        "position": "FW",
+        "club": "AC 밀란",
+        "key": false
+      },
+      {
+        "name": "크리스티아누 호날두",
+        "position": "FW",
+        "club": "알 나스르",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "루벤 디아스 - 시즌 후반 부상 우려 (컨디션 주시)",
+      "라파엘 레앙 - 클럽 시즌 부진 및 컨디션 불안"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "COD",
+    "name": "DR 콩고",
+    "group": "K",
+    "formation": "4-4-2",
+    "style": "조직적 수비 블록과 빠른 역습 중심의 실용적 축구",
+    "aimed_tactics": "컴팩트한 수비 블록 유지 후 요안 위사의 측면 스피드를 활용한 역습 전개",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "D",
+      "L",
+      "W",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "리오넬 음파시",
+        "position": "GK",
+        "club": "르아브르",
+        "key": false
+      },
+      {
+        "name": "샹셀 음벰바",
+        "position": "DF",
+        "club": "릴",
+        "key": true
+      },
+      {
+        "name": "아론 완-비사카",
+        "position": "DF",
+        "club": "웨스트햄 유나이티드",
+        "key": false
+      },
+      {
+        "name": "노아 사디키",
+        "position": "MF",
+        "club": "안데를레흐트",
+        "key": false
+      },
+      {
+        "name": "요안 위사",
+        "position": "FW",
+        "club": "뉴캐슬 유나이티드",
+        "key": true
+      },
+      {
+        "name": "세드리크 바카부",
+        "position": "FW",
+        "club": "레알 베티스",
+        "key": true
+      }
+    ],
+    "injuries": [
+      "요안 위사 - 뉴캐슬 시즌 중 무릎 부상 후 복귀, 컨디션 완전 회복 여부 주시"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "UZB",
+    "name": "우즈베키스탄",
+    "group": "K",
+    "formation": "3-4-2-1",
+    "style": "규율 잡힌 미드블록 수비와 세트피스·역습에 의존하는 실용주의 축구",
+    "aimed_tactics": "낮은 블록 수비 후 쇼무로도프를 타깃으로 한 직접적 전환 공격",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "D",
+      "L",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "우트키르 유수포프",
+        "position": "GK",
+        "club": "파흐타코르",
+        "key": false
+      },
+      {
+        "name": "압두코디르 쿠사노프",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "파루흐 사이피예프",
+        "position": "DF",
+        "club": "네프치",
+        "key": false
+      },
+      {
+        "name": "압보스베크 파이줄라예프",
+        "position": "MF",
+        "club": "이스탄불 바샥셰히르",
+        "key": true
+      },
+      {
+        "name": "오스톤 우루노프",
+        "position": "MF",
+        "club": "페르세폴리스",
+        "key": false
+      },
+      {
+        "name": "엘도르 쇼무로도프",
+        "position": "FW",
+        "club": "이스탄불 바샥셰히르(AS 로마 임대)",
+        "key": true
+      }
+    ],
+    "injuries": [
+      "압두코디르 쿠사노프 - 맨시티 시즌 중 출전 기회 부족으로 경기 감각 부족 우려"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "COL",
+    "name": "콜롬비아",
+    "group": "K",
+    "formation": "4-2-3-1",
+    "style": "더블 피벗과 측면 창의성을 결합한 전환 중심의 공격적 축구",
+    "aimed_tactics": "제임스 로드리게스의 10번 자유 역할과 루이스 디아스의 측면 돌파를 결합한 공격 전개",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "L",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "카밀로 바르가스",
+        "position": "GK",
+        "club": "스포르팅 CP",
+        "key": false
+      },
+      {
+        "name": "다비손 산체스",
+        "position": "DF",
+        "club": "토트넘 홋스퍼",
+        "key": false
+      },
+      {
+        "name": "다니엘 무뇨스",
+        "position": "DF",
+        "club": "크리스탈 팰리스",
+        "key": false
+      },
+      {
+        "name": "제임스 로드리게스",
+        "position": "MF",
+        "club": "미네소타 유나이티드",
+        "key": true
+      },
+      {
+        "name": "리처드 리오스",
+        "position": "MF",
+        "club": "파우메이라스",
+        "key": false
+      },
+      {
+        "name": "루이스 디아스",
+        "position": "FW",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "혼 아리아스",
+        "position": "FW",
+        "club": "울버햄튼 원더러스",
+        "key": true
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "ENG",
+    "name": "잉글랜드",
+    "group": "L",
+    "formation": "4-2-3-1",
+    "style": "전진하는 풀백을 활용한 포지셔널 점유 축구와 측면 공격 중심",
+    "aimed_tactics": "투헬의 수적 우위 창출 시스템을 바탕으로 케인의 기점 플레이와 벨링엄·사카의 연계 공격",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "조던 픽퍼드",
+        "position": "GK",
+        "club": "에버턴",
+        "key": false
+      },
+      {
+        "name": "에즈리 콘사",
+        "position": "DF",
+        "club": "아스톤 빌라",
+        "key": false
+      },
+      {
+        "name": "리스 제임스",
+        "position": "DF",
+        "club": "첼시",
+        "key": false
+      },
+      {
+        "name": "디클런 라이스",
+        "position": "MF",
+        "club": "아스날",
+        "key": true
+      },
+      {
+        "name": "주드 벨링엄",
+        "position": "MF",
+        "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "부카요 사카",
+        "position": "FW",
+        "club": "아스날",
+        "key": true
+      },
+      {
+        "name": "해리 케인",
+        "position": "FW",
+        "club": "바이에른 뮌헨",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "부카요 사카 - 아킬레스 부상 후 점진적 회복 중, 개막전 출전 분량 관리 필요",
+      "리스 제임스 - 부상 후 복귀, 체력 조율 필요"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "CRO",
+    "name": "크로아티아",
+    "group": "L",
+    "formation": "4-2-3-1",
+    "style": "미드필드 기술력과 포지션 지능을 결합한 점유 기반 전통 축구",
+    "aimed_tactics": "모드리치-코바치치 더블 피벗을 통한 경기 지배 후 크라마리치의 중앙 연계 플레이",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "W"
+    ],
+    "squad": [
+      {
+        "name": "도미니크 리바코비치",
+        "position": "GK",
+        "club": "디나모 자그레브",
+        "key": false
+      },
+      {
+        "name": "요슈코 그바르디올",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "루카 모드리치",
+        "position": "MF",
+        "club": "AC 밀란",
+        "key": true
+      },
+      {
+        "name": "마테오 코바치치",
+        "position": "MF",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "마리오 파살리치",
+        "position": "MF",
+        "club": "아탈란타",
+        "key": false
+      },
+      {
+        "name": "안드레이 크라마리치",
+        "position": "FW",
+        "club": "호펜하임",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "요슈코 그바르디올 - 정강이 골절 후 5월 복귀, 컨디션 완전 회복 여부 주시",
+      "마테오 코바치치 - 아킬레스 부상으로 시즌 대부분 결장, 체력 상태 불확실"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "GHA",
+    "name": "가나",
+    "group": "L",
+    "formation": "4-2-3-1",
+    "style": "세트피스 공중볼 위협과 역습을 결합한 카운터 중심 수비적 축구",
+    "aimed_tactics": "파르테이-오우수 더블 피벗의 수비 안정 위에 세메뇨·윌리엄스의 측면 개인기 활용",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "D",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "로렌스 아티-지기",
+        "position": "GK",
+        "club": "세인트 갈렌",
+        "key": false
+      },
+      {
+        "name": "알렉산더 지쿠",
+        "position": "DF",
+        "club": "베식타시",
+        "key": false
+      },
+      {
+        "name": "토마스 파르테이",
+        "position": "MF",
+        "club": "비야레알",
+        "key": true
+      },
+      {
+        "name": "이냐키 윌리엄스",
+        "position": "FW",
+        "club": "아틀레틱 빌바오",
+        "key": true
+      },
+      {
+        "name": "앙투안 세메뇨",
+        "position": "FW",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "조던 아이유",
+        "position": "FW",
+        "club": "크리스탈 팰리스",
+        "key": false
+      }
+    ],
+    "injuries": [
+      "모하메드 쿠두스 - 허벅지 부상 악화로 대회 결장 확정",
+      "모하메두 살리수 - 부상으로 스쿼드 제외"
+    ],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  },
+  {
+    "id": "PAN",
+    "name": "파나마",
+    "group": "L",
+    "formation": "3-4-3",
+    "style": "3백 기반 수비 조직력과 윙백을 통한 측면 공격의 균형 잡힌 실용 축구",
+    "aimed_tactics": "무리요-데이비스 윙백의 측면 볼 운반을 바탕으로 카라스키야의 창의적 패스 플레이 구현",
+    "record": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pts": 0,
+      "gd": 0
+    },
+    "form": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "L"
+    ],
+    "squad": [
+      {
+        "name": "올란도 모스케라",
+        "position": "GK",
+        "club": "카르타헤나",
+        "key": false
+      },
+      {
+        "name": "아니발 고도이",
+        "position": "MF",
+        "club": "샌디에이고 FC",
+        "key": true
+      },
+      {
+        "name": "아달베르토 카라스키야",
+        "position": "MF",
+        "club": "UNAM 푸마스",
+        "key": true
+      },
+      {
+        "name": "아미르 무리요",
+        "position": "DF",
+        "club": "베식타시",
+        "key": true
+      },
+      {
+        "name": "이스마엘 디아스",
+        "position": "FW",
+        "club": "레온",
+        "key": false
+      },
+      {
+        "name": "세실리오 워터맨",
+        "position": "FW",
+        "club": "KAA 헨트",
+        "key": false
+      }
+    ],
+    "injuries": [],
+    "updated_at": "2026-06-15T07:00:00-05:00"
+  }
 ]
