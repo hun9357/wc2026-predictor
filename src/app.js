@@ -33,7 +33,7 @@ function normalizeAll(p) {
   return p;
 }
 const groupsPresent = () => [...new Set((state.predictions.matches || []).map(m => m.group))].sort();
-const matchdaysIn = g => [...new Set((state.predictions.matches || []).filter(m => m.group === g).map(m => Number(m.matchday)))].sort((a, b) => a - b);
+const matchdaysIn = g => [...new Set((state.predictions.matches || []).filter(m => g === 'ALL' || m.group === g).map(m => Number(m.matchday)))].sort((a, b) => a - b);
 const hasUpcoming = g => (state.predictions.matches || []).some(m => m.group === g && m.status === 'upcoming');
 const firstUpcomingMd = g => {
   const ups = (state.predictions.matches || []).filter(m => m.group === g && m.status === 'upcoming').map(m => Number(m.matchday));
@@ -57,8 +57,9 @@ function renderHeaderStatus() {
   $('hero-remaining').textContent = `남은 경기 ${(state.predictions.matches || []).filter(m => m.status === 'upcoming').length}`;
 }
 function renderTabs() {
-  $('group-tabs').innerHTML = groupsPresent().map(g =>
-    `<button class="tab${g === state.criteria.group ? ' is-active' : ''}" type="button" data-group="${esc(g)}">${esc(g)}</button>`).join('');
+  $('group-tabs').innerHTML = `<button class="tab${state.criteria.group === 'ALL' ? ' is-active' : ''}" type="button" data-group="ALL">전체</button>` +
+    groupsPresent().map(g =>
+      `<button class="tab${g === state.criteria.group ? ' is-active' : ''}" type="button" data-group="${esc(g)}">${esc(g)}</button>`).join('');
   $('md-tabs').innerHTML = `<button class="segment-tab${state.criteria.matchday === 'ALL' ? ' is-active' : ''}" type="button" data-md="ALL">전체</button>` +
     matchdaysIn(state.criteria.group).map(md =>
       `<button class="segment-tab${String(md) === String(state.criteria.matchday) ? ' is-active' : ''}" type="button" data-md="${esc(String(md))}">MD${esc(String(md))}</button>`).join('');
@@ -68,8 +69,10 @@ function renderTabs() {
 }
 function renderContent() {
   const g = state.criteria.group;
-  $('section-title').textContent = !g ? '예측' : state.criteria.matchday === 'ALL' ? `${g}조` : `${g}조 · 매치데이 ${state.criteria.matchday}`;
-  if (state.criteria.remainingOnly && g && !hasUpcoming(g)) {
+  $('section-title').textContent = g === 'ALL'
+    ? (state.criteria.matchday === 'ALL' ? '전체 경기' : `전체 · 매치데이 ${state.criteria.matchday}`)
+    : !g ? '예측' : state.criteria.matchday === 'ALL' ? `${g}조` : `${g}조 · 매치데이 ${state.criteria.matchday}`;
+  if (state.criteria.remainingOnly && g && g !== 'ALL' && !hasUpcoming(g)) {
     $('list').innerHTML = renderStatePanel({ icon: 'check', title: `${g}조 종료`, body: '남은 경기가 없는 조는 최종 순위 중심으로 전환합니다.', extraHtml: renderStandings(state.teams, g) });
     return;
   }
@@ -113,7 +116,7 @@ function wire() {
   $('group-tabs').addEventListener('click', e => {
     const b = e.target.closest('[data-group]'); if (!b) return;
     state.criteria.group = b.dataset.group;
-    state.criteria.matchday = firstUpcomingMd(state.criteria.group);
+    state.criteria.matchday = b.dataset.group === 'ALL' ? 'ALL' : firstUpcomingMd(state.criteria.group);
     renderAll();
   });
   $('md-tabs').addEventListener('click', e => {
