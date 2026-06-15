@@ -35,6 +35,10 @@ function normalizeAll(p) {
 const groupsPresent = () => [...new Set((state.predictions.matches || []).map(m => m.group))].sort();
 const matchdaysIn = g => [...new Set((state.predictions.matches || []).filter(m => m.group === g).map(m => Number(m.matchday)))].sort((a, b) => a - b);
 const hasUpcoming = g => (state.predictions.matches || []).some(m => m.group === g && m.status === 'upcoming');
+const firstUpcomingMd = g => {
+  const ups = (state.predictions.matches || []).filter(m => m.group === g && m.status === 'upcoming').map(m => Number(m.matchday));
+  return ups.length ? Math.min(...ups) : 'ALL';
+};
 
 function renderHeaderStatus() {
   const stale = state.predictions.generated_at ? isStale(state.predictions.generated_at, new Date()) : false;
@@ -43,9 +47,13 @@ function renderHeaderStatus() {
   badge.className = `badge badge-${s.variant}`;
   badge.textContent = s.label;
   const t = state.predictions.generated_at ? new Date(state.predictions.generated_at) : null;
-  $('hero-update-time').textContent = t
-    ? new Intl.DateTimeFormat('en-GB', { timeZone: 'America/Chicago', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(t) + ' CT'
-    : '—';
+  if (t && !Number.isNaN(t.getTime())) {
+    const md = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', month: 'numeric', day: 'numeric' }).format(t);
+    const hm = new Intl.DateTimeFormat('en-GB', { timeZone: 'America/Chicago', hour: '2-digit', minute: '2-digit', hour12: false }).format(t);
+    $('hero-update-time').textContent = `${md} ${hm} CT`;
+  } else {
+    $('hero-update-time').textContent = '—';
+  }
   $('hero-remaining').textContent = `남은 경기 ${(state.predictions.matches || []).filter(m => m.status === 'upcoming').length}`;
 }
 function renderTabs() {
@@ -89,8 +97,7 @@ function wire() {
   $('group-tabs').addEventListener('click', e => {
     const b = e.target.closest('[data-group]'); if (!b) return;
     state.criteria.group = b.dataset.group;
-    const mds = matchdaysIn(state.criteria.group);
-    state.criteria.matchday = mds.length ? mds[0] : 'ALL';
+    state.criteria.matchday = firstUpcomingMd(state.criteria.group);
     renderAll();
   });
   $('md-tabs').addEventListener('click', e => {
@@ -121,8 +128,7 @@ async function main() {
   state.cached = cached;
   const groups = groupsPresent();
   state.criteria.group = groups.find(hasUpcoming) || groups[0] || null;
-  const mds = matchdaysIn(state.criteria.group);
-  state.criteria.matchday = mds.length ? mds[0] : 'ALL';
+  state.criteria.matchday = firstUpcomingMd(state.criteria.group);
   const res = validateData(state.predictions, state.teams);
   res.warnings.forEach(w => console.warn('[data]', w));
   res.errors.forEach(er => console.error('[data]', er));
