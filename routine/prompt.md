@@ -10,7 +10,7 @@ FIFA World Cup 2026 본선 **48개국 · 12개 조(A–L)** 전체를 다룬다.
 
 ## 단계
 1. **수집(웹서치):** **12개 조(A–L) 전체**의 현재까지 결과·각 조 순위, 팀별 최신 소식(부상·예상 라인업·감독 전술 코멘트·폼). 출처 URL 수집.
-2. **팀 프로필 갱신 → `data/teams.json` (48팀 전부):** 각 팀의 formation/style/aimed_tactics/record(w,d,l,pts,gd)/form/squad(각 선수 name/position(GK|DF|MF|FW)/club, 주요 선수는 key:true)/injuries/updated_at(ISO8601, America/Chicago). 명단(squad)은 비교적 고정적이므로 매일 전체를 새로 만들지 말고, 부상·교체·이적 등 변경 시에만 갱신한다.
+2. **팀 프로필 갱신 → `data/teams.json` (48팀 전부):** 각 팀의 formation/style/aimed_tactics/record(w,d,l,pts,gd)/form/squad(**26인 전체 명단**: 각 선수 name(한국어)/position(GK|DF|MF|FW)/club, 주요 선수 3~5명은 key:true)/injuries/updated_at(ISO8601, America/Chicago). 명단(squad)은 비교적 고정적이므로 매일 전체를 새로 만들지 말고, 부상·교체·이적 등 변경 시에만 갱신한다(단, 26인 미만이면 채운다).
 3. **잔여 경기 예측 → `data/predictions.json` (모든 조 A–L):** status=="upcoming" 모든 경기에 대해 승/무/패 정수 % 분포(합 100, 홈 관점), verdict=최고값, rationale(2~3문장), team_notes.home/away, key_variables, flip_condition, qualification_context, sources. 끝난 경기는 status:"played" 유지. generated_at=실행 시각(CT), timezone:"America/Chicago".
 
 ## 가드레일

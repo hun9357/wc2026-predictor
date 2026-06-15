@@ -24,33 +24,39 @@
         "key": false
       },
       {
+        "name": "카를로스 아세베도",
+        "position": "GK",
+        "club": "산토스 라구나",
+        "key": false
+      },
+      {
         "name": "기예르모 오초아",
         "position": "GK",
         "club": "AEL 리마솔",
         "key": true
       },
       {
-        "name": "에드손 알바레스",
-        "position": "MF",
-        "club": "페네르바흐체",
-        "key": true
+        "name": "호르헤 산체스",
+        "position": "DF",
+        "club": "PAOK",
+        "key": false
       },
       {
         "name": "세사르 몬테스",
         "position": "DF",
         "club": "로코모티프 모스크바",
+        "key": false
+      },
+      {
+        "name": "에드손 알바레스",
+        "position": "DF",
+        "club": "페네르바흐체",
         "key": true
       },
       {
         "name": "요한 바스케스",
         "position": "DF",
         "club": "제노아",
-        "key": true
-      },
-      {
-        "name": "헤수스 가야르도",
-        "position": "DF",
-        "club": "톨루카",
         "key": false
       },
       {
@@ -60,9 +66,27 @@
         "key": false
       },
       {
-        "name": "에릭 리라",
+        "name": "마테오 차베스",
+        "position": "DF",
+        "club": "AZ",
+        "key": false
+      },
+      {
+        "name": "헤수스 가야르도",
+        "position": "DF",
+        "club": "톨루카",
+        "key": false
+      },
+      {
+        "name": "에리크 리라",
         "position": "MF",
         "club": "크루스 아술",
+        "key": false
+      },
+      {
+        "name": "루이스 로모",
+        "position": "MF",
+        "club": "과달라하라",
         "key": false
       },
       {
@@ -75,12 +99,36 @@
         "name": "오르벨린 피네다",
         "position": "MF",
         "club": "AEK 아테네",
-        "key": true
+        "key": false
+      },
+      {
+        "name": "오베드 바르가스",
+        "position": "MF",
+        "club": "아틀레티코 마드리드",
+        "key": false
       },
       {
         "name": "길베르토 모라",
         "position": "MF",
         "club": "티후아나",
+        "key": false
+      },
+      {
+        "name": "루이스 차베스",
+        "position": "MF",
+        "club": "디나모 모스크바",
+        "key": false
+      },
+      {
+        "name": "로베르토 알바라도",
+        "position": "MF",
+        "club": "과달라하라",
+        "key": false
+      },
+      {
+        "name": "브라이언 구티에레스",
+        "position": "MF",
+        "club": "과달라하라",
         "key": false
       },
       {
@@ -90,27 +138,39 @@
         "key": true
       },
       {
-        "name": "산티아고 히메네스",
-        "position": "FW",
-        "club": "AC 밀란",
-        "key": true
-      },
-      {
-        "name": "훌리안 키뇨네스",
-        "position": "FW",
-        "club": "알 카디시아",
-        "key": false
-      },
-      {
         "name": "알렉시스 베가",
         "position": "FW",
         "club": "톨루카",
         "key": false
       },
       {
-        "name": "로베르토 알바라도",
+        "name": "산티아고 히메네스",
+        "position": "FW",
+        "club": "AC 밀란",
+        "key": true
+      },
+      {
+        "name": "아르만도 곤살레스",
         "position": "FW",
         "club": "과달라하라",
+        "key": false
+      },
+      {
+        "name": "훌리안 키뇨네스",
+        "position": "FW",
+        "club": "Al-Qadsiah",
+        "key": false
+      },
+      {
+        "name": "세사르 우에르타",
+        "position": "FW",
+        "club": "안데를레흐트",
+        "key": false
+      },
+      {
+        "name": "기예르모 마르티네스",
+        "position": "FW",
+        "club": "푸마스 UNAM",
         "key": false
       }
     ],
@@ -144,9 +204,21 @@
         "key": false
       },
       {
+        "name": "송범근",
+        "position": "GK",
+        "club": "전북 현대 모터스",
+        "key": false
+      },
+      {
         "name": "조현우",
         "position": "GK",
         "club": "울산 HD",
+        "key": false
+      },
+      {
+        "name": "이한범",
+        "position": "DF",
+        "club": "FC 미트윌란",
         "key": false
       },
       {
@@ -156,45 +228,57 @@
         "key": true
       },
       {
+        "name": "김태현",
+        "position": "DF",
+        "club": "가시마 앤틀러스",
+        "key": false
+      },
+      {
+        "name": "이태석",
+        "position": "DF",
+        "club": "FK 아우스트리아 빈",
+        "key": false
+      },
+      {
+        "name": "조위제",
+        "position": "DF",
+        "club": "전북 현대 모터스",
+        "key": false
+      },
+      {
         "name": "김문환",
         "position": "DF",
-        "club": "대전 하나시티즌",
+        "club": "대전 하나 시티즌",
+        "key": false
+      },
+      {
+        "name": "박진섭",
+        "position": "DF",
+        "club": "Zhejiang Professional",
         "key": false
       },
       {
         "name": "설영우",
         "position": "DF",
-        "club": "츠르베나 즈베즈다",
+        "club": "레드스타 베오그라드",
         "key": false
       },
       {
-        "name": "김태현",
+        "name": "옌스 카스트로프",
         "position": "DF",
-        "club": "카시마 앤틀러스",
+        "club": "보루시아 묀헨글라트바흐",
         "key": false
       },
       {
-        "name": "이강인",
+        "name": "이기혁",
         "position": "MF",
-        "club": "파리 생제르맹",
-        "key": true
+        "club": "강원 FC",
+        "key": false
       },
       {
         "name": "황인범",
         "position": "MF",
         "club": "페예노르트",
-        "key": true
-      },
-      {
-        "name": "황희찬",
-        "position": "FW",
-        "club": "울버햄프턴",
-        "key": true
-      },
-      {
-        "name": "이재성",
-        "position": "MF",
-        "club": "마인츠",
         "key": false
       },
       {
@@ -204,27 +288,69 @@
         "key": false
       },
       {
+        "name": "이재성",
+        "position": "MF",
+        "club": "마인츠 05",
+        "key": false
+      },
+      {
+        "name": "황희찬",
+        "position": "MF",
+        "club": "울버햄튼 원더러스",
+        "key": true
+      },
+      {
+        "name": "배준호",
+        "position": "MF",
+        "club": "스토크 시티",
+        "key": false
+      },
+      {
+        "name": "이강인",
+        "position": "MF",
+        "club": "파리 생제르맹",
+        "key": true
+      },
+      {
         "name": "양현준",
         "position": "MF",
         "club": "셀틱",
         "key": false
       },
       {
+        "name": "김진규",
+        "position": "MF",
+        "club": "전북 현대 모터스",
+        "key": false
+      },
+      {
+        "name": "엄지성",
+        "position": "MF",
+        "club": "스완지 시티",
+        "key": false
+      },
+      {
+        "name": "이동경",
+        "position": "MF",
+        "club": "울산 HD",
+        "key": false
+      },
+      {
         "name": "손흥민",
         "position": "FW",
-        "club": "LAFC",
+        "club": "로스앤젤레스 FC",
         "key": true
+      },
+      {
+        "name": "조규성",
+        "position": "FW",
+        "club": "FC 미트윌란",
+        "key": false
       },
       {
         "name": "오현규",
         "position": "FW",
         "club": "베식타시",
-        "key": false
-      },
-      {
-        "name": "조규성",
-        "position": "FW",
-        "club": "미트윌란",
         "key": false
       }
     ],
@@ -258,27 +384,15 @@
         "key": false
       },
       {
-        "name": "인드르지흐 스타네크",
+        "name": "진드리흐 스타네크",
         "position": "GK",
         "club": "슬라비아 프라하",
         "key": false
       },
       {
-        "name": "라디슬라프 크레이치",
-        "position": "DF",
-        "club": "울버햄프턴",
-        "key": true
-      },
-      {
-        "name": "블라디미르 초우팔",
-        "position": "DF",
-        "club": "호펜하임",
-        "key": false
-      },
-      {
-        "name": "로빈 흐라나치",
-        "position": "DF",
-        "club": "호펜하임",
+        "name": "루카시 호르니체크",
+        "position": "GK",
+        "club": "브라가",
         "key": false
       },
       {
@@ -294,45 +408,129 @@
         "key": false
       },
       {
-        "name": "토마시 소우체크",
-        "position": "MF",
-        "club": "웨스트햄",
+        "name": "로빈 흐라나치",
+        "position": "DF",
+        "club": "TSG 호펜하임",
+        "key": false
+      },
+      {
+        "name": "블라디미르 쿠파우",
+        "position": "DF",
+        "club": "TSG 호펜하임",
+        "key": false
+      },
+      {
+        "name": "슈테판 찰루페크",
+        "position": "DF",
+        "club": "슬라비아 프라하",
+        "key": false
+      },
+      {
+        "name": "라디슬라프 크레이치",
+        "position": "DF",
+        "club": "울버햄튼 원더러스",
         "key": true
       },
       {
-        "name": "루카시 프로보드",
+        "name": "다비드 유라세크",
+        "position": "DF",
+        "club": "슬라비아 프라하",
+        "key": false
+      },
+      {
+        "name": "야로슬라프 젤레니",
+        "position": "DF",
+        "club": "스파르타 프라하",
+        "key": false
+      },
+      {
+        "name": "다비드 두데라",
+        "position": "DF",
+        "club": "슬라비아 프라하",
+        "key": false
+      },
+      {
+        "name": "블라디미르 다리다",
+        "position": "MF",
+        "club": "흐라데츠 크랄로베",
+        "key": false
+      },
+      {
+        "name": "루카시 체르프",
+        "position": "MF",
+        "club": "빅토리아 플젠",
+        "key": false
+      },
+      {
+        "name": "루카시 프로보트",
         "position": "MF",
         "club": "슬라비아 프라하",
         "key": false
       },
       {
-        "name": "루카시 체르브",
+        "name": "미할 사딜레크",
         "position": "MF",
-        "club": "비크토리아 플젠",
+        "club": "슬라비아 프라하",
         "key": false
       },
       {
-        "name": "파벨 슐츠",
-        "position": "FW",
-        "club": "리옹",
+        "name": "토마시 수체크",
+        "position": "MF",
+        "club": "웨스트햄 유나이티드",
         "key": true
       },
       {
-        "name": "파트리크 시크",
+        "name": "알렉산드르 소이카",
+        "position": "MF",
+        "club": "빅토리아 플젠",
+        "key": false
+      },
+      {
+        "name": "후고 소후레크",
+        "position": "MF",
+        "club": "스파르타 프라하",
+        "key": false
+      },
+      {
+        "name": "아담 흘로제크",
         "position": "FW",
-        "club": "바이엘 레버쿠젠",
+        "club": "TSG 호펜하임",
         "key": true
       },
       {
-        "name": "아담 흘로젝",
+        "name": "파트리크 쉬크",
         "position": "FW",
-        "club": "호펜하임",
+        "club": "바이어 레버쿠젠",
         "key": true
       },
       {
         "name": "얀 쿠흐타",
         "position": "FW",
         "club": "스파르타 프라하",
+        "key": false
+      },
+      {
+        "name": "모이미르 하이틸",
+        "position": "FW",
+        "club": "슬라비아 프라하",
+        "key": false
+      },
+      {
+        "name": "파벨 슐츠",
+        "position": "FW",
+        "club": "리옹",
+        "key": false
+      },
+      {
+        "name": "토마시 호리",
+        "position": "FW",
+        "club": "슬라비아 프라하",
+        "key": false
+      },
+      {
+        "name": "데니스 비신스키",
+        "position": "FW",
+        "club": "빅토리아 플젠",
         "key": false
       }
     ],
@@ -364,33 +562,75 @@
         "key": true
       },
       {
-        "name": "시야봉가 차이네",
+        "name": "시포 차이네",
         "position": "GK",
-        "club": "올랜도 파이러츠",
+        "club": "올랜도 파이리츠",
         "key": false
       },
       {
-        "name": "쿠트소 모다우",
+        "name": "리카르도 고스",
+        "position": "GK",
+        "club": "Siwelele",
+        "key": false
+      },
+      {
+        "name": "타방 마툴루디",
+        "position": "DF",
+        "club": "폴로크와네 시티",
+        "key": false
+      },
+      {
+        "name": "쿨루마니 은다마네",
         "position": "DF",
         "club": "마멜로디 선다운스",
         "key": false
       },
       {
-        "name": "카고 모디바",
+        "name": "오브리 모디바",
         "position": "DF",
         "club": "마멜로디 선다운스",
         "key": false
       },
       {
-        "name": "음포 음보카지",
+        "name": "음베케젤리 음보카지",
         "position": "DF",
         "club": "시카고 파이어",
         "key": false
       },
       {
-        "name": "시야본가 시비시",
+        "name": "사무켈레 카비니",
         "position": "DF",
-        "club": "올랜도 파이러츠",
+        "club": "Molde",
+        "key": false
+      },
+      {
+        "name": "은코시나티 시비시",
+        "position": "DF",
+        "club": "올랜도 파이리츠",
+        "key": false
+      },
+      {
+        "name": "쿨리소 무다우",
+        "position": "DF",
+        "club": "마멜로디 선다운스",
+        "key": false
+      },
+      {
+        "name": "이메 오콘",
+        "position": "DF",
+        "club": "하노버 96",
+        "key": false
+      },
+      {
+        "name": "올웨투 마카냐",
+        "position": "DF",
+        "club": "Philadelphia Union",
+        "key": false
+      },
+      {
+        "name": "브래들리 크로스",
+        "position": "DF",
+        "club": "카이저 치프스",
         "key": false
       },
       {
@@ -400,45 +640,75 @@
         "key": true
       },
       {
-        "name": "음둠비 음바타",
+        "name": "탈렌테 음바타",
         "position": "MF",
-        "club": "올랜도 파이러츠",
+        "club": "올랜도 파이리츠",
         "key": false
       },
       {
-        "name": "아우브리 아담스",
+        "name": "테마 즈와네",
         "position": "MF",
         "club": "마멜로디 선다운스",
         "key": false
       },
       {
-        "name": "테보호 즈와네",
+        "name": "스페펠로 시톨레",
+        "position": "MF",
+        "club": "Tondela",
+        "key": false
+      },
+      {
+        "name": "제이든 애덤스",
         "position": "MF",
         "club": "마멜로디 선다운스",
+        "key": false
+      },
+      {
+        "name": "오스윈 아폴리스",
+        "position": "FW",
+        "club": "올랜도 파이리츠",
         "key": true
       },
       {
-        "name": "릴 포스터",
+        "name": "체팡 모레미",
+        "position": "FW",
+        "club": "올랜도 파이리츠",
+        "key": false
+      },
+      {
+        "name": "라일 포스터",
         "position": "FW",
         "club": "번리",
         "key": true
       },
       {
-        "name": "렐레 모펭",
+        "name": "렐레보힐레 모포켕",
         "position": "FW",
-        "club": "올랜도 파이러츠",
-        "key": true
-      },
-      {
-        "name": "오스왈드 아폴리스",
-        "position": "FW",
-        "club": "올랜도 파이러츠",
+        "club": "올랜도 파이리츠",
         "key": false
       },
       {
-        "name": "에반스 레이너스",
+        "name": "타파엘로 마세코",
+        "position": "FW",
+        "club": "AEL 리마솔",
+        "key": false
+      },
+      {
+        "name": "이크람 레이너스",
         "position": "FW",
         "club": "마멜로디 선다운스",
+        "key": false
+      },
+      {
+        "name": "에비던스 마그코파",
+        "position": "FW",
+        "club": "올랜도 파이리츠",
+        "key": false
+      },
+      {
+        "name": "카모겔로 세벨레벨레",
+        "position": "FW",
+        "club": "올랜도 파이리츠",
         "key": false
       }
     ],
@@ -467,22 +737,22 @@
     ],
     "squad": [
       {
+        "name": "데인 세인트 클레어",
+        "position": "GK",
+        "club": "인터 마이애미 CF",
+        "key": false
+      },
+      {
         "name": "막심 크레포",
         "position": "GK",
-        "club": "올랜도 시티",
+        "club": "올랜도 시티 SC",
         "key": false
       },
       {
-        "name": "데이언 세인트 클레어",
+        "name": "오웬 굿맨",
         "position": "GK",
-        "club": "인터 마이애미",
+        "club": "반즐리",
         "key": false
-      },
-      {
-        "name": "알폰소 데이비스",
-        "position": "DF",
-        "club": "바이에른 뮌헨",
-        "key": true
       },
       {
         "name": "알리스테어 존스턴",
@@ -491,9 +761,21 @@
         "key": false
       },
       {
-        "name": "모이즈 봉비토",
+        "name": "알피 존스",
         "position": "DF",
-        "club": "OGC 니스",
+        "club": "미들즈브러",
+        "key": false
+      },
+      {
+        "name": "뤽 드 푸즈롤",
+        "position": "DF",
+        "club": "Dender",
+        "key": false
+      },
+      {
+        "name": "조엘 와터먼",
+        "position": "DF",
+        "club": "시카고 파이어 FC",
         "key": false
       },
       {
@@ -503,21 +785,39 @@
         "key": false
       },
       {
+        "name": "무아즈 봄비토",
+        "position": "DF",
+        "club": "니스",
+        "key": false
+      },
+      {
+        "name": "알폰소 데이비스",
+        "position": "DF",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
         "name": "리치 라리아",
         "position": "DF",
         "club": "토론토 FC",
         "key": false
       },
       {
-        "name": "스티븐 에우스타키오",
-        "position": "MF",
-        "club": "포르투",
-        "key": true
+        "name": "니코 시구르",
+        "position": "DF",
+        "club": "하이두크 스플리트",
+        "key": false
       },
       {
-        "name": "타종 뷰캐넌",
+        "name": "마티외 슈아니에르",
         "position": "MF",
-        "club": "비야레알",
+        "club": "로스앤젤레스 FC",
+        "key": false
+      },
+      {
+        "name": "스티븐 에우스타키오",
+        "position": "MF",
+        "club": "로스앤젤레스 FC",
         "key": true
       },
       {
@@ -527,33 +827,69 @@
         "key": false
       },
       {
-        "name": "조나단 오소리오",
-        "position": "MF",
-        "club": "토론토 FC",
-        "key": false
-      },
-      {
-        "name": "리암 밀라",
+        "name": "리암 밀러",
         "position": "MF",
         "club": "헐 시티",
         "key": false
       },
       {
-        "name": "조나단 데이비드",
+        "name": "제이컵 섀플버그",
+        "position": "MF",
+        "club": "로스앤젤레스 FC",
+        "key": false
+      },
+      {
+        "name": "조너선 오소리오",
+        "position": "MF",
+        "club": "토론토 FC",
+        "key": false
+      },
+      {
+        "name": "나탄 살리바",
+        "position": "MF",
+        "club": "안데를레흐트",
+        "key": false
+      },
+      {
+        "name": "사일 라린",
+        "position": "FW",
+        "club": "사우샘프턴",
+        "key": false
+      },
+      {
+        "name": "조너선 데이비드",
         "position": "FW",
         "club": "유벤투스",
         "key": true
       },
       {
-        "name": "사일 라린",
+        "name": "타용 부캐넌",
         "position": "FW",
-        "club": "마요르카",
+        "club": "비야레알",
         "key": true
       },
       {
-        "name": "프로미스 데이비드",
+        "name": "타니 올루와세이",
         "position": "FW",
-        "club": "위니옹 생질루아즈",
+        "club": "비야레알",
+        "key": false
+      },
+      {
+        "name": "알리 아메드",
+        "position": "FW",
+        "club": "노리치 시티",
+        "key": false
+      },
+      {
+        "name": "프라미스 데이비드",
+        "position": "FW",
+        "club": "Union Saint-Gilloise",
+        "key": false
+      },
+      {
+        "name": "제이든 넬슨",
+        "position": "FW",
+        "club": "오스틴 FC",
         "key": false
       }
     ],
@@ -581,9 +917,39 @@
     ],
     "squad": [
       {
-        "name": "니콜라 바실리",
+        "name": "니콜라 바실",
         "position": "GK",
-        "club": "장크트파울리",
+        "club": "FC 장크트파울리",
+        "key": false
+      },
+      {
+        "name": "믈라덴 유르카스",
+        "position": "GK",
+        "club": "Borac Banja Luka",
+        "key": false
+      },
+      {
+        "name": "마르틴 즐로미슬리치",
+        "position": "GK",
+        "club": "리예카",
+        "key": false
+      },
+      {
+        "name": "니하드 무야키치",
+        "position": "DF",
+        "club": "가지안테프 FK",
+        "key": false
+      },
+      {
+        "name": "데니스 하지카두니치",
+        "position": "DF",
+        "club": "삼프도리아",
+        "key": false
+      },
+      {
+        "name": "타리크 무하레모비치",
+        "position": "DF",
+        "club": "사수올로",
         "key": false
       },
       {
@@ -596,7 +962,7 @@
         "name": "아마르 데디치",
         "position": "DF",
         "club": "벤피카",
-        "key": true
+        "key": false
       },
       {
         "name": "니콜라 카티치",
@@ -605,40 +971,76 @@
         "key": false
       },
       {
-        "name": "데니스 하지카두니치",
+        "name": "스티예판 라델리치",
         "position": "DF",
-        "club": "삼프도리아",
+        "club": "리예카",
         "key": false
       },
       {
-        "name": "베냐민 타히로비치",
+        "name": "아르얀 말리치",
+        "position": "DF",
+        "club": "슈투름 그라츠",
+        "key": false
+      },
+      {
+        "name": "벤야민 타히로비치",
         "position": "MF",
-        "club": "브뢴뷔",
+        "club": "브뢰뷔 IF",
         "key": false
       },
       {
-        "name": "베나르 메미치",
+        "name": "아르민 기고비치",
         "position": "MF",
-        "club": "비크토리아 플젠",
+        "club": "영 보이스",
         "key": false
       },
       {
-        "name": "토니 바시치",
+        "name": "이반 바시치",
         "position": "MF",
-        "club": "아스타나",
+        "club": "FC 아스타나",
         "key": false
       },
       {
-        "name": "사니트 하지아흐메토비치",
+        "name": "이반 슈니치",
+        "position": "MF",
+        "club": "Pafos",
+        "key": false
+      },
+      {
+        "name": "아마르 메미치",
+        "position": "MF",
+        "club": "빅토리아 플젠",
+        "key": false
+      },
+      {
+        "name": "아미르 하지아흐메토비치",
         "position": "MF",
         "club": "헐 시티",
         "key": false
       },
       {
-        "name": "케말딘 가고비치",
+        "name": "제니스 부르니치",
         "position": "MF",
-        "club": "영 보이스",
+        "club": "카를스루어 SC",
         "key": false
+      },
+      {
+        "name": "에르민 마흐미치",
+        "position": "MF",
+        "club": "Slovan Liberec",
+        "key": false
+      },
+      {
+        "name": "사메드 바즈다르",
+        "position": "FW",
+        "club": "Jagiellonia Białystok",
+        "key": false
+      },
+      {
+        "name": "에르메딘 데미로비치",
+        "position": "FW",
+        "club": "VfB 슈투트가르트",
+        "key": true
       },
       {
         "name": "에딘 제코",
@@ -647,21 +1049,27 @@
         "key": true
       },
       {
-        "name": "에르메딘 데미로비치",
+        "name": "케림 알라이베고비치",
         "position": "FW",
-        "club": "슈투트가르트",
-        "key": true
+        "club": "레드불 잘츠부르크",
+        "key": false
       },
       {
-        "name": "요보 루키치",
+        "name": "에스미르 바이락타레비치",
         "position": "FW",
-        "club": "우니베르시타테아 클루지",
-        "key": true
+        "club": "PSV 에인트호번",
+        "key": false
       },
       {
         "name": "하리스 타바코비치",
         "position": "FW",
         "club": "보루시아 묀헨글라트바흐",
+        "key": true
+      },
+      {
+        "name": "요보 루키치",
+        "position": "FW",
+        "club": "Universitatea Cluj",
         "key": false
       }
     ],
@@ -689,79 +1097,157 @@
       {
         "name": "메샬 바르샴",
         "position": "GK",
-        "club": "알 사드",
+        "club": "알사드",
+        "key": false
+      },
+      {
+        "name": "살라 자카리아",
+        "position": "GK",
+        "club": "알두하일",
         "key": false
       },
       {
         "name": "마흐무드 아부나다",
         "position": "GK",
-        "club": "카타르 스타스리그",
+        "club": "알라이얀",
         "key": false
       },
       {
         "name": "부알렘 쿠키",
         "position": "DF",
-        "club": "카타르 스타스리그",
-        "key": true
+        "club": "알사드",
+        "key": false
       },
       {
-        "name": "페드루 미겔",
+        "name": "페드로 미겔",
         "position": "DF",
-        "club": "카타르 스타스리그",
+        "club": "알사드",
+        "key": false
+      },
+      {
+        "name": "루카스 멘데스",
+        "position": "DF",
+        "club": "알와크라",
+        "key": false
+      },
+      {
+        "name": "술탄 알브레이크",
+        "position": "DF",
+        "club": "알두하일",
         "key": false
       },
       {
         "name": "호맘 아흐메드",
         "position": "DF",
-        "club": "쿨투랄 레오네사",
+        "club": "Cultural Leonesa",
         "key": false
       },
       {
-        "name": "아심 마디보",
-        "position": "MF",
-        "club": "카타르 스타스리그",
+        "name": "이사 라이",
+        "position": "DF",
+        "club": "알아라비",
+        "key": false
+      },
+      {
+        "name": "알하시미 알후세인",
+        "position": "DF",
+        "club": "알아라비",
+        "key": false
+      },
+      {
+        "name": "아유브 알우이",
+        "position": "DF",
+        "club": "알가라파",
         "key": false
       },
       {
         "name": "카림 부디아프",
         "position": "MF",
-        "club": "카타르 스타스리그",
+        "club": "알두하일",
         "key": false
       },
       {
         "name": "압둘아지즈 하템",
         "position": "MF",
-        "club": "카타르 스타스리그",
+        "club": "알라이얀",
         "key": false
+      },
+      {
+        "name": "아흐메드 파티",
+        "position": "MF",
+        "club": "알아라비",
+        "key": false
+      },
+      {
+        "name": "아심 마디보",
+        "position": "MF",
+        "club": "알와크라",
+        "key": false
+      },
+      {
+        "name": "자셈 가베르",
+        "position": "MF",
+        "club": "알라이얀",
+        "key": false
+      },
+      {
+        "name": "무하마드 알만나이",
+        "position": "MF",
+        "club": "알샤말",
+        "key": false
+      },
+      {
+        "name": "하산 알하이도스",
+        "position": "FW",
+        "club": "알사드",
+        "key": true
       },
       {
         "name": "아크람 아피프",
         "position": "FW",
-        "club": "알 사드",
+        "club": "알사드",
         "key": true
       },
       {
         "name": "알모에즈 알리",
         "position": "FW",
-        "club": "알 두하일",
+        "club": "알두하일",
         "key": true
       },
       {
-        "name": "하산 알 하이도스",
+        "name": "무함마드 문타리",
         "position": "FW",
-        "club": "알 사드",
-        "key": true
+        "club": "알가라파",
+        "key": false
       },
       {
-        "name": "에드밀손 주니오르",
+        "name": "아흐메드 알라딘",
         "position": "FW",
-        "club": "카타르 스타스리그",
+        "club": "알라이얀",
         "key": false
       },
       {
         "name": "유수프 압두리사그",
         "position": "FW",
-        "club": "카타르 스타스리그",
+        "club": "알와크라",
+        "key": false
+      },
+      {
+        "name": "에드밀손 주니오르",
+        "position": "FW",
+        "club": "알두하일",
+        "key": false
+      },
+      {
+        "name": "아흐메드 알가네히",
+        "position": "FW",
+        "club": "알가라파",
+        "key": false
+      },
+      {
+        "name": "타흐신 잠쉬드",
+        "position": "FW",
+        "club": "알두하일",
         "key": false
       }
     ],
@@ -787,27 +1273,33 @@
     ],
     "squad": [
       {
-        "name": "그레고어 코벨",
+        "name": "그레고르 코벨",
         "position": "GK",
         "club": "보루시아 도르트문트",
         "key": false
       },
       {
-        "name": "야닉 음보고",
+        "name": "이봉 므보고",
         "position": "GK",
         "club": "로리앙",
         "key": false
       },
       {
-        "name": "마누엘 아칸지",
-        "position": "DF",
-        "club": "인터 밀란",
-        "key": true
+        "name": "마르빈 켈러",
+        "position": "GK",
+        "club": "영 보이스",
+        "key": false
       },
       {
-        "name": "리카르도 로드리게스",
+        "name": "미로 뮈하임",
         "position": "DF",
-        "club": "레알 베티스",
+        "club": "함부르크 SV",
+        "key": false
+      },
+      {
+        "name": "실반 비드머",
+        "position": "DF",
+        "club": "마인츠 05",
         "key": false
       },
       {
@@ -817,19 +1309,37 @@
         "key": false
       },
       {
-        "name": "질반 비드머",
+        "name": "마누엘 아칸지",
         "position": "DF",
-        "club": "마인츠",
+        "club": "인테르 밀란",
+        "key": true
+      },
+      {
+        "name": "리카르도 로드리게스",
+        "position": "DF",
+        "club": "레알 베티스",
         "key": false
       },
       {
-        "name": "미로 무하임",
+        "name": "에라이 쾨메르트",
         "position": "DF",
-        "club": "함부르크",
+        "club": "발렌시아",
         "key": false
       },
       {
-        "name": "그라니트 샤카",
+        "name": "오렐 아멘다",
+        "position": "DF",
+        "club": "아인트라흐트 프랑크푸르트",
+        "key": false
+      },
+      {
+        "name": "루카 야케스",
+        "position": "DF",
+        "club": "슈투트가르트",
+        "key": false
+      },
+      {
+        "name": "그라니트 자카",
         "position": "MF",
         "club": "선덜랜드",
         "key": true
@@ -841,37 +1351,55 @@
         "key": false
       },
       {
-        "name": "데니스 자카리아",
+        "name": "드니 자카리아",
         "position": "MF",
         "club": "모나코",
         "key": false
       },
       {
-        "name": "아르디안 야샤리",
+        "name": "지브릴 소우",
+        "position": "MF",
+        "club": "세비야",
+        "key": false
+      },
+      {
+        "name": "미셸 에비셔",
+        "position": "MF",
+        "club": "피사",
+        "key": false
+      },
+      {
+        "name": "파비안 리더",
+        "position": "MF",
+        "club": "아우크스부르크",
+        "key": false
+      },
+      {
+        "name": "아르동 야샤리",
         "position": "MF",
         "club": "AC 밀란",
-        "key": false
+        "key": true
       },
       {
         "name": "요한 만잠비",
         "position": "MF",
-        "club": "프라이부르크",
+        "club": "SC 프라이부르크",
         "key": false
       },
       {
         "name": "브렐 엠볼로",
         "position": "FW",
-        "club": "스타드 렌",
+        "club": "렌",
         "key": true
       },
       {
-        "name": "단 은도예",
+        "name": "단 은도이에",
         "position": "FW",
         "club": "노팅엄 포레스트",
-        "key": true
+        "key": false
       },
       {
-        "name": "루벵 바르가스",
+        "name": "루벤 바르가스",
         "position": "FW",
         "club": "세비야",
         "key": false
@@ -880,6 +1408,24 @@
         "name": "노아 오카포르",
         "position": "FW",
         "club": "리즈 유나이티드",
+        "key": false
+      },
+      {
+        "name": "제키 암두니",
+        "position": "FW",
+        "club": "번리",
+        "key": false
+      },
+      {
+        "name": "크리스티안 파스나흐트",
+        "position": "FW",
+        "club": "영 보이스",
+        "key": false
+      },
+      {
+        "name": "세드릭 이텐",
+        "position": "FW",
+        "club": "포르투나 뒤셀도르프",
         "key": false
       }
     ],
@@ -905,9 +1451,21 @@
     ],
     "squad": [
       {
-        "name": "알리송 베커",
+        "name": "알리송",
         "position": "GK",
         "club": "리버풀",
+        "key": false
+      },
+      {
+        "name": "에데르손",
+        "position": "GK",
+        "club": "페네르바체",
+        "key": false
+      },
+      {
+        "name": "베베르통",
+        "position": "GK",
+        "club": "그레미우",
         "key": false
       },
       {
@@ -917,10 +1475,88 @@
         "key": true
       },
       {
-        "name": "카세미루",
+        "name": "다닐루 루이스",
+        "position": "DF",
+        "club": "플라멩구",
+        "key": false
+      },
+      {
+        "name": "알렉스 산드루",
+        "position": "DF",
+        "club": "플라멩구",
+        "key": false
+      },
+      {
+        "name": "가브리에우 마갈량이스",
+        "position": "DF",
+        "club": "아스널",
+        "key": false
+      },
+      {
+        "name": "브레메르",
+        "position": "DF",
+        "club": "유벤투스",
+        "key": false
+      },
+      {
+        "name": "호제르 이바녜스",
+        "position": "DF",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "두글라스 산투스",
+        "position": "DF",
+        "club": "제니트 상트페테르부르크",
+        "key": false
+      },
+      {
+        "name": "레우 페레이라",
+        "position": "DF",
+        "club": "플라멩구",
+        "key": false
+      },
+      {
+        "name": "카제미루",
         "position": "MF",
         "club": "맨체스터 유나이티드",
         "key": false
+      },
+      {
+        "name": "에데르송 소우자",
+        "position": "MF",
+        "club": "아탈란타",
+        "key": false
+      },
+      {
+        "name": "루카스 파케타",
+        "position": "MF",
+        "club": "플라멩구",
+        "key": false
+      },
+      {
+        "name": "브루누 기마랑이스",
+        "position": "MF",
+        "club": "뉴캐슬 유나이티드",
+        "key": false
+      },
+      {
+        "name": "파비뉴",
+        "position": "MF",
+        "club": "알이티하드",
+        "key": false
+      },
+      {
+        "name": "다닐루 산투스",
+        "position": "MF",
+        "club": "보타포구",
+        "key": false
+      },
+      {
+        "name": "네이마르",
+        "position": "FW",
+        "club": "산투스",
+        "key": true
       },
       {
         "name": "비니시우스 주니오르",
@@ -930,14 +1566,44 @@
       },
       {
         "name": "하피냐",
-        "position": "MF",
-        "club": "FC 바르셀로나",
+        "position": "FW",
+        "club": "바르셀로나",
         "key": true
       },
       {
-        "name": "엔드릭",
+        "name": "가브리에우 마르티넬리",
+        "position": "FW",
+        "club": "아스널",
+        "key": false
+      },
+      {
+        "name": "마테우스 쿠냐",
+        "position": "FW",
+        "club": "맨체스터 유나이티드",
+        "key": false
+      },
+      {
+        "name": "엔드리크",
         "position": "FW",
         "club": "리옹",
+        "key": true
+      },
+      {
+        "name": "루이스 엔히케",
+        "position": "FW",
+        "club": "제니트 상트페테르부르크",
+        "key": false
+      },
+      {
+        "name": "이고르 티아구",
+        "position": "FW",
+        "club": "브렌트퍼드",
+        "key": false
+      },
+      {
+        "name": "하이앙",
+        "position": "FW",
+        "club": "본머스",
         "key": false
       }
     ],
@@ -965,39 +1631,159 @@
     ],
     "squad": [
       {
-        "name": "야신 부누",
+        "name": "야신 보누",
         "position": "GK",
-        "club": "세비야",
+        "club": "알힐랄",
         "key": false
       },
       {
-        "name": "아흐라프 하키미",
+        "name": "무니르 엘 카주이",
+        "position": "GK",
+        "club": "RS 베르칸",
+        "key": false
+      },
+      {
+        "name": "아흐메드 레다 타그나우티",
+        "position": "GK",
+        "club": "라자 카사블랑카",
+        "key": false
+      },
+      {
+        "name": "아슈라프 하키미",
         "position": "DF",
         "club": "파리 생제르맹",
         "key": true
       },
       {
+        "name": "나예프 아그에르드",
+        "position": "DF",
+        "club": "올랭피크 마르세유",
+        "key": false
+      },
+      {
+        "name": "누사이르 마즈라위",
+        "position": "DF",
+        "club": "맨체스터 유나이티드",
+        "key": false
+      },
+      {
+        "name": "아나스 살라-에딘",
+        "position": "DF",
+        "club": "PSV 에인트호번",
+        "key": false
+      },
+      {
+        "name": "샤디 리아드",
+        "position": "DF",
+        "club": "크리스탈 팰리스",
+        "key": false
+      },
+      {
+        "name": "유세프 벨람마리",
+        "position": "DF",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "이사 디오프",
+        "position": "DF",
+        "club": "풀럼",
+        "key": false
+      },
+      {
+        "name": "레두완 할랄",
+        "position": "DF",
+        "club": "FC 메헬런",
+        "key": false
+      },
+      {
+        "name": "자카리아 엘 우아디",
+        "position": "DF",
+        "club": "KRC 헹크",
+        "key": false
+      },
+      {
         "name": "소피안 암라바트",
         "position": "MF",
-        "club": "맨체스터 유나이티드",
-        "key": true
+        "club": "레알 베티스",
+        "key": false
       },
       {
         "name": "이스마일 사이바리",
         "position": "MF",
-        "club": "아인트라흐트 프랑크푸르트",
-        "key": true
+        "club": "PSV 에인트호번",
+        "key": false
       },
       {
-        "name": "나예프 아게르드",
-        "position": "DF",
-        "club": "웨스트햄",
+        "name": "닐 엘 아이나우이",
+        "position": "MF",
+        "club": "AS 로마",
         "key": false
       },
       {
         "name": "빌랄 엘 카누스",
         "position": "MF",
-        "club": "헨크",
+        "club": "VfB 슈투트가르트",
+        "key": false
+      },
+      {
+        "name": "아제딘 우나히",
+        "position": "MF",
+        "club": "지로나",
+        "key": false
+      },
+      {
+        "name": "아유브 부아디",
+        "position": "MF",
+        "club": "릴",
+        "key": false
+      },
+      {
+        "name": "사미르 엘 무라베트",
+        "position": "MF",
+        "club": "RC 스트라스부르",
+        "key": false
+      },
+      {
+        "name": "브라힘 디아스",
+        "position": "FW",
+        "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "케므스딘 탈비",
+        "position": "FW",
+        "club": "선덜랜드",
+        "key": false
+      },
+      {
+        "name": "아유브 엘 카비",
+        "position": "FW",
+        "club": "올랭피아코스",
+        "key": false
+      },
+      {
+        "name": "수피안 라히미",
+        "position": "FW",
+        "club": "알아인",
+        "key": false
+      },
+      {
+        "name": "압데 에잘주리",
+        "position": "FW",
+        "club": "레알 베티스",
+        "key": true
+      },
+      {
+        "name": "아유베 아마이무니",
+        "position": "FW",
+        "club": "아인트라흐트 프랑크푸르트",
+        "key": false
+      },
+      {
+        "name": "야신 제심",
+        "position": "FW",
+        "club": "RC 스트라스부르",
         "key": false
       }
     ],
@@ -1025,7 +1811,61 @@
       {
         "name": "크레이그 고든",
         "position": "GK",
-        "club": "하트 오브 미들로디언",
+        "club": "하츠",
+        "key": false
+      },
+      {
+        "name": "앵거스 건",
+        "position": "GK",
+        "club": "노팅엄 포레스트",
+        "key": false
+      },
+      {
+        "name": "리암 켈리",
+        "position": "GK",
+        "club": "레인저스",
+        "key": false
+      },
+      {
+        "name": "그랜트 핸리",
+        "position": "DF",
+        "club": "히버니안",
+        "key": false
+      },
+      {
+        "name": "잭 헨드리",
+        "position": "DF",
+        "club": "알에티파크",
+        "key": false
+      },
+      {
+        "name": "에런 히키",
+        "position": "DF",
+        "club": "브렌트퍼드",
+        "key": false
+      },
+      {
+        "name": "돔 하이엄",
+        "position": "DF",
+        "club": "렉섬",
+        "key": false
+      },
+      {
+        "name": "스콧 매케나",
+        "position": "DF",
+        "club": "디나모 자그레브",
+        "key": false
+      },
+      {
+        "name": "네이선 패터슨",
+        "position": "DF",
+        "club": "에버턴",
+        "key": false
+      },
+      {
+        "name": "앤서니 랄스턴",
+        "position": "DF",
+        "club": "셀틱",
         "key": false
       },
       {
@@ -1035,27 +1875,93 @@
         "key": true
       },
       {
-        "name": "스콧 맥토미니",
+        "name": "존 사우타르",
+        "position": "DF",
+        "club": "레인저스",
+        "key": false
+      },
+      {
+        "name": "키런 티어니",
+        "position": "DF",
+        "club": "셀틱",
+        "key": false
+      },
+      {
+        "name": "라이언 크리스티",
+        "position": "MF",
+        "club": "본머스",
+        "key": false
+      },
+      {
+        "name": "핀레이 커티스",
+        "position": "MF",
+        "club": "레인저스",
+        "key": false
+      },
+      {
+        "name": "루이스 퍼거슨",
+        "position": "MF",
+        "club": "볼로냐",
+        "key": false
+      },
+      {
+        "name": "벤 가논-도크",
+        "position": "MF",
+        "club": "본머스",
+        "key": false
+      },
+      {
+        "name": "타일러 플레처",
+        "position": "MF",
+        "club": "맨체스터 유나이티드",
+        "key": false
+      },
+      {
+        "name": "존 맥긴",
+        "position": "MF",
+        "club": "애스턴 빌라",
+        "key": true
+      },
+      {
+        "name": "케니 맥클린",
+        "position": "MF",
+        "club": "노리치 시티",
+        "key": false
+      },
+      {
+        "name": "스콧 맥토미네이",
         "position": "MF",
         "club": "나폴리",
         "key": true
       },
       {
-        "name": "존 맥긴",
-        "position": "MF",
-        "club": "아스턴 빌라",
-        "key": true
-      },
-      {
-        "name": "아론 히키",
-        "position": "DF",
-        "club": "브렌트퍼드",
+        "name": "쉐 애덤스",
+        "position": "FW",
+        "club": "토리노",
         "key": false
       },
       {
-        "name": "체 아담스",
+        "name": "린든 다이크스",
         "position": "FW",
-        "club": "토리노",
+        "club": "찰턴 애슬레틱",
+        "key": false
+      },
+      {
+        "name": "조지 허스트",
+        "position": "FW",
+        "club": "입스위치 타운",
+        "key": false
+      },
+      {
+        "name": "로런스 섕클랜드",
+        "position": "FW",
+        "club": "하츠",
+        "key": true
+      },
+      {
+        "name": "로스 스튜어트",
+        "position": "FW",
+        "club": "사우샘프턴",
         "key": false
       }
     ],
@@ -1085,38 +1991,158 @@
       {
         "name": "조니 플라시드",
         "position": "GK",
-        "club": "앙제",
+        "club": "SC 바스티아",
+        "key": true
+      },
+      {
+        "name": "알렉상드르 피에르",
+        "position": "GK",
+        "club": "FC 소쇼",
         "key": false
       },
       {
-        "name": "리카르도 아데",
+        "name": "조쉬에 뒤베르제",
+        "position": "GK",
+        "club": "FC 코스모스 코블렌츠",
+        "key": false
+      },
+      {
+        "name": "칼렌스 아르쿠스",
         "position": "DF",
         "club": "앙제",
         "key": false
       },
       {
-        "name": "장-리크네르 벨가르드",
+        "name": "빌겐스 포갱",
+        "position": "DF",
+        "club": "SV 줄테 바레험",
+        "key": false
+      },
+      {
+        "name": "듀크 라크루아",
+        "position": "DF",
+        "club": "콜로라도 스프링스 스위치백스",
+        "key": false
+      },
+      {
+        "name": "마르탱 엑스페리앙스",
+        "position": "DF",
+        "club": "AS 낭시 로렌",
+        "key": false
+      },
+      {
+        "name": "장-케뱅 뒤베른",
+        "position": "DF",
+        "club": "KAA 헨트",
+        "key": false
+      },
+      {
+        "name": "리카르도 아데",
+        "position": "DF",
+        "club": "LDU 키토",
+        "key": false
+      },
+      {
+        "name": "안네스 델크루아",
+        "position": "DF",
+        "club": "FC 루가노",
+        "key": false
+      },
+      {
+        "name": "키토 테르몽시",
+        "position": "DF",
+        "club": "BSC 영 보이스",
+        "key": false
+      },
+      {
+        "name": "칼-프레드 생테",
+        "position": "MF",
+        "club": "엘파소 로코모티브 FC",
+        "key": false
+      },
+      {
+        "name": "레베르통 피에르",
+        "position": "MF",
+        "club": "FC 비젤라",
+        "key": false
+      },
+      {
+        "name": "단리 장-자크",
+        "position": "MF",
+        "club": "필라델피아 유니온",
+        "key": false
+      },
+      {
+        "name": "장-리크너 벨가르드",
         "position": "MF",
         "club": "울버햄튼 원더러스",
         "key": true
       },
       {
-        "name": "윌슨 이소도르",
-        "position": "FW",
-        "club": "선덜랜드",
-        "key": true
-      },
-      {
-        "name": "케빈 마나시",
+        "name": "우드스키 피에르",
         "position": "MF",
-        "club": "로리앙",
+        "club": "비올레트 AC",
         "key": false
       },
       {
-        "name": "로스닐도 에반젤리스타",
+        "name": "도미니크 시몽",
         "position": "MF",
-        "club": "마르세유",
+        "club": "FC 타트란 프레쇼프",
+        "key": false
+      },
+      {
+        "name": "돈 디드송 루이시우스",
+        "position": "FW",
+        "club": "FC 댈러스",
+        "key": false
+      },
+      {
+        "name": "조쉬에 카시미르",
+        "position": "FW",
+        "club": "AJ 오세르",
+        "key": false
+      },
+      {
+        "name": "데릭 에티엔 주니어",
+        "position": "FW",
+        "club": "토론토 FC",
+        "key": false
+      },
+      {
+        "name": "뤼벵 프로비당스",
+        "position": "FW",
+        "club": "알메러 시티 FC",
+        "key": false
+      },
+      {
+        "name": "뒤크캉 나종",
+        "position": "FW",
+        "club": "에스테글랄 FC",
         "key": true
+      },
+      {
+        "name": "프랑츠디 페로",
+        "position": "FW",
+        "club": "차이쿠르 리제스포르",
+        "key": false
+      },
+      {
+        "name": "윌슨 이지도르",
+        "position": "FW",
+        "club": "선덜랜드",
+        "key": false
+      },
+      {
+        "name": "야생 포르튀네",
+        "position": "FW",
+        "club": "FC 비젤라",
+        "key": false
+      },
+      {
+        "name": "레니 조제프",
+        "position": "FW",
+        "club": "페렌츠바로시",
+        "key": false
       }
     ],
     "injuries": [],
@@ -1143,7 +2169,25 @@
       {
         "name": "맷 터너",
         "position": "GK",
-        "club": "크리스탈 팰리스",
+        "club": "뉴잉글랜드 레볼루션",
+        "key": false
+      },
+      {
+        "name": "맷 프리즈",
+        "position": "GK",
+        "club": "뉴욕 시티 FC",
+        "key": false
+      },
+      {
+        "name": "크리스 브래디",
+        "position": "GK",
+        "club": "시카고 파이어 FC",
+        "key": false
+      },
+      {
+        "name": "서지뇨 데스트",
+        "position": "DF",
+        "club": "PSV 에인트호번",
         "key": false
       },
       {
@@ -1153,28 +2197,130 @@
         "key": false
       },
       {
+        "name": "안토니 로빈슨",
+        "position": "DF",
+        "club": "풀럼",
+        "key": false
+      },
+      {
+        "name": "오스턴 트러스티",
+        "position": "DF",
+        "club": "셀틱",
+        "key": false
+      },
+      {
+        "name": "마일스 로빈슨",
+        "position": "DF",
+        "club": "FC 신시내티",
+        "key": false
+      },
+      {
+        "name": "팀 림",
+        "position": "DF",
+        "club": "샬럿 FC",
+        "key": false
+      },
+      {
+        "name": "알렉스 프리먼",
+        "position": "DF",
+        "club": "비야레알 CF",
+        "key": false
+      },
+      {
+        "name": "맥스 아르프스텐",
+        "position": "DF",
+        "club": "콜럼버스 크루",
+        "key": false
+      },
+      {
+        "name": "조 스캘리",
+        "position": "DF",
+        "club": "보루시아 묀헨글라트바흐",
+        "key": false
+      },
+      {
+        "name": "마크 매켄지",
+        "position": "DF",
+        "club": "툴루즈 FC",
+        "key": false
+      },
+      {
         "name": "타일러 애덤스",
         "position": "MF",
         "club": "본머스",
         "key": false
       },
       {
-        "name": "크리스티안 풀리식",
+        "name": "지오 레이나",
         "position": "MF",
+        "club": "보루시아 묀헨글라트바흐",
+        "key": false
+      },
+      {
+        "name": "웨스턴 맥케니",
+        "position": "MF",
+        "club": "유벤투스",
+        "key": true
+      },
+      {
+        "name": "세바스티안 베르할터",
+        "position": "MF",
+        "club": "밴쿠버 화이트캡스 FC",
+        "key": false
+      },
+      {
+        "name": "크리스티안 롤단",
+        "position": "MF",
+        "club": "시애틀 사운더스 FC",
+        "key": false
+      },
+      {
+        "name": "말리크 틸먼",
+        "position": "MF",
+        "club": "바이어 레버쿠젠",
+        "key": false
+      },
+      {
+        "name": "크리스티안 펄리식",
+        "position": "FW",
         "club": "AC 밀란",
         "key": true
       },
       {
-        "name": "지오반니 레이나",
-        "position": "MF",
-        "club": "보루시아 도르트문트",
+        "name": "리카르도 페피",
+        "position": "FW",
+        "club": "PSV 에인트호번",
+        "key": false
+      },
+      {
+        "name": "브렌든 에런슨",
+        "position": "FW",
+        "club": "리즈 유나이티드",
+        "key": false
+      },
+      {
+        "name": "하지 라이트",
+        "position": "FW",
+        "club": "코번트리 시티",
+        "key": false
+      },
+      {
+        "name": "폴라린 발로군",
+        "position": "FW",
+        "club": "AS 모나코",
         "key": true
       },
       {
-        "name": "폴라린 발로건",
+        "name": "티모시 위아",
         "position": "FW",
-        "club": "모나코",
-        "key": true
+        "club": "올랭피크 마르세유",
+        "key": false
+      },
+      {
+        "name": "알레한드로 센데하스",
+        "position": "FW",
+        "club": "클루브 아메리카",
+        "key": false
       }
     ],
     "injuries": [],
@@ -1199,40 +2345,160 @@
     ],
     "squad": [
       {
-        "name": "매티 라이언",
+        "name": "매튜 라이언",
         "position": "GK",
-        "club": "레반테",
+        "club": "레반테 UD",
+        "key": true
+      },
+      {
+        "name": "폴 이조",
+        "position": "GK",
+        "club": "란더스 FC",
         "key": false
       },
       {
-        "name": "해리 수타르",
+        "name": "패트릭 비치",
+        "position": "GK",
+        "club": "멜버른 시티",
+        "key": false
+      },
+      {
+        "name": "아지즈 베히치",
+        "position": "DF",
+        "club": "멜버른 시티",
+        "key": false
+      },
+      {
+        "name": "조던 보스",
+        "position": "DF",
+        "club": "페예노르트",
+        "key": false
+      },
+      {
+        "name": "캐머런 버게스",
+        "position": "DF",
+        "club": "스완지 시티",
+        "key": false
+      },
+      {
+        "name": "알레산드로 치르카티",
+        "position": "DF",
+        "club": "파르마",
+        "key": false
+      },
+      {
+        "name": "밀로시 데게네크",
+        "position": "DF",
+        "club": "APOEL FC",
+        "key": false
+      },
+      {
+        "name": "제이슨 제리아",
+        "position": "DF",
+        "club": "알비렉스 니가타",
+        "key": false
+      },
+      {
+        "name": "루카스 헤링턴",
+        "position": "DF",
+        "club": "콜로라도 래피즈",
+        "key": false
+      },
+      {
+        "name": "야코브 이탈리아노",
+        "position": "DF",
+        "club": "그라처 AK",
+        "key": false
+      },
+      {
+        "name": "해리 사우타르",
         "position": "DF",
         "club": "레스터 시티",
         "key": false
       },
       {
-        "name": "잭슨 어빈",
+        "name": "카이 트레윈",
+        "position": "DF",
+        "club": "뉴욕 시티 FC",
+        "key": false
+      },
+      {
+        "name": "캐머런 데블린",
         "position": "MF",
-        "club": "FC 장크트 파울리",
+        "club": "하츠",
+        "key": false
+      },
+      {
+        "name": "아이딘 흐루스티치",
+        "position": "MF",
+        "club": "헤라클레스 알멜로",
+        "key": false
+      },
+      {
+        "name": "잭슨 어바인",
+        "position": "MF",
+        "club": "FC 장크트파울리",
         "key": true
       },
       {
         "name": "코너 메트칼프",
         "position": "MF",
-        "club": "왓포드",
+        "club": "FC 장크트파울리",
+        "key": false
+      },
+      {
+        "name": "폴 오콘-엥스틀러",
+        "position": "MF",
+        "club": "시드니 FC",
+        "key": false
+      },
+      {
+        "name": "에이든 오닐",
+        "position": "MF",
+        "club": "뉴욕 시티 FC",
         "key": false
       },
       {
         "name": "네스토리 이란쿤다",
         "position": "FW",
-        "club": "왓포드",
+        "club": "왓퍼드",
         "key": true
       },
       {
+        "name": "매튜 레키",
+        "position": "FW",
+        "club": "멜버른 시티",
+        "key": false
+      },
+      {
+        "name": "아웨르 마빌",
+        "position": "FW",
+        "club": "CD 카스테욘",
+        "key": false
+      },
+      {
+        "name": "모하메드 투레",
+        "position": "FW",
+        "club": "노리치 시티",
+        "key": false
+      },
+      {
+        "name": "니샨 벨루필라이",
+        "position": "FW",
+        "club": "멜버른 빅토리",
+        "key": false
+      },
+      {
         "name": "크리스티안 볼파토",
-        "position": "MF",
-        "club": "로마",
+        "position": "FW",
+        "club": "사수올로",
         "key": true
+      },
+      {
+        "name": "테테 옌기",
+        "position": "FW",
+        "club": "마치다 젤비아",
+        "key": false
       }
     ],
     "injuries": [],
@@ -1257,15 +2523,87 @@
     ],
     "squad": [
       {
-        "name": "알테이 바이인디르",
+        "name": "메르트 귀노크",
+        "position": "GK",
+        "club": "페네르바체",
+        "key": false
+      },
+      {
+        "name": "알타이 바이은드르",
         "position": "GK",
         "club": "맨체스터 유나이티드",
         "key": false
       },
       {
+        "name": "우우르잔 차크르",
+        "position": "GK",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "제키 첼리크",
+        "position": "DF",
+        "club": "AS 로마",
+        "key": false
+      },
+      {
         "name": "메리흐 데미랄",
         "position": "DF",
-        "club": "알 아흘리",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "차얼라르 쇠윈쥐",
+        "position": "DF",
+        "club": "페네르바체",
+        "key": false
+      },
+      {
+        "name": "에렌 엘말르",
+        "position": "DF",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "압둘케림 바르다크츠",
+        "position": "DF",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "오잔 카바크",
+        "position": "DF",
+        "club": "TSG 호펜하임",
+        "key": false
+      },
+      {
+        "name": "메르트 뮐뒤르",
+        "position": "DF",
+        "club": "페네르바체",
+        "key": false
+      },
+      {
+        "name": "페르디 카드오을루",
+        "position": "DF",
+        "club": "브라이턴 앤 호브 앨비언",
+        "key": false
+      },
+      {
+        "name": "사메트 아카이든",
+        "position": "DF",
+        "club": "차이쿠르 리제스포르",
+        "key": false
+      },
+      {
+        "name": "살리흐 외쟌",
+        "position": "MF",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "오르쿤 쾩추",
+        "position": "MF",
+        "club": "베식타시",
         "key": false
       },
       {
@@ -1275,22 +2613,70 @@
         "key": true
       },
       {
-        "name": "아르다 귈레르",
+        "name": "이스마일 윅섹",
         "position": "MF",
+        "club": "페네르바체",
+        "key": false
+      },
+      {
+        "name": "칸 아이한",
+        "position": "MF",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "케렘 악튀르코을루",
+        "position": "FW",
+        "club": "페네르바체",
+        "key": false
+      },
+      {
+        "name": "아르다 귈레르",
+        "position": "FW",
         "club": "레알 마드리드",
         "key": true
       },
       {
+        "name": "데니즈 귈",
+        "position": "FW",
+        "club": "포르투",
+        "key": false
+      },
+      {
         "name": "케난 이을드즈",
-        "position": "MF",
+        "position": "FW",
         "club": "유벤투스",
         "key": true
       },
       {
-        "name": "제키 첼리크",
-        "position": "DF",
-        "club": "AS 로마",
+        "name": "이르판 잔 카흐베지",
+        "position": "FW",
+        "club": "카스음파샤",
         "key": false
+      },
+      {
+        "name": "유누스 아큔",
+        "position": "FW",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "바르쉬 알페르 이을마즈",
+        "position": "FW",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "오우즈 아이든",
+        "position": "FW",
+        "club": "페네르바체",
+        "key": false
+      },
+      {
+        "name": "잔 우준",
+        "position": "FW",
+        "club": "아인트라흐트 프랑크푸르트",
+        "key": true
       }
     ],
     "injuries": [],
@@ -1315,9 +2701,21 @@
     ],
     "squad": [
       {
-        "name": "안토니오 실바",
+        "name": "로베르토 페르난데스",
         "position": "GK",
-        "club": "리베르타드",
+        "club": "세로 포르테뇨",
+        "key": false
+      },
+      {
+        "name": "올란도 힐",
+        "position": "GK",
+        "club": "산 로렌소",
+        "key": false
+      },
+      {
+        "name": "가스통 올베이라",
+        "position": "GK",
+        "club": "올림피아",
         "key": false
       },
       {
@@ -1327,9 +2725,45 @@
         "key": true
       },
       {
+        "name": "주니오르 알론소",
+        "position": "DF",
+        "club": "아틀레티코 미네이루",
+        "key": false
+      },
+      {
+        "name": "파비안 발부에나",
+        "position": "DF",
+        "club": "그레미우",
+        "key": false
+      },
+      {
         "name": "오마르 알데레테",
         "position": "DF",
         "club": "선덜랜드",
+        "key": false
+      },
+      {
+        "name": "후안 카세레스",
+        "position": "DF",
+        "club": "디나모 모스크바",
+        "key": false
+      },
+      {
+        "name": "호세 카날레",
+        "position": "DF",
+        "club": "라누스",
+        "key": false
+      },
+      {
+        "name": "알레한드로 마이다나",
+        "position": "DF",
+        "club": "탈레레스",
+        "key": false
+      },
+      {
+        "name": "구스타보 벨라스케스",
+        "position": "DF",
+        "club": "세로 포르테뇨",
         "key": false
       },
       {
@@ -1339,15 +2773,87 @@
         "key": true
       },
       {
-        "name": "훌리오 엔시소",
-        "position": "FW",
-        "club": "브라이튼 앤 호브 앨비언",
-        "key": true
+        "name": "카쿠",
+        "position": "MF",
+        "club": "알아인",
+        "key": false
+      },
+      {
+        "name": "안드레스 쿠바스",
+        "position": "MF",
+        "club": "밴쿠버 화이트캡스",
+        "key": false
+      },
+      {
+        "name": "라몬 소사",
+        "position": "MF",
+        "club": "팔메이라스",
+        "key": false
+      },
+      {
+        "name": "디에고 고메스",
+        "position": "MF",
+        "club": "브라이턴 앤 호브 앨비언",
+        "key": false
+      },
+      {
+        "name": "다미안 보바디야",
+        "position": "MF",
+        "club": "상파울루 FC",
+        "key": false
+      },
+      {
+        "name": "브라이안 오헤다",
+        "position": "MF",
+        "club": "올란도 시티",
+        "key": false
+      },
+      {
+        "name": "마티아스 갈라르사",
+        "position": "MF",
+        "club": "애틀랜타 유나이티드",
+        "key": false
+      },
+      {
+        "name": "마우리시우",
+        "position": "MF",
+        "club": "팔메이라스",
+        "key": false
       },
       {
         "name": "안토니오 사나브리아",
         "position": "FW",
-        "club": "토리노",
+        "club": "크레모네세",
+        "key": false
+      },
+      {
+        "name": "훌리오 엔시소",
+        "position": "FW",
+        "club": "스트라스부르",
+        "key": true
+      },
+      {
+        "name": "가브리엘 아발로스",
+        "position": "FW",
+        "club": "인데펜디엔테",
+        "key": false
+      },
+      {
+        "name": "알렉스 아르세",
+        "position": "FW",
+        "club": "인데펜디엔테 리바다비아",
+        "key": false
+      },
+      {
+        "name": "이시드로 피타",
+        "position": "FW",
+        "club": "레드불 브라간티누",
+        "key": false
+      },
+      {
+        "name": "구스타보 카발레로",
+        "position": "FW",
+        "club": "포츠머스",
         "key": false
       }
     ],
@@ -1377,10 +2883,106 @@
     ],
     "squad": [
       {
-        "name": "야말 무시알라",
+        "name": "마누엘 노이어",
+        "position": "GK",
+        "club": "바이에른 뮌헨",
+        "key": false
+      },
+      {
+        "name": "올리버 바우만",
+        "position": "GK",
+        "club": "TSG 호펜하임",
+        "key": false
+      },
+      {
+        "name": "알렉산더 뉘벨",
+        "position": "GK",
+        "club": "VfB 슈투트가르트",
+        "key": false
+      },
+      {
+        "name": "안토니오 뤼디거",
+        "position": "DF",
+        "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "발데마르 안톤",
+        "position": "DF",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "조나탄 타",
+        "position": "DF",
+        "club": "바이에른 뮌헨",
+        "key": false
+      },
+      {
+        "name": "파스칼 그로스",
+        "position": "DF",
+        "club": "브라이튼 & 호브 알비온",
+        "key": false
+      },
+      {
+        "name": "니코 슐로터베크",
+        "position": "DF",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "나타니엘 브라운",
+        "position": "DF",
+        "club": "아인트라흐트 프랑크푸르트",
+        "key": false
+      },
+      {
+        "name": "다비드 라움",
+        "position": "DF",
+        "club": "RB 라이프치히",
+        "key": false
+      },
+      {
+        "name": "말리크 티아우",
+        "position": "DF",
+        "club": "뉴캐슬 유나이티드",
+        "key": false
+      },
+      {
+        "name": "알렉산다르 파블로비치",
+        "position": "MF",
+        "club": "바이에른 뮌헨",
+        "key": false
+      },
+      {
+        "name": "요주아 키미히",
         "position": "MF",
         "club": "바이에른 뮌헨",
         "key": true
+      },
+      {
+        "name": "레온 고레츠카",
+        "position": "MF",
+        "club": "바이에른 뮌헨",
+        "key": false
+      },
+      {
+        "name": "자말 무시알라",
+        "position": "MF",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "제이미 루엘링",
+        "position": "MF",
+        "club": "VfB 슈투트가르트",
+        "key": false
+      },
+      {
+        "name": "안젤로 슈틸러",
+        "position": "MF",
+        "club": "VfB 슈투트가르트",
+        "key": false
       },
       {
         "name": "플로리안 비르츠",
@@ -1389,21 +2991,51 @@
         "key": true
       },
       {
-        "name": "조슈아 키미히",
+        "name": "레로이 사네",
         "position": "MF",
-        "club": "바이에른 뮌헨",
-        "key": true
-      },
-      {
-        "name": "안토니오 뤼디거",
-        "position": "DF",
-        "club": "레알 마드리드",
+        "club": "갈라타사라이",
         "key": false
       },
       {
-        "name": "요나탄 타",
-        "position": "DF",
-        "club": "바이에른 뮌헨",
+        "name": "나딤 아미리",
+        "position": "MF",
+        "club": "1. FSV 마인츠 05",
+        "key": false
+      },
+      {
+        "name": "펠릭스 은메차",
+        "position": "MF",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "아산 우에드라오고",
+        "position": "MF",
+        "club": "RB 라이프치히",
+        "key": false
+      },
+      {
+        "name": "카이 하버츠",
+        "position": "FW",
+        "club": "아스날",
+        "key": true
+      },
+      {
+        "name": "닉 볼테마데",
+        "position": "FW",
+        "club": "뉴캐슬 유나이티드",
+        "key": false
+      },
+      {
+        "name": "막시밀리안 바이어",
+        "position": "FW",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "데니스 운다프",
+        "position": "FW",
+        "club": "VfB 슈투트가르트",
         "key": false
       }
     ],
@@ -1435,10 +3067,40 @@
     ],
     "squad": [
       {
-        "name": "모이세스 카이세도",
-        "position": "MF",
-        "club": "첼시",
+        "name": "에르난 갈린데스",
+        "position": "GK",
+        "club": "우라칸",
+        "key": false
+      },
+      {
+        "name": "모이세스 라미레스",
+        "position": "GK",
+        "club": "Kifisia",
+        "key": false
+      },
+      {
+        "name": "곤살로 바예",
+        "position": "GK",
+        "club": "LDU 키토",
+        "key": false
+      },
+      {
+        "name": "펠릭스 토레스",
+        "position": "DF",
+        "club": "인테르나시오나우",
+        "key": false
+      },
+      {
+        "name": "피에로 인카피에",
+        "position": "DF",
+        "club": "아스날",
         "key": true
+      },
+      {
+        "name": "조엘 오르도녜스",
+        "position": "DF",
+        "club": "클럽 브뤼헤",
+        "key": false
       },
       {
         "name": "윌리안 파초",
@@ -1447,22 +3109,118 @@
         "key": true
       },
       {
-        "name": "피에로 인카피에",
+        "name": "페르비스 에스투피냔",
         "position": "DF",
-        "club": "아스날",
+        "club": "AC 밀란",
+        "key": false
+      },
+      {
+        "name": "안헬로 프레시아도",
+        "position": "DF",
+        "club": "아틀레티코 미네이로",
+        "key": false
+      },
+      {
+        "name": "잭슨 포로소",
+        "position": "DF",
+        "club": "티후아나",
+        "key": false
+      },
+      {
+        "name": "호르디 알시바르",
+        "position": "MF",
+        "club": "인디펜디엔테 델 바예",
+        "key": false
+      },
+      {
+        "name": "존 예보아",
+        "position": "MF",
+        "club": "베네치아",
         "key": false
       },
       {
         "name": "켄드리 파에스",
         "position": "MF",
-        "club": "리버 플레이트 (임대)",
+        "club": "리버 플레이트",
         "key": false
       },
       {
-        "name": "에네르 발렌시아",
+        "name": "알란 민다",
+        "position": "MF",
+        "club": "아틀레티코 미네이로",
+        "key": false
+      },
+      {
+        "name": "데닐 카스티요",
+        "position": "MF",
+        "club": "미트윌란",
+        "key": false
+      },
+      {
+        "name": "페드로 비테",
+        "position": "MF",
+        "club": "UNAM",
+        "key": false
+      },
+      {
+        "name": "곤살로 플라타",
+        "position": "MF",
+        "club": "플라멩구",
+        "key": false
+      },
+      {
+        "name": "알란 프랑코",
+        "position": "MF",
+        "club": "아틀레티코 미네이로",
+        "key": false
+      },
+      {
+        "name": "모이세스 카이세도",
+        "position": "MF",
+        "club": "첼시",
+        "key": true
+      },
+      {
+        "name": "야이마르 메디나",
+        "position": "MF",
+        "club": "헨크",
+        "key": false
+      },
+      {
+        "name": "안토니 발렌시아",
+        "position": "FW",
+        "club": "안트베르프",
+        "key": false
+      },
+      {
+        "name": "에너 발렌시아",
         "position": "FW",
         "club": "파추카",
         "key": true
+      },
+      {
+        "name": "호르디 카이세도",
+        "position": "FW",
+        "club": "우라칸",
+        "key": false
+      },
+      {
+        "name": "케빈 로드리게스",
+        "position": "FW",
+        "club": "Union Saint-Gilloise",
+        "key": false
+      },
+      {
+        "name": "닐손 앙굴로",
+        "position": "FW",
+        "club": "선덜랜드",
+        "key": false
+      },
+      {
+        "name": "제레미 아레발로",
+        "position": "FW",
+        "club": "VfB 슈투트가르트",
+        "key": false
       }
     ],
     "injuries": [],
@@ -1491,10 +3249,58 @@
     ],
     "squad": [
       {
-        "name": "프랑크 케시에",
-        "position": "MF",
-        "club": "알 아흘리",
-        "key": true
+        "name": "야히아 포파나",
+        "position": "GK",
+        "club": "Çaykur Rizespor",
+        "key": false
+      },
+      {
+        "name": "알반 라퐁",
+        "position": "GK",
+        "club": "파나티나이코스",
+        "key": false
+      },
+      {
+        "name": "모하메드 코네",
+        "position": "GK",
+        "club": "샤를루아",
+        "key": false
+      },
+      {
+        "name": "게슬랭 코난",
+        "position": "DF",
+        "club": "질 비센테",
+        "key": false
+      },
+      {
+        "name": "오딜롱 코수누",
+        "position": "DF",
+        "club": "아탈란타",
+        "key": false
+      },
+      {
+        "name": "빌프리드 싱고",
+        "position": "DF",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "에반 은디카",
+        "position": "DF",
+        "club": "AS 로마",
+        "key": false
+      },
+      {
+        "name": "에마뉘엘 아그바두",
+        "position": "DF",
+        "club": "베식타스",
+        "key": false
+      },
+      {
+        "name": "겔라 두에",
+        "position": "DF",
+        "club": "스트라스부르",
+        "key": false
       },
       {
         "name": "우스만 디오만데",
@@ -1503,10 +3309,82 @@
         "key": true
       },
       {
+        "name": "클레망 아크파",
+        "position": "DF",
+        "club": "AJ 오세르",
+        "key": false
+      },
+      {
+        "name": "프랑크 케시에",
+        "position": "MF",
+        "club": "알-아흘리",
+        "key": true
+      },
+      {
+        "name": "장 미카엘 세리",
+        "position": "MF",
+        "club": "마리보르",
+        "key": false
+      },
+      {
+        "name": "이브라힘 상가레",
+        "position": "MF",
+        "club": "노팅엄 포레스트",
+        "key": false
+      },
+      {
+        "name": "세코 포파나",
+        "position": "MF",
+        "club": "포르투",
+        "key": false
+      },
+      {
+        "name": "크리스트 이나오 울라이",
+        "position": "MF",
+        "club": "트라브존스포르",
+        "key": false
+      },
+      {
+        "name": "파르페 기아공",
+        "position": "MF",
+        "club": "샤를루아",
+        "key": false
+      },
+      {
+        "name": "바주마나 투레",
+        "position": "FW",
+        "club": "TSG 호펜하임",
+        "key": false
+      },
+      {
+        "name": "니콜라 페페",
+        "position": "FW",
+        "club": "비야레알",
+        "key": false
+      },
+      {
+        "name": "시몽 아딩그라",
+        "position": "FW",
+        "club": "모나코",
+        "key": false
+      },
+      {
+        "name": "에반 게상",
+        "position": "FW",
+        "club": "크리스탈 팰리스",
+        "key": false
+      },
+      {
         "name": "아마드 디알로",
         "position": "FW",
         "club": "맨체스터 유나이티드",
         "key": true
+      },
+      {
+        "name": "우마르 디아키테",
+        "position": "FW",
+        "club": "서클 브뤼헤",
+        "key": false
       },
       {
         "name": "얀 디오만데",
@@ -1515,9 +3393,15 @@
         "key": false
       },
       {
-        "name": "윌프리드 싱고",
-        "position": "DF",
-        "club": "나폴리",
+        "name": "안주-요안 보니",
+        "position": "FW",
+        "club": "인테르 밀란",
+        "key": true
+      },
+      {
+        "name": "엘리에 와이",
+        "position": "FW",
+        "club": "OGC 니스",
         "key": false
       }
     ],
@@ -1547,33 +3431,159 @@
     ],
     "squad": [
       {
-        "name": "레안드로 바쿠나",
-        "position": "MF",
-        "club": "반드르마스포르",
-        "key": true
-      },
-      {
         "name": "엘로이 룸",
         "position": "GK",
-        "club": "무소속",
+        "club": "마이애미 FC",
         "key": false
       },
       {
-        "name": "위르헌 로카디아",
-        "position": "FW",
-        "club": "무소속",
+        "name": "티릭 보다크",
+        "position": "GK",
+        "club": "텔스타르",
+        "key": false
+      },
+      {
+        "name": "트레버 도른부시",
+        "position": "GK",
+        "club": "VVV-벤로",
+        "key": false
+      },
+      {
+        "name": "슈란디 삼보",
+        "position": "DF",
+        "club": "스파르타 로테르담",
+        "key": false
+      },
+      {
+        "name": "유리엔 하리",
+        "position": "DF",
+        "club": "Abha",
+        "key": false
+      },
+      {
+        "name": "로숀 반 에이마",
+        "position": "DF",
+        "club": "RKC 발베이크",
+        "key": false
+      },
+      {
+        "name": "셰렐 플로라누스",
+        "position": "DF",
+        "club": "PEC 즈볼레",
+        "key": false
+      },
+      {
+        "name": "더버런 폰빌",
+        "position": "DF",
+        "club": "NEC 네이메헌",
+        "key": false
+      },
+      {
+        "name": "아르만도 오비스포",
+        "position": "DF",
+        "club": "PSV 에인트호번",
+        "key": false
+      },
+      {
+        "name": "조슈아 브레넷",
+        "position": "DF",
+        "club": "Kayserispor",
+        "key": false
+      },
+      {
+        "name": "리에첼디 바조어르",
+        "position": "DF",
+        "club": "Konyaspor",
+        "key": false
+      },
+      {
+        "name": "레안드로 바쿠나",
+        "position": "MF",
+        "club": "이으디르 FK",
         "key": true
+      },
+      {
+        "name": "주니뇨 바쿠나",
+        "position": "MF",
+        "club": "가지안테프",
+        "key": false
+      },
+      {
+        "name": "고드프리드 루메라토에",
+        "position": "MF",
+        "club": "RKC 발베이크",
+        "key": false
       },
       {
         "name": "리바노 코메넨시아",
         "position": "MF",
-        "club": "미정",
+        "club": "FC 취리히",
         "key": false
       },
       {
-        "name": "주니뉴 바쿠나",
+        "name": "아르야니 마르타",
         "position": "MF",
-        "club": "미정",
+        "club": "로더럼 유나이티드",
+        "key": false
+      },
+      {
+        "name": "타이레스 노슬린",
+        "position": "MF",
+        "club": "텔스타르",
+        "key": false
+      },
+      {
+        "name": "케빈 펠리다",
+        "position": "MF",
+        "club": "덴 보스",
+        "key": false
+      },
+      {
+        "name": "타히스 청",
+        "position": "MF",
+        "club": "셰필드 유나이티드",
+        "key": true
+      },
+      {
+        "name": "위르헌 로카디아",
+        "position": "FW",
+        "club": "마이애미 FC",
+        "key": true
+      },
+      {
+        "name": "제러미 안토니스",
+        "position": "FW",
+        "club": "Kifisia",
+        "key": false
+      },
+      {
+        "name": "손체 한센",
+        "position": "FW",
+        "club": "미들즈브러",
+        "key": false
+      },
+      {
+        "name": "켄지 고레",
+        "position": "FW",
+        "club": "마카비 하이파",
+        "key": false
+      },
+      {
+        "name": "제아를 마르가리타",
+        "position": "FW",
+        "club": "베베런",
+        "key": false
+      },
+      {
+        "name": "브랜들리 쿠바스",
+        "position": "FW",
+        "club": "볼렌담",
+        "key": false
+      },
+      {
+        "name": "헤르반 카스타네어",
+        "position": "FW",
+        "club": "테렝가누 FC",
         "key": false
       }
     ],
@@ -1605,33 +3615,159 @@
     ],
     "squad": [
       {
-        "name": "피르힐 판다이크",
+        "name": "마르크 플레켄",
+        "position": "GK",
+        "club": "바이어 레버쿠젠",
+        "key": false
+      },
+      {
+        "name": "로빈 루이프스",
+        "position": "GK",
+        "club": "선덜랜드",
+        "key": false
+      },
+      {
+        "name": "바르트 페르브뤼헨",
+        "position": "GK",
+        "club": "브라이튼 & 호브 알비온",
+        "key": false
+      },
+      {
+        "name": "나탄 아케",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": false
+      },
+      {
+        "name": "덴절 덤프리스",
+        "position": "DF",
+        "club": "인테르 밀란",
+        "key": false
+      },
+      {
+        "name": "요렐 하토",
+        "position": "DF",
+        "club": "첼시",
+        "key": false
+      },
+      {
+        "name": "뤼트샤렐 허르트루이다",
+        "position": "DF",
+        "club": "RB 라이프치히",
+        "key": false
+      },
+      {
+        "name": "얀 파울 판 헤케",
+        "position": "DF",
+        "club": "브라이튼 & 호브 알비온",
+        "key": false
+      },
+      {
+        "name": "미키 판 더 펜",
+        "position": "DF",
+        "club": "토트넘 홋스퍼",
+        "key": false
+      },
+      {
+        "name": "페르힐 판 다이크",
         "position": "DF",
         "club": "리버풀",
         "key": true
       },
       {
-        "name": "프렝키 더용",
+        "name": "프렝키 더 용",
         "position": "MF",
         "club": "바르셀로나",
         "key": true
       },
       {
-        "name": "코디 가크포",
+        "name": "마르턴 더 룬",
+        "position": "MF",
+        "club": "아탈란타",
+        "key": false
+      },
+      {
+        "name": "라이언 흐라번베르흐",
+        "position": "MF",
+        "club": "리버풀",
+        "key": false
+      },
+      {
+        "name": "테운 쿠프마이너르스",
+        "position": "MF",
+        "club": "유벤투스",
+        "key": false
+      },
+      {
+        "name": "테이야니 레인더르스",
+        "position": "MF",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "휘스 틸",
+        "position": "MF",
+        "club": "PSV 에인트호번",
+        "key": false
+      },
+      {
+        "name": "쿠인텐 팀베르",
+        "position": "MF",
+        "club": "마르세유",
+        "key": false
+      },
+      {
+        "name": "마츠 비퍼르",
+        "position": "MF",
+        "club": "브라이튼 & 호브 알비온",
+        "key": false
+      },
+      {
+        "name": "브라이언 브로베이",
+        "position": "FW",
+        "club": "선덜랜드",
+        "key": false
+      },
+      {
+        "name": "멤피스 데파이",
+        "position": "FW",
+        "club": "코린치안스",
+        "key": false
+      },
+      {
+        "name": "코디 각포",
         "position": "FW",
         "club": "리버풀",
         "key": true
       },
       {
-        "name": "멤피스 데파이",
+        "name": "쥐스팅 클루이베르트",
         "position": "FW",
-        "club": "코린티안스",
+        "club": "AFC 본머스",
         "key": false
       },
       {
-        "name": "미키 판더벤",
-        "position": "DF",
-        "club": "토트넘 홋스퍼",
+        "name": "노아 랑",
+        "position": "FW",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "도니엘 말런",
+        "position": "FW",
+        "club": "AS 로마",
+        "key": false
+      },
+      {
+        "name": "크리센시오 수메르빌",
+        "position": "FW",
+        "club": "웨스트햄 유나이티드",
+        "key": false
+      },
+      {
+        "name": "바우트 베호르스트",
+        "position": "FW",
+        "club": "아약스",
         "key": false
       }
     ],
@@ -1667,16 +3803,136 @@
     ],
     "squad": [
       {
-        "name": "구보 다케후사",
+        "name": "스즈키 지온",
+        "position": "GK",
+        "club": "파르마",
+        "key": false
+      },
+      {
+        "name": "오사코 게이스케",
+        "position": "GK",
+        "club": "산프레체 히로시마",
+        "key": false
+      },
+      {
+        "name": "하야카와 도모키",
+        "position": "GK",
+        "club": "가시마 앤틀러스",
+        "key": false
+      },
+      {
+        "name": "나가토모 유토",
+        "position": "DF",
+        "club": "FC 도쿄",
+        "key": false
+      },
+      {
+        "name": "다니구치 쇼고",
+        "position": "DF",
+        "club": "Sint-Truidense VV",
+        "key": false
+      },
+      {
+        "name": "와타나베 쓰요시",
+        "position": "DF",
+        "club": "페예노르트",
+        "key": false
+      },
+      {
+        "name": "스즈키 준노스케",
+        "position": "DF",
+        "club": "FC 코펜하겐",
+        "key": false
+      },
+      {
+        "name": "이토 히로키",
+        "position": "DF",
+        "club": "바이에른 뮌헨",
+        "key": false
+      },
+      {
+        "name": "이타쿠라 코",
+        "position": "DF",
+        "club": "아약스",
+        "key": false
+      },
+      {
+        "name": "도미야스 다케히로",
+        "position": "DF",
+        "club": "아약스",
+        "key": false
+      },
+      {
+        "name": "세코 아유무",
+        "position": "DF",
+        "club": "Le Havre AC",
+        "key": false
+      },
+      {
+        "name": "스가와라 유키나리",
+        "position": "DF",
+        "club": "베르더 브레멘",
+        "key": false
+      },
+      {
+        "name": "가마다 다이치",
+        "position": "MF",
+        "club": "크리스탈 팰리스",
+        "key": false
+      },
+      {
+        "name": "사노 카이슈",
+        "position": "MF",
+        "club": "1. FSV 마인츠 05",
+        "key": false
+      },
+      {
+        "name": "다나카 아오",
+        "position": "MF",
+        "club": "리즈 유나이티드",
+        "key": false
+      },
+      {
+        "name": "마치노 슈토",
+        "position": "MF",
+        "club": "보루시아 묀헨글라트바흐",
+        "key": false
+      },
+      {
+        "name": "이토 준야",
+        "position": "MF",
+        "club": "KRC 헨크",
+        "key": false
+      },
+      {
+        "name": "도안 리쓰",
+        "position": "MF",
+        "club": "아인트라흐트 프랑크푸르트",
+        "key": true
+      },
+      {
+        "name": "나카무라 게이토",
+        "position": "MF",
+        "club": "스타드 드 랭스",
+        "key": false
+      },
+      {
+        "name": "쿠보 다케후사",
         "position": "MF",
         "club": "레알 소시에다드",
         "key": true
       },
       {
-        "name": "카마다 다이치",
-        "position": "MF",
-        "club": "크리스탈 팰리스",
-        "key": true
+        "name": "스즈키 유이토",
+        "position": "FW",
+        "club": "SC 프라이부르크",
+        "key": false
+      },
+      {
+        "name": "마에다 다이젠",
+        "position": "FW",
+        "club": "셀틱",
+        "key": false
       },
       {
         "name": "우에다 아야세",
@@ -1685,15 +3941,21 @@
         "key": true
       },
       {
-        "name": "나카무라 게이토",
-        "position": "MF",
-        "club": "랭스",
+        "name": "오가와 고키",
+        "position": "FW",
+        "club": "NEC 네이메헌",
         "key": false
       },
       {
-        "name": "이타쿠라 코",
-        "position": "DF",
-        "club": "아약스",
+        "name": "고토 게이스케",
+        "position": "FW",
+        "club": "Sint-Truidense VV",
+        "key": false
+      },
+      {
+        "name": "시오가이 겐토",
+        "position": "FW",
+        "club": "VfL 볼프스부르크",
         "key": false
       }
     ],
@@ -1728,16 +3990,52 @@
     ],
     "squad": [
       {
-        "name": "빅토르 요쾨레스",
-        "position": "FW",
-        "club": "아스날",
-        "key": true
+        "name": "빅토르 요한손",
+        "position": "GK",
+        "club": "스토크 시티",
+        "key": false
       },
       {
-        "name": "알렉산데르 이삭",
-        "position": "FW",
-        "club": "리버풀",
-        "key": true
+        "name": "크리스토페르 노르드펠트",
+        "position": "GK",
+        "club": "AIK 푸트볼",
+        "key": false
+      },
+      {
+        "name": "야코브 비델 제터스트롬",
+        "position": "GK",
+        "club": "더비 카운티",
+        "key": false
+      },
+      {
+        "name": "얄마르 에크달",
+        "position": "DF",
+        "club": "번리",
+        "key": false
+      },
+      {
+        "name": "가브리엘 구드문손",
+        "position": "DF",
+        "club": "리즈 유나이티드",
+        "key": false
+      },
+      {
+        "name": "이사크 히엔",
+        "position": "DF",
+        "club": "아탈란타",
+        "key": false
+      },
+      {
+        "name": "헤르만 요한손",
+        "position": "DF",
+        "club": "FC 댈러스",
+        "key": false
+      },
+      {
+        "name": "구스타프 라게르비엘케",
+        "position": "DF",
+        "club": "SC 브라가",
+        "key": false
       },
       {
         "name": "빅토르 린델뢰프",
@@ -1746,15 +4044,105 @@
         "key": false
       },
       {
-        "name": "루카스 베르그발",
+        "name": "에릭 스미스",
+        "position": "DF",
+        "club": "FC 장크트 파울리",
+        "key": false
+      },
+      {
+        "name": "칼 스타르펠트",
+        "position": "DF",
+        "club": "셀타 비고",
+        "key": false
+      },
+      {
+        "name": "엘리엇 스트루드",
+        "position": "DF",
+        "club": "묄뷔 AIF",
+        "key": false
+      },
+      {
+        "name": "다니엘 스벤손",
+        "position": "DF",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "타하 알리",
+        "position": "MF",
+        "club": "말뫼 FF",
+        "key": false
+      },
+      {
+        "name": "야신 아야리",
+        "position": "MF",
+        "club": "브라이튼 & 호브 알비온",
+        "key": false
+      },
+      {
+        "name": "루카스 베르크발",
         "position": "MF",
         "club": "토트넘 홋스퍼",
+        "key": false
+      },
+      {
+        "name": "예스페르 칼스트롬",
+        "position": "MF",
+        "club": "우디네세",
+        "key": false
+      },
+      {
+        "name": "벤야민 뉘그렌",
+        "position": "MF",
+        "club": "셀틱",
+        "key": false
+      },
+      {
+        "name": "켄 세마",
+        "position": "MF",
+        "club": "파포스",
+        "key": false
+      },
+      {
+        "name": "마티아스 스반베리",
+        "position": "MF",
+        "club": "VfL 볼프스부르크",
+        "key": false
+      },
+      {
+        "name": "베스포르트 제넬리",
+        "position": "MF",
+        "club": "Union Saint-Gilloise",
+        "key": false
+      },
+      {
+        "name": "알렉산데르 베른하르손",
+        "position": "FW",
+        "club": "홀슈타인 킬",
+        "key": false
+      },
+      {
+        "name": "안소니 엘랑가",
+        "position": "FW",
+        "club": "뉴캐슬 유나이티드",
+        "key": false
+      },
+      {
+        "name": "빅토르 요케레스",
+        "position": "FW",
+        "club": "아스날",
         "key": true
       },
       {
-        "name": "앤서니 엘랑가",
+        "name": "알렉산데르 이사크",
         "position": "FW",
-        "club": "뉴캐슬 유나이티드",
+        "club": "리버풀",
+        "key": true
+      },
+      {
+        "name": "구스타프 닐손",
+        "position": "FW",
+        "club": "클럽 브뤼헤",
         "key": false
       }
     ],
@@ -1784,16 +4172,64 @@
     ],
     "squad": [
       {
-        "name": "엘리에스 스키리",
-        "position": "MF",
-        "club": "아인트라흐트 프랑크푸르트",
-        "key": true
+        "name": "사브리 벤 헤센",
+        "position": "GK",
+        "club": "에투알 뒤 사엘",
+        "key": false
       },
       {
-        "name": "한니발 메즈브리",
-        "position": "MF",
-        "club": "번리",
-        "key": true
+        "name": "압델무히브 샤마크",
+        "position": "GK",
+        "club": "클럽 아프리캥",
+        "key": false
+      },
+      {
+        "name": "아이멘 다만",
+        "position": "GK",
+        "club": "CS 스팍시엔",
+        "key": false
+      },
+      {
+        "name": "알리 아브디",
+        "position": "DF",
+        "club": "OGC 니스",
+        "key": false
+      },
+      {
+        "name": "아뎀 아루스",
+        "position": "DF",
+        "club": "카슴파샤",
+        "key": false
+      },
+      {
+        "name": "모하메드 아민 벤 하미다",
+        "position": "DF",
+        "club": "에스페랑스",
+        "key": false
+      },
+      {
+        "name": "딜런 브롱",
+        "position": "DF",
+        "club": "세르베트 제네바",
+        "key": false
+      },
+      {
+        "name": "라에드 치카우이",
+        "position": "DF",
+        "club": "US 모나스티르",
+        "key": false
+      },
+      {
+        "name": "무타즈 네파티",
+        "position": "DF",
+        "club": "노르셰핑",
+        "key": false
+      },
+      {
+        "name": "오마르 레키크",
+        "position": "DF",
+        "club": "NK 마리보르",
+        "key": false
       },
       {
         "name": "몬타사르 탈비",
@@ -1802,16 +4238,94 @@
         "key": false
       },
       {
-        "name": "아니스 벤 슬리마네",
+        "name": "얀 발레리",
+        "position": "DF",
+        "club": "BSC 영 보이스",
+        "key": false
+      },
+      {
+        "name": "모르타다 벤 우안스",
+        "position": "MF",
+        "club": "카슴파샤",
+        "key": false
+      },
+      {
+        "name": "아니스 벤 슬리만",
         "position": "MF",
         "club": "노리치 시티",
         "key": false
       },
       {
-        "name": "이스마일 가르비",
+        "name": "이스마엘 가르비",
         "position": "MF",
         "club": "FC 아우크스부르크",
+        "key": false
+      },
+      {
+        "name": "라니 케디라",
+        "position": "MF",
+        "club": "우니온 베를린",
+        "key": false
+      },
+      {
+        "name": "모하메드 하지 마흐무드",
+        "position": "MF",
+        "club": "FC 루가노",
+        "key": false
+      },
+      {
+        "name": "한니발 메즈브리",
+        "position": "MF",
+        "club": "번리",
         "key": true
+      },
+      {
+        "name": "엘리에스 스키리",
+        "position": "MF",
+        "club": "아인트라흐트 프랑크푸르트",
+        "key": true
+      },
+      {
+        "name": "엘리아스 아추리",
+        "position": "FW",
+        "club": "FC 코펜하겐",
+        "key": false
+      },
+      {
+        "name": "할릴 아야리",
+        "position": "FW",
+        "club": "파리 생제르맹",
+        "key": false
+      },
+      {
+        "name": "피라스 샤우아트",
+        "position": "FW",
+        "club": "클럽 아프리캥",
+        "key": false
+      },
+      {
+        "name": "라얀 엘루미",
+        "position": "FW",
+        "club": "밴쿠버 화이트캡스",
+        "key": false
+      },
+      {
+        "name": "하젬 마스투리",
+        "position": "FW",
+        "club": "디나모 마하치칼라",
+        "key": false
+      },
+      {
+        "name": "엘리아스 사아드",
+        "position": "FW",
+        "club": "하노버 96",
+        "key": false
+      },
+      {
+        "name": "세바스티안 투네크티",
+        "position": "FW",
+        "club": "셀틱",
+        "key": false
       }
     ],
     "injuries": [],
@@ -1843,19 +4357,115 @@
         "name": "티보 쿠르투아",
         "position": "GK",
         "club": "레알 마드리드",
+        "key": true
+      },
+      {
+        "name": "세네 람멘스",
+        "position": "GK",
+        "club": "맨체스터 유나이티드",
         "key": false
       },
       {
-        "name": "케빈 드 브라위너",
+        "name": "마이크 펜더스",
+        "position": "GK",
+        "club": "스트라스부르",
+        "key": false
+      },
+      {
+        "name": "티모시 카스타뉴",
+        "position": "DF",
+        "club": "풀럼",
+        "key": false
+      },
+      {
+        "name": "제노 데바스트",
+        "position": "DF",
+        "club": "스포르팅 CP",
+        "key": false
+      },
+      {
+        "name": "막심 드 카위퍼르",
+        "position": "DF",
+        "club": "브라이튼",
+        "key": false
+      },
+      {
+        "name": "코니 드 윈터",
+        "position": "DF",
+        "club": "AC 밀란",
+        "key": false
+      },
+      {
+        "name": "브랜든 메셸레",
+        "position": "DF",
+        "club": "클럽 브뤼헤",
+        "key": false
+      },
+      {
+        "name": "토마스 뫼니에",
+        "position": "DF",
+        "club": "릴",
+        "key": false
+      },
+      {
+        "name": "나탄 응고이",
+        "position": "DF",
+        "club": "릴",
+        "key": false
+      },
+      {
+        "name": "호아킨 세이스",
+        "position": "DF",
+        "club": "클럽 브뤼헤",
+        "key": false
+      },
+      {
+        "name": "아르튀르 테아테",
+        "position": "DF",
+        "club": "아인트라흐트 프랑크푸르트",
+        "key": false
+      },
+      {
+        "name": "케빈 데 브라위너",
         "position": "MF",
         "club": "나폴리",
         "key": true
       },
       {
-        "name": "로멜루 루카쿠",
+        "name": "아마두 오나나",
+        "position": "MF",
+        "club": "아스톤 빌라",
+        "key": false
+      },
+      {
+        "name": "니콜라 라스킨",
+        "position": "MF",
+        "club": "레인저스",
+        "key": false
+      },
+      {
+        "name": "유리 틸레만스",
+        "position": "MF",
+        "club": "아스톤 빌라",
+        "key": false
+      },
+      {
+        "name": "한스 바나컨",
+        "position": "MF",
+        "club": "클럽 브뤼헤",
+        "key": false
+      },
+      {
+        "name": "악셀 비트셀",
+        "position": "MF",
+        "club": "지로나",
+        "key": false
+      },
+      {
+        "name": "샤를 드 케텔라에레",
         "position": "FW",
-        "club": "나폴리",
-        "key": true
+        "club": "아탈란타",
+        "key": false
       },
       {
         "name": "제레미 도쿠",
@@ -1864,15 +4474,39 @@
         "key": true
       },
       {
-        "name": "아마두 오나나",
-        "position": "MF",
-        "club": "에버턴",
+        "name": "마티아스 페르난데스파르도",
+        "position": "FW",
+        "club": "릴",
         "key": false
       },
       {
-        "name": "유리 티에레망",
-        "position": "MF",
-        "club": "아스톤 빌라",
+        "name": "로멜루 루카쿠",
+        "position": "FW",
+        "club": "나폴리",
+        "key": true
+      },
+      {
+        "name": "도디 뤼케바키오",
+        "position": "FW",
+        "club": "벤피카",
+        "key": false
+      },
+      {
+        "name": "디에고 모레이라",
+        "position": "FW",
+        "club": "스트라스부르",
+        "key": false
+      },
+      {
+        "name": "알렉시스 살레마커르스",
+        "position": "FW",
+        "club": "AC 밀란",
+        "key": false
+      },
+      {
+        "name": "레안드로 트로사르",
+        "position": "FW",
+        "club": "아스널",
         "key": false
       }
     ],
@@ -1905,9 +4539,129 @@
     ],
     "squad": [
       {
-        "name": "무함마드 엘 셰나위",
+        "name": "모하메드 엘셰나위",
         "position": "GK",
-        "club": "알 아흘리",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "엘마디 솔리만",
+        "position": "GK",
+        "club": "자말레크",
+        "key": false
+      },
+      {
+        "name": "모스타파 쇼베이르",
+        "position": "GK",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "모하메드 알라",
+        "position": "GK",
+        "club": "엘 구나",
+        "key": false
+      },
+      {
+        "name": "야세르 이브라힘",
+        "position": "DF",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "모하메드 하니",
+        "position": "DF",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "호삼 압델마지드",
+        "position": "DF",
+        "club": "자말레크",
+        "key": false
+      },
+      {
+        "name": "라미 라비아",
+        "position": "DF",
+        "club": "알 아인",
+        "key": false
+      },
+      {
+        "name": "모하메드 압델모넴",
+        "position": "DF",
+        "club": "OGC 니스",
+        "key": false
+      },
+      {
+        "name": "아흐메드 파투흐",
+        "position": "DF",
+        "club": "자말레크",
+        "key": false
+      },
+      {
+        "name": "카림 하페즈",
+        "position": "DF",
+        "club": "피라미즈",
+        "key": false
+      },
+      {
+        "name": "타렉 알라",
+        "position": "DF",
+        "club": "ZED FC",
+        "key": false
+      },
+      {
+        "name": "에맘 아슈르",
+        "position": "MF",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "모스타파 지코",
+        "position": "MF",
+        "club": "피라미즈",
+        "key": false
+      },
+      {
+        "name": "함디 파티",
+        "position": "MF",
+        "club": "알와크라",
+        "key": false
+      },
+      {
+        "name": "모하나드 라신",
+        "position": "MF",
+        "club": "피라미즈",
+        "key": false
+      },
+      {
+        "name": "나빌 에마드",
+        "position": "MF",
+        "club": "알나즈마",
+        "key": false
+      },
+      {
+        "name": "마르완 아티아",
+        "position": "MF",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "마무드 사베르",
+        "position": "MF",
+        "club": "ZED FC",
+        "key": false
+      },
+      {
+        "name": "트레제게",
+        "position": "FW",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "함자 압델카림",
+        "position": "FW",
+        "club": "바르셀로나 B",
         "key": false
       },
       {
@@ -1917,27 +4671,27 @@
         "key": true
       },
       {
+        "name": "하이셈 하산",
+        "position": "FW",
+        "club": "레알 오비에도",
+        "key": false
+      },
+      {
+        "name": "이브라힘 아델",
+        "position": "FW",
+        "club": "노르셸란",
+        "key": false
+      },
+      {
         "name": "오마르 마르무시",
         "position": "FW",
         "club": "맨체스터 시티",
         "key": true
       },
       {
-        "name": "이맘 아슈르",
-        "position": "MF",
-        "club": "알 아흘리",
-        "key": true
-      },
-      {
-        "name": "마흐무드 하산 트레제게",
+        "name": "지조",
         "position": "FW",
-        "club": "트라브존스포르",
-        "key": false
-      },
-      {
-        "name": "오마르 가베르",
-        "position": "MF",
-        "club": "알 아흘리",
+        "club": "알아흘리",
         "key": false
       }
     ],
@@ -1971,7 +4725,151 @@
       {
         "name": "알리레자 베이란반드",
         "position": "GK",
-        "club": "안트베르펜",
+        "club": "트랙터",
+        "key": false
+      },
+      {
+        "name": "호세인 호세이니",
+        "position": "GK",
+        "club": "세파한",
+        "key": false
+      },
+      {
+        "name": "파얌 니아즈만드",
+        "position": "GK",
+        "club": "페르세폴리스",
+        "key": false
+      },
+      {
+        "name": "알리 네마티",
+        "position": "DF",
+        "club": "풀라드",
+        "key": false
+      },
+      {
+        "name": "쇼자에 할릴자데",
+        "position": "DF",
+        "club": "트랙터",
+        "key": false
+      },
+      {
+        "name": "호세인 카나니자데간",
+        "position": "DF",
+        "club": "페르세폴리스",
+        "key": false
+      },
+      {
+        "name": "다니알 에이리",
+        "position": "DF",
+        "club": "말라반 반다르 안잘리",
+        "key": false
+      },
+      {
+        "name": "에흐산 하지사피",
+        "position": "DF",
+        "club": "세파한",
+        "key": false
+      },
+      {
+        "name": "밀라드 모하마디",
+        "position": "DF",
+        "club": "페르세폴리스",
+        "key": false
+      },
+      {
+        "name": "살레흐 하르다니",
+        "position": "DF",
+        "club": "에스테글랄",
+        "key": false
+      },
+      {
+        "name": "라민 레자에이안",
+        "position": "DF",
+        "club": "풀라드",
+        "key": false
+      },
+      {
+        "name": "모하마드 모헤비",
+        "position": "MF",
+        "club": "로스토프",
+        "key": false
+      },
+      {
+        "name": "메흐디 가예디",
+        "position": "MF",
+        "club": "알나스르",
+        "key": false
+      },
+      {
+        "name": "사만 고도스",
+        "position": "MF",
+        "club": "칼바",
+        "key": false
+      },
+      {
+        "name": "모하마드 고르바니",
+        "position": "MF",
+        "club": "알 와다",
+        "key": false
+      },
+      {
+        "name": "메흐디 토라비",
+        "position": "MF",
+        "club": "트랙터",
+        "key": false
+      },
+      {
+        "name": "아미르 라자그니아",
+        "position": "MF",
+        "club": "에스테글랄",
+        "key": false
+      },
+      {
+        "name": "루즈베 체시미",
+        "position": "MF",
+        "club": "에스테글랄",
+        "key": false
+      },
+      {
+        "name": "알리레자 자한바흐시",
+        "position": "MF",
+        "club": "FCV 덴데르",
+        "key": true
+      },
+      {
+        "name": "아리아 유세피",
+        "position": "MF",
+        "club": "세파한",
+        "key": false
+      },
+      {
+        "name": "사이드 에자톨라히",
+        "position": "MF",
+        "club": "샤밥 알아흘리",
+        "key": false
+      },
+      {
+        "name": "알리 알리푸르",
+        "position": "FW",
+        "club": "페르세폴리스",
+        "key": false
+      },
+      {
+        "name": "샤흐리야르 모간루",
+        "position": "FW",
+        "club": "칼바",
+        "key": false
+      },
+      {
+        "name": "아미르호세인 호세인자데",
+        "position": "FW",
+        "club": "트랙터",
+        "key": false
+      },
+      {
+        "name": "데니스 에커트",
+        "position": "FW",
+        "club": "스탕다르 리에주",
         "key": false
       },
       {
@@ -1979,30 +4877,6 @@
         "position": "FW",
         "club": "올림피아코스",
         "key": true
-      },
-      {
-        "name": "알리레자 자한박쉬",
-        "position": "MF",
-        "club": "알 에티파크",
-        "key": true
-      },
-      {
-        "name": "메흐디 가예디",
-        "position": "MF",
-        "club": "카라박",
-        "key": false
-      },
-      {
-        "name": "아미르호세인 호세인자데",
-        "position": "FW",
-        "club": "포르투",
-        "key": true
-      },
-      {
-        "name": "루즈베 체시미",
-        "position": "DF",
-        "club": "에스테그랄",
-        "key": false
       }
     ],
     "injuries": [
@@ -2035,9 +4909,135 @@
     ],
     "squad": [
       {
-        "name": "맥스 크로콤브",
+        "name": "맥스 크로컴",
         "position": "GK",
-        "club": "보르도",
+        "club": "밀월 FC",
+        "key": false
+      },
+      {
+        "name": "마이클 워드",
+        "position": "GK",
+        "club": "오클랜드 FC",
+        "key": false
+      },
+      {
+        "name": "알렉스 폴슨",
+        "position": "GK",
+        "club": "레히아 그단스크",
+        "key": false
+      },
+      {
+        "name": "팀 페인",
+        "position": "DF",
+        "club": "웰링턴 피닉스",
+        "key": false
+      },
+      {
+        "name": "프란시스 드 브리스",
+        "position": "DF",
+        "club": "오클랜드 FC",
+        "key": false
+      },
+      {
+        "name": "타일러 빈든",
+        "position": "DF",
+        "club": "노팅엄 포레스트",
+        "key": false
+      },
+      {
+        "name": "마이클 복살",
+        "position": "DF",
+        "club": "미네소타 유나이티드",
+        "key": false
+      },
+      {
+        "name": "리베라토 카카체",
+        "position": "DF",
+        "club": "렉섬 AFC",
+        "key": false
+      },
+      {
+        "name": "난도 페이나커르",
+        "position": "DF",
+        "club": "오클랜드 FC",
+        "key": false
+      },
+      {
+        "name": "핀 서먼",
+        "position": "DF",
+        "club": "포틀랜드 팀버스",
+        "key": false
+      },
+      {
+        "name": "라클란 베일리스",
+        "position": "DF",
+        "club": "뉴캐슬 제츠",
+        "key": false
+      },
+      {
+        "name": "토미 스미스",
+        "position": "DF",
+        "club": "브레인트리 타운",
+        "key": false
+      },
+      {
+        "name": "라이언 토머스",
+        "position": "DF",
+        "club": "PEC 즈볼레",
+        "key": false
+      },
+      {
+        "name": "조 벨",
+        "position": "MF",
+        "club": "바이킹 FK",
+        "key": false
+      },
+      {
+        "name": "마르코 스타메니치",
+        "position": "MF",
+        "club": "스완지 시티",
+        "key": false
+      },
+      {
+        "name": "알렉스 루퍼르",
+        "position": "MF",
+        "club": "웰링턴 피닉스",
+        "key": false
+      },
+      {
+        "name": "사르프릿 싱",
+        "position": "MF",
+        "club": "웰링턴 피닉스",
+        "key": false
+      },
+      {
+        "name": "엘리 저스트",
+        "position": "MF",
+        "club": "머더웰 FC",
+        "key": false
+      },
+      {
+        "name": "콜럼 매커왓",
+        "position": "MF",
+        "club": "실케보르 IF",
+        "key": false
+      },
+      {
+        "name": "제시 란달",
+        "position": "MF",
+        "club": "오클랜드 FC",
+        "key": false
+      },
+      {
+        "name": "맷 가벳",
+        "position": "MF",
+        "club": "피터버러 유나이티드",
+        "key": false
+      },
+      {
+        "name": "칼란 엘리엇",
+        "position": "MF",
+        "club": "오클랜드 FC",
         "key": false
       },
       {
@@ -2047,27 +5047,21 @@
         "key": true
       },
       {
-        "name": "리베라토 카카체",
-        "position": "DF",
-        "club": "엠폴리",
-        "key": true
-      },
-      {
-        "name": "조 벨",
-        "position": "MF",
-        "club": "허더즈필드 타운",
-        "key": true
-      },
-      {
-        "name": "벤 올드",
-        "position": "MF",
-        "club": "파르마",
+        "name": "코스타 바르바루세스",
+        "position": "FW",
+        "club": "웨스턴 시드니 원더러스",
         "key": false
       },
       {
-        "name": "마이클 복살",
-        "position": "DF",
-        "club": "내슈빌 SC",
+        "name": "벤 올드",
+        "position": "FW",
+        "club": "생테티엔",
+        "key": false
+      },
+      {
+        "name": "벤 웨인",
+        "position": "FW",
+        "club": "포트 베일",
         "key": false
       }
     ],
@@ -2099,9 +5093,93 @@
     ],
     "squad": [
       {
+        "name": "우나이 시몬",
+        "position": "GK",
+        "club": "아틀레틱 클루브",
+        "key": false
+      },
+      {
         "name": "다비드 라야",
         "position": "GK",
         "club": "아스널",
+        "key": false
+      },
+      {
+        "name": "조안 가르시아",
+        "position": "GK",
+        "club": "바르셀로나",
+        "key": false
+      },
+      {
+        "name": "파우 쿠바르시",
+        "position": "DF",
+        "club": "바르셀로나",
+        "key": false
+      },
+      {
+        "name": "마르크 쿠쿠렐라",
+        "position": "DF",
+        "club": "첼시",
+        "key": false
+      },
+      {
+        "name": "에릭 가르시아",
+        "position": "DF",
+        "club": "바르셀로나",
+        "key": false
+      },
+      {
+        "name": "마르코스 요렌테",
+        "position": "DF",
+        "club": "아틀레티코 마드리드",
+        "key": false
+      },
+      {
+        "name": "알레한드로 그리말도",
+        "position": "DF",
+        "club": "바이어 레버쿠젠",
+        "key": false
+      },
+      {
+        "name": "페드로 포로",
+        "position": "DF",
+        "club": "토트넘 홋스퍼",
+        "key": false
+      },
+      {
+        "name": "마르크 푸빌",
+        "position": "DF",
+        "club": "아틀레티코 마드리드",
+        "key": false
+      },
+      {
+        "name": "에메리크 라포르트",
+        "position": "DF",
+        "club": "아틀레틱 클루브",
+        "key": false
+      },
+      {
+        "name": "페드리",
+        "position": "MF",
+        "club": "바르셀로나",
+        "key": true
+      },
+      {
+        "name": "파비안 루이스",
+        "position": "MF",
+        "club": "파리 생제르맹",
+        "key": false
+      },
+      {
+        "name": "마르틴 수비멘디",
+        "position": "MF",
+        "club": "아스널",
+        "key": false
+      },
+      {
+        "name": "가비",
+        "position": "MF",
+        "club": "바르셀로나",
         "key": false
       },
       {
@@ -2111,27 +5189,63 @@
         "key": true
       },
       {
+        "name": "알렉스 바에나",
+        "position": "MF",
+        "club": "아틀레티코 마드리드",
+        "key": false
+      },
+      {
+        "name": "미켈 메리노",
+        "position": "MF",
+        "club": "아스널",
+        "key": false
+      },
+      {
         "name": "라미네 야말",
         "position": "FW",
-        "club": "FC 바르셀로나",
+        "club": "바르셀로나",
         "key": true
       },
       {
-        "name": "페드리",
-        "position": "MF",
-        "club": "FC 바르셀로나",
+        "name": "니코 윌리엄스",
+        "position": "FW",
+        "club": "아틀레틱 클루브",
+        "key": true
+      },
+      {
+        "name": "빅토르 무뇨스",
+        "position": "FW",
+        "club": "오사수나",
+        "key": false
+      },
+      {
+        "name": "페란 토레스",
+        "position": "FW",
+        "club": "바르셀로나",
+        "key": false
+      },
+      {
+        "name": "예레미 피노",
+        "position": "FW",
+        "club": "크리스털 팰리스",
+        "key": false
+      },
+      {
+        "name": "보르하 이글레시아스",
+        "position": "FW",
+        "club": "셀타 비고",
+        "key": false
+      },
+      {
+        "name": "다니 올모",
+        "position": "FW",
+        "club": "바르셀로나",
         "key": true
       },
       {
         "name": "미켈 오야르사발",
         "position": "FW",
         "club": "레알 소시에다드",
-        "key": false
-      },
-      {
-        "name": "막 쿠쿠렐라",
-        "position": "DF",
-        "club": "첼시",
         "key": false
       }
     ],
@@ -2166,25 +5280,49 @@
       {
         "name": "보지냐",
         "position": "GK",
-        "club": "코임브라",
-        "key": true
+        "club": "샤베스",
+        "key": false
       },
       {
-        "name": "라이언 멘데스",
-        "position": "FW",
-        "club": "이으드르 FK",
-        "key": true
+        "name": "마르시우 로사",
+        "position": "GK",
+        "club": "Montana",
+        "key": false
       },
       {
-        "name": "다일론 로차 리바마투",
-        "position": "FW",
-        "club": "알바세테",
-        "key": true
+        "name": "CJ 도스 산토스",
+        "position": "GK",
+        "club": "San Diego FC",
+        "key": false
       },
       {
-        "name": "조바네 카브랄",
-        "position": "MF",
-        "club": "스포르팅 CP",
+        "name": "스토피라",
+        "position": "DF",
+        "club": "Torreense",
+        "key": false
+      },
+      {
+        "name": "로베르토 로페스",
+        "position": "DF",
+        "club": "샴록 로버스",
+        "key": false
+      },
+      {
+        "name": "주앙 파울로",
+        "position": "DF",
+        "club": "FCSB",
+        "key": false
+      },
+      {
+        "name": "디네이",
+        "position": "DF",
+        "club": "Al Bataeh",
+        "key": false
+      },
+      {
+        "name": "로건 코스타",
+        "position": "DF",
+        "club": "비야레알",
         "key": false
       },
       {
@@ -2194,9 +5332,105 @@
         "key": false
       },
       {
-        "name": "로베르투 로페스",
+        "name": "바그너 피나",
         "position": "DF",
-        "club": "섐록 로버스",
+        "club": "트라브존스포르",
+        "key": false
+      },
+      {
+        "name": "시드니 로페스 카브랄",
+        "position": "DF",
+        "club": "벤피카",
+        "key": false
+      },
+      {
+        "name": "켈빈 피레스",
+        "position": "DF",
+        "club": "SJK",
+        "key": false
+      },
+      {
+        "name": "하미루 몬테이루",
+        "position": "MF",
+        "club": "PEC 즈볼레",
+        "key": false
+      },
+      {
+        "name": "데로이 두아르테",
+        "position": "MF",
+        "club": "루도고레츠 라즈그라드",
+        "key": false
+      },
+      {
+        "name": "케빈 피나",
+        "position": "MF",
+        "club": "크라스노다르",
+        "key": false
+      },
+      {
+        "name": "텔모 아르칸주",
+        "position": "MF",
+        "club": "비토리아 드 기마랑이스",
+        "key": false
+      },
+      {
+        "name": "라로스 두아르테",
+        "position": "MF",
+        "club": "Puskás Akadémia",
+        "key": false
+      },
+      {
+        "name": "야닉 세메도",
+        "position": "MF",
+        "club": "파렌스",
+        "key": false
+      },
+      {
+        "name": "라이언 멘데스",
+        "position": "FW",
+        "club": "Iğdır FK",
+        "key": true
+      },
+      {
+        "name": "가리 로드리게스",
+        "position": "FW",
+        "club": "아폴론 리마솔",
+        "key": false
+      },
+      {
+        "name": "윌리 세메도",
+        "position": "FW",
+        "club": "오모니아",
+        "key": false
+      },
+      {
+        "name": "조바네 카브랄",
+        "position": "FW",
+        "club": "에스트렐라 아마도라",
+        "key": true
+      },
+      {
+        "name": "질송 벤시몰",
+        "position": "FW",
+        "club": "Akron Tolyatti",
+        "key": false
+      },
+      {
+        "name": "다일론 리브라멘토",
+        "position": "FW",
+        "club": "카사 피아",
+        "key": false
+      },
+      {
+        "name": "누누 다 코스타",
+        "position": "FW",
+        "club": "이스탄불 바샥셰히르",
+        "key": false
+      },
+      {
+        "name": "엘리우 바렐라",
+        "position": "FW",
+        "club": "마카비 텔아비브",
         "key": false
       }
     ],
@@ -2226,39 +5460,159 @@
     ],
     "squad": [
       {
-        "name": "무함마드 알오와이스",
+        "name": "모하메드 알 오와이스",
         "position": "GK",
-        "club": "알 힐랄",
+        "club": "알 울라",
         "key": false
       },
       {
-        "name": "살렘 알다우사리",
-        "position": "MF",
-        "club": "알 힐랄",
-        "key": true
+        "name": "나와프 알 아키디",
+        "position": "GK",
+        "club": "알나스르",
+        "key": false
       },
       {
-        "name": "피라스 알부라이칸",
-        "position": "FW",
-        "club": "알 아흘리",
-        "key": true
+        "name": "아흐메드 알 카사르",
+        "position": "GK",
+        "club": "알 카드시아",
+        "key": false
+      },
+      {
+        "name": "압둘엘라 알 아므리",
+        "position": "DF",
+        "club": "알나스르",
+        "key": false
+      },
+      {
+        "name": "하산 탐박티",
+        "position": "DF",
+        "club": "알힐랄",
+        "key": false
+      },
+      {
+        "name": "지하드 티크리",
+        "position": "DF",
+        "club": "알 카드시아",
+        "key": false
+      },
+      {
+        "name": "알리 라자미",
+        "position": "DF",
+        "club": "알힐랄",
+        "key": false
+      },
+      {
+        "name": "하산 카데시",
+        "position": "DF",
+        "club": "알이티하드",
+        "key": false
       },
       {
         "name": "사우드 압둘하미드",
         "position": "DF",
-        "club": "RC 랑스",
+        "club": "RC 렁스",
+        "key": false
+      },
+      {
+        "name": "모하메드 아부 알 샤마트",
+        "position": "DF",
+        "club": "알 카드시아",
+        "key": false
+      },
+      {
+        "name": "알리 마즈라시",
+        "position": "DF",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "모테브 알 하르비",
+        "position": "DF",
+        "club": "알힐랄",
+        "key": false
+      },
+      {
+        "name": "나와프 부샬",
+        "position": "DF",
+        "club": "알나스르",
+        "key": false
+      },
+      {
+        "name": "술탄 알 간남",
+        "position": "DF",
+        "club": "알나스르",
         "key": false
       },
       {
         "name": "모하메드 칸노",
         "position": "MF",
-        "club": "알 힐랄",
+        "club": "알힐랄",
+        "key": false
+      },
+      {
+        "name": "압둘라 알 카이바리",
+        "position": "MF",
+        "club": "알나스르",
+        "key": false
+      },
+      {
+        "name": "지야드 알 조하니",
+        "position": "MF",
+        "club": "알아흘리",
+        "key": false
+      },
+      {
+        "name": "나세르 알 다우사리",
+        "position": "MF",
+        "club": "알힐랄",
+        "key": false
+      },
+      {
+        "name": "무사브 알 주와이르",
+        "position": "MF",
+        "club": "알 카드시아",
+        "key": false
+      },
+      {
+        "name": "알라 알 하지",
+        "position": "MF",
+        "club": "NEOM SC",
+        "key": false
+      },
+      {
+        "name": "살렘 알 다우사리",
+        "position": "MF",
+        "club": "알힐랄",
         "key": true
       },
       {
-        "name": "압둘라 알함단",
+        "name": "할리드 알 간남",
+        "position": "MF",
+        "club": "알 에티파크",
+        "key": false
+      },
+      {
+        "name": "아이만 야히야",
+        "position": "MF",
+        "club": "알나스르",
+        "key": false
+      },
+      {
+        "name": "피라스 알 부라이칸",
         "position": "FW",
-        "club": "알 나스르",
+        "club": "알아흘리",
+        "key": true
+      },
+      {
+        "name": "살레 알 셰흐리",
+        "position": "FW",
+        "club": "알이티하드",
+        "key": false
+      },
+      {
+        "name": "압둘라 알 함단",
+        "position": "FW",
+        "club": "알나스르",
         "key": false
       }
     ],
@@ -2288,16 +5642,88 @@
     ],
     "squad": [
       {
-        "name": "페르난도 무슬레라",
+        "name": "세르히오 로체트",
         "position": "GK",
-        "club": "갈라타사라이",
+        "club": "인테르나시오날",
         "key": false
       },
       {
-        "name": "다윈 누녜스",
-        "position": "FW",
-        "club": "알 힐랄",
+        "name": "산티아고 멜레",
+        "position": "GK",
+        "club": "몬테레이",
+        "key": false
+      },
+      {
+        "name": "페르난도 무슬레라",
+        "position": "GK",
+        "club": "에스투디안테스",
+        "key": false
+      },
+      {
+        "name": "호세 마리아 히메네스",
+        "position": "DF",
+        "club": "아틀레티코 마드리드",
         "key": true
+      },
+      {
+        "name": "세바스티안 카세레스",
+        "position": "DF",
+        "club": "클럽 아메리카",
+        "key": false
+      },
+      {
+        "name": "로날드 아라우호",
+        "position": "DF",
+        "club": "바르셀로나",
+        "key": true
+      },
+      {
+        "name": "기예르모 바렐라",
+        "position": "DF",
+        "club": "플라멩구",
+        "key": false
+      },
+      {
+        "name": "마티아스 올리베라",
+        "position": "DF",
+        "club": "나폴리",
+        "key": false
+      },
+      {
+        "name": "마티아스 비냐",
+        "position": "DF",
+        "club": "리버 플레이트",
+        "key": false
+      },
+      {
+        "name": "호아킨 피케레스",
+        "position": "DF",
+        "club": "팔메이라스",
+        "key": false
+      },
+      {
+        "name": "산티아고 부에노",
+        "position": "DF",
+        "club": "울버햄프턴 원더러스",
+        "key": false
+      },
+      {
+        "name": "마누엘 우가르테",
+        "position": "MF",
+        "club": "맨체스터 유나이티드",
+        "key": false
+      },
+      {
+        "name": "로드리고 벤탄쿠르",
+        "position": "MF",
+        "club": "토트넘 홋스퍼",
+        "key": false
+      },
+      {
+        "name": "니콜라스 데 라 크루스",
+        "position": "MF",
+        "club": "플라멩구",
+        "key": false
       },
       {
         "name": "페데리코 발베르데",
@@ -2306,21 +5732,69 @@
         "key": true
       },
       {
-        "name": "마누엘 우가르테",
+        "name": "지오르히안 데 아라스카에타",
         "position": "MF",
-        "club": "맨체스터 유나이티드",
-        "key": true
-      },
-      {
-        "name": "호세 마리아 히메네스",
-        "position": "DF",
-        "club": "아틀레티코 마드리드",
+        "club": "플라멩구",
         "key": false
       },
       {
-        "name": "로드리고 벤탄쿠르",
+        "name": "파쿤도 펠리스트리",
         "position": "MF",
-        "club": "토트넘 홋스퍼",
+        "club": "파나티나이코스",
+        "key": false
+      },
+      {
+        "name": "아구스틴 카노비오",
+        "position": "MF",
+        "club": "플루미넨세",
+        "key": false
+      },
+      {
+        "name": "에밀리아노 마르티네스",
+        "position": "MF",
+        "club": "팔메이라스",
+        "key": false
+      },
+      {
+        "name": "브라이언 로드리게스",
+        "position": "MF",
+        "club": "클럽 아메리카",
+        "key": false
+      },
+      {
+        "name": "막시밀리아노 아라우호",
+        "position": "MF",
+        "club": "스포르팅 CP",
+        "key": false
+      },
+      {
+        "name": "후안 마누엘 사나브리아",
+        "position": "MF",
+        "club": "Real Salt Lake",
+        "key": false
+      },
+      {
+        "name": "로드리고 살라사르",
+        "position": "MF",
+        "club": "브라가",
+        "key": false
+      },
+      {
+        "name": "다윈 누녜스",
+        "position": "FW",
+        "club": "알힐랄",
+        "key": true
+      },
+      {
+        "name": "로드리고 아기레",
+        "position": "FW",
+        "club": "티그레스 UANL",
+        "key": false
+      },
+      {
+        "name": "페데리코 비냐스",
+        "position": "FW",
+        "club": "레알 오비에도",
         "key": false
       }
     ],
@@ -2354,39 +5828,159 @@
     ],
     "squad": [
       {
-        "name": "마이크 메냥",
+        "name": "미크 마이냥",
         "position": "GK",
         "club": "AC 밀란",
         "key": false
       },
       {
-        "name": "킬리안 음바페",
-        "position": "FW",
-        "club": "레알 마드리드",
+        "name": "브리스 삼바",
+        "position": "GK",
+        "club": "Rennes",
+        "key": false
+      },
+      {
+        "name": "로뱅 리세르",
+        "position": "GK",
+        "club": "Lens",
+        "key": false
+      },
+      {
+        "name": "뤼카 디뉴",
+        "position": "DF",
+        "club": "Aston Villa",
+        "key": false
+      },
+      {
+        "name": "말로 귀스토",
+        "position": "DF",
+        "club": "첼시",
+        "key": false
+      },
+      {
+        "name": "뤼카 에르난데스",
+        "position": "DF",
+        "club": "PSG",
+        "key": false
+      },
+      {
+        "name": "테오 에르난데스",
+        "position": "DF",
+        "club": "알힐랄",
+        "key": false
+      },
+      {
+        "name": "이브라히마 코나테",
+        "position": "DF",
+        "club": "리버풀",
+        "key": false
+      },
+      {
+        "name": "쥘 쿤데",
+        "position": "DF",
+        "club": "바르셀로나",
         "key": true
+      },
+      {
+        "name": "막상스 라크루아",
+        "position": "DF",
+        "club": "Crystal Palace",
+        "key": false
+      },
+      {
+        "name": "윌리앙 살리바",
+        "position": "DF",
+        "club": "아스날",
+        "key": true
+      },
+      {
+        "name": "다요 우파메카노",
+        "position": "DF",
+        "club": "바이에른 뮌헨",
+        "key": false
+      },
+      {
+        "name": "응골로 캉테",
+        "position": "MF",
+        "club": "Fenerbahçe",
+        "key": false
+      },
+      {
+        "name": "마뉘 코네",
+        "position": "MF",
+        "club": "AS 로마",
+        "key": false
+      },
+      {
+        "name": "아드리앙 라비오",
+        "position": "MF",
+        "club": "AC 밀란",
+        "key": false
+      },
+      {
+        "name": "오렐리앙 추아메니",
+        "position": "MF",
+        "club": "레알 마드리드",
+        "key": false
+      },
+      {
+        "name": "워렌 자이르에므리",
+        "position": "MF",
+        "club": "PSG",
+        "key": false
+      },
+      {
+        "name": "마네스 아클루슈",
+        "position": "FW",
+        "club": "모나코",
+        "key": false
+      },
+      {
+        "name": "브래들리 바르콜라",
+        "position": "FW",
+        "club": "PSG",
+        "key": false
+      },
+      {
+        "name": "리얀 셰르키",
+        "position": "FW",
+        "club": "맨체스터 시티",
+        "key": false
       },
       {
         "name": "우스만 뎀벨레",
         "position": "FW",
-        "club": "파리 생제르맹",
+        "club": "PSG",
         "key": true
       },
       {
-        "name": "오렐리앙 차메니",
-        "position": "MF",
+        "name": "데지레 두에",
+        "position": "FW",
+        "club": "PSG",
+        "key": false
+      },
+      {
+        "name": "장필리프 마테타",
+        "position": "FW",
+        "club": "Crystal Palace",
+        "key": false
+      },
+      {
+        "name": "킬리앙 음바페",
+        "position": "FW",
         "club": "레알 마드리드",
         "key": true
       },
       {
-        "name": "윌리엄 살리바",
-        "position": "DF",
-        "club": "아스날",
-        "key": false
+        "name": "마이클 올리스",
+        "position": "FW",
+        "club": "바이에른 뮌헨",
+        "key": true
       },
       {
-        "name": "엔골로 캉테",
-        "position": "MF",
-        "club": "페네르바체",
+        "name": "마르쿠스 튀랑",
+        "position": "FW",
+        "club": "인터 밀란",
         "key": false
       }
     ],
@@ -2421,25 +6015,19 @@
       {
         "name": "에두아르 멘디",
         "position": "GK",
-        "club": "알힐랄",
+        "club": "Al-Qadsiah",
         "key": false
       },
       {
-        "name": "사디오 마네",
-        "position": "FW",
-        "club": "알나스르",
-        "key": true
+        "name": "모리 디아우",
+        "position": "GK",
+        "club": "Clermont",
+        "key": false
       },
       {
-        "name": "니콜라 잭슨",
-        "position": "FW",
-        "club": "바이에른 뮌헨",
-        "key": true
-      },
-      {
-        "name": "이스마일라 사르",
-        "position": "FW",
-        "club": "크리스탈 팰리스",
+        "name": "예반 디우프",
+        "position": "GK",
+        "club": "Reims",
         "key": false
       },
       {
@@ -2449,9 +6037,135 @@
         "key": true
       },
       {
+        "name": "무사 니아카테",
+        "position": "DF",
+        "club": "Nottingham Forest",
+        "key": false
+      },
+      {
+        "name": "마마두 사르",
+        "position": "DF",
+        "club": "첼시",
+        "key": false
+      },
+      {
+        "name": "아불라예 세크",
+        "position": "DF",
+        "club": "Angers",
+        "key": false
+      },
+      {
+        "name": "크레팽 디아타",
+        "position": "DF",
+        "club": "모나코",
+        "key": false
+      },
+      {
+        "name": "앙투안 멘디",
+        "position": "DF",
+        "club": "Girona",
+        "key": false
+      },
+      {
+        "name": "이스마일 야코브스",
+        "position": "DF",
+        "club": "Galatasaray",
+        "key": false
+      },
+      {
+        "name": "엘 하지 말리크 디우프",
+        "position": "DF",
+        "club": "리즈 유나이티드",
+        "key": false
+      },
+      {
+        "name": "이드리사 가나 게예",
+        "position": "MF",
+        "club": "Al-Qadsiah",
+        "key": false
+      },
+      {
+        "name": "라민 카마라",
+        "position": "MF",
+        "club": "AS 모나코",
+        "key": false
+      },
+      {
+        "name": "파페 게예",
+        "position": "MF",
+        "club": "Marseille",
+        "key": false
+      },
+      {
         "name": "파페 마타르 사르",
         "position": "MF",
-        "club": "토트넘",
+        "club": "Tottenham Hotspur",
+        "key": true
+      },
+      {
+        "name": "아비브 디아라",
+        "position": "MF",
+        "club": "Strasbourg",
+        "key": false
+      },
+      {
+        "name": "바라 사포코 은디아예",
+        "position": "MF",
+        "club": "Galatasaray",
+        "key": false
+      },
+      {
+        "name": "파테 시스",
+        "position": "MF",
+        "club": "Espanyol",
+        "key": false
+      },
+      {
+        "name": "사디오 마네",
+        "position": "FW",
+        "club": "알나스르",
+        "key": true
+      },
+      {
+        "name": "이스마일라 사르",
+        "position": "FW",
+        "club": "Crystal Palace",
+        "key": false
+      },
+      {
+        "name": "일리만 은디아예",
+        "position": "FW",
+        "club": "Everton",
+        "key": false
+      },
+      {
+        "name": "니콜라 잭슨",
+        "position": "FW",
+        "club": "첼시",
+        "key": false
+      },
+      {
+        "name": "셰리프 은디아예",
+        "position": "FW",
+        "club": "Strasbourg",
+        "key": false
+      },
+      {
+        "name": "밤바 디엥",
+        "position": "FW",
+        "club": "Nice",
+        "key": false
+      },
+      {
+        "name": "이브라히마 음바예",
+        "position": "FW",
+        "club": "Lorient",
+        "key": false
+      },
+      {
+        "name": "아산 디아오",
+        "position": "FW",
+        "club": "에스파뇰",
         "key": false
       }
     ],
@@ -2481,39 +6195,159 @@
     ],
     "squad": [
       {
-        "name": "잘랄 하산",
+        "name": "파하드 탈리브",
         "position": "GK",
-        "club": "알쇼르타",
+        "club": "Al-Talaba",
         "key": false
       },
       {
-        "name": "아이맨 후세인",
-        "position": "FW",
-        "club": "알쇼르타",
+        "name": "잘랄 하산",
+        "position": "GK",
+        "club": "Al-Zawraa",
         "key": true
       },
       {
-        "name": "알리 알하마디",
-        "position": "FW",
-        "club": "루턴 타운",
-        "key": true
+        "name": "아흐마드 바실",
+        "position": "GK",
+        "club": "Al-Shorta",
+        "key": false
+      },
+      {
+        "name": "레빈 술라카",
+        "position": "DF",
+        "club": "Port FC",
+        "key": false
+      },
+      {
+        "name": "후세인 알리",
+        "position": "DF",
+        "club": "Pogoń Szczecin",
+        "key": false
+      },
+      {
+        "name": "자이드 타흐신",
+        "position": "DF",
+        "club": "Pakhtakor",
+        "key": false
+      },
+      {
+        "name": "아캄 하심",
+        "position": "DF",
+        "club": "Al-Zawraa",
+        "key": false
+      },
+      {
+        "name": "마나프 유니스",
+        "position": "DF",
+        "club": "Al-Shorta",
+        "key": false
+      },
+      {
+        "name": "아흐마드 야흐야",
+        "position": "DF",
+        "club": "Al-Shorta",
+        "key": false
+      },
+      {
+        "name": "메르샤스 도스키",
+        "position": "DF",
+        "club": "Viktoria Plzeň",
+        "key": false
+      },
+      {
+        "name": "무스타파 사둔",
+        "position": "DF",
+        "club": "Al-Shorta",
+        "key": false
+      },
+      {
+        "name": "프란스 푸트로스",
+        "position": "DF",
+        "club": "Persib",
+        "key": false
+      },
+      {
+        "name": "유세프 아민",
+        "position": "MF",
+        "club": "AEK Larnaca",
+        "key": false
+      },
+      {
+        "name": "이브라힘 바예시",
+        "position": "MF",
+        "club": "Al-Dhafra",
+        "key": false
       },
       {
         "name": "지단 이크발",
         "position": "MF",
-        "club": "FC 위트레흐트",
+        "club": "Utrecht",
         "key": true
       },
       {
         "name": "아미르 알암마리",
         "position": "MF",
-        "club": "크라코비아",
+        "club": "Cracovia",
+        "key": true
+      },
+      {
+        "name": "케빈 야코브",
+        "position": "MF",
+        "club": "AGF",
+        "key": false
+      },
+      {
+        "name": "아이마르 셰르",
+        "position": "MF",
+        "club": "Sarpsborg 08",
+        "key": false
+      },
+      {
+        "name": "자이드 이스마일",
+        "position": "MF",
+        "club": "Al-Talaba",
+        "key": false
+      },
+      {
+        "name": "알리 알함마디",
+        "position": "FW",
+        "club": "Luton Town",
+        "key": false
+      },
+      {
+        "name": "무하나드 알리",
+        "position": "FW",
+        "club": "Dibba Al-Fujairah",
+        "key": false
+      },
+      {
+        "name": "아흐마드 카셈",
+        "position": "FW",
+        "club": "Nashville SC",
+        "key": false
+      },
+      {
+        "name": "알리 유시프",
+        "position": "FW",
+        "club": "Al-Talaba",
         "key": false
       },
       {
         "name": "알리 자심",
-        "position": "MF",
-        "club": "알쇼르타",
+        "position": "FW",
+        "club": "Al-Najma",
+        "key": false
+      },
+      {
+        "name": "아이만 후세인",
+        "position": "FW",
+        "club": "Al-Karma",
+        "key": true
+      },
+      {
+        "name": "마르코 파르지",
+        "position": "FW",
+        "club": "Venezia",
         "key": false
       }
     ],
@@ -2545,39 +6379,159 @@
     ],
     "squad": [
       {
-        "name": "오르얀 닐란드",
+        "name": "외르얀 뉘란",
         "position": "GK",
-        "club": "알나스르",
+        "club": "Sevilla",
         "key": false
       },
       {
-        "name": "에를링 홀란드",
-        "position": "FW",
-        "club": "맨체스터 시티",
-        "key": true
+        "name": "에이길 셀비크",
+        "position": "GK",
+        "club": "Watford",
+        "key": false
       },
       {
-        "name": "마르틴 오데가르",
+        "name": "산데르 탕빅",
+        "position": "GK",
+        "club": "Hamburger SV",
+        "key": false
+      },
+      {
+        "name": "율리안 뤼에르손",
+        "position": "DF",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "마르쿠스 홀름그렌 페데르센",
+        "position": "DF",
+        "club": "Torino",
+        "key": false
+      },
+      {
+        "name": "데이비드 묄레르 볼페",
+        "position": "DF",
+        "club": "Wolverhampton",
+        "key": false
+      },
+      {
+        "name": "프레드리크 비외르칸",
+        "position": "DF",
+        "club": "Bodø/Glimt",
+        "key": false
+      },
+      {
+        "name": "크리스토페르 아예르",
+        "position": "DF",
+        "club": "Brentford",
+        "key": false
+      },
+      {
+        "name": "토르비외른 헤겜",
+        "position": "DF",
+        "club": "Bologna",
+        "key": false
+      },
+      {
+        "name": "레오 스키리 외스티고르",
+        "position": "DF",
+        "club": "Genoa",
+        "key": false
+      },
+      {
+        "name": "손드레 랑고스",
+        "position": "DF",
+        "club": "Derby County",
+        "key": false
+      },
+      {
+        "name": "헨리크 팔케네르",
+        "position": "DF",
+        "club": "Viking",
+        "key": false
+      },
+      {
+        "name": "마르틴 외데고르",
         "position": "MF",
         "club": "아스날",
         "key": true
       },
       {
-        "name": "알렉산드르 쇠를로트",
+        "name": "산데르 베르게",
+        "position": "MF",
+        "club": "Fulham",
+        "key": false
+      },
+      {
+        "name": "프레드리크 오르스네스",
+        "position": "MF",
+        "club": "Benfica",
+        "key": false
+      },
+      {
+        "name": "패트릭 베르그",
+        "position": "MF",
+        "club": "Bodø/Glimt",
+        "key": false
+      },
+      {
+        "name": "크리스티안 토르스트베트",
+        "position": "MF",
+        "club": "Sassuolo",
+        "key": false
+      },
+      {
+        "name": "모르텐 토르스비",
+        "position": "MF",
+        "club": "Cremonese",
+        "key": false
+      },
+      {
+        "name": "텔로 오스고르",
+        "position": "MF",
+        "club": "Rangers",
+        "key": false
+      },
+      {
+        "name": "엘링 홀란",
         "position": "FW",
-        "club": "아틀레티코 마드리드",
+        "club": "맨체스터 시티",
+        "key": true
+      },
+      {
+        "name": "알렉산데르 쇠를로트",
+        "position": "FW",
+        "club": "Atlético Madrid",
+        "key": true
+      },
+      {
+        "name": "예르겐 스트란 라르센",
+        "position": "FW",
+        "club": "Crystal Palace",
         "key": false
       },
       {
         "name": "안토니오 누사",
         "position": "FW",
-        "club": "브뤼헤",
-        "key": true
+        "club": "RB 라이프치히",
+        "key": false
       },
       {
-        "name": "율리안 리에르손",
-        "position": "DF",
-        "club": "도르트문트",
+        "name": "오스카르 보브",
+        "position": "FW",
+        "club": "Fulham",
+        "key": false
+      },
+      {
+        "name": "안드레아스 셸데루프",
+        "position": "FW",
+        "club": "Benfica",
+        "key": false
+      },
+      {
+        "name": "옌스 페테르 하우게",
+        "position": "FW",
+        "club": "Bodø/Glimt",
         "key": false
       }
     ],
@@ -2609,20 +6563,74 @@
       {
         "name": "에밀리아노 마르티네스",
         "position": "GK",
-        "club": "아스톤 빌라",
+        "club": "Aston Villa",
+        "key": true
+      },
+      {
+        "name": "헤로니모 룰리",
+        "position": "GK",
+        "club": "Marseille",
         "key": false
       },
       {
-        "name": "리오넬 메시",
-        "position": "FW",
-        "club": "인테르 마이애미",
+        "name": "후안 무소",
+        "position": "GK",
+        "club": "Atlético Madrid",
+        "key": false
+      },
+      {
+        "name": "나우엘 몰리나",
+        "position": "DF",
+        "club": "Atlético Madrid",
+        "key": false
+      },
+      {
+        "name": "곤살로 몬티엘",
+        "position": "DF",
+        "club": "River Plate",
+        "key": false
+      },
+      {
+        "name": "크리스티안 로메로",
+        "position": "DF",
+        "club": "Tottenham Hotspur",
         "key": true
       },
       {
-        "name": "훌리안 알바레스",
-        "position": "FW",
-        "club": "아틀레티코 마드리드",
-        "key": true
+        "name": "리산드로 마르티네스",
+        "position": "DF",
+        "club": "맨체스터 유나이티드",
+        "key": false
+      },
+      {
+        "name": "니콜라스 오타멘디",
+        "position": "DF",
+        "club": "Benfica",
+        "key": false
+      },
+      {
+        "name": "레오나르도 발레르디",
+        "position": "DF",
+        "club": "Marseille",
+        "key": false
+      },
+      {
+        "name": "파쿤도 메디나",
+        "position": "DF",
+        "club": "Marseille",
+        "key": false
+      },
+      {
+        "name": "니콜라스 타글리아피코",
+        "position": "DF",
+        "club": "Lyon",
+        "key": false
+      },
+      {
+        "name": "로드리고 데 파울",
+        "position": "MF",
+        "club": "Inter Miami",
+        "key": false
       },
       {
         "name": "알렉시스 맥앨리스터",
@@ -2631,15 +6639,81 @@
         "key": true
       },
       {
-        "name": "크리스티안 로메로",
-        "position": "DF",
-        "club": "토트넘",
+        "name": "엔소 페르난데스",
+        "position": "MF",
+        "club": "첼시",
         "key": false
+      },
+      {
+        "name": "레안드로 파레데스",
+        "position": "MF",
+        "club": "Boca Juniors",
+        "key": false
+      },
+      {
+        "name": "지오바니 로 첼소",
+        "position": "MF",
+        "club": "Real Betis",
+        "key": false
+      },
+      {
+        "name": "에세키엘 팔라시오스",
+        "position": "MF",
+        "club": "Bayer Leverkusen",
+        "key": false
+      },
+      {
+        "name": "발렌틴 바르코",
+        "position": "MF",
+        "club": "Strasbourg",
+        "key": false
+      },
+      {
+        "name": "리오넬 메시",
+        "position": "FW",
+        "club": "Inter Miami",
+        "key": true
       },
       {
         "name": "라우타로 마르티네스",
         "position": "FW",
-        "club": "인테르 밀란",
+        "club": "인터 밀란",
+        "key": false
+      },
+      {
+        "name": "훌리안 알바레스",
+        "position": "FW",
+        "club": "Atlético Madrid",
+        "key": false
+      },
+      {
+        "name": "니코 곤살레스",
+        "position": "FW",
+        "club": "Atlético Madrid",
+        "key": false
+      },
+      {
+        "name": "티아고 알마다",
+        "position": "FW",
+        "club": "Atlético Madrid",
+        "key": false
+      },
+      {
+        "name": "줄리아노 시메오네",
+        "position": "FW",
+        "club": "Atlético Madrid",
+        "key": false
+      },
+      {
+        "name": "니코 파스",
+        "position": "FW",
+        "club": "Como",
+        "key": false
+      },
+      {
+        "name": "호세 마누엘 로페스",
+        "position": "FW",
+        "club": "Palmeiras",
         "key": false
       }
     ],
@@ -2671,39 +6745,159 @@
     ],
     "squad": [
       {
-        "name": "라이드 마에즈",
-        "position": "FW",
-        "club": "Al-Qadsiah",
-        "key": true
-      },
-      {
-        "name": "모하메드 아무라",
-        "position": "FW",
-        "club": "VfL 볼프스부르크",
-        "key": true
-      },
-      {
-        "name": "일란 케발",
-        "position": "MF",
-        "club": "RC 스트라스부르",
-        "key": false
-      },
-      {
-        "name": "유네스 아부사다",
-        "position": "MF",
-        "club": "카르타헤나",
-        "key": false
-      },
-      {
-        "name": "디에드 우타",
-        "position": "DF",
-        "club": "나폴리",
-        "key": true
-      },
-      {
-        "name": "라이스 음볼히",
+        "name": "루카 지단",
         "position": "GK",
-        "club": "알 아흘리",
+        "club": "Real Valladolid",
+        "key": false
+      },
+      {
+        "name": "우사마 벤보트",
+        "position": "GK",
+        "club": "Angers",
+        "key": false
+      },
+      {
+        "name": "멜빈 마스틸",
+        "position": "GK",
+        "club": "Charleroi",
+        "key": false
+      },
+      {
+        "name": "아슈라프 아바다",
+        "position": "DF",
+        "club": "USM 알제",
+        "key": false
+      },
+      {
+        "name": "리얀 아이트누리",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": false
+      },
+      {
+        "name": "지네딘 블라이드",
+        "position": "DF",
+        "club": "JS Kabylie",
+        "key": false
+      },
+      {
+        "name": "라피크 벨갈리",
+        "position": "DF",
+        "club": "Hellas Verona",
+        "key": false
+      },
+      {
+        "name": "라미 벤세바이니",
+        "position": "DF",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "사미르 셰르기",
+        "position": "DF",
+        "club": "Paris FC",
+        "key": false
+      },
+      {
+        "name": "자우엔 하잠",
+        "position": "DF",
+        "club": "Young Boys",
+        "key": false
+      },
+      {
+        "name": "아이사 만디",
+        "position": "DF",
+        "club": "Lille",
+        "key": false
+      },
+      {
+        "name": "모하메드 아민 투가이",
+        "position": "DF",
+        "club": "Espérance",
+        "key": false
+      },
+      {
+        "name": "후셈 아우아르",
+        "position": "MF",
+        "club": "알이티하드",
+        "key": false
+      },
+      {
+        "name": "나빌 벤탈렙",
+        "position": "MF",
+        "club": "Lille",
+        "key": false
+      },
+      {
+        "name": "히샴 부다우이",
+        "position": "MF",
+        "club": "Nice",
+        "key": false
+      },
+      {
+        "name": "파레스 샤이비",
+        "position": "MF",
+        "club": "Eintracht Frankfurt",
+        "key": false
+      },
+      {
+        "name": "이브라힘 마자",
+        "position": "MF",
+        "club": "Bayer Leverkusen",
+        "key": true
+      },
+      {
+        "name": "야신 티트라우이",
+        "position": "MF",
+        "club": "Charleroi",
+        "key": false
+      },
+      {
+        "name": "라미즈 제루키",
+        "position": "MF",
+        "club": "Twente",
+        "key": false
+      },
+      {
+        "name": "모하메드 아민 아무라",
+        "position": "FW",
+        "club": "Wolfsburg",
+        "key": false
+      },
+      {
+        "name": "나디르 벤부알리",
+        "position": "FW",
+        "club": "Győri ETO",
+        "key": false
+      },
+      {
+        "name": "아딜 불비나",
+        "position": "FW",
+        "club": "Al-Duhail",
+        "key": false
+      },
+      {
+        "name": "파레스 게젬미스",
+        "position": "FW",
+        "club": "Frosinone",
+        "key": false
+      },
+      {
+        "name": "아민 구리",
+        "position": "FW",
+        "club": "Marseille",
+        "key": true
+      },
+      {
+        "name": "리야드 마레즈",
+        "position": "FW",
+        "club": "알아흘리",
+        "key": true
+      },
+      {
+        "name": "아니스 하지 무사",
+        "position": "FW",
+        "club": "Feyenoord",
         "key": false
       }
     ],
@@ -2735,9 +6929,27 @@
     ],
     "squad": [
       {
-        "name": "패트릭 페너",
+        "name": "패트릭 펜츠",
         "position": "GK",
-        "club": "맨체스터 시티",
+        "club": "Brøndby",
+        "key": false
+      },
+      {
+        "name": "알렉산더 슐라거",
+        "position": "GK",
+        "club": "RB 잘츠부르크",
+        "key": false
+      },
+      {
+        "name": "플로리안 비겔레",
+        "position": "GK",
+        "club": "Viktoria Plzeň",
+        "key": false
+      },
+      {
+        "name": "다비드 아펜그루버",
+        "position": "DF",
+        "club": "Elche",
         "key": false
       },
       {
@@ -2747,27 +6959,129 @@
         "key": true
       },
       {
-        "name": "마르셀 자비처",
-        "position": "MF",
-        "club": "바이에른 뮌헨",
-        "key": true
-      },
-      {
-        "name": "콘라트 라이머",
-        "position": "MF",
-        "club": "바이에른 뮌헨",
+        "name": "케빈 단소",
+        "position": "DF",
+        "club": "Tottenham Hotspur",
         "key": false
       },
       {
-        "name": "마르코 아르나우토비치",
-        "position": "FW",
-        "club": "인테르 밀란",
-        "key": true
+        "name": "마르코 프리들",
+        "position": "DF",
+        "club": "Werder Bremen",
+        "key": false
+      },
+      {
+        "name": "필리프 린하르트",
+        "position": "DF",
+        "club": "Freiburg",
+        "key": false
+      },
+      {
+        "name": "필리프 무베네",
+        "position": "DF",
+        "club": "Mainz 05",
+        "key": false
+      },
+      {
+        "name": "슈테판 포슈",
+        "position": "DF",
+        "club": "Mainz 05",
+        "key": false
+      },
+      {
+        "name": "알렉산더 프라스",
+        "position": "DF",
+        "club": "Hoffenheim",
+        "key": false
+      },
+      {
+        "name": "미하엘 스보보다",
+        "position": "DF",
+        "club": "Venezia",
+        "key": false
       },
       {
         "name": "크리스토프 바움가르트너",
         "position": "MF",
         "club": "RB 라이프치히",
+        "key": true
+      },
+      {
+        "name": "카니 추크웨메카",
+        "position": "MF",
+        "club": "보루시아 도르트문트",
+        "key": false
+      },
+      {
+        "name": "플로리안 그릴리치",
+        "position": "MF",
+        "club": "Braga",
+        "key": false
+      },
+      {
+        "name": "콘라드 라이머",
+        "position": "MF",
+        "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "마르셀 자비처",
+        "position": "MF",
+        "club": "보루시아 도르트문트",
+        "key": true
+      },
+      {
+        "name": "차버 슐라거",
+        "position": "MF",
+        "club": "RB 라이프치히",
+        "key": false
+      },
+      {
+        "name": "니콜라스 자이발트",
+        "position": "MF",
+        "club": "RB 라이프치히",
+        "key": false
+      },
+      {
+        "name": "로마노 슈미트",
+        "position": "MF",
+        "club": "Werder Bremen",
+        "key": false
+      },
+      {
+        "name": "알레산드로 쇠프",
+        "position": "MF",
+        "club": "Wolfsberger AC",
+        "key": false
+      },
+      {
+        "name": "폴 반너",
+        "position": "MF",
+        "club": "PSV 에인트호번",
+        "key": false
+      },
+      {
+        "name": "패트릭 비머",
+        "position": "MF",
+        "club": "Wolfsburg",
+        "key": false
+      },
+      {
+        "name": "마르코 아르나우토비치",
+        "position": "FW",
+        "club": "Crvena Zvezda",
+        "key": true
+      },
+      {
+        "name": "미하엘 그레고리치",
+        "position": "FW",
+        "club": "Augsburg",
+        "key": false
+      },
+      {
+        "name": "사샤 칼라이지치",
+        "position": "FW",
+        "club": "LASK",
         "key": false
       }
     ],
@@ -2799,39 +7113,159 @@
     ],
     "squad": [
       {
-        "name": "야잔 알니마트",
+        "name": "야지드 아불라일라",
         "position": "GK",
-        "club": "알파이살리",
+        "club": "Al-Hussein",
+        "key": false
+      },
+      {
+        "name": "압둘라 알파쿠리",
+        "position": "GK",
+        "club": "Al-Wehdat",
+        "key": false
+      },
+      {
+        "name": "누르 바니아티야",
+        "position": "GK",
+        "club": "Al-Faisaly",
+        "key": false
+      },
+      {
+        "name": "압달라 나십",
+        "position": "DF",
+        "club": "Al-Zawraa",
+        "key": false
+      },
+      {
+        "name": "이흐산 하다드",
+        "position": "DF",
+        "club": "Al-Wehdat",
+        "key": false
+      },
+      {
+        "name": "사에드 알로산",
+        "position": "DF",
+        "club": "Al-Faisaly",
+        "key": false
+      },
+      {
+        "name": "살림 오바이드",
+        "position": "DF",
+        "club": "Al-Hussein",
+        "key": false
+      },
+      {
+        "name": "야잔 알아랍",
+        "position": "DF",
+        "club": "FC Seoul",
+        "key": false
+      },
+      {
+        "name": "모하마드 아불나디",
+        "position": "DF",
+        "club": "Selangor FC",
+        "key": false
+      },
+      {
+        "name": "후삼 아부 다합",
+        "position": "DF",
+        "club": "Al-Faisaly",
+        "key": false
+      },
+      {
+        "name": "아나스 바나위",
+        "position": "DF",
+        "club": "Al-Faisaly",
+        "key": true
+      },
+      {
+        "name": "모한나드 아부 타하",
+        "position": "DF",
+        "club": "Al-Quwa Al-Jawiya",
+        "key": false
+      },
+      {
+        "name": "모하마드 아부 하시시",
+        "position": "DF",
+        "club": "Al-Karma",
+        "key": false
+      },
+      {
+        "name": "누르 알라와브다",
+        "position": "MF",
+        "club": "Selangor FC",
+        "key": false
+      },
+      {
+        "name": "니자르 알라시단",
+        "position": "MF",
+        "club": "Al Gharafa",
+        "key": false
+      },
+      {
+        "name": "이브라힘 사데",
+        "position": "MF",
+        "club": "Al-Karma",
+        "key": false
+      },
+      {
+        "name": "라자에이 아예드",
+        "position": "MF",
+        "club": "Al-Hussein",
+        "key": false
+      },
+      {
+        "name": "마흐무드 알마르디",
+        "position": "MF",
+        "club": "Al-Hussein",
+        "key": false
+      },
+      {
+        "name": "아메르 자무스",
+        "position": "MF",
+        "club": "Al-Zawraa",
+        "key": false
+      },
+      {
+        "name": "모하마드 알다우드",
+        "position": "MF",
+        "club": "Al-Wehdat",
         "key": false
       },
       {
         "name": "무사 알타마리",
         "position": "FW",
-        "club": "스타드 렌",
+        "club": "Rennes",
+        "key": true
+      },
+      {
+        "name": "오데 알파쿠리",
+        "position": "FW",
+        "club": "Pyramids FC",
+        "key": false
+      },
+      {
+        "name": "모하마드 아부 즈라익",
+        "position": "FW",
+        "club": "Raja Casablanca",
+        "key": false
+      },
+      {
+        "name": "알리 아자이자",
+        "position": "FW",
+        "club": "Al-Shabab",
+        "key": false
+      },
+      {
+        "name": "이브라힘 사브라",
+        "position": "FW",
+        "club": "Lokomotiva Zagreb",
         "key": true
       },
       {
         "name": "알리 올완",
         "position": "FW",
-        "club": "알사일리야",
-        "key": true
-      },
-      {
-        "name": "에흐산 하다드",
-        "position": "DF",
-        "club": "알후세인",
-        "key": false
-      },
-      {
-        "name": "니자르 알라쉬단",
-        "position": "MF",
-        "club": "카타르 클럽",
-        "key": true
-      },
-      {
-        "name": "무사 알루사",
-        "position": "MF",
-        "club": "알자지라",
+        "club": "Al-Sailiya",
         "key": false
       }
     ],
@@ -2863,9 +7297,63 @@
     ],
     "squad": [
       {
-        "name": "디오구 코스타",
+        "name": "디오고 코스타",
         "position": "GK",
         "club": "FC 포르투",
+        "key": false
+      },
+      {
+        "name": "루이 실바",
+        "position": "GK",
+        "club": "스포르팅 CP",
+        "key": false
+      },
+      {
+        "name": "주제 사",
+        "position": "GK",
+        "club": "울버햄프턴",
+        "key": false
+      },
+      {
+        "name": "디오고 달로트",
+        "position": "DF",
+        "club": "맨체스터 유나이티드",
+        "key": false
+      },
+      {
+        "name": "마테우스 누네스",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": false
+      },
+      {
+        "name": "넬송 세메도",
+        "position": "DF",
+        "club": "Fenerbahce SK",
+        "key": false
+      },
+      {
+        "name": "주앙 칸셀로",
+        "position": "DF",
+        "club": "FC 바르셀로나",
+        "key": false
+      },
+      {
+        "name": "누노 멘데스",
+        "position": "DF",
+        "club": "파리 생제르맹",
+        "key": false
+      },
+      {
+        "name": "곤살로 이나시우",
+        "position": "DF",
+        "club": "스포르팅 CP",
+        "key": false
+      },
+      {
+        "name": "레나토 베이가",
+        "position": "DF",
+        "club": "Villarreal",
         "key": false
       },
       {
@@ -2875,34 +7363,94 @@
         "key": true
       },
       {
-        "name": "주앙 캉셀루",
+        "name": "토마스 아라우주",
         "position": "DF",
-        "club": "맨체스터 시티",
+        "club": "SL 벤피카",
         "key": false
       },
       {
-        "name": "브루누 페르난데스",
+        "name": "루벤 네베스",
+        "position": "MF",
+        "club": "Al Hilal",
+        "key": false
+      },
+      {
+        "name": "사무엘 코스타",
+        "position": "MF",
+        "club": "Mallorca",
+        "key": false
+      },
+      {
+        "name": "주앙 네베스",
+        "position": "MF",
+        "club": "파리 생제르맹",
+        "key": false
+      },
+      {
+        "name": "비티냐",
+        "position": "MF",
+        "club": "파리 생제르맹",
+        "key": false
+      },
+      {
+        "name": "브루노 페르난데스",
         "position": "MF",
         "club": "맨체스터 유나이티드",
         "key": true
       },
       {
-        "name": "베르나르두 시우바",
+        "name": "베르나르두 실바",
         "position": "MF",
         "club": "맨체스터 시티",
         "key": true
       },
       {
-        "name": "라파엘 레앙",
+        "name": "주앙 펠릭스",
+        "position": "FW",
+        "club": "Al Nassr",
+        "key": false
+      },
+      {
+        "name": "프란시스코 트린캉",
+        "position": "FW",
+        "club": "스포르팅 CP",
+        "key": false
+      },
+      {
+        "name": "프란시스코 콘세이상",
+        "position": "FW",
+        "club": "유벤투스",
+        "key": false
+      },
+      {
+        "name": "페드루 네투",
+        "position": "FW",
+        "club": "첼시",
+        "key": false
+      },
+      {
+        "name": "하파엘 레앙",
         "position": "FW",
         "club": "AC 밀란",
+        "key": true
+      },
+      {
+        "name": "곤살로 게데스",
+        "position": "FW",
+        "club": "Real Sociedad",
+        "key": false
+      },
+      {
+        "name": "곤살로 하무스",
+        "position": "FW",
+        "club": "파리 생제르맹",
         "key": false
       },
       {
         "name": "크리스티아누 호날두",
         "position": "FW",
-        "club": "알 나스르",
-        "key": false
+        "club": "Al Nassr",
+        "key": true
       }
     ],
     "injuries": [
@@ -2934,39 +7482,159 @@
     ],
     "squad": [
       {
-        "name": "리오넬 음파시",
+        "name": "마티외 에폴로",
         "position": "GK",
-        "club": "르아브르",
+        "club": "Standard Liege",
+        "key": false
+      },
+      {
+        "name": "티모시 파율루",
+        "position": "GK",
+        "club": "Noah",
+        "key": false
+      },
+      {
+        "name": "리오넬 므파시",
+        "position": "GK",
+        "club": "Le Havre",
+        "key": false
+      },
+      {
+        "name": "딜런 바투빈시카",
+        "position": "DF",
+        "club": "Larisa",
+        "key": false
+      },
+      {
+        "name": "로키 부시리",
+        "position": "DF",
+        "club": "Hibernian",
+        "key": false
+      },
+      {
+        "name": "지돈 칼룰루",
+        "position": "DF",
+        "club": "Aris Limassol",
+        "key": false
+      },
+      {
+        "name": "스티브 카푸아디",
+        "position": "DF",
+        "club": "Widzew Lodz",
+        "key": false
+      },
+      {
+        "name": "조리스 카옘베",
+        "position": "DF",
+        "club": "Racing Genk",
+        "key": false
+      },
+      {
+        "name": "아르튀르 마수아쿠",
+        "position": "DF",
+        "club": "Racing Lens",
         "key": false
       },
       {
         "name": "샹셀 음벰바",
         "position": "DF",
-        "club": "릴",
-        "key": true
+        "club": "Lille",
+        "key": false
       },
       {
-        "name": "아론 완-비사카",
+        "name": "악셀 투안제베",
+        "position": "DF",
+        "club": "Burnley",
+        "key": false
+      },
+      {
+        "name": "에런 완비사카",
         "position": "DF",
         "club": "웨스트햄 유나이티드",
         "key": false
       },
       {
+        "name": "테오 봉공다",
+        "position": "MF",
+        "club": "Spartak Moscow",
+        "key": false
+      },
+      {
+        "name": "브라이언 시펭가",
+        "position": "MF",
+        "club": "Castellon",
+        "key": false
+      },
+      {
+        "name": "메샤크 엘리아",
+        "position": "MF",
+        "club": "Alanyaspor",
+        "key": false
+      },
+      {
+        "name": "가엘 카쿠타",
+        "position": "MF",
+        "club": "Larisa",
+        "key": false
+      },
+      {
+        "name": "에도 카옘베",
+        "position": "MF",
+        "club": "Watford",
+        "key": false
+      },
+      {
+        "name": "나타나엘 음부쿠",
+        "position": "MF",
+        "club": "Montpellier",
+        "key": false
+      },
+      {
+        "name": "사무엘 무투사미",
+        "position": "MF",
+        "club": "Atromitos",
+        "key": false
+      },
+      {
+        "name": "응갈아옐 무카우",
+        "position": "MF",
+        "club": "Lille",
+        "key": false
+      },
+      {
+        "name": "샤를 피켈",
+        "position": "MF",
+        "club": "Espanyol",
+        "key": false
+      },
+      {
         "name": "노아 사디키",
         "position": "MF",
-        "club": "안데를레흐트",
+        "club": "Sunderland",
+        "key": false
+      },
+      {
+        "name": "세드릭 바카무부",
+        "position": "FW",
+        "club": "Real Betis",
+        "key": true
+      },
+      {
+        "name": "시몽 반자",
+        "position": "FW",
+        "club": "Al Jazira",
+        "key": false
+      },
+      {
+        "name": "피스통 마옐레",
+        "position": "FW",
+        "club": "Pyramids",
         "key": false
       },
       {
         "name": "요안 위사",
         "position": "FW",
         "club": "뉴캐슬 유나이티드",
-        "key": true
-      },
-      {
-        "name": "세드리크 바카부",
-        "position": "FW",
-        "club": "레알 베티스",
         "key": true
       }
     ],
@@ -3000,38 +7668,158 @@
       {
         "name": "우트키르 유수포프",
         "position": "GK",
-        "club": "파흐타코르",
+        "club": "Navbahor",
         "key": false
       },
       {
-        "name": "압두코디르 쿠사노프",
+        "name": "압두보히드 네마토프",
+        "position": "GK",
+        "club": "Nasaf",
+        "key": false
+      },
+      {
+        "name": "보티랄리 에르가셰프",
+        "position": "GK",
+        "club": "Neftchi",
+        "key": false
+      },
+      {
+        "name": "압두코디르 후사노프",
         "position": "DF",
         "club": "맨체스터 시티",
         "key": true
       },
       {
-        "name": "파루흐 사이피예프",
+        "name": "호자아크바르 알리조노프",
         "position": "DF",
-        "club": "네프치",
+        "club": "Pakhtakor",
         "key": false
       },
       {
-        "name": "압보스베크 파이줄라예프",
+        "name": "파루흐 사이피예프",
+        "position": "DF",
+        "club": "Neftchi",
+        "key": false
+      },
+      {
+        "name": "루스탐 아슈르마토프",
+        "position": "DF",
+        "club": "Esteghlal",
+        "key": false
+      },
+      {
+        "name": "우마르 에슈무로도프",
+        "position": "DF",
+        "club": "Nasaf",
+        "key": false
+      },
+      {
+        "name": "셰르조드 나스룰라예프",
+        "position": "DF",
+        "club": "Pakhtakor",
+        "key": false
+      },
+      {
+        "name": "압둘라 압둘라예프",
+        "position": "DF",
+        "club": "Dibba",
+        "key": false
+      },
+      {
+        "name": "아바즈베크 울마살리예프",
+        "position": "DF",
+        "club": "AGMK",
+        "key": false
+      },
+      {
+        "name": "자홍기르 우로조프",
+        "position": "DF",
+        "club": "Dinamo",
+        "key": false
+      },
+      {
+        "name": "베흐루즈 카리모프",
+        "position": "DF",
+        "club": "Surkhon",
+        "key": false
+      },
+      {
+        "name": "악말 모즈고보이",
+        "position": "MF",
+        "club": "Pakhtakor",
+        "key": false
+      },
+      {
+        "name": "오타베크 슈쿠로프",
+        "position": "MF",
+        "club": "Baniyas",
+        "key": false
+      },
+      {
+        "name": "잠시드 이스칸데로프",
+        "position": "MF",
+        "club": "Neftchi",
+        "key": false
+      },
+      {
+        "name": "오딜존 함로베코프",
+        "position": "MF",
+        "club": "Tractor",
+        "key": false
+      },
+      {
+        "name": "잘롤리딘 마샤리포프",
+        "position": "MF",
+        "club": "Esteghlal",
+        "key": false
+      },
+      {
+        "name": "오스톤 우루노프",
+        "position": "MF",
+        "club": "Persepolis",
+        "key": false
+      },
+      {
+        "name": "도스톤베크 함다모프",
+        "position": "MF",
+        "club": "Pakhtakor",
+        "key": false
+      },
+      {
+        "name": "아지즈존 가니예프",
+        "position": "MF",
+        "club": "Al Bataeh",
+        "key": false
+      },
+      {
+        "name": "아보스베크 파이줄라예프",
         "position": "MF",
         "club": "이스탄불 바샥셰히르",
         "key": true
       },
       {
-        "name": "오스톤 우루노프",
+        "name": "셰르조드 에사노프",
         "position": "MF",
-        "club": "페르세폴리스",
+        "club": "Bukhara",
         "key": false
       },
       {
         "name": "엘도르 쇼무로도프",
         "position": "FW",
-        "club": "이스탄불 바샥셰히르(AS 로마 임대)",
+        "club": "이스탄불 바샥셰히르",
         "key": true
+      },
+      {
+        "name": "이고르 세르게예프",
+        "position": "FW",
+        "club": "Persepolis",
+        "key": false
+      },
+      {
+        "name": "아지즈베크 아모노프",
+        "position": "FW",
+        "club": "Dinamo",
+        "key": false
       }
     ],
     "injuries": [
@@ -3062,15 +7850,45 @@
     ],
     "squad": [
       {
-        "name": "카밀로 바르가스",
+        "name": "알바로 몬테로",
         "position": "GK",
-        "club": "스포르팅 CP",
+        "club": "CA Velez Sarsfield",
         "key": false
       },
       {
-        "name": "다비손 산체스",
+        "name": "카밀로 바르가스",
+        "position": "GK",
+        "club": "Atlas Guadalajara",
+        "key": false
+      },
+      {
+        "name": "다비드 오스피나",
+        "position": "GK",
+        "club": "Atletico Nacional",
+        "key": false
+      },
+      {
+        "name": "존 루쿠미",
         "position": "DF",
-        "club": "토트넘 홋스퍼",
+        "club": "볼로냐",
+        "key": false
+      },
+      {
+        "name": "다빈손 산체스",
+        "position": "DF",
+        "club": "갈라타사라이",
+        "key": false
+      },
+      {
+        "name": "예리 미나",
+        "position": "DF",
+        "club": "Cagliari",
+        "key": false
+      },
+      {
+        "name": "요한 모히카",
+        "position": "DF",
+        "club": "RCD 마요르카",
         "key": false
       },
       {
@@ -3080,15 +7898,81 @@
         "key": false
       },
       {
-        "name": "제임스 로드리게스",
+        "name": "산티아고 아리아스",
+        "position": "DF",
+        "club": "CA Independiente",
+        "key": false
+      },
+      {
+        "name": "데이베르 마차도",
+        "position": "DF",
+        "club": "Nantes",
+        "key": false
+      },
+      {
+        "name": "윌레르 디타",
+        "position": "DF",
+        "club": "Cruz Azul",
+        "key": false
+      },
+      {
+        "name": "리차드 리오스",
         "position": "MF",
-        "club": "미네소타 유나이티드",
+        "club": "벤피카",
+        "key": false
+      },
+      {
+        "name": "제퍼슨 레르마",
+        "position": "MF",
+        "club": "크리스탈 팰리스",
+        "key": false
+      },
+      {
+        "name": "케빈 카스타뇨",
+        "position": "MF",
+        "club": "River Plate",
+        "key": false
+      },
+      {
+        "name": "구스타보 푸에르타",
+        "position": "MF",
+        "club": "Racing Santander",
+        "key": false
+      },
+      {
+        "name": "후안 포르티야",
+        "position": "MF",
+        "club": "Club Athletico Paranaense",
+        "key": false
+      },
+      {
+        "name": "호르헤 카라스칼",
+        "position": "MF",
+        "club": "Flamengo",
+        "key": false
+      },
+      {
+        "name": "하메스 로드리게스",
+        "position": "MF",
+        "club": "Minnesota United",
         "key": true
       },
       {
-        "name": "리처드 리오스",
+        "name": "존 아리아스",
         "position": "MF",
-        "club": "파우메이라스",
+        "club": "Palmeiras",
+        "key": false
+      },
+      {
+        "name": "후안 킨테로",
+        "position": "MF",
+        "club": "River Plate",
+        "key": false
+      },
+      {
+        "name": "하민톤 캄파스",
+        "position": "MF",
+        "club": "Rosario Central",
         "key": false
       },
       {
@@ -3098,9 +7982,27 @@
         "key": true
       },
       {
-        "name": "혼 아리아스",
+        "name": "안드레스 고메스",
         "position": "FW",
-        "club": "울버햄튼 원더러스",
+        "club": "Vasco da Gama",
+        "key": false
+      },
+      {
+        "name": "루이스 수아레스",
+        "position": "FW",
+        "club": "Sporting",
+        "key": false
+      },
+      {
+        "name": "존 코르도바",
+        "position": "FW",
+        "club": "FC Krasnodar",
+        "key": false
+      },
+      {
+        "name": "쿠초 에르난데스",
+        "position": "FW",
+        "club": "Real Betis",
         "key": true
       }
     ],
@@ -3130,15 +8032,21 @@
     ],
     "squad": [
       {
-        "name": "조던 픽퍼드",
+        "name": "조던 픽포드",
         "position": "GK",
         "club": "에버턴",
         "key": false
       },
       {
-        "name": "에즈리 콘사",
-        "position": "DF",
-        "club": "아스톤 빌라",
+        "name": "딘 헨더슨",
+        "position": "GK",
+        "club": "크리스탈 팰리스",
+        "key": false
+      },
+      {
+        "name": "제임스 트래포드",
+        "position": "GK",
+        "club": "맨체스터 시티",
         "key": false
       },
       {
@@ -3148,9 +8056,57 @@
         "key": false
       },
       {
-        "name": "디클런 라이스",
+        "name": "드제드 스펜스",
+        "position": "DF",
+        "club": "토트넘 홋스퍼",
+        "key": false
+      },
+      {
+        "name": "니코 오라일리",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": false
+      },
+      {
+        "name": "마크 게히",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": false
+      },
+      {
+        "name": "존 스톤스",
+        "position": "DF",
+        "club": "맨체스터 시티",
+        "key": false
+      },
+      {
+        "name": "에즈리 콘사",
+        "position": "DF",
+        "club": "아스톤 빌라",
+        "key": false
+      },
+      {
+        "name": "댄 번",
+        "position": "DF",
+        "club": "뉴캐슬 유나이티드",
+        "key": false
+      },
+      {
+        "name": "자렐 콴사",
+        "position": "DF",
+        "club": "바이어 레버쿠젠",
+        "key": false
+      },
+      {
+        "name": "티노 리브라멘토",
+        "position": "DF",
+        "club": "뉴캐슬 유나이티드",
+        "key": false
+      },
+      {
+        "name": "데클런 라이스",
         "position": "MF",
-        "club": "아스날",
+        "club": "아스널",
         "key": true
       },
       {
@@ -3160,15 +8116,75 @@
         "key": true
       },
       {
+        "name": "엘리엇 앤더슨",
+        "position": "MF",
+        "club": "노팅엄 포레스트",
+        "key": false
+      },
+      {
+        "name": "코비 메이누",
+        "position": "MF",
+        "club": "맨체스터 유나이티드",
+        "key": false
+      },
+      {
+        "name": "조던 헨더슨",
+        "position": "MF",
+        "club": "브렌트퍼드",
+        "key": false
+      },
+      {
+        "name": "에베레치 에제",
+        "position": "MF",
+        "club": "아스널",
+        "key": false
+      },
+      {
+        "name": "모건 로저스",
+        "position": "MF",
+        "club": "아스톤 빌라",
+        "key": false
+      },
+      {
         "name": "부카요 사카",
         "position": "FW",
-        "club": "아스날",
+        "club": "아스널",
         "key": true
+      },
+      {
+        "name": "마커스 래시포드",
+        "position": "FW",
+        "club": "FC 바르셀로나",
+        "key": false
       },
       {
         "name": "해리 케인",
         "position": "FW",
         "club": "바이에른 뮌헨",
+        "key": true
+      },
+      {
+        "name": "올리 왓킨스",
+        "position": "FW",
+        "club": "아스톤 빌라",
+        "key": false
+      },
+      {
+        "name": "앤서니 고든",
+        "position": "FW",
+        "club": "뉴캐슬 유나이티드",
+        "key": false
+      },
+      {
+        "name": "노니 마두에케",
+        "position": "FW",
+        "club": "아스널",
+        "key": false
+      },
+      {
+        "name": "이반 토니",
+        "position": "FW",
+        "club": "Al-Hilal",
         "key": false
       }
     ],
@@ -3207,10 +8223,58 @@
         "key": false
       },
       {
+        "name": "도미니크 코타르스키",
+        "position": "GK",
+        "club": "FC 코펜하겐",
+        "key": false
+      },
+      {
+        "name": "이보르 판두르",
+        "position": "GK",
+        "club": "Hull City",
+        "key": false
+      },
+      {
         "name": "요슈코 그바르디올",
         "position": "DF",
         "club": "맨체스터 시티",
         "key": true
+      },
+      {
+        "name": "두예 찰레타카르",
+        "position": "DF",
+        "club": "Real Sociedad",
+        "key": false
+      },
+      {
+        "name": "요시프 수탈로",
+        "position": "DF",
+        "club": "Ajax",
+        "key": false
+      },
+      {
+        "name": "요시프 스타니시치",
+        "position": "DF",
+        "club": "바이에른 뮌헨",
+        "key": false
+      },
+      {
+        "name": "마린 퐁그라치치",
+        "position": "DF",
+        "club": "피오렌티나",
+        "key": false
+      },
+      {
+        "name": "마르틴 에를리치",
+        "position": "DF",
+        "club": "Midtjylland",
+        "key": false
+      },
+      {
+        "name": "루카 부슈코비치",
+        "position": "DF",
+        "club": "HSV",
+        "key": false
       },
       {
         "name": "루카 모드리치",
@@ -3231,9 +8295,81 @@
         "key": false
       },
       {
+        "name": "니콜라 블라시치",
+        "position": "MF",
+        "club": "Torino",
+        "key": false
+      },
+      {
+        "name": "루카 수치치",
+        "position": "MF",
+        "club": "Real Sociedad",
+        "key": false
+      },
+      {
+        "name": "마르틴 바투리나",
+        "position": "MF",
+        "club": "Como",
+        "key": false
+      },
+      {
+        "name": "크리스티얀 야키치",
+        "position": "MF",
+        "club": "Augsburg",
+        "key": false
+      },
+      {
+        "name": "페타르 수치치",
+        "position": "MF",
+        "club": "인테르 밀란",
+        "key": false
+      },
+      {
+        "name": "니콜라 모로",
+        "position": "MF",
+        "club": "Bologna",
+        "key": false
+      },
+      {
+        "name": "토니 프루크",
+        "position": "MF",
+        "club": "Rijeka",
+        "key": false
+      },
+      {
+        "name": "이반 페리시치",
+        "position": "FW",
+        "club": "PSV Eindhoven",
+        "key": false
+      },
+      {
         "name": "안드레이 크라마리치",
         "position": "FW",
-        "club": "호펜하임",
+        "club": "Hoffenheim",
+        "key": true
+      },
+      {
+        "name": "안테 부디미르",
+        "position": "FW",
+        "club": "Osasuna",
+        "key": false
+      },
+      {
+        "name": "마르코 파살리치",
+        "position": "FW",
+        "club": "Orlando City",
+        "key": false
+      },
+      {
+        "name": "페타르 무사",
+        "position": "FW",
+        "club": "FC Dallas",
+        "key": false
+      },
+      {
+        "name": "이고르 마타노비치",
+        "position": "FW",
+        "club": "Freiburg",
         "key": false
       }
     ],
@@ -3266,39 +8402,159 @@
     ],
     "squad": [
       {
-        "name": "로렌스 아티-지기",
+        "name": "로렌스 아티지기",
         "position": "GK",
-        "club": "세인트 갈렌",
+        "club": "St. Gallen",
         "key": false
       },
       {
-        "name": "알렉산더 지쿠",
+        "name": "벤자민 아사레",
+        "position": "GK",
+        "club": "Hearts of Oak",
+        "key": false
+      },
+      {
+        "name": "조셉 아낭",
+        "position": "GK",
+        "club": "St Patrick's Athletic",
+        "key": false
+      },
+      {
+        "name": "바바 압둘 라만",
         "position": "DF",
-        "club": "베식타시",
+        "club": "PAOK",
         "key": false
       },
       {
-        "name": "토마스 파르테이",
+        "name": "기디언 멘사",
+        "position": "DF",
+        "club": "Auxerre",
+        "key": false
+      },
+      {
+        "name": "마르빈 세나야",
+        "position": "DF",
+        "club": "Auxerre",
+        "key": false
+      },
+      {
+        "name": "알리두 세이두",
+        "position": "DF",
+        "club": "Rennes",
+        "key": false
+      },
+      {
+        "name": "압둘 무민",
+        "position": "DF",
+        "club": "Rayo Vallecano",
+        "key": false
+      },
+      {
+        "name": "제롬 오포쿠",
+        "position": "DF",
+        "club": "이스탄불 바샥셰히르",
+        "key": false
+      },
+      {
+        "name": "조나스 아제테이",
+        "position": "DF",
+        "club": "Wolfsburg",
+        "key": false
+      },
+      {
+        "name": "코조 오퐁 페프라",
+        "position": "DF",
+        "club": "Nice",
+        "key": false
+      },
+      {
+        "name": "데릭 루카센",
+        "position": "DF",
+        "club": "Pafos FC",
+        "key": false
+      },
+      {
+        "name": "토마스 파티",
         "position": "MF",
-        "club": "비야레알",
+        "club": "Villarreal",
         "key": true
+      },
+      {
+        "name": "엘리샤 오우수",
+        "position": "MF",
+        "club": "Auxerre",
+        "key": false
+      },
+      {
+        "name": "콰시 시보",
+        "position": "MF",
+        "club": "Real Oviedo",
+        "key": false
+      },
+      {
+        "name": "어거스틴 보아케",
+        "position": "MF",
+        "club": "Saint-Etienne",
+        "key": false
+      },
+      {
+        "name": "칼렙 이렌키",
+        "position": "MF",
+        "club": "FC Nordsjaelland",
+        "key": false
+      },
+      {
+        "name": "압둘 파타우 이사하쿠",
+        "position": "MF",
+        "club": "레스터 시티",
+        "key": false
+      },
+      {
+        "name": "카말딘 술레마나",
+        "position": "MF",
+        "club": "아탈란타",
+        "key": false
+      },
+      {
+        "name": "앤투안 세메뇨",
+        "position": "FW",
+        "club": "맨체스터 시티",
+        "key": false
+      },
+      {
+        "name": "어니스트 누아마",
+        "position": "FW",
+        "club": "올랭피크 리옹",
+        "key": false
       },
       {
         "name": "이냐키 윌리엄스",
         "position": "FW",
-        "club": "아틀레틱 빌바오",
+        "club": "Athletic Club",
         "key": true
       },
       {
-        "name": "앙투안 세메뇨",
+        "name": "조던 아유",
         "position": "FW",
-        "club": "맨체스터 시티",
+        "club": "레스터 시티",
         "key": true
       },
       {
-        "name": "조던 아이유",
+        "name": "크리스토퍼 본수 바",
         "position": "FW",
-        "club": "크리스탈 팰리스",
+        "club": "Al Qadsiah",
+        "key": false
+      },
+      {
+        "name": "브랜든 토마스아산테",
+        "position": "FW",
+        "club": "Coventry City",
+        "key": false
+      },
+      {
+        "name": "프린스 콰베나 아두",
+        "position": "FW",
+        "club": "Viktoria Plzen",
         "key": false
       }
     ],
@@ -3333,37 +8589,157 @@
       {
         "name": "올란도 모스케라",
         "position": "GK",
-        "club": "카르타헤나",
+        "club": "Al-Fayha FC",
+        "key": false
+      },
+      {
+        "name": "루이스 메히아",
+        "position": "GK",
+        "club": "Club Nacional",
+        "key": false
+      },
+      {
+        "name": "세사르 사무디오",
+        "position": "GK",
+        "club": "CD Marathón",
+        "key": false
+      },
+      {
+        "name": "세사르 블랙맨",
+        "position": "DF",
+        "club": "Slovan Bratislava",
+        "key": false
+      },
+      {
+        "name": "호르헤 구티에레스",
+        "position": "DF",
+        "club": "Deportivo La Guaira",
+        "key": false
+      },
+      {
+        "name": "마이클 아미르 무리요",
+        "position": "DF",
+        "club": "베식타시",
+        "key": false
+      },
+      {
+        "name": "피델 에스코바르",
+        "position": "DF",
+        "club": "Saprissa",
+        "key": false
+      },
+      {
+        "name": "안드레스 안드라데",
+        "position": "DF",
+        "club": "LASK",
+        "key": false
+      },
+      {
+        "name": "에드가르도 파리냐",
+        "position": "DF",
+        "club": "Pari Nizhniy Novgorod",
+        "key": false
+      },
+      {
+        "name": "호세 코르도바",
+        "position": "DF",
+        "club": "Norwich City",
+        "key": false
+      },
+      {
+        "name": "에릭 데이비스",
+        "position": "DF",
+        "club": "CD Plaza Amador",
+        "key": false
+      },
+      {
+        "name": "히오바니 라모스",
+        "position": "DF",
+        "club": "Academia Puerto Cabello",
+        "key": false
+      },
+      {
+        "name": "로데릭 밀레르",
+        "position": "DF",
+        "club": "Turan Tovuz",
         "key": false
       },
       {
         "name": "아니발 고도이",
         "position": "MF",
-        "club": "샌디에이고 FC",
+        "club": "San Diego FC",
         "key": true
       },
       {
         "name": "아달베르토 카라스키야",
         "position": "MF",
-        "club": "UNAM 푸마스",
+        "club": "Pumas UNAM",
         "key": true
       },
       {
-        "name": "아미르 무리요",
-        "position": "DF",
-        "club": "베식타시",
-        "key": true
+        "name": "카를로스 하비",
+        "position": "MF",
+        "club": "Minnesota United",
+        "key": false
+      },
+      {
+        "name": "크리스티안 마르티네스",
+        "position": "MF",
+        "club": "Ironi Kiryat Shmona",
+        "key": false
+      },
+      {
+        "name": "호세 루이스 로드리게스",
+        "position": "MF",
+        "club": "FC Juárez",
+        "key": false
+      },
+      {
+        "name": "세사르 야니스",
+        "position": "MF",
+        "club": "Cobresal",
+        "key": false
+      },
+      {
+        "name": "요엘 바르세나스",
+        "position": "MF",
+        "club": "Mazatlán FC",
+        "key": false
+      },
+      {
+        "name": "알베르토 킨테로",
+        "position": "MF",
+        "club": "CD Plaza Amador",
+        "key": false
+      },
+      {
+        "name": "아사리아스 론도뇨",
+        "position": "MF",
+        "club": "Universidad Católica de Chile",
+        "key": false
       },
       {
         "name": "이스마엘 디아스",
         "position": "FW",
-        "club": "레온",
-        "key": false
+        "club": "Club León",
+        "key": true
       },
       {
         "name": "세실리오 워터맨",
         "position": "FW",
-        "club": "KAA 헨트",
+        "club": "Universidad de Concepción",
+        "key": false
+      },
+      {
+        "name": "호세 파하르도",
+        "position": "FW",
+        "club": "Universidad Católica",
+        "key": false
+      },
+      {
+        "name": "토마스 로드리게스",
+        "position": "FW",
+        "club": "Saprissa",
         "key": false
       }
     ],
