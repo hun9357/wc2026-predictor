@@ -132,7 +132,7 @@ wc2026-predictor/
 | `style` | string | 플레이 스타일 한 줄 |
 | `aimed_tactics` | string | **지향 전술** 한 줄 |
 | `record` | object | `w/d/l/pts/gd` (정수). 순위 맥락용 |
-| `form` | string[] | 최근 경기 결과 `"W"/"D"/"L"` 순서대로 |
+| `form` | string[] | 경기 결과 `"W"/"D"/"L"`. **시간순(오래된→최신)**, 즉 마지막 원소가 최근 경기 |
 | `key_players` | string[] | 핵심 선수(선택) |
 | `injuries` | string[] | 부상/결장 이슈(선택) |
 | `updated_at` | string | ISO8601 (CT 오프셋 `-05:00` 또는 `-06:00`) |
