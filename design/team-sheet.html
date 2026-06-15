@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WC2026 Predictor - Team Sheet State</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav class="prototype-nav" aria-label="Prototype pages">
+      <a href="./index.html">Desktop</a>
+      <a href="./mobile.html">Mobile</a>
+      <a href="./team-sheet.html" aria-current="page">Team Sheet</a>
+      <a href="./mobile-team-sheet.html">Mobile Sheet</a>
+      <a href="./empty-error.html">States</a>
+    </nav>
+
+    <div class="app-shell">
+      <header class="hero">
+        <div class="container hero-content">
+          <div>
+            <p class="kicker">Selected Match</p>
+            <h1 class="title">멕시코 vs 폴란드</h1>
+            <p class="hero-copy">카드 선택 후 팀 프로필 시트가 열린 데스크톱 상태입니다.</p>
+            <div class="status-row"><span class="badge">A조 · MD3</span><span class="badge">오늘 17:00 CT</span></div>
+          </div>
+          <aside class="update-panel">
+            <p class="update-label">예측 평결</p>
+            <p class="update-time">멕시코 승 56%</p>
+            <p class="update-meta">홈 관점 승·무·패 확률</p>
+          </aside>
+        </div>
+      </header>
+
+      <main class="container content sheet-layout">
+        <section>
+          <div class="section-heading">
+            <div>
+              <h2>선택된 예측 카드</h2>
+              <p>좌측은 기존 리스트 컨텍스트, 우측은 팀 프로필 상세 시트입니다.</p>
+            </div>
+          </div>
+          <article class="match-card">
+            <div class="match-meta"><span class="meta-chip">A조 · MD3</span><span>오늘 17:00 CT</span></div>
+            <div class="team-row">
+              <div class="team"><span class="team-name">멕시코</span><span class="team-code">MEX · 4 pts</span></div>
+              <span class="vs">VS</span>
+              <div class="team away"><span class="team-name">폴란드</span><span class="team-code">POL · 3 pts</span></div>
+            </div>
+            <div class="probability">
+              <div class="probability-bar">
+                <span class="prob-segment prob-home" style="width: 56%">56%</span>
+                <span class="prob-segment prob-draw" style="width: 24%">24%</span>
+                <span class="prob-segment prob-away" style="width: 20%">20%</span>
+              </div>
+              <div class="prob-labels"><span>홈 승</span><span>무</span><span>원정 승</span></div>
+            </div>
+            <div class="verdict"><span>예측: 멕시코 승</span><small>중간 확신</small></div>
+            <div class="details">
+              <p><strong>전술 근거</strong> 멕시코의 측면 과부하와 빠른 전환이 폴란드 윙백 뒤 공간을 반복적으로 겨냥할 수 있습니다. 폴란드는 세트피스와 긴 전환에서 위협을 만들지만, 중앙 빌드업 압박을 얼마나 견디는지가 관건입니다.</p>
+              <div class="chip-list"><span class="chip">CB 부상 의심</span><span class="chip">무승부면 진출 유력</span><span class="chip">세트피스 변수</span></div>
+            </div>
+          </article>
+        </section>
+
+        <aside class="profile-sheet" aria-label="Team profile sheet">
+          <div class="sheet-header">
+            <div>
+              <h2>팀 프로필</h2>
+              <p>카드 탭 시 열리는 시트 콘텐츠</p>
+            </div>
+            <button class="icon-button" aria-label="Close sheet">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 6l12 12M18 6 6 18"/></svg>
+            </button>
+          </div>
+
+          <section class="team-profile">
+            <h3>멕시코 · MEX</h3>
+            <div class="profile-stat-row">
+              <div class="profile-stat"><span>포메이션</span><b>4-3-3</b></div>
+              <div class="profile-stat"><span>승점</span><b>4</b></div>
+              <div class="profile-stat"><span>골득실</span><b>+2</b></div>
+            </div>
+            <p><strong>스타일</strong> 높은 압박, 풀백 오버랩, 빠른 측면 전환.</p>
+            <p><strong>지향 전술</strong> 측면 과부하로 종패스 차단 후 빠른 전환.</p>
+            <div class="form-row" aria-label="Recent form">
+              <span class="form-mark form-win">W</span>
+              <span class="form-mark form-draw">D</span>
+            </div>
+          </section>
+
+          <section class="team-profile">
+            <h3>폴란드 · POL</h3>
+            <div class="profile-stat-row">
+              <div class="profile-stat"><span>포메이션</span><b>3-4-2-1</b></div>
+              <div class="profile-stat"><span>승점</span><b>3</b></div>
+              <div class="profile-stat"><span>골득실</span><b>0</b></div>
+            </div>
+            <p><strong>스타일</strong> 낮은 수비 블록, 타깃맨 연결, 세트피스 집중.</p>
+            <p><strong>부상</strong> 주전 센터백 출전 의심. 확인 전까지 무승부 변동성을 높게 둡니다.</p>
+            <div class="form-row" aria-label="Recent form">
+              <span class="form-mark form-loss">L</span>
+              <span class="form-mark form-win">W</span>
+            </div>
+          </section>
+        </aside>
+      </main>
+    </div>
+  </body>
+</html>

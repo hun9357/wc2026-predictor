@@ -3,6 +3,9 @@ node_modules/
 dist/
 .cache/
 
+# scratch
+tmp/
+
 # os / editor
 .DS_Store
 Thumbs.db
