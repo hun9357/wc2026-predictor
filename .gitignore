@@ -3,8 +3,9 @@ node_modules/
 dist/
 .cache/
 
-# scratch
+# scratch / local tooling
 tmp/
+.claude/
 
 # os / editor
 .DS_Store
