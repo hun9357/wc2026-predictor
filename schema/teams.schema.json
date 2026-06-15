@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WC2026 Teams", "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "group", "formation", "style", "aimed_tactics", "record", "form", "updated_at"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[A-Z]{3}$" },
+      "name": { "type": "string" },
+      "group": { "type": "string", "pattern": "^[A-L]$" },
+      "formation": { "type": "string" }, "style": { "type": "string" }, "aimed_tactics": { "type": "string" },
+      "record": { "type": "object", "required": ["w", "d", "l", "pts", "gd"],
+        "properties": { "w": { "type": "integer" }, "d": { "type": "integer" }, "l": { "type": "integer" }, "pts": { "type": "integer" }, "gd": { "type": "integer" } } },
+      "form": { "type": "array", "items": { "enum": ["W", "D", "L"] } },
+      "key_players": { "type": "array", "items": { "type": "string" } },
+      "injuries": { "type": "array", "items": { "type": "string" } },
+      "updated_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}
