@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WC2026 Predictions", "type": "object",
+  "required": ["tournament", "generated_at", "timezone", "matches"],
+  "properties": {
+    "tournament": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "timezone": { "const": "America/Chicago" },
+    "matches": { "type": "array", "items": {
+      "type": "object",
+      "required": ["id", "group", "matchday", "kickoff", "status", "home", "away", "prob", "verdict"],
+      "properties": {
+        "id": { "type": "string" }, "group": { "type": "string", "pattern": "^[A-L]$" },
+        "matchday": { "type": "integer", "minimum": 1, "maximum": 3 },
+        "kickoff": { "type": "string", "format": "date-time" },
+        "status": { "enum": ["upcoming", "played"] },
+        "home": { "type": "string", "pattern": "^[A-Z]{3}$" }, "away": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "prob": { "type": "object", "required": ["win", "draw", "loss"],
+          "properties": { "win": { "type": "integer", "minimum": 0, "maximum": 100 }, "draw": { "type": "integer", "minimum": 0, "maximum": 100 }, "loss": { "type": "integer", "minimum": 0, "maximum": 100 } } },
+        "verdict": { "enum": ["home_win", "draw", "away_win"] },
+        "rationale": { "type": "string" },
+        "team_notes": { "type": "object", "properties": { "home": { "type": "string" }, "away": { "type": "string" } } },
+        "key_variables": { "type": "array", "items": { "type": "string" } },
+        "flip_condition": { "type": "string" }, "qualification_context": { "type": "string" },
+        "sources": { "type": "array", "items": { "type": "string" } }
+      }
+    } }
+  }
+}

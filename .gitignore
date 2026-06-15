@@ -3,6 +3,10 @@ node_modules/
 dist/
 .cache/
 
+# scratch / local tooling
+tmp/
+.claude/
+
 # os / editor
 .DS_Store
 Thumbs.db

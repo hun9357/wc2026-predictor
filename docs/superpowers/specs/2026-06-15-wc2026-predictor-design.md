@@ -28,7 +28,7 @@
 
 ## 2. 사용자 & 사용 맥락
 
-- 단일 사용자(본인). **US Central Time (`America/Chicago`)**.
+- 단일 사용자(본인). **US Central Time (`America/Chicago`)** 기준.
 - 주 사용 기기: **스마트폰** (베팅 직전/경기 당일 조회) → 모바일 우선 설계.
 - 부차 기기: PC.
 - 사용 시점: 매일 아침 갱신된 예측을 보고 그날 경기 베팅 판단에 참고.
@@ -71,7 +71,7 @@
 | 호스팅 | **GitHub Pages** | push 시 자동 배포. 대안: Vercel |
 | 갱신 | **Claude 루틴 (cowork scheduled)** | 클라우드, 매일 07:00 CT |
 
-- **저장소 위치**: `wc2026-predictor` (디지몬 프로젝트와 분리된 신규 repo, `main` 브랜치)
+- **저장소 위치**: 별도 신규 repo `wc2026-predictor` (다른 프로젝트와 분리, `main` 브랜치)
 - **배포 URL**: GitHub Pages 설정 후 확정 (오픈 이슈 §12).
 
 ### 디렉터리 구조 (목표)
@@ -116,7 +116,7 @@ wc2026-predictor/
     "aimed_tactics": "측면 과부하로 종패스 차단 후 빠른 전환",
     "record": { "w": 1, "d": 1, "l": 0, "pts": 4, "gd": 2 },
     "form": ["W", "D"],
-    "key_players": ["선수A", "선수B"],
+    "squad": [{"name": "선수A", "position": "FW", "club": "유럽 1부 클럽", "key": true}],
     "injuries": ["선수C (의심)"],
     "updated_at": "2026-06-15T07:00:00-05:00"
   }
@@ -133,7 +133,7 @@ wc2026-predictor/
 | `aimed_tactics` | string | **지향 전술** 한 줄 |
 | `record` | object | `w/d/l/pts/gd` (정수). 순위 맥락용 |
 | `form` | string[] | 경기 결과 `"W"/"D"/"L"`. **시간순(오래된→최신)**, 즉 마지막 원소가 최근 경기 |
-| `key_players` | string[] | 핵심 선수(선택) |
+| `squad` | object[] | 명단: `{name, position(GK/DF/MF/FW), club, key}`, key=true는 주요 선수 |
 | `injuries` | string[] | 부상/결장 이슈(선택) |
 | `updated_at` | string | ISO8601 (CT 오프셋 `-05:00` 또는 `-06:00`) |
 

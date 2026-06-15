@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>WC2026 잔여 조별리그 예측</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="kicker">FIFA World Cup 2026 · Group Stage Predictor</p>
+          <h1 class="title">WC2026 잔여 조별리그 예측 보드</h1>
+          <p class="hero-copy">매일 아침 갱신되는 승·무·패 확률과 전술 근거를 한 화면에서 확인합니다. 모든 확률은 홈팀 관점입니다.</p>
+          <div class="status-row" aria-label="데이터 상태">
+            <span class="badge badge-live" id="hero-status">데이터 정상</span>
+            <span class="badge">America/Chicago</span>
+            <span class="badge" id="hero-remaining">남은 경기 —</span>
+          </div>
+        </div>
+        <aside class="update-panel" aria-label="최근 업데이트">
+          <p class="update-label">마지막 업데이트</p>
+          <p class="update-time" id="hero-update-time">—</p>
+          <p class="update-meta">매일 07:00 CT 자동 갱신</p>
+        </aside>
+      </div>
+    </header>
+
+    <section class="filters" aria-label="필터">
+      <div class="container filter-panel">
+        <div class="tab-list" id="group-tabs" aria-label="조 탭"></div>
+        <div class="filter-actions">
+          <div class="matchday-list" id="md-tabs" aria-label="매치데이"></div>
+          <button class="toggle is-active" id="toggle-remaining" type="button" aria-pressed="true"><span class="toggle-dot"></span>남은 경기만</button>
+        </div>
+        <label class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"/></svg>
+          <input type="search" id="search" placeholder="팀 검색" aria-label="팀 검색">
+        </label>
+      </div>
+    </section>
+
+    <main class="container content">
+      <div class="section-heading">
+        <div>
+          <h2 id="section-title">—</h2>
+          <p>카드를 탭하면 팀 프로필이 열립니다. 데스크톱은 2열, 모바일은 1열입니다.</p>
+        </div>
+        <span class="badge">확신도: 최고 확률 기준</span>
+      </div>
+      <section class="card-grid" id="list" aria-label="예측 카드"></section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <p>본 예측은 공개 정보 기반 AI 추정이며 정확성을 보장하지 않습니다. 베팅에 대한 책임은 전적으로 본인에게 있습니다.</p>
+        <div class="source-row"><span>업데이트</span><span>매일 07:00 America/Chicago</span></div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="mobile-scrim" id="scrim" hidden></div>
+  <aside class="mobile-bottom-sheet" id="profile-sheet" hidden aria-label="팀 프로필"></aside>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>

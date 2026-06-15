@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WC2026 Predictor - Mobile Team Sheet</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="mobile-page">
+    <nav class="prototype-nav" aria-label="Prototype pages">
+      <a href="./index.html">Desktop</a>
+      <a href="./mobile.html">Mobile</a>
+      <a href="./team-sheet.html">Team Sheet</a>
+      <a href="./mobile-team-sheet.html" aria-current="page">Mobile Sheet</a>
+      <a href="./empty-error.html">States</a>
+    </nav>
+
+    <div class="mobile-shell">
+      <header class="hero">
+        <div class="container hero-content">
+          <p class="kicker">A조 · MD3</p>
+          <h1 class="title">멕시코 vs 폴란드</h1>
+          <p class="hero-copy">팀 프로필 하단 시트가 열린 모바일 상태입니다.</p>
+          <div class="status-row"><span class="badge">17:00 CT</span><span class="badge">MEX 56%</span></div>
+        </div>
+      </header>
+
+      <main class="container content">
+        <article class="match-card">
+          <div class="match-meta"><span class="meta-chip">A조 · MD3</span><span>오늘 17:00 CT</span></div>
+          <div class="team-row">
+            <div class="team"><span class="team-name">멕시코</span><span class="team-code">MEX · 4 pts</span></div>
+            <span class="vs">VS</span>
+            <div class="team away"><span class="team-name">폴란드</span><span class="team-code">POL · 3 pts</span></div>
+          </div>
+          <div class="probability">
+            <div class="probability-bar">
+              <span class="prob-segment prob-home" style="width: 56%">56%</span>
+              <span class="prob-segment prob-draw" style="width: 24%">24%</span>
+              <span class="prob-segment prob-away" style="width: 20%">20%</span>
+            </div>
+            <div class="prob-labels"><span>홈 승</span><span>무</span><span>원정 승</span></div>
+          </div>
+          <div class="verdict"><span>예측: 멕시코 승</span><small>중간 확신</small></div>
+          <details class="details" open>
+            <summary>전술 근거 보기</summary>
+            <div class="details-inner">
+              <p><strong>전술 근거</strong> 멕시코의 측면 과부하가 폴란드 윙백 뒤 공간을 반복적으로 겨냥할 수 있습니다.</p>
+              <div class="chip-list"><span class="chip">CB 부상 의심</span><span class="chip">무승부면 진출 유력</span></div>
+            </div>
+          </details>
+        </article>
+      </main>
+
+      <div class="mobile-scrim" aria-hidden="true"></div>
+      <aside class="mobile-bottom-sheet" aria-label="Team profile bottom sheet">
+        <div class="sheet-grabber"></div>
+        <div class="sheet-header">
+          <div>
+            <h2>팀 프로필</h2>
+            <p>멕시코와 폴란드 전술 비교</p>
+          </div>
+          <button class="icon-button" aria-label="Close sheet">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 6l12 12M18 6 6 18"/></svg>
+          </button>
+        </div>
+
+        <section class="team-profile">
+          <h3>멕시코 · MEX</h3>
+          <div class="profile-stat-row">
+            <div class="profile-stat"><span>포메이션</span><b>4-3-3</b></div>
+            <div class="profile-stat"><span>승점</span><b>4</b></div>
+            <div class="profile-stat"><span>최근</span><b>W-D</b></div>
+          </div>
+          <p><strong>지향 전술</strong> 측면 과부하로 종패스 차단 후 빠른 전환.</p>
+        </section>
+
+        <section class="team-profile">
+          <h3>폴란드 · POL</h3>
+          <div class="profile-stat-row">
+            <div class="profile-stat"><span>포메이션</span><b>3-4-2-1</b></div>
+            <div class="profile-stat"><span>승점</span><b>3</b></div>
+            <div class="profile-stat"><span>최근</span><b>L-W</b></div>
+          </div>
+          <p><strong>리스크</strong> 주전 센터백 출전 의심. 선제골 이후 낮은 블록 전환 시 무승부 확률 상승.</p>
+        </section>
+      </aside>
+    </div>
+  </body>
+</html>

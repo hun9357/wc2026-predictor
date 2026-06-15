@@ -1,0 +1,6 @@
+{
+  "name": "wc2026-predictor",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test" }
+}

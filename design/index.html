@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WC2026 Predictor - Desktop Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav class="prototype-nav" aria-label="Prototype pages">
+      <a href="./index.html" aria-current="page">Desktop</a>
+      <a href="./mobile.html">Mobile</a>
+      <a href="./team-sheet.html">Team Sheet</a>
+      <a href="./mobile-team-sheet.html">Mobile Sheet</a>
+      <a href="./empty-error.html">States</a>
+    </nav>
+
+    <div class="app-shell">
+      <header class="hero">
+        <div class="container hero-content">
+          <div>
+            <p class="kicker">FIFA World Cup 2026 · Group Stage Predictor</p>
+            <h1 class="title">WC2026 잔여 조별리그 예측 보드</h1>
+            <p class="hero-copy">매일 아침 갱신되는 승·무·패 확률과 전술 근거를 한 화면에서 빠르게 확인합니다. 모든 확률은 홈팀 관점입니다.</p>
+            <div class="status-row" aria-label="Data status">
+              <span class="badge badge-live">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.7 16.6 4.8 11.7l1.4-1.4 3.5 3.5 8.1-8.1 1.4 1.4z"/></svg>
+                데이터 정상
+              </span>
+              <span class="badge">America/Chicago</span>
+              <span class="badge">남은 경기 18</span>
+            </div>
+          </div>
+          <aside class="update-panel" aria-label="Latest update">
+            <p class="update-label">마지막 업데이트</p>
+            <p class="update-time">6/15 07:02 CT</p>
+            <p class="update-meta">다음 루틴: 내일 07:00 CT</p>
+          </aside>
+        </div>
+      </header>
+
+      <section class="filters" aria-label="Filters">
+        <div class="container filter-panel">
+          <div class="tab-list" aria-label="Group tabs">
+            <button class="tab is-active">A</button>
+            <button class="tab">B</button>
+            <button class="tab">C</button>
+            <button class="tab">D</button>
+            <button class="tab">E</button>
+            <button class="tab">F</button>
+            <button class="tab">G</button>
+            <button class="tab">H</button>
+            <button class="tab">I</button>
+            <button class="tab">J</button>
+            <button class="tab">K</button>
+            <button class="tab">L</button>
+          </div>
+          <div class="filter-actions">
+            <button class="segment-tab">MD2</button>
+            <button class="segment-tab is-active">MD3</button>
+            <button class="toggle"><span class="toggle-dot"></span>남은 경기만</button>
+          </div>
+          <label class="search-field">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"/></svg>
+            <input type="search" value="" placeholder="팀 검색">
+          </label>
+        </div>
+      </section>
+
+      <main class="container content">
+        <div class="section-heading">
+          <div>
+            <h2>A조 · 매치데이 3</h2>
+            <p>데스크톱에서는 카드가 2열로 배치되고 상세 근거가 기본 노출됩니다.</p>
+          </div>
+          <span class="badge">확신도: 최고 확률 기준</span>
+        </div>
+
+        <section class="card-grid" aria-label="Prediction cards">
+          <article class="match-card">
+            <div class="match-meta">
+              <span class="meta-chip">A조 · MD3</span>
+              <span>오늘 17:00 CT</span>
+            </div>
+            <div class="team-row">
+              <div class="team">
+                <span class="team-name">멕시코</span>
+                <span class="team-code">MEX · 4 pts</span>
+              </div>
+              <span class="vs">VS</span>
+              <div class="team away">
+                <span class="team-name">폴란드</span>
+                <span class="team-code">POL · 3 pts</span>
+              </div>
+            </div>
+            <div class="probability" aria-label="Win draw loss probabilities">
+              <div class="probability-bar">
+                <span class="prob-segment prob-home" style="width: 56%">56%</span>
+                <span class="prob-segment prob-draw" style="width: 24%">24%</span>
+                <span class="prob-segment prob-away" style="width: 20%">20%</span>
+              </div>
+              <div class="prob-labels"><span>홈 승</span><span>무</span><span>원정 승</span></div>
+            </div>
+            <div class="verdict">
+              <span>예측: 멕시코 승</span>
+              <small>중간 확신</small>
+            </div>
+            <div class="details">
+              <p><strong>전술 근거</strong> 멕시코의 측면 과부하와 빠른 전환이 폴란드 윙백 뒤 공간을 반복적으로 겨냥할 수 있습니다. 폴란드는 낮은 블록 후 역습 의존도가 높아 선제 실점 시 경기 운영 폭이 좁아집니다.</p>
+              <div class="note-grid">
+                <div class="note"><b>홈 지향</b> 빠른 전환 / 풀백 오버랩</div>
+                <div class="note"><b>원정 지향</b> 수비 블록 / 세트피스</div>
+              </div>
+              <div class="chip-list">
+                <span class="chip">폴란드 주전 CB 의심</span>
+                <span class="chip">멕시코 무승부면 진출 유력</span>
+              </div>
+              <p><strong>뒤집힐 조건</strong> 폴란드가 먼저 득점하고 중앙 블록을 낮추면 무승부 비중이 올라갑니다.</p>
+              <p><strong>진출 시나리오</strong> 멕시코는 패하지 않으면 상위권 유지, 폴란드는 승리가 필요한 상황입니다.</p>
+            </div>
+          </article>
+
+          <article class="match-card is-tossup">
+            <div class="match-meta">
+              <span class="meta-chip">A조 · MD3</span>
+              <span>오늘 20:00 CT</span>
+            </div>
+            <div class="team-row">
+              <div class="team">
+                <span class="team-name">캐나다</span>
+                <span class="team-code">CAN · 2 pts</span>
+              </div>
+              <span class="vs">VS</span>
+              <div class="team away">
+                <span class="team-name">남아공</span>
+                <span class="team-code">RSA · 2 pts</span>
+              </div>
+            </div>
+            <div class="probability">
+              <div class="probability-bar">
+                <span class="prob-segment prob-home" style="width: 39%">39%</span>
+                <span class="prob-segment prob-draw" style="width: 31%">31%</span>
+                <span class="prob-segment prob-away" style="width: 30%">30%</span>
+              </div>
+              <div class="prob-labels"><span>홈 승</span><span>무</span><span>원정 승</span></div>
+            </div>
+            <div class="verdict">
+              <span>예측: 캐나다 승</span>
+              <small>접전</small>
+            </div>
+            <div class="details">
+              <p><strong>전술 근거</strong> 캐나다는 전방 압박 이후 짧은 회수 구간에서 기회를 만들 수 있지만, 남아공의 전환 속도가 같은 공간을 위협합니다. 두 팀 모두 승점이 필요한 구조라 경기 후반 변동성이 큽니다.</p>
+              <div class="note-grid">
+                <div class="note"><b>홈 지향</b> 전방 압박 / 하프스페이스 침투</div>
+                <div class="note"><b>원정 지향</b> 빠른 역습 / 긴 패스 전환</div>
+              </div>
+              <div class="chip-list">
+                <span class="chip">양 팀 체력 변수</span>
+                <span class="chip">후반 교체 타이밍</span>
+              </div>
+              <p><strong>뒤집힐 조건</strong> 남아공이 전반 압박을 견디면 원정 승 확률이 빠르게 올라갑니다.</p>
+              <p><strong>진출 시나리오</strong> 승리 팀은 3위권 경쟁에서 크게 유리해집니다.</p>
+            </div>
+          </article>
+
+          <article class="match-card">
+            <div class="match-meta">
+              <span class="meta-chip">B조 · MD3</span>
+              <span>내일 14:00 CT</span>
+            </div>
+            <div class="team-row">
+              <div class="team">
+                <span class="team-name">미국</span>
+                <span class="team-code">USA · 4 pts</span>
+              </div>
+              <span class="vs">VS</span>
+              <div class="team away">
+                <span class="team-name">세르비아</span>
+                <span class="team-code">SRB · 1 pt</span>
+              </div>
+            </div>
+            <div class="probability">
+              <div class="probability-bar">
+                <span class="prob-segment prob-home" style="width: 61%">61%</span>
+                <span class="prob-segment prob-draw" style="width: 22%">22%</span>
+                <span class="prob-segment prob-away" style="width: 17%">17%</span>
+              </div>
+              <div class="prob-labels"><span>홈 승</span><span>무</span><span>원정 승</span></div>
+            </div>
+            <div class="verdict">
+              <span>예측: 미국 승</span>
+              <small>높은 확신</small>
+            </div>
+            <div class="details">
+              <p><strong>전술 근거</strong> 미국은 강한 압박과 2선 침투로 세르비아의 빌드업 첫 패스를 흔들 가능성이 큽니다. 세르비아가 제공권을 살리는 구간은 위험하지만, 오픈 플레이에서는 미국의 회복 속도가 우세합니다.</p>
+              <div class="chip-list">
+                <span class="chip">미국 홈 대륙 이점</span>
+                <span class="chip">세르비아 세트피스</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="match-card">
+            <div class="match-meta">
+              <span class="meta-chip">C조 · MD3</span>
+              <span>내일 17:00 CT</span>
+            </div>
+            <div class="team-row">
+              <div class="team">
+                <span class="team-name">일본</span>
+                <span class="team-code">JPN · 3 pts</span>
+              </div>
+              <span class="vs">VS</span>
+              <div class="team away">
+                <span class="team-name">크로아티아</span>
+                <span class="team-code">CRO · 4 pts</span>
+              </div>
+            </div>
+            <div class="probability">
+              <div class="probability-bar">
+                <span class="prob-segment prob-home" style="width: 34%">34%</span>
+                <span class="prob-segment prob-draw" style="width: 29%">29%</span>
+                <span class="prob-segment prob-away" style="width: 37%">37%</span>
+              </div>
+              <div class="prob-labels"><span>홈 승</span><span>무</span><span>원정 승</span></div>
+            </div>
+            <div class="verdict">
+              <span>예측: 크로아티아 승</span>
+              <small>접전</small>
+            </div>
+            <div class="details">
+              <p><strong>전술 근거</strong> 일본의 빠른 측면 전환은 위협적이지만, 크로아티아가 중원 템포를 늦추면 경기 리듬이 원정팀 쪽으로 기웁니다. 확률 차가 작아 선발 명단 확인이 중요합니다.</p>
+              <div class="chip-list">
+                <span class="chip">중원 점유율</span>
+                <span class="chip">일본 측면 스프린트</span>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-grid">
+          <p>본 예측은 공개 정보 기반 AI 추정이며 정확성을 보장하지 않습니다. 베팅에 대한 책임은 전적으로 본인에게 있습니다.</p>
+          <div class="source-row"><span>Sources</span><a href="#">공식 일정</a><a href="#">팀 뉴스</a><a href="#">전술 리포트</a></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
