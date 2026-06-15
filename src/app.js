@@ -84,14 +84,19 @@ function syncDetails() {
 function renderAll() { renderHeaderStatus(); renderTabs(); renderContent(); }
 
 function showDetail(match) {
-  document.querySelector('.filters').hidden = true;
-  document.querySelector('.section-heading').hidden = true;
-  $('list').innerHTML = renderMatchDetail(match, state.teams, state.predictions.matches || [], new Date());
+  $('board').hidden = true;
+  const dv = $('detail-view');
+  dv.innerHTML = renderMatchDetail(match, state.teams, state.predictions.matches || [], new Date());
+  dv.hidden = false;
+  document.body.classList.add('detail-page');
   window.scrollTo(0, 0);
 }
 function showBoard() {
-  document.querySelector('.filters').hidden = false;
-  document.querySelector('.section-heading').hidden = false;
+  const dv = $('detail-view');
+  dv.hidden = true;
+  dv.innerHTML = '';
+  document.body.classList.remove('detail-page');
+  $('board').hidden = false;
   renderAll();
 }
 function route() {

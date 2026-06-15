@@ -5,9 +5,9 @@ export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
-export function flagImg(id, name) {
+export function flagImg(id, name, cls = 'flag') {
   const p = flagPath(id);
-  return p ? `<img class="flag" src="${p}" alt="" width="22" height="16" loading="lazy">` : '';
+  return p ? `<img class="${cls}" src="${p}" alt="" loading="lazy">` : '';
 }
 
 export function teamCode(team, id) {
@@ -127,70 +127,121 @@ export function renderProfileSheet(match, byId) {
     renderTeamProfile(home) + renderTeamProfile(away);
 }
 
-function teamPathRows(team, allMatches, byId) {
-  if (!team) return '<p class="muted">정보 없음</p>';
-  const ms = (allMatches || []).filter(m => m.home === team.id || m.away === team.id)
+function detailCode(team, id) {
+  const parts = [esc(team?.id ?? id)];
+  const pts = team?.record?.pts, gd = team?.record?.gd;
+  if (pts !== undefined && pts !== null) parts.push(`${pts} pts`);
+  if (gd !== undefined && gd !== null) parts.push(`GD ${gd > 0 ? '+' + gd : gd}`);
+  return parts.join(' · ');
+}
+function analysisCard(team, id, note) {
+  const text = note || team?.aimed_tactics || team?.style || '';
+  return `<article class="analysis-card"><h3>${flagImg(id, team?.name)}${esc(team?.name ?? id)}${team?.formation ? ` · ${esc(team.formation)}` : ''}</h3>` +
+    (text ? `<p>${esc(text)}</p>` : '') + `</article>`;
+}
+function styleChips(team) {
+  const chips = [...new Set([team?.style, team?.aimed_tactics].filter(Boolean).join(', ').split(/[,·/]/).map(s => s.trim()).filter(Boolean))].slice(0, 4);
+  return chips.length ? `<div class="chip-list">${chips.map(c => `<span class="chip">${esc(c)}</span>`).join('')}</div>` : '';
+}
+function profileCard(team, id) {
+  if (!team) return `<article class="detail-profile-card"><h3>${esc(id)}</h3><p>정보 없음</p></article>`;
+  const recent = (team.form || []).join('-') || '—';
+  return `<article class="detail-profile-card"><h3>${flagImg(team.id, team.name)}${esc(team.name)} · ${esc(team.id)}</h3>` +
+    `<div class="profile-stat-row">` +
+      `<div class="profile-stat"><span>포메이션</span><b>${esc(team.formation ?? '—')}</b></div>` +
+      `<div class="profile-stat"><span>승점</span><b>${esc(team.record?.pts ?? '—')}</b></div>` +
+      `<div class="profile-stat"><span>최근</span><b>${esc(recent)}</b></div>` +
+    `</div>` +
+    (team.aimed_tactics ? `<p><strong>지향 전술</strong> ${esc(team.aimed_tactics)}</p>` : '') +
+    (team.injuries?.length ? `<p><strong>부상</strong> ${esc(team.injuries.join(', '))}</p>` : '') +
+    styleChips(team) +
+  `</article>`;
+}
+function squadCard(team) {
+  const sb = team ? squadBlock(team.squad) : '';
+  return sb ? `<article class="detail-profile-card squad-card"><h3>${flagImg(team.id, team.name)}${esc(team.name)} · ${esc(team.id)}</h3>${sb}</article>` : '';
+}
+function pathCard(team, id, allMatches, byId) {
+  const ms = (allMatches || []).filter(m => m.home === id || m.away === id)
     .sort((a, b) => Number(a.matchday) - Number(b.matchday));
-  if (!ms.length) return '<p class="muted">경기 없음</p>';
-  return `<ul class="path-list">` + ms.map(m => {
-    const isHome = m.home === team.id;
-    const oppId = isHome ? m.away : m.home;
-    const opp = byId.get(oppId);
+  const rows = ms.length ? ms.map(m => {
+    const isHome = m.home === id;
+    const opp = byId.get(isHome ? m.away : m.home);
     let pick = '무';
-    if (m.verdict !== 'draw') pick = (m.verdict === 'home_win') === isHome ? '승' : '패';
-    const pc = pick === '승' ? 'w' : pick === '무' ? 'd' : 'l';
-    const st = m.status === 'played' ? '종료' : '예정';
-    return `<li class="path-row"><span class="pr-md">MD${esc(m.matchday)}</span>` +
-      `<span class="pr-opp">${flagImg(oppId, opp?.name)}${esc(opp?.name ?? oppId)}</span>` +
-      `<span class="pr-state">${st}</span>` +
-      `<span class="pr-pick pick-${pc}">예측 ${pick}</span></li>`;
-  }).join('') + `</ul>`;
+    if (m.verdict && m.verdict !== 'draw') pick = (m.verdict === 'home_win') === isHome ? '승' : '패';
+    const pc = pick === '승' ? 'win' : pick === '무' ? 'draw' : 'loss';
+    const label = m.status === 'played' ? pick : `예측 ${pick}`;
+    return `<li class="path-row"><span>MD${esc(m.matchday)}</span><strong>vs ${esc(opp?.name ?? (isHome ? m.away : m.home))}</strong><span class="pick-pill pick-${pc}">${label}</span></li>`;
+  }).join('') : '<li class="path-row"><span>—</span><strong>경기 없음</strong><span></span></li>';
+  return `<article class="path-card"><h3>${flagImg(id, team?.name)}${esc(team?.name ?? id)}</h3><ul class="path-list">${rows}</ul></article>`;
 }
 
 export function renderMatchDetail(match, teams, allMatches = [], now = new Date()) {
-  if (!match) return renderStatePanel({ icon: 'alert', title: '경기를 찾을 수 없습니다', body: '목록으로 돌아가세요.' });
+  if (!match) return `<main class="container content"><a class="back-link" href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 18l-6-6 6-6"/></svg>목록으로</a>` +
+    renderStatePanel({ icon: 'alert', title: '경기를 찾을 수 없습니다', body: '목록으로 돌아가세요.' }) + `</main>`;
   const byId = new Map((teams || []).map(t => [t.id, t]));
   const home = byId.get(match.home), away = byId.get(match.away);
   const k = formatKickoff(match.kickoff, now);
+  const prob = match.prob || { win: 0, draw: 0, loss: 0 };
+  const v = match.verdict || verdictFromProb(prob);
+  const homeName = esc(home?.name ?? match.home), awayName = esc(away?.name ?? match.away);
+  const pickPct = v === 'home_win' ? prob.win : v === 'away_win' ? prob.loss : prob.draw;
+  const pickLabel = v === 'draw' ? '무승부' : `${v === 'home_win' ? homeName : awayName} 승`;
+  const conf = confidenceLabel(prob);
+  const statusLabel = match.status === 'played' ? '종료 경기' : '예정 경기';
+  const meta = [];
+  if (v !== 'home_win') meta.push(`${homeName} 승 ${prob.win}%`);
+  if (v !== 'draw') meta.push(`무 ${prob.draw}%`);
+  if (v !== 'away_win') meta.push(`${awayName} 승 ${prob.loss}%`);
+  const metaStr = meta.join(' · ');
   const inj = [...(home?.injuries || []).map(i => `${home.name}: ${i}`), ...(away?.injuries || []).map(i => `${away.name}: ${i}`)];
   const srcs = (match.sources || []).filter(s => /^https?:\/\//.test(s));
-  return `<div class="detail">` +
-    `<a class="back-link" href="#">← 목록으로</a>` +
-    `<header class="detail-head">` +
-      `<div class="detail-meta">${esc(match.group)}조 · 매치데이 ${esc(match.matchday)} · ${esc(k.label)} · ${match.status === 'played' ? '종료' : '예정'}</div>` +
-      `<div class="detail-teams">` +
-        `<div class="dt-team">${flagImg(match.home, home?.name)}<b>${esc(home?.name ?? match.home)}</b><span>${teamCode(home, match.home)}</span></div>` +
-        `<span class="dt-vs">VS</span>` +
-        `<div class="dt-team away">${flagImg(match.away, away?.name)}<b>${esc(away?.name ?? match.away)}</b><span>${teamCode(away, match.away)}</span></div>` +
+
+  const hero = `<header class="hero"><div class="container hero-content"><div>` +
+    `<a class="back-link" href="#" aria-label="목록으로 돌아가기"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 18l-6-6 6-6"/></svg>목록으로</a>` +
+    `<p class="kicker">${esc(match.group)}조 · Matchday ${esc(match.matchday)} · ${esc(k.label)}</p>` +
+    `<h1 class="title">${homeName} vs ${awayName}</h1>` +
+    `<p class="hero-copy">승·무·패 분포, 전술 매치업, 키포인트, 양 팀 명단과 조별리그 경로를 한 화면에 모았습니다.</p>` +
+    `<div class="status-row"><span class="badge badge-live">${esc(statusLabel)}</span><span class="badge">홈 관점 확률</span><span class="badge">${esc(conf)}</span></div>` +
+    `</div><aside class="update-panel" aria-label="예측 요약"><p class="update-label">예측 평결</p><p class="update-time">${esc(pickLabel)} ${pickPct}%</p><p class="update-meta">${esc(metaStr)}</p></aside></div></header>`;
+
+  const main = `<main class="container content match-detail-layout"><section class="detail-main" aria-label="매치 상세">` +
+    `<article class="matchup-card">` +
+      `<div class="matchup-meta"><span class="meta-chip">${esc(match.group)}조 · MD${esc(match.matchday)}</span><span>${esc(k.label)}</span><span>America/Chicago</span></div>` +
+      `<div class="matchup-teams">` +
+        `<div class="detail-team"><span class="detail-team-name">${flagImg(match.home, home?.name, 'detail-flag')}${homeName}</span><span class="detail-team-code">${detailCode(home, match.home)}</span></div>` +
+        `<span class="detail-vs">VS</span>` +
+        `<div class="detail-team away"><span class="detail-team-name">${flagImg(match.away, away?.name, 'detail-flag')}${awayName}</span><span class="detail-team-code">${detailCode(away, match.away)}</span></div>` +
       `</div>` +
-      renderProbability(match.prob) +
-      `<div class="verdict"><span>${esc(verdictText(match, byId))}</span><small>${esc(confidenceLabel(match.prob))}</small></div>` +
-    `</header>` +
-    `<section class="detail-block"><h3>전술 분석</h3>` +
+      renderProbability(prob) +
+      `<div class="verdict"><span>${esc(verdictText(match, byId))}</span><small>${esc(conf)}</small></div>` +
+    `</article>` +
+    `<section class="detail-section"><h2>전술 분석</h2>` +
       (match.rationale ? `<p>${esc(match.rationale)}</p>` : '') +
-      `<div class="note-grid">` +
-        `<div class="note"><b>${esc(home?.name ?? match.home)} · ${esc(home?.formation ?? '—')}</b>${home?.aimed_tactics ? ' ' + esc(home.aimed_tactics) : ''}${home?.style ? ` <small>(${esc(home.style)})</small>` : ''}</div>` +
-        `<div class="note"><b>${esc(away?.name ?? match.away)} · ${esc(away?.formation ?? '—')}</b>${away?.aimed_tactics ? ' ' + esc(away.aimed_tactics) : ''}${away?.style ? ` <small>(${esc(away.style)})</small>` : ''}</div>` +
-      `</div>` +
-      ((match.team_notes?.home || match.team_notes?.away) ? `<ul class="notes-list">` +
-        (match.team_notes?.home ? `<li><b>홈</b> ${esc(match.team_notes.home)}</li>` : '') +
-        (match.team_notes?.away ? `<li><b>원정</b> ${esc(match.team_notes.away)}</li>` : '') + `</ul>` : '') +
+      `<div class="analysis-grid">${analysisCard(home, match.home, match.team_notes?.home)}${analysisCard(away, match.away, match.team_notes?.away)}</div>` +
     `</section>` +
-    `<section class="detail-block"><h3>키포인트</h3>` +
-      ((match.key_variables?.length) ? `<ul class="keypoints">${match.key_variables.map(v => `<li>${esc(v)}</li>`).join('')}</ul>` : '') +
-      (match.flip_condition && match.flip_condition !== '—' ? `<p class="flip">⚠️ 뒤집힐 조건: ${esc(match.flip_condition)}</p>` : '') +
-      (match.qualification_context ? `<p class="qual">🎯 진출 시나리오: ${esc(match.qualification_context)}</p>` : '') +
-      (inj.length ? `<p class="inj">🩹 부상: ${esc(inj.join(' / '))}</p>` : '') +
+    `<section class="detail-section"><h2>키포인트</h2>` +
+      (match.key_variables?.length ? `<ul class="insight-list">${match.key_variables.map((kv, i) => `<li><span class="insight-index">${i + 1}</span><span>${esc(kv)}</span></li>`).join('')}</ul>` : '') +
+      (match.flip_condition && match.flip_condition !== '—' ? `<div class="risk-callout"><b>뒤집힐 조건</b><p>${esc(match.flip_condition)}</p></div>` : '') +
+      (match.qualification_context ? `<p>🎯 진출 시나리오: ${esc(match.qualification_context)}</p>` : '') +
+      (inj.length ? `<p>🩹 부상: ${esc(inj.join(' / '))}</p>` : '') +
     `</section>` +
-    `<section class="detail-block"><h3>양 팀 명단</h3><div class="detail-2col">` +
-      renderTeamProfile(home) + renderTeamProfile(away) +
-    `</div></section>` +
-    `<section class="detail-block"><h3>조별리그 경로</h3><div class="detail-2col">` +
-      `<div class="path-col"><h4>${flagImg(match.home, home?.name)}${esc(home?.name ?? match.home)}</h4>${teamPathRows(home, allMatches, byId)}</div>` +
-      `<div class="path-col"><h4>${flagImg(match.away, away?.name)}${esc(away?.name ?? match.away)}</h4>${teamPathRows(away, allMatches, byId)}</div>` +
-    `</div></section>` +
-    (srcs.length ? `<section class="detail-block"><h3>출처</h3><div class="source-row">${srcs.map((s, i) => `<a href="${esc(s)}" target="_blank" rel="noopener">출처 ${i + 1}</a>`).join('')}</div></section>` : '') +
-  `</div>`;
+    `<section class="detail-section"><h2>양 팀 프로필</h2><div class="detail-profile-grid">${profileCard(home, match.home)}${profileCard(away, match.away)}</div></section>` +
+    `<section class="detail-section"><h2>양 팀 명단</h2><div class="detail-profile-grid">${squadCard(home)}${squadCard(away)}</div></section>` +
+    `<section class="detail-section"><h2>조별리그 경로</h2><div class="path-grid">${pathCard(home, match.home, allMatches, byId)}${pathCard(away, match.away, allMatches, byId)}</div></section>` +
+    `</section>` +
+    `<aside class="detail-rail" aria-label="요약"><div class="detail-summary-card">` +
+      `<p class="summary-eyebrow">Quick Read</p>` +
+      `<div class="summary-pick"><b>${esc(pickLabel)}</b><span>최고 확률 ${pickPct}% · ${esc(conf)}</span></div>` +
+      `<div class="summary-stat-grid"><div class="summary-stat"><span>홈</span><b>${prob.win}</b></div><div class="summary-stat"><span>무</span><b>${prob.draw}</b></div><div class="summary-stat"><span>원정</span><b>${prob.loss}</b></div></div>` +
+      (match.key_variables?.length ? `<div class="chip-list">${match.key_variables.slice(0, 4).map(c => `<span class="chip">${esc(c)}</span>`).join('')}</div>` : '') +
+      (srcs.length ? `<div class="source-row"><span>Sources</span>${srcs.map((s, i) => `<a href="${esc(s)}" target="_blank" rel="noopener">출처 ${i + 1}</a>`).join('')}</div>` : '') +
+    `</div></aside>` +
+    `</main>`;
+
+  const bar = `<aside class="mobile-detail-bar" aria-label="예측 요약"><div><b>${esc(pickLabel)} ${pickPct}%</b><span>${esc(metaStr)}</span></div><a class="segment-tab" href="#">목록</a></aside>`;
+
+  return hero + main + bar;
 }
 
 const STATE_ICONS = {

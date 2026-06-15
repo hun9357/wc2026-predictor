@@ -111,14 +111,14 @@ test('flagImg builds an img for a mapped team, empty for unmapped', () => {
 test('renderCard includes a flag image for mapped teams', () => {
   assert.ok(renderCard(match, byId, NOW).includes('flags/mx.svg'));
 });
-test('renderMatchDetail shows summary, tactics, keypoints, squads, path, back link', () => {
+test('renderMatchDetail renders the design sections, flags, and nav', () => {
   const all = [match, { id: 'A-MD2-1', group: 'A', matchday: 2, kickoff: '2026-06-19T17:00:00-05:00', status: 'played', home: 'MEX', away: 'POL', prob: { win: 50, draw: 30, loss: 20 }, verdict: 'home_win' }];
   const h = renderMatchDetail(match, teams, all, NOW);
-  assert.ok(h.includes('← 목록으로'));
-  assert.ok(h.includes('전술 분석') && h.includes('키포인트') && h.includes('양 팀 명단') && h.includes('조별리그 경로'));
-  assert.ok(h.includes('멕시코') && h.includes('폴란드'));
-  assert.ok(h.includes('mx.svg'));
-  assert.ok(/예측 [승무패]/.test(h));
+  assert.ok(h.includes('목록으로'));
+  assert.ok(h.includes('matchup-card') && h.includes('insight-list') && h.includes('mobile-detail-bar') && h.includes('detail-rail'));
+  assert.ok(h.includes('전술 분석') && h.includes('키포인트') && h.includes('양 팀 프로필') && h.includes('양 팀 명단') && h.includes('조별리그 경로'));
+  assert.ok(h.includes('멕시코') && h.includes('폴란드') && h.includes('mx.svg'));
+  assert.ok(h.includes('pick-pill') && /예측 [승무패]/.test(h));
 });
 test('renderMatchDetail handles a missing match', () => {
   assert.ok(renderMatchDetail(null, teams, [], NOW).includes('찾을 수 없습니다'));
