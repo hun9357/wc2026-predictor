@@ -82,3 +82,24 @@ test('renderCard does not throw on missing prob/verdict/kickoff', () => {
   assert.doesNotThrow(() => { html = renderCard(bad, byId, NOW); });
   assert.ok(html.includes('match-card') && html.includes('멕시코') && html.includes('폴란드'));
 });
+test('renderTeamProfile shows key players and a collapsible full squad', () => {
+  const team = {
+    id: 'MEX', name: '멕시코', formation: '4-3-3', style: '압박', aimed_tactics: '측면 과부하',
+    record: { w: 1, d: 1, l: 0, pts: 4, gd: 2 }, form: ['W', 'D'], injuries: [],
+    squad: [
+      { name: '로페즈', position: 'GK', club: '리가 MX 클럽', key: false },
+      { name: '가르시아', position: 'MF', club: '프리미어리그 클럽', key: true },
+      { name: '토레스', position: 'FW', club: '에레디비시 클럽', key: true },
+    ],
+  };
+  const h = renderTeamProfile(team);
+  assert.ok(h.includes('주요 선수'));
+  assert.ok(h.includes('가르시아') && h.includes('프리미어리그 클럽'));
+  assert.ok(h.includes('전체 명단 (3)'));
+  assert.ok(h.includes('로페즈')); // non-key player appears in full list
+  assert.ok(h.includes('<details class="squad-all"'));
+});
+test('renderTeamProfile omits squad block when no squad', () => {
+  const h = renderTeamProfile({ id: 'X', name: 'X', record: { pts: 0, gd: 0 }, form: [] });
+  assert.ok(!h.includes('주요 선수'));
+});

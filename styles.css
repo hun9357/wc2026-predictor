@@ -1083,3 +1083,17 @@ details.details .details-inner strong { color: var(--text); }
   .mobile-scrim { width: 100%; }
 }
 [hidden] { display: none !important; }
+
+/* player squad (profile sheet) */
+.squad { display: grid; gap: 10px; margin-top: 2px; }
+.squad h4 { margin: 0 0 6px; font-size: 13px; color: var(--text); }
+.player-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.player { display: flex; justify-content: space-between; gap: 10px; padding: 8px 10px; border-radius: 10px; background: var(--surface-muted); font-size: 13px; }
+.p-name { font-weight: 800; }
+.p-meta { color: var(--muted); font-weight: 700; text-align: right; }
+.squad-all > summary { display: flex; min-height: 36px; align-items: center; color: var(--accent); cursor: pointer; font-size: 13px; font-weight: 800; list-style: none; }
+.squad-all > summary::-webkit-details-marker { display: none; }
+.squad-groups { display: grid; gap: 6px; padding-top: 8px; }
+.squad-group { font-size: 13px; color: var(--muted); }
+.squad-group b { color: var(--text); margin-right: 6px; }
+.squad-group small { color: var(--subtle); }

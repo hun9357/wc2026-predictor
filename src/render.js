@@ -74,6 +74,25 @@ function formMarks(form = []) {
   return `<div class="form-row" aria-label="최근 폼">` +
     form.map(r => `<span class="form-mark ${cls[r] ?? 'form-draw'}">${esc(r)}</span>`).join('') + `</div>`;
 }
+function playerRow(p) {
+  const meta = [p.position, p.club].filter(Boolean).map(esc).join(' · ');
+  return `<li class="player"><span class="p-name">${esc(p.name)}</span><span class="p-meta">${meta}</span></li>`;
+}
+function squadBlock(squad) {
+  if (!squad || !squad.length) return '';
+  const keys = squad.filter(p => p.key);
+  const keyHtml = keys.length
+    ? `<div class="squad-key"><h4>주요 선수</h4><ul class="player-list">${keys.map(playerRow).join('')}</ul></div>`
+    : '';
+  const POS = ['GK', 'DF', 'MF', 'FW'];
+  const groups = POS.map(pos => {
+    const members = squad.filter(p => (p.position || '') === pos);
+    if (!members.length) return '';
+    return `<div class="squad-group"><b>${pos}</b> ${members.map(p => esc(p.name) + (p.club ? ` <small>(${esc(p.club)})</small>` : '')).join(', ')}</div>`;
+  }).join('');
+  const allHtml = `<details class="squad-all"><summary>전체 명단 (${squad.length})</summary><div class="squad-groups">${groups}</div></details>`;
+  return `<div class="squad">${keyHtml}${allHtml}</div>`;
+}
 export function renderTeamProfile(team) {
   if (!team) return '';
   const gd = team.record?.gd;
@@ -89,6 +108,7 @@ export function renderTeamProfile(team) {
     (team.aimed_tactics ? `<p><strong>지향 전술</strong> ${esc(team.aimed_tactics)}</p>` : '') +
     (team.injuries?.length ? `<p><strong>부상</strong> ${esc(team.injuries.join(', '))}</p>` : '') +
     formMarks(team.form) +
+    squadBlock(team.squad) +
   `</section>`;
 }
 export function renderProfileSheet(match, byId) {

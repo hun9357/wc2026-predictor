@@ -1,10 +1,58 @@
 [
-  { "id": "MEX", "name": "멕시코", "group": "A", "formation": "4-3-3", "style": "높은 압박, 풀백 오버랩", "aimed_tactics": "측면 과부하 후 빠른 전환", "record": { "w": 1, "d": 1, "l": 0, "pts": 4, "gd": 2 }, "form": ["W", "D"], "key_players": ["핵심1"], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
-  { "id": "POL", "name": "폴란드", "group": "A", "formation": "3-4-2-1", "style": "낮은 블록 후 역습", "aimed_tactics": "윙백 전진과 세트피스", "record": { "w": 0, "d": 1, "l": 1, "pts": 1, "gd": -2 }, "form": ["L", "D"], "key_players": ["핵심2"], "injuries": ["주전 CB 출전 의심"], "updated_at": "2026-06-15T07:00:00-05:00" },
-  { "id": "CAN", "name": "캐나다", "group": "A", "formation": "4-2-3-1", "style": "전방 압박, 하프스페이스 침투", "aimed_tactics": "압박 후 짧은 회수 공격", "record": { "w": 0, "d": 2, "l": 0, "pts": 2, "gd": 0 }, "form": ["D", "D"], "key_players": ["핵심3"], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
-  { "id": "RSA", "name": "남아프리카공화국", "group": "A", "formation": "4-4-2", "style": "빠른 역습, 긴 전환", "aimed_tactics": "측면 1대1과 롱볼 전환", "record": { "w": 0, "d": 2, "l": 0, "pts": 2, "gd": 0 }, "form": ["D", "D"], "key_players": ["핵심4"], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
-  { "id": "USA", "name": "미국", "group": "B", "formation": "4-3-3", "style": "강한 압박, 2선 침투", "aimed_tactics": "회복 속도 기반 재압박", "record": { "w": 1, "d": 1, "l": 0, "pts": 4, "gd": 3 }, "form": ["W", "D"], "key_players": ["핵심5"], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
-  { "id": "SRB", "name": "세르비아", "group": "B", "formation": "3-4-2-1", "style": "제공권, 세트피스", "aimed_tactics": "타깃맨 연결과 세트피스", "record": { "w": 0, "d": 1, "l": 1, "pts": 1, "gd": -2 }, "form": ["L", "D"], "key_players": ["핵심6"], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
-  { "id": "JPN", "name": "일본", "group": "B", "formation": "4-2-3-1", "style": "짧은 패스 점유, 측면 전환", "aimed_tactics": "하프스페이스 침투", "record": { "w": 1, "d": 0, "l": 1, "pts": 3, "gd": -1 }, "form": ["W", "L"], "key_players": ["핵심7"], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
-  { "id": "CRO", "name": "크로아티아", "group": "B", "formation": "4-3-3", "style": "중원 점유, 템포 조절", "aimed_tactics": "중원 삼각형 점유", "record": { "w": 1, "d": 1, "l": 0, "pts": 4, "gd": 1 }, "form": ["D", "W"], "key_players": ["핵심8"], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" }
+  { "id": "MEX", "name": "멕시코", "group": "A", "formation": "4-3-3", "style": "높은 압박, 풀백 오버랩", "aimed_tactics": "측면 과부하 후 빠른 전환", "record": { "w": 1, "d": 1, "l": 0, "pts": 4, "gd": 2 }, "form": ["W", "D"], "squad": [
+    { "name": "로페즈", "position": "GK", "club": "리가 MX 클럽", "key": false },
+    { "name": "에르난데스", "position": "DF", "club": "유럽 1부 클럽", "key": false },
+    { "name": "가르시아", "position": "MF", "club": "프리미어리그 클럽", "key": true },
+    { "name": "토레스", "position": "FW", "club": "에레디비시 클럽", "key": true },
+    { "name": "라미레스", "position": "FW", "club": "리가 MX 클럽", "key": false }
+  ], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
+  { "id": "POL", "name": "폴란드", "group": "A", "formation": "3-4-2-1", "style": "낮은 블록 후 역습", "aimed_tactics": "윙백 전진과 세트피스", "record": { "w": 0, "d": 1, "l": 1, "pts": 1, "gd": -2 }, "form": ["L", "D"], "squad": [
+    { "name": "코발스키", "position": "GK", "club": "국내 리그 클럽", "key": false },
+    { "name": "노바크", "position": "DF", "club": "유럽 1부 클럽", "key": false },
+    { "name": "비엘리크", "position": "MF", "club": "유럽 1부 클럽", "key": true },
+    { "name": "레반도프스키", "position": "FW", "club": "유럽 1부 클럽", "key": true },
+    { "name": "지엘린스키", "position": "MF", "club": "유럽 1부 클럽", "key": false }
+  ], "injuries": ["주전 CB 출전 의심"], "updated_at": "2026-06-15T07:00:00-05:00" },
+  { "id": "CAN", "name": "캐나다", "group": "A", "formation": "4-2-3-1", "style": "전방 압박, 하프스페이스 침투", "aimed_tactics": "압박 후 짧은 회수 공격", "record": { "w": 0, "d": 2, "l": 0, "pts": 2, "gd": 0 }, "form": ["D", "D"], "squad": [
+    { "name": "밀러", "position": "GK", "club": "국내 리그 클럽", "key": false },
+    { "name": "존스톤", "position": "DF", "club": "유럽 1부 클럽", "key": false },
+    { "name": "이아체니", "position": "MF", "club": "프리미어리그 클럽", "key": true },
+    { "name": "데이비드", "position": "FW", "club": "유럽 1부 클럽", "key": true },
+    { "name": "뷰캐넌", "position": "MF", "club": "유럽 1부 클럽", "key": false }
+  ], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
+  { "id": "RSA", "name": "남아프리카공화국", "group": "A", "formation": "4-4-2", "style": "빠른 역습, 긴 전환", "aimed_tactics": "측면 1대1과 롱볼 전환", "record": { "w": 0, "d": 2, "l": 0, "pts": 2, "gd": 0 }, "form": ["D", "D"], "squad": [
+    { "name": "피터스", "position": "GK", "club": "국내 리그 클럽", "key": false },
+    { "name": "은코시", "position": "DF", "club": "국내 리그 클럽", "key": false },
+    { "name": "모코에나", "position": "MF", "club": "유럽 1부 클럽", "key": true },
+    { "name": "파르카", "position": "FW", "club": "유럽 1부 클럽", "key": true },
+    { "name": "투바크", "position": "FW", "club": "국내 리그 클럽", "key": false }
+  ], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
+  { "id": "USA", "name": "미국", "group": "B", "formation": "4-3-3", "style": "강한 압박, 2선 침투", "aimed_tactics": "회복 속도 기반 재압박", "record": { "w": 1, "d": 1, "l": 0, "pts": 4, "gd": 3 }, "form": ["W", "D"], "squad": [
+    { "name": "터너", "position": "GK", "club": "프리미어리그 클럽", "key": false },
+    { "name": "서전트", "position": "DF", "club": "유럽 1부 클럽", "key": false },
+    { "name": "아담스", "position": "MF", "club": "프리미어리그 클럽", "key": true },
+    { "name": "웨어", "position": "MF", "club": "유럽 1부 클럽", "key": true },
+    { "name": "파울러", "position": "FW", "club": "유럽 1부 클럽", "key": false }
+  ], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
+  { "id": "SRB", "name": "세르비아", "group": "B", "formation": "3-4-2-1", "style": "제공권, 세트피스", "aimed_tactics": "타깃맨 연결과 세트피스", "record": { "w": 0, "d": 1, "l": 1, "pts": 1, "gd": -2 }, "form": ["L", "D"], "squad": [
+    { "name": "스토야노비치", "position": "GK", "club": "유럽 1부 클럽", "key": false },
+    { "name": "밀렌코비치", "position": "DF", "club": "유럽 1부 클럽", "key": true },
+    { "name": "루키치", "position": "MF", "club": "유럽 1부 클럽", "key": false },
+    { "name": "타디치", "position": "MF", "club": "유럽 1부 클럽", "key": true },
+    { "name": "미트로비치", "position": "FW", "club": "유럽 1부 클럽", "key": true }
+  ], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
+  { "id": "JPN", "name": "일본", "group": "B", "formation": "4-2-3-1", "style": "짧은 패스 점유, 측면 전환", "aimed_tactics": "하프스페이스 침투", "record": { "w": 1, "d": 0, "l": 1, "pts": 3, "gd": -1 }, "form": ["W", "L"], "squad": [
+    { "name": "스즈키", "position": "GK", "club": "국내 리그 클럽", "key": false },
+    { "name": "요시다", "position": "DF", "club": "유럽 1부 클럽", "key": false },
+    { "name": "엔도", "position": "MF", "club": "프리미어리그 클럽", "key": true },
+    { "name": "미나미노", "position": "MF", "club": "유럽 1부 클럽", "key": false },
+    { "name": "우에다", "position": "FW", "club": "유럽 1부 클럽", "key": true }
+  ], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" },
+  { "id": "CRO", "name": "크로아티아", "group": "B", "formation": "4-3-3", "style": "중원 점유, 템포 조절", "aimed_tactics": "중원 삼각형 점유", "record": { "w": 1, "d": 1, "l": 0, "pts": 4, "gd": 1 }, "form": ["D", "W"], "squad": [
+    { "name": "리바코비치", "position": "GK", "club": "유럽 1부 클럽", "key": false },
+    { "name": "그바르디올", "position": "DF", "club": "프리미어리그 클럽", "key": true },
+    { "name": "모드리치", "position": "MF", "club": "유럽 1부 클럽", "key": true },
+    { "name": "코바치치", "position": "MF", "club": "프리미어리그 클럽", "key": true },
+    { "name": "페리시치", "position": "FW", "club": "유럽 1부 클럽", "key": false }
+  ], "injuries": [], "updated_at": "2026-06-15T07:00:00-05:00" }
 ]
