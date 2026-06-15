@@ -47,13 +47,40 @@ function notesBlock(m) {
 function chipList(items = []) {
   return items.length ? `<div class="chip-list">${items.map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>` : '';
 }
+function outcomeOf(match) {
+  const r = match.result;
+  if (!r || r.home_score == null || r.away_score == null) return null;
+  return r.outcome || (r.home_score > r.away_score ? 'home_win' : r.home_score < r.away_score ? 'away_win' : 'draw');
+}
+function outcomeLabel(outcome, match, byId) {
+  if (outcome === 'draw') return '무승부';
+  const id = outcome === 'home_win' ? match.home : match.away;
+  return `${esc(byId.get(id)?.name ?? id)} 승`;
+}
+function resultLine(match, byId) {
+  const o = outcomeOf(match);
+  if (!o) return '';
+  const ok = match.verdict === o;
+  return `<div class="result-line"><span class="result-score">${match.result.home_score} - ${match.result.away_score}</span>` +
+    `<span class="result-outcome">${outcomeLabel(o, match, byId)}</span>` +
+    `<span class="hit hit-${ok ? 'ok' : 'no'}">${ok ? '적중' : '빗나감'}</span></div>`;
+}
+function detailResult(match, byId) {
+  const o = outcomeOf(match);
+  if (!o) return '';
+  const ok = match.verdict === o;
+  return `<div class="detail-result"><span class="result-tag">결과</span>` +
+    `<span class="result-score">${match.result.home_score} - ${match.result.away_score}</span>` +
+    `<span class="result-outcome">${outcomeLabel(o, match, byId)}</span>` +
+    `<span class="hit hit-${ok ? 'ok' : 'no'}">예측 ${ok ? '적중' : '빗나감'}</span></div>`;
+}
 
 export function renderCard(match, byId, now = new Date()) {
   const home = byId.get(match.home), away = byId.get(match.away);
   const k = formatKickoff(match.kickoff, now);
   const toss = confidenceLevel(match.prob) === 'toss';
   return `<article class="match-card${toss ? ' is-tossup' : ''}" data-match="${esc(match.id)}" data-group="${esc(match.group)}" data-md="${esc(match.matchday)}">` +
-    `<div class="match-meta"><span class="meta-chip">${esc(match.group)}조 · MD${esc(match.matchday)}</span><span>${esc(k.label)}</span></div>` +
+    `<div class="match-meta"><span class="meta-chip">${esc(match.group)}조 · MD${esc(match.matchday)}</span><span>${esc(k.label)}${match.status === 'played' ? ' · 종료' : ''}</span></div>` +
     `<div class="team-row">` +
       `<div class="team"><span class="team-name">${flagImg(match.home, home?.name)}${esc(home?.name ?? match.home)}</span><span class="team-code">${teamCode(home, match.home)}</span></div>` +
       `<span class="vs">VS</span>` +
@@ -61,6 +88,7 @@ export function renderCard(match, byId, now = new Date()) {
     `</div>` +
     renderProbability(match.prob) +
     `<div class="verdict"><span>${esc(verdictText(match, byId))}</span><small>${esc(confidenceLabel(match.prob))}</small></div>` +
+    (match.status === 'played' ? resultLine(match, byId) : '') +
     `<details class="details"><summary>전술 근거 보기</summary><div class="details-inner">` +
       (match.rationale ? `<p><strong>전술 근거</strong> ${esc(match.rationale)}</p>` : '') +
       notesBlock(match) + chipList(match.key_variables) +
@@ -167,10 +195,12 @@ function pathCard(team, id, allMatches, byId) {
   const rows = ms.length ? ms.map(m => {
     const isHome = m.home === id;
     const opp = byId.get(isHome ? m.away : m.home);
+    const played = m.status === 'played';
+    const out = played ? (outcomeOf(m) || m.verdict) : m.verdict;
     let pick = '무';
-    if (m.verdict && m.verdict !== 'draw') pick = (m.verdict === 'home_win') === isHome ? '승' : '패';
+    if (out && out !== 'draw') pick = (out === 'home_win') === isHome ? '승' : '패';
     const pc = pick === '승' ? 'win' : pick === '무' ? 'draw' : 'loss';
-    const label = m.status === 'played' ? pick : `예측 ${pick}`;
+    const label = played ? pick : `예측 ${pick}`;
     return `<li class="path-row"><span>MD${esc(m.matchday)}</span><strong>vs ${esc(opp?.name ?? (isHome ? m.away : m.home))}</strong><span class="pick-pill pick-${pc}">${label}</span></li>`;
   }).join('') : '<li class="path-row"><span>—</span><strong>경기 없음</strong><span></span></li>';
   return `<article class="path-card"><h3>${flagImg(id, team?.name)}${esc(team?.name ?? id)}</h3><ul class="path-list">${rows}</ul></article>`;
@@ -215,6 +245,7 @@ export function renderMatchDetail(match, teams, allMatches = [], now = new Date(
       `</div>` +
       renderProbability(prob) +
       `<div class="verdict"><span>${esc(verdictText(match, byId))}</span><small>${esc(conf)}</small></div>` +
+      (match.status === 'played' ? detailResult(match, byId) : '') +
     `</article>` +
     `<section class="detail-section"><h2>전술 분석</h2>` +
       (match.rationale ? `<p>${esc(match.rationale)}</p>` : '') +

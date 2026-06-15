@@ -1592,3 +1592,14 @@ details.details .details-inner strong { color: var(--text); }
 .squad-group { font-size: 13px; color: var(--muted); }
 .squad-group b { color: var(--text); margin-right: 6px; }
 .squad-group small { color: var(--subtle); }
+
+/* match results (completed matches) */
+.result-line { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 6px; font-size: 13px; font-weight: 800; }
+.result-score { display: inline-flex; align-items: center; padding: 3px 9px; border-radius: 8px; background: var(--surface-strong); color: var(--text); font-variant-numeric: tabular-nums; }
+.result-outcome { color: var(--text); }
+.hit { display: inline-flex; align-items: center; min-height: 22px; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 900; }
+.hit-ok { color: #063f2d; background: #d8f8e9; }
+.hit-no { color: var(--danger); background: var(--danger-bg); }
+.detail-result { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 10px 12px; border-radius: 12px; background: var(--surface-strong); font-weight: 850; }
+.detail-result .result-score { font-size: 16px; background: var(--surface); }
+.result-tag { color: var(--accent); font-size: 12px; font-weight: 900; }

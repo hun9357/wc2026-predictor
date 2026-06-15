@@ -22,7 +22,9 @@
         "team_notes": { "type": "object", "properties": { "home": { "type": "string" }, "away": { "type": "string" } } },
         "key_variables": { "type": "array", "items": { "type": "string" } },
         "flip_condition": { "type": "string" }, "qualification_context": { "type": "string" },
-        "sources": { "type": "array", "items": { "type": "string" } }
+        "sources": { "type": "array", "items": { "type": "string" } },
+        "result": { "type": "object", "required": ["home_score", "away_score", "outcome"],
+          "properties": { "home_score": { "type": "integer", "minimum": 0 }, "away_score": { "type": "integer", "minimum": 0 }, "outcome": { "enum": ["home_win", "draw", "away_win"] } } }
       }
     } }
   }

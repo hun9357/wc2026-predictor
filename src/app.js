@@ -59,8 +59,9 @@ function renderHeaderStatus() {
 function renderTabs() {
   $('group-tabs').innerHTML = groupsPresent().map(g =>
     `<button class="tab${g === state.criteria.group ? ' is-active' : ''}" type="button" data-group="${esc(g)}">${esc(g)}</button>`).join('');
-  $('md-tabs').innerHTML = matchdaysIn(state.criteria.group).map(md =>
-    `<button class="segment-tab${String(md) === String(state.criteria.matchday) ? ' is-active' : ''}" type="button" data-md="${esc(String(md))}">MD${esc(String(md))}</button>`).join('');
+  $('md-tabs').innerHTML = `<button class="segment-tab${state.criteria.matchday === 'ALL' ? ' is-active' : ''}" type="button" data-md="ALL">전체</button>` +
+    matchdaysIn(state.criteria.group).map(md =>
+      `<button class="segment-tab${String(md) === String(state.criteria.matchday) ? ' is-active' : ''}" type="button" data-md="${esc(String(md))}">MD${esc(String(md))}</button>`).join('');
   const tg = $('toggle-remaining');
   tg.classList.toggle('is-active', state.criteria.remainingOnly);
   tg.setAttribute('aria-pressed', String(state.criteria.remainingOnly));
@@ -117,9 +118,15 @@ function wire() {
   });
   $('md-tabs').addEventListener('click', e => {
     const b = e.target.closest('[data-md]'); if (!b) return;
-    state.criteria.matchday = Number(b.dataset.md); renderAll();
+    const md = b.dataset.md;
+    state.criteria.matchday = md === 'ALL' ? 'ALL' : Number(md);
+    renderAll();
   });
-  $('toggle-remaining').addEventListener('click', () => { state.criteria.remainingOnly = !state.criteria.remainingOnly; renderAll(); });
+  $('toggle-remaining').addEventListener('click', () => {
+    state.criteria.remainingOnly = !state.criteria.remainingOnly;
+    state.criteria.matchday = state.criteria.remainingOnly ? firstUpcomingMd(state.criteria.group) : 'ALL';
+    renderAll();
+  });
   $('search').addEventListener('input', e => { state.criteria.query = e.target.value; renderContent(); });
   $('list').addEventListener('click', e => {
     if (e.target.closest('#retry')) { main(); return; }

@@ -123,3 +123,18 @@ test('renderMatchDetail renders the design sections, flags, and nav', () => {
 test('renderMatchDetail handles a missing match', () => {
   assert.ok(renderMatchDetail(null, teams, [], NOW).includes('찾을 수 없습니다'));
 });
+test('renderCard shows the result line + hit for a played match', () => {
+  const pm = { ...match, status: 'played', verdict: 'home_win', result: { home_score: 2, away_score: 1, outcome: 'home_win' } };
+  const h = renderCard(pm, byId, NOW);
+  assert.ok(h.includes('result-line') && h.includes('2 - 1'));
+  assert.ok(h.includes('멕시코 승') && h.includes('적중') && h.includes('종료'));
+});
+test('renderCard marks a missed prediction', () => {
+  const pm = { ...match, status: 'played', verdict: 'home_win', result: { home_score: 0, away_score: 1, outcome: 'away_win' } };
+  assert.ok(renderCard(pm, byId, NOW).includes('빗나감'));
+});
+test('renderMatchDetail shows detail-result for a played match', () => {
+  const pm = { ...match, status: 'played', verdict: 'home_win', result: { home_score: 2, away_score: 0, outcome: 'home_win' } };
+  const h = renderMatchDetail(pm, teams, [pm], NOW);
+  assert.ok(h.includes('detail-result') && h.includes('결과') && h.includes('2 - 0'));
+});

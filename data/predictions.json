@@ -30,7 +30,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
         "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mexico-south-africa-highlights-match-report"
-      ]
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "A-MD1-2",
@@ -59,7 +64,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
         "https://www.espn.com/soccer/report/_/gameId/760414"
-      ]
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "B-MD1-1",
@@ -88,7 +98,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
         "https://www.espn.com/soccer/match/_/gameId/760416/bosnia-herzegovina-canada"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "draw"
+      }
     },
     {
       "id": "B-MD1-2",
@@ -117,7 +132,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
         "https://www.espn.com/soccer/report/_/gameId/760420"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "draw"
+      }
     },
     {
       "id": "A-MD2-1",
@@ -391,7 +411,12 @@
       "qualification_context": "두 팀 모두 1점씩 획득하며 2위권 경쟁 지속",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "draw"
+      }
     },
     {
       "id": "C-MD1-2",
@@ -422,7 +447,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
         "https://www.brentfordfc.com/en/news/article/international-aaron-hickey-haiti-0-scotland-1-group-c-2026-fifa-world-cup"
-      ]
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 1,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "C-MD2-1",
@@ -571,7 +601,12 @@
       "qualification_context": "미국 조 1위로 출발, 파라과이는 남은 두 경기 모두 승점이 필요한 위기 상황",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
-      ]
+      ],
+      "result": {
+        "home_score": 4,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "D-MD1-2",
@@ -601,7 +636,12 @@
       "qualification_context": "호주 조 공동 1위, 튀르키예는 남은 두 경기가 사실상 결승전",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
-      ]
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "D-MD2-1",
@@ -751,7 +791,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
         "https://www.espn.com/soccer/match/_/gameId/760422/curacao-germany"
-      ]
+      ],
+      "result": {
+        "home_score": 7,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "E-MD1-2",
@@ -781,7 +826,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
         "https://www.skysports.com/football/news/11095/13552703/world-cup-2026-ivory-coast-1-0-ecuador-amad-diallo-nets-90th-minute-winner-to-end-ecuadors-19-game-unbeaten-streak"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "E-MD2-1",
@@ -930,7 +980,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
         "https://www.espn.com/soccer/match/_/gameId/760425/japan-netherlands"
-      ]
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 2,
+        "outcome": "draw"
+      }
     },
     {
       "id": "F-MD1-2",
@@ -960,7 +1015,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
         "https://www.espn.com/soccer/match/_/gameId/760424/tunisia-sweden"
-      ]
+      ],
+      "result": {
+        "home_score": 5,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "F-MD2-1",
@@ -1107,7 +1167,12 @@
       "sources": [
         "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021478",
         "https://www.espn.com/soccer/match/_/gameId/760426/egypt-belgium"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "draw"
+      }
     },
     {
       "id": "G-MD1-2",
@@ -1291,7 +1356,12 @@
         "https://www.espn.com/soccer/match/_/gameId/760428/cape-verde-spain",
         "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-cabo-verde-highlights-match-report",
         "https://www.skysports.com/football/spain-vs-cape-verde/549780"
-      ]
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 0,
+        "outcome": "draw"
+      }
     },
     {
       "id": "H-MD1-2",
