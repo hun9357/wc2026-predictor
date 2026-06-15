@@ -76,3 +76,9 @@ test('headerStatus prioritizes cache over stale over ok', () => {
   assert.deepEqual(headerStatus({ stale: true }), { variant: 'warning', label: '업데이트 지연' });
   assert.deepEqual(headerStatus({}), { variant: 'live', label: '데이터 정상' });
 });
+test('renderCard does not throw on missing prob/verdict/kickoff', () => {
+  const bad = { id: 'X', group: 'A', matchday: 3, kickoff: 'TBD', status: 'upcoming', home: 'MEX', away: 'POL' };
+  let html;
+  assert.doesNotThrow(() => { html = renderCard(bad, byId, NOW); });
+  assert.ok(html.includes('match-card') && html.includes('멕시코') && html.includes('폴란드'));
+});

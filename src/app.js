@@ -1,7 +1,7 @@
 import { normalizeProb, validateData } from './validate.js';
 import { isStale } from './format.js';
 import { filterMatches } from './filters.js';
-import { renderList, renderProfileSheet, renderStatePanel, renderStandings, headerStatus } from './render.js';
+import { renderList, renderProfileSheet, renderStatePanel, renderStandings, headerStatus, esc } from './render.js';
 
 const PRED_URL = './data/predictions.json';
 const TEAMS_URL = './data/teams.json';
@@ -58,9 +58,9 @@ function renderHeaderStatus() {
 }
 function renderTabs() {
   $('group-tabs').innerHTML = groupsPresent().map(g =>
-    `<button class="tab${g === state.criteria.group ? ' is-active' : ''}" type="button" data-group="${g}">${g}</button>`).join('');
+    `<button class="tab${g === state.criteria.group ? ' is-active' : ''}" type="button" data-group="${esc(g)}">${esc(g)}</button>`).join('');
   $('md-tabs').innerHTML = matchdaysIn(state.criteria.group).map(md =>
-    `<button class="segment-tab${String(md) === String(state.criteria.matchday) ? ' is-active' : ''}" type="button" data-md="${md}">MD${md}</button>`).join('');
+    `<button class="segment-tab${String(md) === String(state.criteria.matchday) ? ' is-active' : ''}" type="button" data-md="${esc(String(md))}">MD${esc(String(md))}</button>`).join('');
   const tg = $('toggle-remaining');
   tg.classList.toggle('is-active', state.criteria.remainingOnly);
   tg.setAttribute('aria-pressed', String(state.criteria.remainingOnly));

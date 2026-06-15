@@ -23,7 +23,7 @@ export function confidenceLabel(prob) {
 
 export function isStale(generatedAtIso, now = new Date(), thresholdHours = 28) {
   const gen = new Date(generatedAtIso).getTime();
-  if (Number.isNaN(gen)) return false;
+  if (!generatedAtIso || Number.isNaN(gen)) return false;
   return (now.getTime() - gen) / 3_600_000 > thresholdHours;
 }
 
@@ -38,6 +38,7 @@ function dayDiffCT(from, to) {
 }
 export function formatKickoff(kickoffIso, now = new Date()) {
   const d = new Date(kickoffIso);
+  if (Number.isNaN(d.getTime())) return { time: '—', rel: '—', label: '—' };
   const p = ctParts(d);
   const time = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hour12: false }).format(d);
   const diff = dayDiffCT(now, d);

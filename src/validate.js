@@ -5,11 +5,12 @@ export function normalizeProb(prob = {}) {
   const sum = win + draw + loss;
   if (sum === 0) return { win: 34, draw: 33, loss: 33, normalized: true };
   if (sum === 100) return { win, draw, loss, normalized: false };
-  const scaled = { win: Math.round(win * 100 / sum), draw: Math.round(draw * 100 / sum), loss: Math.round(loss * 100 / sum) };
-  const drift = 100 - (scaled.win + scaled.draw + scaled.loss);
-  const key = scaled.win >= scaled.draw && scaled.win >= scaled.loss ? 'win' : scaled.loss >= scaled.draw ? 'loss' : 'draw';
-  scaled[key] += drift;
-  return { ...scaled, normalized: true };
+  const raw = { win: win * 100 / sum, draw: draw * 100 / sum, loss: loss * 100 / sum };
+  const out = { win: Math.floor(raw.win), draw: Math.floor(raw.draw), loss: Math.floor(raw.loss) };
+  let remainder = 100 - (out.win + out.draw + out.loss);
+  const order = ['win', 'draw', 'loss'].sort((a, b) => (raw[b] - out[b]) - (raw[a] - out[a]));
+  for (let i = 0; i < remainder; i++) out[order[i % 3]] += 1;
+  return { ...out, normalized: true };
 }
 
 const REQUIRED = ['id', 'group', 'matchday', 'home', 'away', 'prob', 'status'];

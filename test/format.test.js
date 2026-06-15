@@ -38,3 +38,10 @@ test('formatKickoff returns CT time with relative day', () => {
   assert.equal(formatKickoff(k, new Date('2026-06-23T09:00:00-05:00')).rel, '내일');
   assert.equal(formatKickoff(k, new Date('2026-06-20T09:00:00-05:00')).rel, '6/24');
 });
+test('formatKickoff returns placeholders for an invalid date', () => {
+  assert.deepEqual(formatKickoff('not-a-date', new Date('2026-06-24T09:00:00-05:00')), { time: '—', rel: '—', label: '—' });
+});
+test('isStale returns false for missing generated_at', () => {
+  assert.equal(isStale(null, new Date('2026-06-16T12:00:00-05:00')), false);
+  assert.equal(isStale(undefined), false);
+});

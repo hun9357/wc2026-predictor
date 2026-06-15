@@ -1,4 +1,4 @@
-import { formatKickoff, confidenceLevel, confidenceLabel } from './format.js';
+import { formatKickoff, confidenceLevel, confidenceLabel, verdictFromProb } from './format.js';
 
 export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -12,12 +12,14 @@ export function teamCode(team, id) {
 }
 
 export function verdictText(match, byId) {
-  if (match.verdict === 'draw') return '예측: 무승부';
-  const id = match.verdict === 'home_win' ? match.home : match.away;
+  const p = match.prob || { win: 0, draw: 0, loss: 0 };
+  const v = match.verdict || verdictFromProb(p);
+  if (v === 'draw') return '예측: 무승부';
+  const id = v === 'home_win' ? match.home : match.away;
   return `예측: ${byId.get(id)?.name ?? id} 승`;
 }
 
-export function renderProbability(prob) {
+export function renderProbability(prob = { win: 0, draw: 0, loss: 0 }) {
   return `<div class="probability" aria-label="승 무 패 확률">` +
     `<div class="probability-bar">` +
       `<span class="prob-segment prob-home" style="width: ${prob.win}%">${prob.win}%</span>` +

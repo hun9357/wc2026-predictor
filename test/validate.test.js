@@ -30,3 +30,11 @@ test('validateData errors when matches is missing', () => {
   const r = validateData({}, []);
   assert.equal(r.ok, false); assert.ok(r.errors.length >= 1);
 });
+test('normalizeProb never flips the dominant outcome and stays non-negative', () => {
+  const n = normalizeProb({ win: 3, draw: 2, loss: 3 });
+  assert.equal(n.win + n.draw + n.loss, 100);
+  assert.ok(n.win >= 0 && n.draw >= 0 && n.loss >= 0);
+  assert.equal(n.normalized, true);
+  // draw was the strict minimum; it must remain the minimum after rounding
+  assert.ok(n.draw < n.win && n.draw < n.loss);
+});
