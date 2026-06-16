@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-15T14:59:24-05:00",
+  "generated_at": "2026-06-16T09:15:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -1179,7 +1179,7 @@
       "group": "G",
       "matchday": 1,
       "kickoff": "2026-06-15T18:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "IRN",
       "away": "NZL",
       "prob": {
@@ -1204,7 +1204,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
         "https://www.sportsmole.co.uk/football/iran/world-cup-2026/preview/iran-vs-new-zealand-prediction-team-news-lineups_599122.html"
-      ]
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 2,
+        "outcome": "draw"
+      }
     },
     {
       "id": "G-MD2-1",
@@ -1231,9 +1236,11 @@
         "벨기에 마무리 결정력 개선 여부"
       ],
       "flip_condition": "이란이 선제 역습 골을 터뜨린 뒤 수비 조직을 유지한다면 대형 이변 가능",
-      "qualification_context": "벨기에는 이 경기 패배 시 사실상 조별리그 탈락 위기, 이란은 승리 시 16강 진출 가능성 급상승",
+      "qualification_context": "1차전(벨기에 1-1 이집트, 이란 2-2 뉴질랜드) 결과 G조 네 팀 모두 승점 1로 완전 동률. 벨기에는 이번 승리로 선두로 치고 나가려 하고, 이란은 비기거나 이기면 16강 경쟁에서 크게 유리해진다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
+        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
       ]
     },
     {
@@ -1261,9 +1268,11 @@
         "이집트 수비 집중력"
       ],
       "flip_condition": "살라가 부상 여파로 교체 출전에 그치거나 뉴질랜드가 선제 세트피스 득점 시 접전 가능",
-      "qualification_context": "이집트 승리 시 조별리그 통과 사실상 확정, 뉴질랜드는 패배 시 탈락 위기",
+      "qualification_context": "네 팀 모두 승점 1 동률 상황. 이집트는 승리 시 16강 진출에 결정적 고지를 점하고, 뉴질랜드는 패배 시 최종전을 앞두고 탈락 위기에 몰린다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
+        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
       ]
     },
     {
@@ -1291,9 +1300,11 @@
         "살라·타레미 컨디션"
       ],
       "flip_condition": "이란이 무승부만으로도 16강에 진출할 수 있는 시나리오라면 무승부 노림수 전술 가능",
-      "qualification_context": "두 팀 모두 최종 순위 결정에 중요한 경기, 승패에 따라 조 2위 경쟁이 확정됨",
+      "qualification_context": "2차전 결과에 따라 달라지지만, 1차전 전원 무승부로 출발선이 같아 이 최종전이 조 2위(또는 와일드카드) 향방을 가를 가능성이 크다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
+        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
       ]
     },
     {
@@ -1321,9 +1332,11 @@
         "뉴질랜드 수비 집중력"
       ],
       "flip_condition": "벨기에가 이미 탈락이 확정된 상황이라면 팀 사기 저하로 뉴질랜드의 이변 가능성 소폭 상승",
-      "qualification_context": "정보 부족 — 2라운드 결과에 따라 이 경기의 의미가 크게 달라짐",
+      "qualification_context": "1차전 전원 무승부로 G조는 2차전 결과가 순위를 가른다. 이 최종전의 의미는 6/21 라운드 결과에 좌우된다(정보 부족).",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
+        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
       ]
     },
     {
@@ -1368,7 +1381,7 @@
       "group": "H",
       "matchday": 1,
       "kickoff": "2026-06-15T17:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "KSA",
       "away": "URU",
       "prob": {
@@ -1392,7 +1405,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
         "https://www.sportsmole.co.uk/football/world-cup/saudi-arabia-vs-uruguay_game_248736.html"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "draw"
+      }
     },
     {
       "id": "H-MD2-1",
@@ -1419,9 +1437,11 @@
         "정보 부족 — 1라운드 KSA 결과 반영 필요"
       ],
       "flip_condition": "스페인이 초반에 선제 실점하거나 주전 선수 부상으로 공격 흐름이 끊긴다면 접전 가능",
-      "qualification_context": "스페인 승리 시 1차전 무승부를 만회하며 조 1위 경쟁 재진입, 사우디 연속 패배 시 사실상 탈락",
+      "qualification_context": "1차전(스페인 0-0 카보베르데, 사우디 1-1 우루과이) 결과 H조 네 팀 모두 승점 1 동률. 스페인은 우승후보로서 반드시 승리해 선두로 나서려 하고, 사우디는 연속 무승부 후 패하면 탈락 위기다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
+        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
       ]
     },
     {
@@ -1449,9 +1469,11 @@
         "정보 부족 — 1라운드 URU 결과 반영 필요"
       ],
       "flip_condition": "우루과이가 멘데스·리바마투의 역습에 빠른 실점 후 흔들린다면 카보베르데의 이변 가능성 존재",
-      "qualification_context": "우루과이는 이 경기 승리로 사실상 16강 진출 가능성을 확보, 카보베르데는 승리 시 기적적 16강 도전",
+      "qualification_context": "네 팀 모두 승점 1 동률. 우루과이는 승리 시 16강 진출에 유리한 고지를 점하고, 카보베르데는 스페인전 무승부 기세를 이어 또 한 번 이변을 노린다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
+        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
       ]
     },
     {
@@ -1479,9 +1501,11 @@
         "카보베르데의 공격 효율성"
       ],
       "flip_condition": "사우디가 이 시점에서 이미 탈락 확정이라면 팀 사기 저하로 카보베르데가 유리한 상황 형성 가능",
-      "qualification_context": "정보 부족 — 조별리그 마지막 날 시나리오는 1·2라운드 결과에 완전히 의존",
+      "qualification_context": "1차전 전원 무승부로 H조 순위는 2차전 결과에 달렸다. 이 최종전은 양팀의 16강 잔여 가능성에 따라 의미가 크게 달라진다(정보 부족).",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
+        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
       ]
     },
     {
@@ -1509,9 +1533,11 @@
         "발베르데의 중원 싸움"
       ],
       "flip_condition": "스페인이 조 1위를 이미 확정한 상태라면 주전 선수를 대폭 교체하여 우루과이가 선발 전력 차를 최소화할 수 있음",
-      "qualification_context": "조별리그 마지막 날 그룹 1위·2위 결정전 성격, 양팀 모두 16강 진출 가능성이 높은 상태에서 최종 순위 결정",
+      "qualification_context": "1차전 전원 무승부 출발. 2차전 결과에 따라 조 1·2위 또는 와일드카드 진출을 가르는 최종전이 될 공산이 크다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
+        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
       ]
     },
     {
@@ -1530,8 +1556,8 @@
       "verdict": "home_win",
       "rationale": "프랑스는 세계 최고 수준의 공격진을 보유한 우승 후보로, 수비 조직력과 개인 기량 모두 세네갈을 압도한다. 세네갈은 마네와 잭슨의 연계가 위협적이지만, 프랑스의 음바페·뎀벨레 듀오는 더 높은 수준의 위협을 제공한다.",
       "team_notes": {
-        "home": "음바페 부상 회복 후 첫 경기 — 컨디션 관리가 변수",
-        "away": "마네의 마지막 월드컵 출전 가능성 — 동기 부여 최고조"
+        "home": "살리바 경미한 부상 회복해 선발 가세, 음바페도 가동 가능 — 최강 공격진 정상 출격",
+        "away": "멘디·쿨리발리 수비 축에 게예 중원, 마네·사르·잭슨 전방 3톱 — 2002년 이변 재현 노림"
       },
       "key_variables": [
         "음바페 실제 컨디션 수준",
@@ -1542,7 +1568,9 @@
       "qualification_context": "프랑스 승리 시 조 1위 독주 유력, 세네갈 승리 시 조 선두로 도약",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-        "https://www.aljazeera.com/sports/2026/5/14/mbappe-and-dembele-head-up-star-studded-france-world-cup-squad"
+        "https://www.aljazeera.com/sports/2026/5/14/mbappe-and-dembele-head-up-star-studded-france-world-cup-squad",
+        "https://www.goal.com/en/news/france-senegal-world-cup-preview/blt57c148cbbe5bd343",
+        "https://www.rotowire.com/soccer/article/2026-world-cup-group-i-preview-france-senegal-iraq-norway-tactics-lineups-set-pieces-odds-111129"
       ]
     },
     {
@@ -1573,7 +1601,8 @@
       "qualification_context": "노르웨이 승리 시 프랑스와 조 선두 공동, 이라크 승리 시 극적인 조 1위 가능성",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-        "https://sports.yahoo.com/articles/norway-football-team-2026-world-080500985.html"
+        "https://sports.yahoo.com/articles/norway-football-team-2026-world-080500985.html",
+        "https://www.rotowire.com/soccer/article/2026-world-cup-group-i-preview-france-senegal-iraq-norway-tactics-lineups-set-pieces-odds-111129"
       ]
     },
     {
@@ -1725,7 +1754,9 @@
       "qualification_context": "아르헨티나 승리 시 타이틀 방어 순항, 알제리 승리 시 역대 최대 이변 중 하나",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
-        "https://www.aljazeera.com/sports/2026/6/10/argentina-world-cup-2026-preview-players-to-watch-group-matches-squad"
+        "https://www.aljazeera.com/sports/2026/6/10/argentina-world-cup-2026-preview-players-to-watch-group-matches-squad",
+        "https://www.cbssports.com/soccer/news/2026-world-cup-picks-odds-predictions-best-bets-france-senegal-argentina-algeria-tuesday/",
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/matchday-6-preview-2026"
       ]
     },
     {
@@ -1756,7 +1787,8 @@
       "qualification_context": "오스트리아 승리 시 아르헨티나에 이어 조 2위 경쟁 선두, 요르단 승리 시 이변 연출",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
-        "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225"
+        "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225",
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/matchday-6-preview-2026"
       ]
     },
     {
