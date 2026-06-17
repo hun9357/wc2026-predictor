@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-16T09:15:00-05:00",
+  "generated_at": "2026-06-17T10:30:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -1545,7 +1545,7 @@
       "group": "I",
       "matchday": 1,
       "kickoff": "2026-06-16T15:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "FRA",
       "away": "SEN",
       "prob": {
@@ -1554,31 +1554,33 @@
         "loss": 14
       },
       "verdict": "home_win",
-      "rationale": "프랑스는 세계 최고 수준의 공격진을 보유한 우승 후보로, 수비 조직력과 개인 기량 모두 세네갈을 압도한다. 세네갈은 마네와 잭슨의 연계가 위협적이지만, 프랑스의 음바페·뎀벨레 듀오는 더 높은 수준의 위협을 제공한다.",
+      "rationale": "프랑스가 후반 올리세의 맹활약과 음바페의 멀티골을 앞세워 세네갈을 3-1로 제압했다. 세네갈은 전반 대등하게 맞섰으나 프랑스의 개인 기량 차이를 끝내 넘지 못했다.",
       "team_notes": {
-        "home": "살리바 경미한 부상 회복해 선발 가세, 음바페도 가동 가능 — 최강 공격진 정상 출격",
-        "away": "멘디·쿨리발리 수비 축에 게예 중원, 마네·사르·잭슨 전방 3톱 — 2002년 이변 재현 노림"
+        "home": "음바페 멀티골·올리세 후반 결정적 활약",
+        "away": "전반 선전했으나 후반 실점 누적"
       },
       "key_variables": [
-        "음바페 실제 컨디션 수준",
-        "세네갈의 전방 압박 효과",
-        "프랑스 차메니 중원 장악력"
+        "경기 종료"
       ],
-      "flip_condition": "음바페가 부상 재발로 제한적 출전 시 세네갈의 역습 득점 가능성 상승",
-      "qualification_context": "프랑스 승리 시 조 1위 독주 유력, 세네갈 승리 시 조 선두로 도약",
+      "flip_condition": "—",
+      "qualification_context": "프랑스 3점으로 조 선두 출발, 세네갈은 무승점으로 탈락 위기",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-        "https://www.aljazeera.com/sports/2026/5/14/mbappe-and-dembele-head-up-star-studded-france-world-cup-squad",
-        "https://www.goal.com/en/news/france-senegal-world-cup-preview/blt57c148cbbe5bd343",
-        "https://www.rotowire.com/soccer/article/2026-world-cup-group-i-preview-france-senegal-iraq-norway-tactics-lineups-set-pieces-odds-111129"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-group-result-tuesday-16-june-live-scores",
+        "https://www.espn.com/espn/story/_/id/49086623/2026-fifa-world-cup-france-senegal-norway-iraq-argentina-algeria-jordan-austria"
+      ],
+      "result": {
+        "home_score": 3,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "I-MD1-2",
       "group": "I",
       "matchday": 1,
       "kickoff": "2026-06-16T18:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "IRQ",
       "away": "NOR",
       "prob": {
@@ -1587,23 +1589,26 @@
         "loss": 57
       },
       "verdict": "away_win",
-      "rationale": "노르웨이는 홀란드와 오데가르라는 세계 정상급 콤비를 앞세워 이라크의 저블록 수비를 무너뜨릴 가능성이 높다. 이라크는 40년 만의 월드컵 복귀로 경험 부족이 예상되며, 미국 입국 심사 논란으로 준비 컨디션이 우려된다.",
+      "rationale": "노르웨이가 홀란드의 멀티골을 중심으로 한 날카로운 역습으로 이라크를 4-1로 대파했다. 이라크는 한 골을 만회했지만 노르웨이의 화력을 감당하지 못했다.",
       "team_notes": {
-        "home": "홀란드 견제를 위한 수비 블록 유지가 이라크의 핵심 과제",
-        "away": "홀란드의 첫 월드컵 경기 — 국제 무대 집중력 최고조"
+        "home": "분전했으나 4실점 완패",
+        "away": "홀란드 멀티골 폭발, 공격 효율 압도"
       },
       "key_variables": [
-        "홀란드 대 이라크 수비 조직력 대결",
-        "이라크의 역습 연계 완성도",
-        "노르웨이 오데가르 중원 창조력"
+        "경기 종료"
       ],
-      "flip_condition": "이라크가 초반 선제골로 저블록 수비 구축 성공 시 무승부 가능성",
-      "qualification_context": "노르웨이 승리 시 프랑스와 조 선두 공동, 이라크 승리 시 극적인 조 1위 가능성",
+      "flip_condition": "—",
+      "qualification_context": "노르웨이 3점으로 조 공동 선두, 이라크는 무승점",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-        "https://sports.yahoo.com/articles/norway-football-team-2026-world-080500985.html",
-        "https://www.rotowire.com/soccer/article/2026-world-cup-group-i-preview-france-senegal-iraq-norway-tactics-lineups-set-pieces-odds-111129"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-group-result-tuesday-16-june-live-scores",
+        "https://www.espn.com/espn/story/_/id/49086623/2026-fifa-world-cup-france-senegal-norway-iraq-argentina-algeria-jordan-austria"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 4,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "I-MD2-1",
@@ -1630,7 +1635,7 @@
         "정보 부족"
       ],
       "flip_condition": "프랑스가 대규모 로테이션 실시 시 이라크의 무승부 가능성 소폭 상승",
-      "qualification_context": "프랑스 승리 시 16강 진출 거의 확정, 이라크는 패배 시 탈락 위기",
+      "qualification_context": "프랑스(3점) 승리 시 16강 진출 사실상 확정, 이라크(0점)는 패배 시 탈락 확정",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I"
       ]
@@ -1660,7 +1665,7 @@
         "노르웨이 중원 압박 강도"
       ],
       "flip_condition": "세네갈이 세트피스에서 득점 시 수비적으로 경기 종료 시도 가능",
-      "qualification_context": "이 경기 결과가 조 2위 결정에 직접 영향, 승자는 16강 진출 거의 확정",
+      "qualification_context": "노르웨이(3점) 승리 시 16강 진출 유력, 세네갈(0점)은 반드시 이겨야 생존",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
         "https://www.aljazeera.com/sports/2026/5/30/senegals-world-cup-2026-team-preview-players-to-watch-group-squad-list"
@@ -1691,7 +1696,7 @@
         "조 순위에 따른 양 팀 동기 차이"
       ],
       "flip_condition": "프랑스가 로테이션 대거 실시하고 노르웨이가 선제골 성공 시 노르웨이 승리 가능",
-      "qualification_context": "양 팀 모두 이미 16강 진출 가능성이 높아 결과보다 조 순위 결정이 핵심",
+      "qualification_context": "프랑스·노르웨이 모두 16강 유력 — 사실상 조 1위 결정전",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I"
       ]
@@ -1721,7 +1726,7 @@
         "정보 부족"
       ],
       "flip_condition": "이라크가 초반 선제골로 수비 블록 완성 시 세네갈의 공격이 막힐 수 있음",
-      "qualification_context": "세네갈 승리 시 16강 가능성 유지, 이라크는 사실상 16강 탈락 직전",
+      "qualification_context": "양 팀 모두 1차전 패배로 벼랑 끝, 패자는 탈락 확정",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I"
       ]
@@ -1731,7 +1736,7 @@
       "group": "J",
       "matchday": 1,
       "kickoff": "2026-06-16T21:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "ARG",
       "away": "ALG",
       "prob": {
@@ -1740,31 +1745,34 @@
         "loss": 12
       },
       "verdict": "home_win",
-      "rationale": "아르헨티나는 2022 챔피언으로 메시를 중심으로 한 세계 최고 수준의 조직력을 보유하며, 알제리의 마에즈와 아무라가 위협적이지만 아르헨티나의 수비 조직은 이를 충분히 통제할 것으로 보인다. 메시의 마지막 월드컵이라는 동기 부여도 아르헨티나 우위 요소다.",
+      "rationale": "메시가 월드컵 데뷔 첫 해트트릭을 터뜨리며 아르헨티나가 알제리를 3-0으로 완파했다. 데 파울과 맥 알리스터의 정교한 연계가 알제리 수비를 무너뜨렸다.",
       "team_notes": {
-        "home": "메시 햄스트링 회복 후 첫 경기 — 출전 여부 및 출전 시간 관리가 변수",
-        "away": "벤나세르 부재가 중원 조직력에 심각한 타격 — 정보 부족"
+        "home": "메시 해트트릭, 미드필드 완전 장악",
+        "away": "벤나세르 결장 속 무득점 완패"
       },
       "key_variables": [
-        "메시 실제 컨디션 및 출전 시간",
-        "벤나세르 부재로 인한 알제리 중원 약화",
-        "알제리 역습 전환 속도"
+        "경기 종료"
       ],
-      "flip_condition": "메시 불출전 또는 조기 교체 시 알제리의 역습 성공 가능성 상승",
-      "qualification_context": "아르헨티나 승리 시 타이틀 방어 순항, 알제리 승리 시 역대 최대 이변 중 하나",
+      "flip_condition": "—",
+      "qualification_context": "아르헨티나 3점으로 조 선두 출발, 알제리는 무승점",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
-        "https://www.aljazeera.com/sports/2026/6/10/argentina-world-cup-2026-preview-players-to-watch-group-matches-squad",
-        "https://www.cbssports.com/soccer/news/2026-world-cup-picks-odds-predictions-best-bets-france-senegal-argentina-algeria-tuesday/",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/matchday-6-preview-2026"
-      ]
+        "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-2026-june-16-messi-argentia-live-updates-rcna350195",
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-group-result-tuesday-16-june-live-scores",
+        "https://www.espn.com/espn/story/_/id/49086623/2026-fifa-world-cup-france-senegal-norway-iraq-argentina-algeria-jordan-austria"
+      ],
+      "result": {
+        "home_score": 3,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "J-MD1-2",
       "group": "J",
       "matchday": 1,
       "kickoff": "2026-06-16T23:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "AUT",
       "away": "JOR",
       "prob": {
@@ -1773,23 +1781,26 @@
         "loss": 15
       },
       "verdict": "home_win",
-      "rationale": "오스트리아는 란그닉의 게겐프레싱 철학 아래 잘 조직된 팀으로 요르단의 역습 전술보다 전반적으로 우위에 있다. 요르단은 첫 월드컵 진출의 흥분으로 강한 동기를 갖지만, 자비처와 알라바의 개인 기량이 요르단의 집단 전술을 앞설 것으로 예상된다.",
+      "rationale": "오스트리아가 짜임새 있는 공격으로 요르단을 3-1로 꺾었다. 요르단은 한 골을 만회하는 데 그쳤고 오스트리아가 안정적으로 승점 3점을 확보했다.",
       "team_notes": {
-        "home": "바움가르트너 부재로 10번 역할을 그레고리치가 맡아야 하는 변수",
-        "away": "알타마리의 개인 돌파력이 요르단의 유일한 희망"
+        "home": "안정적 3득점으로 승점 확보",
+        "away": "한 골 만회에 그친 아쉬운 출발"
       },
       "key_variables": [
-        "바움가르트너 공백에 따른 오스트리아 창조력 감소",
-        "알타마리 억제 여부",
-        "요르단 역습 성공률"
+        "경기 종료"
       ],
-      "flip_condition": "알타마리가 오스트리아 수비 이면 공간을 지속적으로 공략 성공 시 요르단 무승부 가능",
-      "qualification_context": "오스트리아 승리 시 아르헨티나에 이어 조 2위 경쟁 선두, 요르단 승리 시 이변 연출",
+      "flip_condition": "—",
+      "qualification_context": "오스트리아 3점 확보, 요르단은 무승점으로 탈락 위기",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
-        "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/matchday-6-preview-2026"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-group-result-tuesday-16-june-live-scores",
+        "https://www.espn.com/espn/story/_/id/49086623/2026-fifa-world-cup-france-senegal-norway-iraq-argentina-algeria-jordan-austria"
+      ],
+      "result": {
+        "home_score": 3,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "J-MD2-1",
@@ -1816,7 +1827,7 @@
         "아르헨티나 메시 출전 시간"
       ],
       "flip_condition": "오스트리아가 전반 내내 하이프레스를 성공적으로 수행해 실수를 유발할 경우 무승부 가능",
-      "qualification_context": "아르헨티나 승리 시 조 1위로 16강 확정, 오스트리아 승리 시 조 2위 다툼 주도",
+      "qualification_context": "아르헨티나·오스트리아 모두 1차전 승리 — 승자가 조 1위·16강 진출 사실상 확정",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
       ]
@@ -1846,7 +1857,7 @@
         "정보 부족"
       ],
       "flip_condition": "요르단이 알제리의 역습 공간을 차단하고 세트피스에서 선제 득점 성공 시 무승부 또는 이변 가능",
-      "qualification_context": "알제리 승리 시 16강 진출 경쟁 선두, 요르단 승리 시 극적인 16강 도전 지속",
+      "qualification_context": "양 팀 모두 1차전 패배, 패자는 사실상 탈락하는 생존 매치",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
       ]
@@ -1876,7 +1887,7 @@
         "정보 부족"
       ],
       "flip_condition": "오스트리아가 이전 경기에서 이기고 알제리가 지면 오스트리아 이미 16강 진출로 상황 역전",
-      "qualification_context": "이 경기가 사실상 조 2위 결정전이 될 가능성 높음",
+      "qualification_context": "오스트리아 승점 우위 속 알제리는 1차전 결과 따라 조 2위 생존 경쟁",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
       ]
@@ -1906,7 +1917,7 @@
         "정보 부족"
       ],
       "flip_condition": "아르헨티나가 대규모 로테이션 실시하고 요르단이 세트피스에서 선제 득점 시 이변 가능",
-      "qualification_context": "요르단에게 사실상 탈락이 결정된 상황에서 자국 첫 월드컵 승리 도전",
+      "qualification_context": "아르헨티나 조 1위 유력, 요르단은 자국 첫 월드컵 승리에 도전",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
       ]
@@ -1936,11 +1947,13 @@
         "루벤 디아스 부상 상태"
       ],
       "flip_condition": "DR 콩고가 초반 역습으로 선제골을 기록하고 포르투갈의 공격 흐름을 차단할 경우 접전 가능",
-      "qualification_context": "포르투갈의 조 1위 행진 가능성이 높으며, DR 콩고는 승점 확보가 절실한 상황",
+      "qualification_context": "옵타도 포르투갈 우세 전망 — 승리 시 조 1위 행진, DR 콩고는 승점 확보 절실",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
         "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000",
-        "https://sports.yahoo.com/articles/portugal-vs-dr-congo-prediction-100000038.html"
+        "https://sports.yahoo.com/articles/portugal-vs-dr-congo-prediction-100000038.html",
+        "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
+        "https://www.foxsports.com/stories/soccer/world-cup-portugal-dr-congo-england-croatia-ghana-panama-uzbekistan-colombia"
       ]
     },
     {
@@ -1952,15 +1965,15 @@
       "home": "UZB",
       "away": "COL",
       "prob": {
-        "win": 20,
-        "draw": 28,
-        "loss": 52
+        "win": 18,
+        "draw": 24,
+        "loss": 58
       },
       "verdict": "away_win",
-      "rationale": "콜롬비아는 루이스 디아스와 제임스 로드리게스의 창의성으로 우즈베키스탄의 미드블록을 공략할 전력을 갖추고 있다. 사상 첫 월드컵에 출전하는 우즈베키스탄은 조직 수비를 강조하나 유럽 빅리그 출신 선수들로 구성된 콜롬비아의 공격 강도를 버텨내기 어려울 것으로 예상된다.",
+      "rationale": "옵타는 콜롬비아의 압도적 우세(승률 62%)를 전망한다. 사상 첫 월드컵에 나서는 우즈베키스탄은 카나바로 감독의 규율 잡힌 수비로 버티려 하나, 루이스 디아스·제임스 로드리게스가 이끄는 콜롬비아의 공격 강도를 90분 내내 견디기는 어렵다.",
       "team_notes": {
-        "home": "카나바로 감독의 규율 잡힌 수비 전술이 버팀목이나 공격 자원 부족이 약점",
-        "away": "루이스 디아스가 바이에른 이적 후 최상의 컨디션으로 측면 돌파 위협 예고"
+        "home": "규율 잡힌 미드블록이 버팀목이나 공격 자원 부족이 약점",
+        "away": "루이스 디아스의 측면 돌파와 하메스의 창의성으로 우위 — 옵타 강력 선호"
       },
       "key_variables": [
         "쿠사노프의 경기 감각 부족 여부",
@@ -1971,6 +1984,8 @@
       "qualification_context": "콜롬비아 승리 시 조 상위권 진출 청신호, 우즈베키스탄에게는 승점 1점도 성과",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
+        "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
+        "https://www.foxsports.com/stories/soccer/world-cup-portugal-dr-congo-england-croatia-ghana-panama-uzbekistan-colombia",
         "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000"
       ]
     },
@@ -2126,7 +2141,9 @@
       "qualification_context": "잉글랜드·크로아티아 모두 16강 진출에 이 경기 결과가 결정적 영향",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
-        "https://www.rotowire.com/soccer/article/2026-world-cup-group-l-preview-england-croatia-ghana-and-panama-lineups-odds-predictions-and-tactics-113532"
+        "https://www.rotowire.com/soccer/article/2026-world-cup-group-l-preview-england-croatia-ghana-and-panama-lineups-odds-predictions-and-tactics-113532",
+        "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
+        "https://www.foxsports.com/stories/soccer/world-cup-portugal-dr-congo-england-croatia-ghana-panama-uzbekistan-colombia"
       ]
     },
     {
@@ -2138,25 +2155,27 @@
       "home": "GHA",
       "away": "PAN",
       "prob": {
-        "win": 40,
-        "draw": 30,
-        "loss": 30
+        "win": 31,
+        "draw": 27,
+        "loss": 42
       },
-      "verdict": "home_win",
-      "rationale": "가나는 쿠두스 결장이라는 치명적 공백에도 세메뇨와 윌리엄스의 측면 공격력으로 파나마 수비를 위협할 수 있다. 파나마는 3-4-3 수비 조직이 견고하고 카라스키야의 창의성이 변수이나, 친선경기 6전 무승(1무 5패) 기록을 보면 가나가 확실한 우위에 있다고 보기 어렵다.",
+      "verdict": "away_win",
+      "rationale": "옵타 슈퍼컴퓨터는 파나마의 우세(승률 45%)를 점친다. 가나는 쿠두스 결장 공백 속 세메뇨·윌리엄스의 측면 공격에 기대지만, 새 사령탑 케이로스의 전술 정착이 아직 미완성이다. 파나마는 견고한 3-4-3 블록과 카라스키야의 창의성으로 역습 기회를 노린다.",
       "team_notes": {
-        "home": "쿠두스 부재 속 새 사령탑 케이로스의 전술 적응 시간 부족이 최대 약점",
-        "away": "브라질에게 6대2로 패한 최근 경기가 불안 요소이나 파나마는 메이저 토너먼트 경험 보유"
+        "home": "쿠두스 부재와 케이로스 전술 적응 시간 부족이 최대 약점",
+        "away": "조직적 수비 블록과 카라스키야의 연결고리가 강점 — 옵타 선호"
       },
       "key_variables": [
-        "쿠두스 공백을 누가 대체하는가",
-        "파나마 카라스키야의 창의성 발현 여부",
-        "가나의 수비 재편 안정성(살리수 부재)"
+        "쿠두스 결장에 따른 가나 공격 창의성 저하",
+        "파나마의 수비 집중력 유지",
+        "경기 초반 선제골 향배"
       ],
       "flip_condition": "카라스키야가 가나 수비 공간을 파고들어 파나마가 선제골을 넣으면 역전 가능",
-      "qualification_context": "두 팀 모두 이 경기 결과가 16강 진출 가능성에 직결, 사실상 생존 매치",
+      "qualification_context": "두 팀 모두 16강 진출 위해 반드시 잡아야 하는 사실상 생존 매치",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
+        "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
+        "https://www.foxsports.com/stories/soccer/world-cup-portugal-dr-congo-england-croatia-ghana-panama-uzbekistan-colombia",
         "https://www.rotowire.com/soccer/article/2026-world-cup-group-l-preview-england-croatia-ghana-and-panama-lineups-odds-predictions-and-tactics-113532"
       ]
     },
