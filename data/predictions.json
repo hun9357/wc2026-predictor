@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-17T10:30:00-05:00",
+  "generated_at": "2026-06-18T10:30:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -1927,7 +1927,7 @@
       "group": "K",
       "matchday": 1,
       "kickoff": "2026-06-17T12:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "POR",
       "away": "COD",
       "prob": {
@@ -1954,14 +1954,19 @@
         "https://sports.yahoo.com/articles/portugal-vs-dr-congo-prediction-100000038.html",
         "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
         "https://www.foxsports.com/stories/soccer/world-cup-portugal-dr-congo-england-croatia-ghana-panama-uzbekistan-colombia"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "draw"
+      }
     },
     {
       "id": "K-MD1-2",
       "group": "K",
       "matchday": 1,
       "kickoff": "2026-06-17T21:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "UZB",
       "away": "COL",
       "prob": {
@@ -1987,7 +1992,12 @@
         "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
         "https://www.foxsports.com/stories/soccer/world-cup-portugal-dr-congo-england-croatia-ghana-panama-uzbekistan-colombia",
         "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 3,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "K-MD2-1",
@@ -1998,26 +2008,29 @@
       "home": "POR",
       "away": "UZB",
       "prob": {
-        "win": 78,
-        "draw": 14,
-        "loss": 8
+        "win": 76,
+        "draw": 15,
+        "loss": 9
       },
       "verdict": "home_win",
-      "rationale": "포르투갈은 전력 우위에서 우즈베키스탄과 현격한 차이를 보이며, 카나바로의 수비 전술이 견고하더라도 포르투갈의 공격 자원(호날두, 베르나르두, 레앙)을 90분 내내 차단하기 어렵다. 포르투갈의 2연승 가능성이 매우 높은 경기다.",
+      "rationale": "DR 콩고에 1-1로 발목 잡힌 포르투갈은 반드시 반등이 필요한 경기다. 우즈베키스탄은 1차전에서 콜롬비아에 1-3으로 패하며 수비 취약점을 드러냈고, 호날두·베르나르두 시우바가 이끄는 포르투갈의 공격 화력을 90분 막아내기는 어렵다.",
       "team_notes": {
-        "home": "조 1위 확정을 앞둔 포르투갈, 주전 로테이션 가능성 있으나 전력 우위 유지",
-        "away": "파이줄라예프와 쇼무로도프의 역습 연결이 유일한 득점 루트"
+        "home": "1차전 무승부로 잃은 승점을 만회해야 하는 포르투갈, 전방 결정력 회복이 관건",
+        "away": "1차전 3실점한 수비 라인 정비가 시급, 쇼무로도프 단독 역습이 유일한 활로"
       },
       "key_variables": [
-        "포르투갈 주전 로테이션 여부",
-        "우즈베키스탄 세트피스 위협",
-        "정보 부족: 우즈베키스탄 전술 세부 사항"
+        "포르투갈 1차전 부진 후 라인업 변화",
+        "우즈베키스탄 수비 블록 회복 여부",
+        "세트피스 수비 집중력"
       ],
-      "flip_condition": "포르투갈이 대규모 로테이션을 시행하고 우즈베키스탄이 세트피스에서 선제골을 넣는 경우",
-      "qualification_context": "포르투갈 승리 시 사실상 조 1위 확정, 우즈베키스탄은 탈락 위기",
+      "flip_condition": "우즈베키스탄이 밀집 수비로 버티며 세트피스 선제골을 넣고 포르투갈이 또다시 결정력 난조를 보이면 접전",
+      "qualification_context": "포르투갈 승리 시 4점으로 16강에 다가서고, 우즈베키스탄은 2패 시 탈락 확정 위기",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
-        "https://www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/predicted-lineups/key-role-for-khusanov-in-cannavaros-xi-predicted-uzbekistan-lineup-vs-colombia_599299.html"
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+        "https://bleacherreport.com/articles/25441840-world-cup-2026-group-standings-schedule-after-wednesdays-results-ahead-ko-bracket",
+        "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-k-and-l-what-does-scorecasting-suggest",
+        "https://www.squawka.com/en/news/world-cup/world-cup-2026-group-k-table-fixtures-results/"
       ]
     },
     {
@@ -2029,26 +2042,28 @@
       "home": "COL",
       "away": "COD",
       "prob": {
-        "win": 58,
-        "draw": 25,
-        "loss": 17
+        "win": 55,
+        "draw": 26,
+        "loss": 19
       },
       "verdict": "home_win",
-      "rationale": "콜롬비아는 루이스 디아스의 개인기와 제임스의 기회 창출 능력으로 DR 콩고 수비를 무력화할 잠재력을 보유하고 있다. 단, 콜롬비아는 3월 크로아티아·프랑스전 패배로 수비 조직 불안감이 남아 있으며 콩고의 역습 위협을 가볍게 볼 수 없다.",
+      "rationale": "콜롬비아는 1차전 3-1 완승으로 조 선두에 올랐고 루이스 디아스·하메스의 공격 조합이 절정의 폼이다. 다만 DR 콩고는 포르투갈을 1-1로 잡아내며 조직적 수비와 위사의 역습 위협을 입증해, 콜롬비아의 측면 공간을 노릴 수 있어 방심은 금물이다.",
       "team_notes": {
-        "home": "수비 조직 취약점 개선이 이번 경기 최대 과제, 콜롬비아 2라운드 핵심 매치",
-        "away": "위사-바카부 투톱 역습 조합이 콜롬비아 측면 공간에서 빛날 가능성"
+        "home": "디아스·무뇨스·캄파스로 이어진 1차전 득점 루트가 그대로 위협적",
+        "away": "포르투갈전에서 보여준 견고한 블록과 위사의 결정력이 콜롬비아 수비를 시험"
       },
       "key_variables": [
         "콜롬비아 수비 조직 안정 여부",
-        "위사 컨디션",
-        "고지대(과달라하라) 경기 영향"
+        "위사 컨디션과 역습 효율",
+        "과달라하라 고지대 영향"
       ],
-      "flip_condition": "DR 콩고가 전반 선제골 후 블록을 내리고 콜롬비아 공격을 차단하면 이변 가능",
-      "qualification_context": "콜롬비아 승리 시 2위 이상 사실상 확정, DR 콩고 패시 탈락 가능성 고조",
+      "flip_condition": "DR 콩고가 선제골 후 블록을 내리고 콜롬비아의 측면 전개를 차단하면 무승부 이상 가능",
+      "qualification_context": "콜롬비아 승리 시 2연승으로 16강 사실상 확정, DR 콩고는 패하면 탈락 위기 심화",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
-        "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000"
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+        "https://bleacherreport.com/articles/25441840-world-cup-2026-group-standings-schedule-after-wednesdays-results-ahead-ko-bracket",
+        "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-k-and-l-what-does-scorecasting-suggest"
       ]
     },
     {
@@ -2060,26 +2075,28 @@
       "home": "COL",
       "away": "POR",
       "prob": {
-        "win": 25,
+        "win": 30,
         "draw": 30,
-        "loss": 45
+        "loss": 40
       },
       "verdict": "away_win",
-      "rationale": "포르투갈은 조 1위 확정 후에도 강력한 전력을 유지하며 콜롬비아의 수비 불안을 파고들 가능성이 높다. 콜롬비아는 3위 싸움 상황에 따라 결과가 필요할 수 있어 공격적으로 나서겠지만 포르투갈의 개인 전력이 우위에 있다.",
+      "rationale": "조 1·2위가 유력한 두 팀의 순위 결정전 성격이 짙다. 1차전에서 콜롬비아는 완승, 포르투갈은 무승부에 그쳤으나 개인 전력과 경기 운영에서는 포르투갈이 여전히 우위다. 양 팀 모두 이미 진출을 확정했다면 로테이션 변수가 커진다.",
       "team_notes": {
-        "home": "콜롬비아에게 순위 결정전 성격의 매치, 디아스의 포르투갈 출신 클럽팀 동료와의 대결 흥미",
-        "away": "포르투갈은 이미 진출 확정 후 출전 가능, 로테이션 시 콜롬비아에게 기회"
+        "home": "홈 분위기와 1차전 완승의 자신감, 디아스가 리버풀 동료들과 맞대결",
+        "away": "호날두·베르나르두의 개인 능력 우위, 조 1위를 위한 동기 충분"
       },
       "key_variables": [
-        "포르투갈 로테이션 규모",
-        "콜롬비아 조 2위 달성 필요 여부 (다른 경기 결과 연동)",
-        "마이애미 경기장 분위기"
+        "양 팀 진출 확정 여부에 따른 로테이션 규모",
+        "콜롬비아 수비 조직 안정성",
+        "마이애미 경기장 환경"
       ],
-      "flip_condition": "포르투갈이 대폭 로테이션을 실시하고 콜롬비아가 전방 압박으로 주도권을 장악하는 경우 역전 가능",
-      "qualification_context": "콜롬비아 2위 확정 여부, 포르투갈 조 1위 유지가 변수",
+      "flip_condition": "포르투갈이 대폭 로테이션하고 콜롬비아가 전방 압박으로 주도권을 잡으면 홈 승리 가능",
+      "qualification_context": "승점 상황에 따라 조 1위 결정전 — 양 팀 모두 16강 진출은 유력",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
-        "https://leaguelane.com/colombia-world-cup-2026-squad-key-players-tactics-predictions/"
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+        "https://bleacherreport.com/articles/25441840-world-cup-2026-group-standings-schedule-after-wednesdays-results-ahead-ko-bracket",
+        "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-k-and-l-what-does-scorecasting-suggest"
       ]
     },
     {
@@ -2091,25 +2108,28 @@
       "home": "COD",
       "away": "UZB",
       "prob": {
-        "win": 40,
-        "draw": 32,
-        "loss": 28
+        "win": 45,
+        "draw": 30,
+        "loss": 25
       },
       "verdict": "home_win",
-      "rationale": "두 팀 모두 탈락 위기에 놓일 가능성이 높으며, 이 경기는 사실상 3위 싸움의 성격을 띤다. DR 콩고는 위사·바카부의 공격력이 우즈베키스탄의 중앙 수비를 능가할 잠재력이 있으나, 우즈베키스탄도 쇼무로도프의 개인 능력으로 골을 노릴 수 있어 접전이 예상된다.",
+      "rationale": "1차전에서 승점 1점(POR전 무)을 챙긴 DR 콩고와 무승점에 그친 우즈베키스탄의 사실상 생존 경쟁이다. 위사·바카부의 공격력이 우즈베키스탄 중앙 수비를 능가할 잠재력이 있어 DR 콩고가 다소 우세하나, 양 팀 모두 절박해 접전이 예상된다.",
       "team_notes": {
-        "home": "음벰바 주장의 수비 리더십과 바카부의 경험이 DR 콩고의 강점",
-        "away": "쇼무로도프 단독 공격 의존도가 높아 차단당하면 공격 대안 부재"
+        "home": "음벰바의 수비 리더십과 위사의 역습 마무리가 DR 콩고의 무기",
+        "away": "2패 위기의 우즈베키스탄, 쇼무로도프 의존도가 높아 차단 시 대안 부재"
       },
       "key_variables": [
-        "두 팀의 3라운드 진입 전 승점 상황",
-        "정보 부족: 우즈베키스탄 부상 현황",
-        "위사 컨디션 최종 확인 필요"
+        "3라운드 진입 시점의 승점·득실 상황",
+        "위사 컨디션 최종 점검",
+        "정보 부족: 우즈베키스탄 부상 현황"
       ],
-      "flip_condition": "우즈베키스탄이 세트피스 전술로 선제골 후 수비 블록을 유지하면 이변 가능",
-      "qualification_context": "3위팀도 16강 진출 가능성이 있으므로 두 팀 모두 사력을 다할 것",
+      "flip_condition": "우즈베키스탄이 세트피스 선제골 후 수비 블록을 유지하면 이변 가능",
+      "qualification_context": "DR 콩고는 승리 시 조 3위(와일드카드 경쟁) 노림, 우즈베키스탄은 사실상 탈락 방지전",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+        "https://bleacherreport.com/articles/25441840-world-cup-2026-group-standings-schedule-after-wednesdays-results-ahead-ko-bracket",
+        "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-k-and-l-what-does-scorecasting-suggest",
         "https://www.squawka.com/en/news/world-cup/dr-congo-world-cup-2026-fixtures-squad-analysis/"
       ]
     },
@@ -2118,7 +2138,7 @@
       "group": "L",
       "matchday": 1,
       "kickoff": "2026-06-17T15:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "ENG",
       "away": "CRO",
       "prob": {
@@ -2144,14 +2164,19 @@
         "https://www.rotowire.com/soccer/article/2026-world-cup-group-l-preview-england-croatia-ghana-and-panama-lineups-odds-predictions-and-tactics-113532",
         "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
         "https://www.foxsports.com/stories/soccer/world-cup-portugal-dr-congo-england-croatia-ghana-panama-uzbekistan-colombia"
-      ]
+      ],
+      "result": {
+        "home_score": 4,
+        "away_score": 2,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "L-MD1-2",
       "group": "L",
       "matchday": 1,
       "kickoff": "2026-06-17T18:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "GHA",
       "away": "PAN",
       "prob": {
@@ -2177,7 +2202,12 @@
         "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
         "https://www.foxsports.com/stories/soccer/world-cup-portugal-dr-congo-england-croatia-ghana-panama-uzbekistan-colombia",
         "https://www.rotowire.com/soccer/article/2026-world-cup-group-l-preview-england-croatia-ghana-and-panama-lineups-odds-predictions-and-tactics-113532"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "L-MD2-1",
@@ -2188,25 +2218,28 @@
       "home": "ENG",
       "away": "GHA",
       "prob": {
-        "win": 68,
-        "draw": 20,
-        "loss": 12
+        "win": 66,
+        "draw": 21,
+        "loss": 13
       },
       "verdict": "home_win",
-      "rationale": "잉글랜드는 케인·벨링엄·사카의 공격 조합이 쿠두스 없는 가나 수비를 공략하기에 충분한 전력이다. 가나는 케이로스 감독 취임 후 친선경기에서 5패를 기록하며 전술 안정화가 미흡한 상황으로, 잉글랜드의 조직적 압박에 취약할 가능성이 높다.",
+      "rationale": "1차전 모두 승리해 동반 선두에 오른 두 팀의 1위 다툼이다. 잉글랜드는 케인의 멀티골과 벨링엄·래시퍼드의 활약으로 크로아티아를 4-2로 제압하며 화력을 과시했다. 쿠두스가 빠진 가나는 종료 직전 결승골로 파나마를 꺾었으나 케이로스 체제의 전술 안정성은 여전히 물음표다.",
       "team_notes": {
-        "home": "잉글랜드에게는 사실상 16강 진출 확정을 위한 경기, 사카 컨디션 관리 병행 가능",
-        "away": "가나에게는 반드시 승점이 필요한 경기로 역습 전략 극대화 예상"
+        "home": "케인·벨링엄·래시퍼드의 공격 삼각편대가 절정의 폼",
+        "away": "쿠두스 공백 속 세메뇨·윌리엄스의 측면 속도가 유일한 반전 카드"
       },
       "key_variables": [
-        "사카의 선발 여부",
+        "사카 출전 분량 관리",
         "가나 세트피스 공중볼 위협",
-        "잉글랜드 패스 연결 및 전방 압박 성공률"
+        "잉글랜드 전방 압박 성공률"
       ],
-      "flip_condition": "가나가 세트피스와 파르테이의 수비 장벽으로 잉글랜드 공격을 무력화하고 역습 선제골을 기록하면 이변 가능",
-      "qualification_context": "잉글랜드 승리 시 조 1위 사실상 확정, 가나 패배 시 탈락 위기",
+      "flip_condition": "가나가 견고한 블록과 세트피스로 잉글랜드를 묶고 역습 선제골을 넣으면 이변 가능",
+      "qualification_context": "승리 팀은 조 1위와 16강을 사실상 확정, 패배 시에도 양 팀 모두 진출 가능성은 유지",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+        "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-live-updates-rcna350496",
+        "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-k-and-l-what-does-scorecasting-suggest",
         "https://www.squawka.com/en/news/world-cup/ghana-world-cup-2026-fixtures-squad-analysis/"
       ]
     },
@@ -2219,26 +2252,28 @@
       "home": "PAN",
       "away": "CRO",
       "prob": {
-        "win": 22,
+        "win": 23,
         "draw": 28,
-        "loss": 50
+        "loss": 49
       },
       "verdict": "away_win",
-      "rationale": "크로아티아는 모드리치와 코바치치의 미드필드 지배력으로 파나마를 압도할 기술적 역량을 갖추고 있다. 파나마는 수비 조직이 탄탄하지만 크로아티아의 기술 축구에 맞서 90분 버텨내기는 쉽지 않으며, 크라마리치의 결정력이 승부를 가를 것으로 예상된다.",
+      "rationale": "1차전에서 나란히 패한 두 팀의 탈락 방지전이다. 크로아티아는 잉글랜드전 4-2 패배로 수비 불안을 노출했지만 모드리치·코바치치의 미드필드 지배력은 여전히 파나마를 압도할 기술적 우위를 갖는다. 파나마는 견고한 3-4-3 블록과 카라스키야의 연결로 버티려 할 것이다.",
       "team_notes": {
-        "home": "파나마에게 16강 진출의 마지막 현실적 기회, 카라스키야의 전술 이해도가 핵심",
-        "away": "코바치치·그바르디올 컨디션이 1차전 이후 회복 여부에 따라 성과 달라짐"
+        "home": "파나마에게 16강의 마지막 현실적 기회, 카라스키야의 창의성이 핵심",
+        "away": "4실점한 크로아티아 수비 정비가 과제, 미드필드 우위로 주도권 장악 기대"
       },
       "key_variables": [
-        "코바치치 체력 회복 속도",
-        "파나마 수비 조직력과 역습 효율",
-        "정보 부족: 파나마 2라운드 전술 변화 여부"
+        "크로아티아 수비 라인 정비 여부",
+        "파나마 역습 효율과 수비 집중력",
+        "코바치치 체력 상태"
       ],
-      "flip_condition": "고도이-카라스키야 더블 피벗이 크로아티아 미드필드를 차단하고 파나마가 역습 선제골을 기록하면 이변 가능",
-      "qualification_context": "크로아티아 승리 시 16강 진출 사실상 확정, 파나마 패배 시 탈락 가능성 높음",
+      "flip_condition": "파나마의 더블 피벗이 크로아티아 미드필드를 차단하고 역습 선제골을 넣으면 이변 가능",
+      "qualification_context": "패하는 팀은 사실상 탈락, 크로아티아는 승리 시 생존, 파나마는 무조건 결과 필요",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
-        "https://www.rotowire.com/soccer/article/2026-world-cup-group-l-preview-england-croatia-ghana-and-panama-lineups-odds-predictions-and-tactics-113532"
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+        "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-live-updates-rcna350496",
+        "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-k-and-l-what-does-scorecasting-suggest"
       ]
     },
     {
@@ -2255,20 +2290,23 @@
         "loss": 66
       },
       "verdict": "away_win",
-      "rationale": "잉글랜드는 16강 진출이 확정된 상태에서도 케인과 벨링엄의 수준으로 파나마를 압도할 전력을 보유한다. 파나마는 2018년 잉글랜드에게 대패를 당한 전례가 있으며, 기술과 체력 양면에서 열세가 예상된다.",
+      "rationale": "잉글랜드는 1차전 완승으로 16강 진출이 유력한 상황에서도 케인·벨링엄의 수준으로 파나마를 압도할 전력을 갖췄다. 파나마는 2018년 잉글랜드에 대패한 전례가 있고 기술·체력 양면에서 열세가 명확하다.",
       "team_notes": {
-        "home": "파나마는 존재감을 남기는 경기를 목표로 할 것이며, 무리하지 않는 수비 조직 유지 예상",
-        "away": "잉글랜드에게는 컨디션 관리와 로테이션 시험 무대, 주전 로테이션 가능"
+        "home": "파나마는 마지막 자존심 회복전, 무리하지 않는 수비 조직 유지 예상",
+        "away": "잉글랜드는 컨디션 관리·로테이션 시험 무대로 활용 가능"
       },
       "key_variables": [
         "잉글랜드 주전 로테이션 규모",
-        "파나마 세트피스 및 역습 위협",
+        "파나마 세트피스·역습 위협",
         "정보 부족: 잉글랜드 3라운드 선발 명단"
       ],
-      "flip_condition": "잉글랜드가 대폭 로테이션을 단행하고 파나마가 전술적으로 완벽히 조직된 수비를 보여줄 경우 무승부 가능",
-      "qualification_context": "파나마는 3위 가능성을 위해 반드시 결과가 필요하나 전력 열세가 현실",
+      "flip_condition": "잉글랜드가 대폭 로테이션하고 파나마가 완벽히 조직된 수비를 유지하면 무승부 가능",
+      "qualification_context": "잉글랜드는 1위 굳히기, 파나마는 3위 가능성도 희박한 전력 열세",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+        "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-live-updates-rcna350496",
+        "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-k-and-l-what-does-scorecasting-suggest",
         "https://www.espn.com/soccer/story/_/id/48701061/england-world-cup-2026-schedule-fixtures-results-scores-group-l-how-watch-uk-news-analysis-injuries"
       ]
     },
@@ -2281,26 +2319,28 @@
       "home": "CRO",
       "away": "GHA",
       "prob": {
-        "win": 50,
+        "win": 48,
         "draw": 27,
-        "loss": 23
+        "loss": 25
       },
       "verdict": "home_win",
-      "rationale": "크로아티아는 모드리치의 기술과 경험이 케이로스 체제에서 전술적으로 불안정한 가나를 상대로 우위를 점할 가능성이 높다. 가나는 쿠두스 부재와 친선경기 부진이라는 이중 부담을 안고 있으며, 크로아티아의 미드필드 장악력이 결정적 차이를 만들 것으로 보인다.",
+      "rationale": "1차전에서 패한 크로아티아와 승리한 가나의 맞대결로, 두 팀의 2·3위 향배를 가를 가능성이 크다. 크로아티아는 모드리치의 경험과 미드필드 장악력에서 전술적으로 불안정한 가나에 우위를 점할 것으로 보이나, 가나도 1차전 승리의 기세와 세메뇨·윌리엄스의 측면 속도로 반전을 노린다.",
       "team_notes": {
-        "home": "크로아티아에게 2위 또는 3위 확정 매치, 모드리치 은퇴 전 마지막 월드컵",
-        "away": "가나도 3위 가능성을 위한 승점이 필요, 윌리엄스·세메뇨의 개인기로 반전 노릴 것"
+        "home": "모드리치의 마지막 월드컵, 미드필드 지배로 활로 모색",
+        "away": "쿠두스 부재에도 1차전 승리로 얻은 자신감, 측면 돌파가 무기"
       },
       "key_variables": [
         "크로아티아 부상 선수(코바치치·그바르디올) 3라운드 컨디션",
-        "가나 세메뇨·윌리엄스 측면 돌파 효율",
-        "두 팀의 다른 경기 결과 연동 전술"
+        "가나 측면 돌파 효율",
+        "앞선 경기 결과에 따른 양 팀 셈법"
       ],
-      "flip_condition": "가나가 초반 세트피스로 선제골을 넣고 크로아티아의 공격 루트를 차단할 경우 이변 가능",
-      "qualification_context": "두 팀 모두 3위 이상 생존을 위한 필사적 경기, 실질적 탈락 방지전",
+      "flip_condition": "가나가 초반 세트피스로 선제골을 넣고 크로아티아 공격 루트를 차단하면 이변 가능",
+      "qualification_context": "양 팀 모두 16강(2위 또는 3위 와일드카드)을 위해 반드시 결과가 필요한 생존전",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
-        "https://www.rotowire.com/soccer/article/2026-world-cup-group-l-preview-england-croatia-ghana-and-panama-lineups-odds-predictions-and-tactics-113532"
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+        "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-live-updates-rcna350496",
+        "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-k-and-l-what-does-scorecasting-suggest"
       ]
     }
   ]
