@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-18T10:30:00-05:00",
+  "generated_at": "2026-06-19T10:30:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -144,7 +144,7 @@
       "group": "A",
       "matchday": 2,
       "kickoff": "2026-06-18T15:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "CZE",
       "away": "RSA",
       "prob": {
@@ -153,29 +153,31 @@
         "loss": 27
       },
       "verdict": "home_win",
-      "rationale": "양 팀 모두 무승점으로 사실상 탈락이 걸린 길목. 체코는 시크·소우체크의 제공권과 세트피스 효율을 앞세우고, 남아공은 즈와네·시톨레 두 중원 자원의 출전정지로 빌드업 무게가 줄었다. 세트피스 한 방이 분수령.",
+      "rationale": "체코와 남아공이 1-1로 비겼다. 두 팀 모두 멕시코전 패배 뒤 첫 승점을 챙겼지만, 승점 1점에 머물며 16강행은 최종전으로 미뤄졌다.",
       "team_notes": {
-        "home": "세트피스 제공권 우위",
-        "away": "중원 핵심 2명 출전정지"
+        "home": "첫 승점 확보",
+        "away": "첫 승점, 분패 후 반등"
       },
       "key_variables": [
-        "남아공 즈와네·시톨레 결장",
-        "체코 세트피스 효율",
-        "패배 시 사실상 탈락"
+        "경기 종료"
       ],
-      "flip_condition": "남아공이 모코에나 중심으로 중원 압박을 버티고 역습 1대1을 살리면 무승부 이상",
-      "qualification_context": "패하는 팀은 16강 진출이 사실상 무산",
+      "flip_condition": "—",
+      "qualification_context": "체코·남아공 각 1점. 멕시코(6점) 조 선두 확정적, 한국(3점)과 함께 2위 다툼은 최종전으로.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
-        "https://africasoccer.com/world-cup-2026-zwane-and-sithole-ruled-out-for-czech-clash-as-fifa-confirms-one-match-bans-after-mexico-red-cards/"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "draw"
+      }
     },
     {
       "id": "A-MD2-2",
       "group": "A",
       "matchday": 2,
       "kickoff": "2026-06-18T20:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "MEX",
       "away": "KOR",
       "prob": {
@@ -184,22 +186,24 @@
         "loss": 30
       },
       "verdict": "home_win",
-      "rationale": "둘 다 3점인 조 선두 맞대결. 멕시코는 홈 관중과 알바레스 앵커의 안정감이 강점이나 주전 CB 몬테스의 출전정지로 후방이 흔들릴 수 있다. 한국은 이강인·황인범의 중원 전개와 손흥민·황희찬의 측면 속도로 맞선다. 미세한 홈 우위.",
+      "rationale": "멕시코가 한국을 1-0으로 꺾고 2연승, 사실상 조 1위와 16강을 확정했다. 한국은 조직적으로 맞섰으나 결정력 부족으로 무릎을 꿇었다.",
       "team_notes": {
-        "home": "몬테스 출전정지, 홈 이점",
-        "away": "이강인·손흥민 측면 화력"
+        "home": "2연승, 16강 사실상 확정",
+        "away": "결정력 부족으로 석패"
       },
       "key_variables": [
-        "멕시코 몬테스 결장에 따른 CB 조합",
-        "한국 2선 침투 속도",
-        "조 1위 가르는 승부"
+        "경기 종료"
       ],
-      "flip_condition": "한국이 측면 1대1에서 멕시코의 대체 CB를 공략하면 원정 승 비중 상승",
-      "qualification_context": "승리 팀 조 1위 유력, 패해도 조 3위로 진출 여지",
+      "flip_condition": "—",
+      "qualification_context": "멕시코 6점 선두. 한국 3점으로 2위권, 최종전(vs 남아공) 결과에 16강 진출이 달림.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
-        "https://www.cbssports.com/soccer/news/mexico-vs-south-korea-where-to-watch-online-tv-channel-live-stream-time-odds-ahead-of-2026-world-cup"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "A-MD3-1",
@@ -210,23 +214,23 @@
       "home": "CZE",
       "away": "MEX",
       "prob": {
-        "win": 28,
-        "draw": 28,
-        "loss": 44
+        "win": 27,
+        "draw": 30,
+        "loss": 43
       },
       "verdict": "away_win",
-      "rationale": "명목상 체코의 홈이나 경기는 멕시코시티(아스테카)에서 열려 멕시코가 사실상 홈 이점을 누린다. 멕시코는 조별리그 세 경기를 모두 자국에서 치르며, 체코는 수비 블록과 세트피스에 기대야 한다. 멕시코 우위.",
+      "rationale": "이미 16강을 확정한 멕시코는 로테이션 가능성이 있고, 체코는 반드시 이겨야 토너먼트 희망을 잇는다. 체코의 절박함과 멕시코의 전력 안배가 변수.",
       "team_notes": {
         "home": "수비 블록·세트피스 의존",
         "away": "사실상 홈, 히메네스 듀오"
       },
       "key_variables": [
-        "개최지 멕시코시티(사실상 멕시코 홈)",
-        "체코 세트피스",
-        "양 팀 진출 시나리오"
+        "멕시코 주전 로테이션 여부",
+        "체코의 공격 전환 속도",
+        "남아공-한국 동시 경기 결과"
       ],
       "flip_condition": "체코가 선제골로 블록을 낮추고 멕시코의 측면 과부하를 막으면 무승부",
-      "qualification_context": "체코는 승리가 필요할 가능성이 크고, 멕시코는 비기기만 해도 진출 유력",
+      "qualification_context": "멕시코 6점 1위 확정권. 체코(1점)는 승리+다른 경기 결과가 필요한 실낱 희망.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A"
       ]
@@ -240,23 +244,23 @@
       "home": "RSA",
       "away": "KOR",
       "prob": {
-        "win": 29,
-        "draw": 29,
+        "win": 28,
+        "draw": 30,
         "loss": 42
       },
       "verdict": "away_win",
-      "rationale": "한국은 즈와네·시톨레가 복귀하는 남아공을 상대로 점유와 2선 침투에서 우위가 예상된다. 남아공은 풀백 오버랩과 빠른 전환으로 응수하지만 개인 기량과 경험에서 한국이 앞선다. 다만 남아공의 결과가 절실해 변수는 존재.",
+      "rationale": "한국은 비기기만 해도 16강에 근접하지만 승리로 안전하게 마무리하려 한다. 남아공은 반드시 이겨야 하며, 양 팀 모두 동기 부여가 크다.",
       "team_notes": {
         "home": "풀백 오버랩·전환",
         "away": "이강인·황인범 중원 우위"
       },
       "key_variables": [
-        "남아공 즈와네·시톨레 복귀",
-        "한국 경고 관리",
-        "남아공의 진출 절박함"
+        "한국 손흥민 등 공격진 컨디션",
+        "남아공의 전방 압박",
+        "득실차 경쟁"
       ],
       "flip_condition": "남아공이 초반 전환 속도로 선제골을 넣고 윌리엄스가 버티면 홈 승 가능",
-      "qualification_context": "한국은 승점 추가 시 진출 유력, 남아공은 반드시 승리 필요",
+      "qualification_context": "한국 3점, 남아공 1점. 한국 승리 또는 무승부 시 2위 유력; 남아공은 승리 필수.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A"
       ]
@@ -266,7 +270,7 @@
       "group": "B",
       "matchday": 2,
       "kickoff": "2026-06-18T14:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "SUI",
       "away": "BIH",
       "prob": {
@@ -275,29 +279,31 @@
         "loss": 23
       },
       "verdict": "home_win",
-      "rationale": "스위스는 1차전에서 카타르를 압도(xG 약 3.2)하고도 비겼을 만큼 내용은 좋았다. 샤카·프로일러 더블 피벗의 템포 장악과 엠볼로·은도예의 전방 화력이 보스니아 투톱 수비를 흔들 공산이 크다. 결정력만 회복하면 우위.",
+      "rationale": "스위스가 보스니아를 4-1로 대파하며 첫 승을 신고했다. 효율적인 역습과 세트피스로 다득점에 성공, 캐나다와 승점 4로 동률을 이뤘다.",
       "team_notes": {
-        "home": "중원 장악·전방 다양성",
-        "away": "제코·데미로비치 투톱"
+        "home": "4골 폭발, 승점 4",
+        "away": "수비 붕괴로 대패"
       },
       "key_variables": [
-        "스위스 결정력 회복",
-        "보스니아 투톱의 수비 가담",
-        "제코 선발 여부"
+        "경기 종료"
       ],
-      "flip_condition": "보스니아가 콜라시나츠·데디치 측면을 잠그고 제코의 한 방을 살리면 무승부 이상",
-      "qualification_context": "스위스 승리 시 16강 고지 선점, 보스니아는 패하면 부담 가중",
+      "flip_condition": "—",
+      "qualification_context": "스위스 4점(득실 +3). 캐나다와 공동 선두, 최종 맞대결로 1·2위 가린다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
-        "https://theanalyst.com/articles/qatar-vs-switzerland-stats-world-cup-2026"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B"
+      ],
+      "result": {
+        "home_score": 4,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "B-MD2-2",
       "group": "B",
       "matchday": 2,
       "kickoff": "2026-06-18T17:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "CAN",
       "away": "QAT",
       "prob": {
@@ -306,22 +312,24 @@
         "loss": 22
       },
       "verdict": "home_win",
-      "rationale": "캐나다는 밴쿠버 홈에서 고강도 압박과 빠른 전환으로 카타르의 밀집 수비를 공략한다. 데이비드·라린의 전방과 (복귀가 가능하다면) 데이비스의 측면이 변수. 카타르는 깊게 서서 아피프의 역습 한 방을 노린다. 캐나다 우위.",
+      "rationale": "캐나다가 카타르를 6-0으로 완파하며 홈 이점을 과시했다. 전방 압박과 측면 공격이 폭발해 득실(+6)에서 조 최고를 기록했다.",
       "team_notes": {
-        "home": "압박·전환, 데이비스 복귀 변수",
-        "away": "밀집 수비 후 아피프 역습"
+        "home": "6-0 대승, 득실 +6",
+        "away": "최약체 확인, 2연패 위기"
       },
       "key_variables": [
-        "알폰소 데이비스 복귀 여부",
-        "카타르 저블록 공략",
-        "캐나다 홈 이점"
+        "경기 종료"
       ],
-      "flip_condition": "카타르가 저블록을 유지하며 아피프·알리의 역습으로 선제골을 넣으면 승부 균형",
-      "qualification_context": "캐나다 승리 시 16강 유리, 카타르는 패하면 탈락 위기",
+      "flip_condition": "—",
+      "qualification_context": "캐나다 4점(득실 +6) 공동 선두. 최종전 스위스와 비기기만 해도 16강 유력.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
-        "https://www.bundesliga.com/en/bundesliga/news/alphonso-davies-world-cup-fitness-canada-update-37702"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B"
+      ],
+      "result": {
+        "home_score": 6,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "B-MD3-1",
@@ -332,23 +340,23 @@
       "home": "SUI",
       "away": "CAN",
       "prob": {
-        "win": 37,
-        "draw": 30,
-        "loss": 33
+        "win": 34,
+        "draw": 36,
+        "loss": 30
       },
-      "verdict": "home_win",
-      "rationale": "명목상 스위스 홈이나 경기는 밴쿠버에서 열려 캐나다가 관중 이점을 누리는 박빙 구도. 스위스의 경험·중원 조직과 캐나다의 압박·홈 분위기가 맞선다. 두 팀의 진출이 동시에 걸릴 가능성이 커 신중한 운영이 예상된다.",
+      "verdict": "draw",
+      "rationale": "캐나다와 스위스 모두 승점 4로, 비기면 둘 다 16강이 확정되는 구도다. 1위를 노린 승부와 동반 진출을 노린 신중함이 공존해 무승부 가능성이 높다.",
       "team_notes": {
         "home": "중원 경험·조직",
         "away": "사실상 홈, 고강도 압박"
       },
       "key_variables": [
-        "개최지 밴쿠버(캐나다 사실상 홈)",
-        "양 팀 진출 경우의 수",
-        "데이비스 컨디션"
+        "동반 진출 계산에 따른 경기 운영",
+        "조 1위(대진) 동기",
+        "초반 선제골 여부"
       ],
       "flip_condition": "캐나다가 홈 분위기 속 초반 압박으로 선제골을 만들면 홈팀(스위스) 패배 비중 상승",
-      "qualification_context": "조 순위와 진출이 동시에 걸린 최종전, 무승부가 양 팀에 유리할 수 있음",
+      "qualification_context": "두 팀 모두 4점. 무승부 시 5점으로 동반 16강 확정, 승자는 조 1위.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B"
       ]
@@ -362,23 +370,23 @@
       "home": "BIH",
       "away": "QAT",
       "prob": {
-        "win": 45,
-        "draw": 29,
+        "win": 46,
+        "draw": 28,
         "loss": 26
       },
       "verdict": "home_win",
-      "rationale": "보스니아는 제코·데미로비치·루키치의 전방 무게와 피지컬에서 카타르에 앞선다. 카타르는 밀집 수비 후 아피프·알리의 역습으로 버티려 한다. 최종전 진출 경쟁이 걸려 보스니아가 보다 적극적으로 나설 공산이 크다.",
+      "rationale": "보스니아와 카타르는 사실상 탈락 위기에 몰린 자존심 승부다. 개인 기량에서 앞선 보스니아가 우위지만, 동기 저하로 변수가 있다.",
       "team_notes": {
         "home": "제코·데미로비치 전방 무게",
         "away": "저블록·아피프 역습"
       },
       "key_variables": [
-        "보스니아 전방 화력",
-        "카타르 저블록 견고함",
-        "양 팀 진출 시나리오"
+        "양 팀 동기 부여 저하",
+        "보스니아 중원 우위",
+        "카타르 수비 조직력"
       ],
       "flip_condition": "카타르가 무실점 저블록을 유지하고 아피프의 역습이 적중하면 무승부 이상",
-      "qualification_context": "보스니아는 승리로 진출 가능성을 높여야 하고, 카타르는 사실상 마지막 반등 기회",
+      "qualification_context": "두 팀 모두 1점으로 16강 가능성 희박. 마지막 자존심·득실 관리 경기.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B"
       ]
