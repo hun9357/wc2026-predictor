@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-20T09:45:00-05:00",
+  "generated_at": "2026-06-21T07:12:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -859,7 +859,7 @@
       "group": "E",
       "matchday": 2,
       "kickoff": "2026-06-20T15:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "GER",
       "away": "CIV",
       "prob": {
@@ -868,29 +868,32 @@
         "loss": 18
       },
       "verdict": "home_win",
-      "rationale": "독일은 첫 경기 7골 폭발로 자신감이 충만하며 FIFA 랭킹과 선수 개인 기량에서 우위를 점한다. 코트디부아르는 케시에-디오만데를 앞세운 조직력이 탄탄하지만 유럽 강호와의 격차를 극복하기 쉽지 않다.",
+      "rationale": "경기 종료 — 코트디부아르가 전반 리드를 잡으며 이변을 노렸으나, 교체 투입된 운다프가 후반 동점골에 이어 94분 결승골을 터뜨려 독일이 2-1 역전승했다. 독일은 2연승으로 조 1위를 굳혔다.",
       "team_notes": {
-        "home": "비르츠와 무시알라의 유동적 위치 변환이 코트디부아르 수비를 혼란에 빠뜨릴 핵심 변수",
-        "away": "수비 조직력은 우수하나 카운터어택 과정에서 체력 소모가 변수"
+        "home": "운다프 교체 멀티골, 2연승 조 1위",
+        "away": "전반 선전했으나 막판 실점으로 통한의 패배"
       },
       "key_variables": [
-        "독일의 측면 압박 강도",
-        "코트디부아르 세트피스 위협",
-        "무시알라 컨디션"
+        "경기 종료"
       ],
-      "flip_condition": "코트디부아르가 초반 선제골을 넣어 독일을 낮은 블록으로 밀어낼 경우 이변 가능",
-      "qualification_context": "독일 승리 시 조 1위 조기 확정에 근접, 코트디부아르 패배 시 3위 위험",
+      "flip_condition": "—",
+      "qualification_context": "독일 6점 조 1위 확정권. 코트디부아르 3점으로 2위, 최종전 결과가 진출 좌우.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
-        "https://worldsoccertalk.com/world-cup/germany-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
-      ]
+        "https://sports.yahoo.com/soccer/live/world-cup-2026-scores-results-schedule-live-updates-195336732.html"
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "E-MD2-2",
       "group": "E",
       "matchday": 2,
       "kickoff": "2026-06-20T19:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "ECU",
       "away": "CUW",
       "prob": {
@@ -899,20 +902,25 @@
         "loss": 10
       },
       "verdict": "home_win",
-      "rationale": "에콰도르는 1라운드 패배 후 반드시 승점이 필요한 상황이며 퀴라소 대비 선수 자원에서 월등한 우위를 가진다. 퀴라소는 독일에 7골을 허용하는 수비 취약점을 노출한 만큼 에콰도르의 전방 압박에 고전할 가능성이 높다.",
+      "rationale": "경기 종료 — 에콰도르가 점유율 우위에도 퀴라소의 밀집 수비를 끝내 뚫지 못하고 0-0으로 비겼다. 퀴라소는 역사적인 첫 월드컵 승점을 챙겼고, 에콰도르는 결정력 부재로 16강행을 최종전으로 미뤘다.",
       "team_notes": {
-        "home": "발렌시아·파에스의 공격 연계가 이번 경기 핵심, 카이세도의 중원 장악이 승패를 좌우",
-        "away": "수비 블록 유지가 당면 과제이나 체력·개인 기량 격차 극복이 관건"
+        "home": "지배했으나 무득점, 결정력 과제 노출",
+        "away": "조직적 수비로 첫 월드컵 승점 획득"
       },
       "key_variables": [
-        "에콰도르의 마무리 정확성 회복 여부",
-        "퀴라소의 수비 집중력"
+        "경기 종료"
       ],
-      "flip_condition": "에콰도르 결정력 다시 무너질 경우 퀴라소 세트피스로 이변 가능",
-      "qualification_context": "에콰도르 승리 시 탈락 탈출, 퀴라소 패배 시 사실상 조기 탈락",
+      "flip_condition": "—",
+      "qualification_context": "에콰도르 1점, 퀴라소 1점. 두 팀 모두 최종전 승리가 16강 잔여 희망에 필수.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
+        "https://www.aljazeera.com/news/2026/6/21/fifa-world-cup-2026-spain-iran-predictions-schedule-germany-curacao"
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 0,
+        "outcome": "draw"
+      }
     },
     {
       "id": "E-MD3-1",
@@ -928,18 +936,18 @@
         "loss": 63
       },
       "verdict": "away_win",
-      "rationale": "코트디부아르는 승점과 경험, 개인 기량 모든 면에서 퀴라소를 압도한다. 퀴라소가 앞선 두 경기에서 8골을 실점한 점을 감안하면 코트디부아르의 공격적인 측면 돌파가 거듭 통할 것으로 예상된다.",
+      "rationale": "코트디부아르는 승점·경험·개인 기량에서 퀴라소를 앞선다. 다만 퀴라소가 에콰도르를 0-0으로 막아내며 수비 조직력을 입증한 만큼, 코트디부아르는 무승부 이상이면 16강이 유력해 무리하지 않을 수 있다.",
       "team_notes": {
-        "home": "퀴라소는 역사적인 첫 월드컵 승점 획득을 목표로 할 것",
-        "away": "아마드 디알로와 얀 디오만데의 컨디션이 공격력의 관건"
+        "home": "1점, 첫 월드컵 16강 위해 승리 필수",
+        "away": "3점, 무승부 이상이면 16강 유력"
       },
       "key_variables": [
-        "퀴라소의 수비 집중력",
+        "퀴라소의 수비 집중력(에콰도르전 무실점)",
         "코트디부아르의 결정력",
-        "체력 관리"
+        "에콰도르-독일 동시 경기 결과"
       ],
-      "flip_condition": "퀴라소가 극초반 골을 넣어 수비 블록 집중력을 유지할 경우 무승부 가능",
-      "qualification_context": "코트디부아르 승리 시 16강 진출 확정 유력",
+      "flip_condition": "퀴라소가 선제골 후 밀집 블록을 유지하고 에콰도르가 독일을 잡으면 셈법이 복잡해짐",
+      "qualification_context": "코트디부아르 3점 2위, 퀴라소 1점. 코트디부아르는 비기기만 해도 진출 유력, 퀴라소는 승리 후 타 경기 결과 필요.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
       ]
@@ -960,15 +968,16 @@
       "verdict": "away_win",
       "rationale": "독일은 이미 조 1위 확정 또는 유리한 위치에서 선발 로테이션을 단행할 수 있으나 기본 전력이 에콰도르를 상회한다. 에콰도르는 잔류 가능성을 위해 반드시 승점이 필요해 더 공격적으로 나설 가능성이 있다.",
       "team_notes": {
-        "home": "에콰도르는 반드시 이겨야 하는 상황으로 전략적 선택지가 좁음",
-        "away": "독일의 순환 선발 여부가 경기력에 영향을 미칠 변수"
+        "home": "1점, 16강 위해 승리 필수",
+        "away": "6점 조 1위 확정, 로테이션 가능성"
       },
       "key_variables": [
-        "독일의 선발 로테이션 여부",
-        "에콰도르의 공격적 전환 성공 여부"
+        "독일의 선발 로테이션 폭",
+        "에콰도르의 공격적 전환 성공 여부",
+        "코트디부아르-퀴라소 동시 경기 결과"
       ],
-      "flip_condition": "독일이 대폭 로테이션 가동 시 에콰도르 이변 가능",
-      "qualification_context": "에콰도르 승리 시 2위 생존 가능, 독일은 조 1위 목표",
+      "flip_condition": "독일이 대폭 로테이션하고 에콰도르가 초반 선제골을 넣으면 이변 가능",
+      "qualification_context": "독일 6점 조 1위 확정. 에콰도르 1점으로, 승리 + 코트디부아르(3점)의 패배가 겹쳐야 2위 진출 가능.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
       ]
@@ -1048,7 +1057,7 @@
       "group": "F",
       "matchday": 2,
       "kickoff": "2026-06-20T12:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "NED",
       "away": "SWE",
       "prob": {
@@ -1057,27 +1066,32 @@
         "loss": 26
       },
       "verdict": "home_win",
-      "rationale": "스웨덴은 이번 대회 가장 인상적인 첫 경기를 치렀지만, 네덜란드는 점유율과 개인 기량에서 앞서며 전통적 강호의 저력을 발휘할 가능성이 있다. 양팀 모두 공격 자원이 뛰어나 열린 경기가 예상된다.",
+      "rationale": "경기 종료 — 네덜란드가 스웨덴을 5-1로 대파했다. 점유와 측면 전환이 살아나며 다득점에 성공, 1차전 비긴 부진을 씻고 승점 4·득실 +4로 조 선두권에 올랐다. 스웨덴은 수비가 붕괴되며 첫 패를 안았다.",
       "team_notes": {
-        "home": "핵심 선수 5명이 부상으로 결장했어도 남은 전력이 충분히 위협적",
-        "away": "요쾨레스·이삭 더블 위협이 네덜란드 수비를 시험할 최대 변수"
+        "home": "5골 폭발, 승점 4 조 선두권",
+        "away": "수비 붕괴로 대패, 첫 패배"
       },
       "key_variables": [
-        "네덜란드 수비 조직력 회복 여부",
-        "스웨덴 이삭·요쾨레스 컨디션"
+        "경기 종료"
       ],
-      "flip_condition": "스웨덴이 빠른 역습으로 네덜란드 수비 배후를 반복 공략할 경우 이변 가능",
-      "qualification_context": "이 경기 승자가 조 1위 선두 경쟁에서 크게 유리해짐",
+      "flip_condition": "—",
+      "qualification_context": "네덜란드 4점(+4)·일본 4점(+4) 공동 선두, 스웨덴 3점 3위로 최종전이 진출을 좌우.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+        "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021472"
+      ],
+      "result": {
+        "home_score": 5,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "F-MD2-2",
       "group": "F",
       "matchday": 2,
       "kickoff": "2026-06-20T23:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "TUN",
       "away": "JPN",
       "prob": {
@@ -1086,20 +1100,25 @@
         "loss": 43
       },
       "verdict": "away_win",
-      "rationale": "일본은 튀니지보다 개인 기량과 압박 강도에서 우위를 보이며, 구보·카마다의 창의성이 튀니지의 수비 블록을 뚫는 데 결정적 역할을 할 것으로 보인다. 튀니지는 스웨덴전 대패 이후 심리적 부담이 크다.",
+      "rationale": "경기 종료 — 일본이 튀니지를 4-0으로 완파했다. 카마다의 선제골과 우에다의 멀티골, 이토의 추가골이 터지며 압도적 경기력을 과시, 승점 4·득실 +4로 조 선두권에 올랐다. 튀니지는 2연패로 탈락이 확정됐다.",
       "team_notes": {
-        "home": "튀니지에게 사실상 배수진 상황, 스키리의 리더십이 팀을 결집시켜야",
-        "away": "엔도 낙마로 중원 빌드업 재구성이 필요하지만 전체 전력은 여전히 우위"
+        "home": "2연패로 탈락 확정",
+        "away": "우에다 멀티골 등 4골 대승, 선두권 도약"
       },
       "key_variables": [
-        "일본의 중원 재편성(엔도 결장)",
-        "튀니지의 정신적 회복력"
+        "경기 종료"
       ],
-      "flip_condition": "튀니지가 수비 블록을 유지하고 세트피스를 득점으로 연결할 경우 무승부 또는 이변 가능",
-      "qualification_context": "일본 승리 시 16강 진출 거의 확정, 튀니지 패배 시 사실상 탈락",
+      "flip_condition": "—",
+      "qualification_context": "일본 4점(+4) 공동 선두로 16강 유력, 튀니지 0점 탈락 확정.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+        "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021475"
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 4,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "F-MD3-1",
@@ -1110,22 +1129,23 @@
       "home": "JPN",
       "away": "SWE",
       "prob": {
-        "win": 32,
-        "draw": 28,
-        "loss": 40
+        "win": 39,
+        "draw": 31,
+        "loss": 30
       },
-      "verdict": "away_win",
-      "rationale": "스웨덴은 요쾨레스와 이삭이라는 세계 최정상급 투톱을 보유하고 있어 일본의 압박 축구에도 개인 돌파로 활로를 열 가능성이 높다. 일본은 조직력으로 맞서겠지만 스웨덴의 피지컬 우위를 극복하기 어려울 수 있다.",
+      "verdict": "home_win",
+      "rationale": "튀니지를 4-0으로 완파한 일본이 상승세 속에 비기기만 해도 16강에 근접한다. 스웨덴은 이삭·요쾨레스의 개인 기량이 강력하지만 네덜란드전 5실점으로 수비 불안을 노출했고 반드시 이겨야 해 더 열릴 수 있다.",
       "team_notes": {
-        "home": "일본은 최소 무승부로 16강 가능성 확보가 목표",
-        "away": "스웨덴은 조 1위를 목표로 풀 전력 투입 예상"
+        "home": "4점(+4), 무승부 이상이면 16강 유력",
+        "away": "3점(0), 16강 위해 승리 필수"
       },
       "key_variables": [
-        "일본의 고강도 압박 지속 가능 여부",
-        "스웨덴 피지컬 우위"
+        "일본의 고강도 압박과 역습 효율",
+        "스웨덴 수비 불안(네덜란드전 5실점)",
+        "이삭·요쾨레스 결정력"
       ],
-      "flip_condition": "일본이 전반 선제골을 넣어 낮은 블록 전술로 전환할 경우 무승부 가능",
-      "qualification_context": "두 팀 모두 16강 진출 가능성이 있어 양팀에게 중요한 경기",
+      "flip_condition": "스웨덴 투톱이 일본 수비 배후를 반복 공략해 다득점하면 away_win",
+      "qualification_context": "일본 4점(+4) 공동 선두, 스웨덴 3점 3위. 일본은 무승부면 진출 유력, 스웨덴은 승리가 사실상 필수.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
       ]
@@ -1144,17 +1164,18 @@
         "loss": 57
       },
       "verdict": "away_win",
-      "rationale": "네덜란드는 전력 면에서 튀니지를 크게 앞서며, 판다이크의 경험과 가크포의 공격력이 결정적인 차이를 만들 것으로 예상된다. 튀니지는 2경기 연속 패배로 사기가 꺾인 상태에서 이 경기에 임할 가능성이 높다.",
+      "rationale": "네덜란드는 전력에서 튀니지를 크게 앞서며 판다이크의 안정감과 가크포의 공격력이 결정적 차이를 만들 전망이다. 이미 탈락이 확정된 튀니지는 자존심 회복을 노리지만 동기·전력 모두 열세다.",
       "team_notes": {
-        "home": "튀니지는 자존심 회복과 향후 AFC 대회를 위한 경험 축적이 목표",
-        "away": "네덜란드는 조 순위 확정을 위해 승리 필수"
+        "home": "탈락 확정, 자존심 회복전",
+        "away": "4점(+4), 승리 시 조 1위 유력"
       },
       "key_variables": [
         "네덜란드의 집중력 유지",
+        "일본-스웨덴 동시 경기 결과(조 1위 경쟁)",
         "튀니지 세트피스 위협"
       ],
-      "flip_condition": "정보 부족 — 튀니지 컨디션 변화 및 네덜란드 전술 변화 여부 불명확",
-      "qualification_context": "네덜란드 승리 시 16강 진출 확정, 튀니지는 2경기 연속 패배로 탈락 확정 가능",
+      "flip_condition": "네덜란드가 로테이션하고 튀니지가 세트피스로 앞서가면 이변 가능",
+      "qualification_context": "네덜란드 4점(+4)으로 무승부 이상이면 16강 유력, 승리 시 조 1위 경쟁 우위. 튀니지 0점 탈락 확정.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
       ]
