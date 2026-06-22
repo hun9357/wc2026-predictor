@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-21T07:12:00-05:00",
+  "generated_at": "2026-06-22T07:08:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -1258,7 +1258,7 @@
       "group": "G",
       "matchday": 2,
       "kickoff": "2026-06-21T12:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "BEL",
       "away": "IRN",
       "prob": {
@@ -1267,30 +1267,31 @@
         "loss": 21
       },
       "verdict": "home_win",
-      "rationale": "벨기에는 이집트전 패배 후 반드시 승점이 필요한 상황으로 동기 부여가 극대화된다. 드 브라위너의 지휘 아래 품질에서 우위가 있으며, 이란은 부상자 문제와 정치적 혼란 속에서 집중력 유지가 과제다.",
+      "rationale": "경기 종료 — 벨기에가 이란을 거세게 몰아붙였으나 SoFi 스타디움에서 0-0으로 비겼다. 드 브라위너가 경기를 지휘했지만 이란의 밀집 저블록과 베이란반드의 선방에 막혀 두 경기 연속 결정력 부재를 드러냈다.",
       "team_notes": {
-        "home": "벨기에는 배수의 진을 치고 초반부터 공격적으로 나설 것으로 예상되며 드 브라위너의 창의성이 열쇠",
-        "away": "이란은 깊은 수비 블록으로 맞서며 타레미의 역습 찬스를 노릴 전술 예상"
+        "home": "지배했으나 무득점, 2경기 연속 무승부",
+        "away": "조직적 저블록으로 강호 상대 무실점 무승부"
       },
       "key_variables": [
-        "드 브라위너 체력 및 컨디션",
-        "이란 비자·정치 외압의 팀 집중력 영향",
-        "벨기에 마무리 결정력 개선 여부"
+        "경기 종료"
       ],
-      "flip_condition": "이란이 선제 역습 골을 터뜨린 뒤 수비 조직을 유지한다면 대형 이변 가능",
-      "qualification_context": "1차전(벨기에 1-1 이집트, 이란 2-2 뉴질랜드) 결과 G조 네 팀 모두 승점 1로 완전 동률. 벨기에는 이번 승리로 선두로 치고 나가려 하고, 이란은 비기거나 이기면 16강 경쟁에서 크게 유리해진다.",
+      "flip_condition": "—",
+      "qualification_context": "G조: 이집트 4점(+2) 선두, 이란·벨기에 각 2점(이란 득점 우위로 2위), 뉴질랜드 1점. 벨기에·이란 모두 최종전 결과로 16강 향방이 갈린다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
-        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
-        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 0,
+        "outcome": "draw"
+      }
     },
     {
       "id": "G-MD2-2",
       "group": "G",
       "matchday": 2,
       "kickoff": "2026-06-21T18:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "NZL",
       "away": "EGY",
       "prob": {
@@ -1299,23 +1300,24 @@
         "loss": 50
       },
       "verdict": "away_win",
-      "rationale": "이집트는 살라·마르무시의 공격력에서 확실한 우위를 점하며, 첫 경기 승리의 자신감까지 더해진다. 뉴질랜드는 수비 블록으로 버티겠지만 개인 기량 차이를 극복하기 어려울 것으로 보인다.",
+      "rationale": "경기 종료 — 뉴질랜드가 서먼의 전반 15분 선제골로 앞섰으나, 이집트가 지코(58분)·살라(67분)·트레제게(82분)의 연속골로 3-1 역전승했다. 살라를 앞세운 이집트의 화력이 후반에 폭발했다.",
       "team_notes": {
-        "home": "뉴질랜드는 이란전 결과에 따라 승점이 절실할 수 있으며, 우드의 헤더를 활용한 세트피스가 유일한 무기",
-        "away": "이집트는 1차전 승리의 기세를 이어가며 살라의 햄스트링 컨디션 회복 여부가 추가 득점력 결정"
+        "home": "서먼 선제골에도 후반 3실점, 첫 패배",
+        "away": "살라 등 3골 합작, 조 선두 등극"
       },
       "key_variables": [
-        "살라 컨디션 회복 수준",
-        "뉴질랜드 세트피스 성공률",
-        "이집트 수비 집중력"
+        "경기 종료"
       ],
-      "flip_condition": "살라가 부상 여파로 교체 출전에 그치거나 뉴질랜드가 선제 세트피스 득점 시 접전 가능",
-      "qualification_context": "네 팀 모두 승점 1 동률 상황. 이집트는 승리 시 16강 진출에 결정적 고지를 점하고, 뉴질랜드는 패배 시 최종전을 앞두고 탈락 위기에 몰린다.",
+      "flip_condition": "—",
+      "qualification_context": "이집트 4점(+2)으로 조 단독 선두. 뉴질랜드 1점(-2)으로 탈락 위기에 몰렸다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
-        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
-        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 3,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "G-MD3-1",
@@ -1326,27 +1328,25 @@
       "home": "EGY",
       "away": "IRN",
       "prob": {
-        "win": 42,
-        "draw": 32,
-        "loss": 26
+        "win": 44,
+        "draw": 31,
+        "loss": 25
       },
       "verdict": "home_win",
-      "rationale": "이집트는 1위 또는 2위 결정이 걸린 중요한 경기를 맞이하며, 살라를 중심으로 한 전력이 이란보다 우위다. 이란 역시 진출 가능성이 남아 있어 양팀 모두 승리가 필요한 접전이 예상된다.",
+      "rationale": "이집트는 비기기만 해도 조 1위가 유력해 안정적으로 운영할 수 있고, 이란은 16강을 위해 반드시 이겨야 한다. 살라의 폼이 절정인 이집트가 우위지만, 두 경기 2실점에 그친 이란의 견고한 저블록이 변수다.",
       "team_notes": {
-        "home": "이집트는 이 시점에서 16강 진출을 이미 확보했거나 막판 승점이 필요한 상황에 놓일 가능성이 높음",
-        "away": "이란은 반드시 승리가 필요한 상황에서 공격적인 전술 전환을 시도할 것으로 예상"
+        "home": "4점 선두, 무승부면 조 1위 유력",
+        "away": "2점, 16강 위해 승리 필수"
       },
       "key_variables": [
-        "양팀의 경우의 수 상황",
-        "정보 부족 — 2라운드 결과에 따라 전술적 필요가 달라짐",
-        "살라·타레미 컨디션"
+        "살라 컨디션",
+        "이란의 저블록 견고성",
+        "동시 경기(NZL-BEL) 결과"
       ],
-      "flip_condition": "이란이 무승부만으로도 16강에 진출할 수 있는 시나리오라면 무승부 노림수 전술 가능",
-      "qualification_context": "2차전 결과에 따라 달라지지만, 1차전 전원 무승부로 출발선이 같아 이 최종전이 조 2위(또는 와일드카드) 향방을 가를 가능성이 크다.",
+      "flip_condition": "이란이 선제골 후 저블록을 유지하면 승리로 16강 직행 가능",
+      "qualification_context": "이집트 4점(+2) 선두, 이란 2점. 이집트는 무승부 이상이면 조 1위가 유력하고, 이란은 승리해야 진출 가능성이 크다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
-        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
-        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
       ]
     },
     {
@@ -1358,27 +1358,25 @@
       "home": "NZL",
       "away": "BEL",
       "prob": {
-        "win": 20,
-        "draw": 22,
+        "win": 18,
+        "draw": 24,
         "loss": 58
       },
       "verdict": "away_win",
-      "rationale": "벨기에는 16강 진출을 위해 반드시 승리가 필요하며, 드 브라위너·루카쿠의 개인 기량이 뉴질랜드를 압도한다. 뉴질랜드는 조별리그 마지막 경기에서도 수비 조직력을 무기로 저항하겠지만 전력 차를 극복하기 어렵다.",
+      "rationale": "벨기에는 2경기 연속 무승부로 발등에 불이 떨어져 반드시 승리가 필요하다. 드 브라위너·루카쿠의 개인 기량이 뉴질랜드를 압도하지만, 두 경기 연속 결정력 부재가 이어진 점은 불안 요소다.",
       "team_notes": {
-        "home": "뉴질랜드의 최선책은 우드의 피지컬을 앞세운 세트피스와 카카체의 측면 돌파로 기습하는 것",
-        "away": "벨기에는 이 시점에서 탈락 위기일 가능성이 높아 전원 공격 모드로 나서며 총력전 예상"
+        "home": "1점, 탈락 위기 속 마지막 자존심전",
+        "away": "2점, 16강 위해 승리 절실"
       },
       "key_variables": [
-        "벨기에의 조별리그 탈락 여부를 가르는 경우의 수",
-        "드 브라위너·루카쿠 결정력",
-        "뉴질랜드 수비 집중력"
+        "벨기에 결정력 회복 여부",
+        "드 브라위너·루카쿠 폼",
+        "EGY-IRN 동시 경기 결과"
       ],
-      "flip_condition": "벨기에가 이미 탈락이 확정된 상황이라면 팀 사기 저하로 뉴질랜드의 이변 가능성 소폭 상승",
-      "qualification_context": "1차전 전원 무승부로 G조는 2차전 결과가 순위를 가른다. 이 최종전의 의미는 6/21 라운드 결과에 좌우된다(정보 부족).",
+      "flip_condition": "뉴질랜드가 선제골 후 우드의 피지컬로 버티면 이변 가능",
+      "qualification_context": "벨기에 2점, 뉴질랜드 1점. 벨기에는 승리해야 16강 가능성이 크게 열리고, 뉴질랜드는 승리에 더해 타 경기 결과가 필요하다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
-        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
-        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
       ]
     },
     {
@@ -1459,7 +1457,7 @@
       "group": "H",
       "matchday": 2,
       "kickoff": "2026-06-21T12:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "ESP",
       "away": "KSA",
       "prob": {
@@ -1468,30 +1466,31 @@
         "loss": 10
       },
       "verdict": "home_win",
-      "rationale": "스페인은 카보베르데전 무승부의 충격을 만회하기 위해 사우디아라비아를 상대로 총공세를 펼칠 것으로 보인다. 야말·오야르사발·페드리의 공격 조합은 사우디의 조직 수비를 결국 무너뜨릴 가능성이 높다.",
+      "rationale": "경기 종료 — 스페인이 야말(10분)의 선제골과 오야르사발(21·24분)의 멀티골, 알탐박티의 자책골로 사우디를 4-0 완파했다. 카보베르데전 0-0의 답답함을 씻고 화력을 폭발시키며 조 선두로 올라섰다.",
       "team_notes": {
-        "home": "스페인은 2차전 승리 없이는 조 1위 가능성이 급격히 낮아지므로 초반부터 공격적인 압박 전술 예상",
-        "away": "사우디는 우루과이전 결과에 따라 생존 상황이 결정되며, 깊은 수비 블록으로 버티는 전략을 취할 것"
+        "home": "야말·오야르사발 활약, 4-0 대승 선두",
+        "away": "0-4 대패, 득실 -4로 탈락 위기"
       },
       "key_variables": [
-        "야말 완전 회복 여부",
-        "사우디 수비 집중력 90분 유지 가능성",
-        "정보 부족 — 1라운드 KSA 결과 반영 필요"
+        "경기 종료"
       ],
-      "flip_condition": "스페인이 초반에 선제 실점하거나 주전 선수 부상으로 공격 흐름이 끊긴다면 접전 가능",
-      "qualification_context": "1차전(스페인 0-0 카보베르데, 사우디 1-1 우루과이) 결과 H조 네 팀 모두 승점 1 동률. 스페인은 우승후보로서 반드시 승리해 선두로 나서려 하고, 사우디는 연속 무승부 후 패하면 탈락 위기다.",
+      "flip_condition": "—",
+      "qualification_context": "스페인 4점(+4) 조 선두. 사우디 1점(-4)으로 사실상 탈락 위기.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
-        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
-        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
+      ],
+      "result": {
+        "home_score": 4,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "H-MD2-2",
       "group": "H",
       "matchday": 2,
       "kickoff": "2026-06-21T18:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "URU",
       "away": "CPV",
       "prob": {
@@ -1500,23 +1499,24 @@
         "loss": 15
       },
       "verdict": "home_win",
-      "rationale": "우루과이는 카보베르데보다 전력 우위에 있으며, 발베르데의 활동량과 누녜스의 돌파력이 카보베르데의 수비 블록을 압박한다. 다만 카보베르데는 스페인전에서 증명했듯 단단한 수비로 이변을 연출할 역량이 있다.",
+      "rationale": "경기 종료 — 우루과이가 피나(21분)에게 선제 실점했으나 전반 막판 아라우호(44분)와 카노비오(45+6분)의 연속골로 역전했다. 그러나 후반 바렐라(61분)에게 동점골을 내주며 2-2로 비겼다. 카보베르데가 또 한 번 강호를 잡으며 이변을 이어갔다.",
       "team_notes": {
-        "home": "우루과이는 1차전 결과에 따라 압박감 속에 경기하게 될 수 있으며, 비엘사의 공격적 전술 고집이 열쇠",
-        "away": "카보베르데는 스페인전 선방을 발판 삼아 우루과이의 빠른 압박에 대응하는 수비 전술 고수 예상"
+        "home": "2-1 리드 지키지 못하고 통한의 무승부",
+        "away": "바렐라 동점골, 2경기 연속 무승부로 이변 지속"
       },
       "key_variables": [
-        "누녜스 골 결정력 (이적 후 부진 지속 여부)",
-        "카보베르데 보지냐 선방 능력 재현 가능성",
-        "정보 부족 — 1라운드 URU 결과 반영 필요"
+        "경기 종료"
       ],
-      "flip_condition": "우루과이가 멘데스·리바마투의 역습에 빠른 실점 후 흔들린다면 카보베르데의 이변 가능성 존재",
-      "qualification_context": "네 팀 모두 승점 1 동률. 우루과이는 승리 시 16강 진출에 유리한 고지를 점하고, 카보베르데는 스페인전 무승부 기세를 이어 또 한 번 이변을 노린다.",
+      "flip_condition": "—",
+      "qualification_context": "스페인 4점 선두. 우루과이·카보베르데 각 2점(우루과이 득점 우위로 2위), 사우디 1점. 최종전이 2위 향방을 가른다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
-        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
-        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 2,
+        "outcome": "draw"
+      }
     },
     {
       "id": "H-MD3-1",
@@ -1527,27 +1527,25 @@
       "home": "CPV",
       "away": "KSA",
       "prob": {
-        "win": 38,
-        "draw": 33,
-        "loss": 29
+        "win": 45,
+        "draw": 30,
+        "loss": 25
       },
       "verdict": "home_win",
-      "rationale": "두 팀 모두 하위권에 위치할 가능성이 높으며, 사실상 탈락이 결정된 팀들 간의 경기가 될 수 있다. 카보베르데는 멘데스의 경험과 보지냐의 선방력을 바탕으로 홈 어드밴티지 없이도 접전을 펼칠 것으로 보인다.",
+      "rationale": "카보베르데는 승리 시 승점 5로 사상 첫 16강이 유력해 동기 부여가 크다. 두 경기 연속 강호를 잡은 조직력과 보지냐의 선방을 앞세워, 4실점한 사우디 수비를 공략한다.",
       "team_notes": {
-        "home": "카보베르데는 스페인전 무승부의 자신감을 가지고 사우디의 측면 공격을 경계하며 역습을 노릴 것",
-        "away": "사우디는 알다우사리의 개인기를 앞세워 승리가 절실한 상황에서 보다 공격적 전술을 시도할 가능성"
+        "home": "2점, 승리하면 사상 첫 16강 유력",
+        "away": "1점(-4), 승리에 더해 타 경기 결과 필요"
       },
       "key_variables": [
-        "정보 부족 — 양팀의 1·2라운드 결과에 따라 경기 의미가 완전히 달라짐",
-        "알다우사리 컨디션",
-        "카보베르데의 공격 효율성"
+        "카보베르데 수비 조직력",
+        "사우디 알다우사리 개인기",
+        "URU-ESP 동시 경기 결과"
       ],
-      "flip_condition": "사우디가 이 시점에서 이미 탈락 확정이라면 팀 사기 저하로 카보베르데가 유리한 상황 형성 가능",
-      "qualification_context": "1차전 전원 무승부로 H조 순위는 2차전 결과에 달렸다. 이 최종전은 양팀의 16강 잔여 가능성에 따라 의미가 크게 달라진다(정보 부족).",
+      "flip_condition": "사우디가 선제골을 넣고 알다우사리의 역습이 살아나면 승부 균형",
+      "qualification_context": "카보베르데 2점, 사우디 1점(-4). 카보베르데는 승리 시 16강이 유력하고, 사우디는 대승에 더해 타 경기 결과가 필요하다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
-        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
-        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
       ]
     },
     {
@@ -1559,27 +1557,25 @@
       "home": "URU",
       "away": "ESP",
       "prob": {
-        "win": 28,
+        "win": 30,
         "draw": 30,
-        "loss": 42
+        "loss": 40
       },
       "verdict": "away_win",
-      "rationale": "스페인은 전통적으로 강한 전력과 유럽 챔피언의 자존심으로 우루과이를 압박할 것으로 보인다. 그러나 비엘사의 우루과이는 고강도 압박으로 스페인의 빌드업을 방해하며 접전을 펼칠 전력이 충분히 있다.",
+      "rationale": "스페인은 비기기만 해도 조 1위를 확정해 안정적으로 운영하고, 우루과이는 16강을 위해 승점이 절실하다. 야말·페드리의 창의성이 우위지만, 비엘사의 고강도 압박이 스페인의 빌드업을 흔들 수 있다.",
       "team_notes": {
-        "home": "우루과이는 이 시점에서 진출이 이미 결정됐거나 마지막 승점이 필요한 상황 중 하나일 것이며, 비엘사 특유의 공격적 전술 고수 예상",
-        "away": "스페인은 조 1위 확정 또는 마지막 순위 결정전을 치르게 되며, 야말·페드리·로드리의 완전 체력 상태가 중요"
+        "home": "2점, 16강 위해 최소 무승부 이상 필요",
+        "away": "4점(+4) 선두, 무승부면 조 1위 확정"
       },
       "key_variables": [
-        "정보 부족 — 두 팀의 1·2라운드 결과에 따라 이 경기의 전술적 동기가 완전히 달라짐",
-        "야말 컨디션",
-        "발베르데의 중원 싸움"
+        "야말·페드리 컨디션",
+        "비엘사 압박의 효과",
+        "CPV-KSA 동시 경기 결과"
       ],
-      "flip_condition": "스페인이 조 1위를 이미 확정한 상태라면 주전 선수를 대폭 교체하여 우루과이가 선발 전력 차를 최소화할 수 있음",
-      "qualification_context": "1차전 전원 무승부 출발. 2차전 결과에 따라 조 1·2위 또는 와일드카드 진출을 가르는 최종전이 될 공산이 크다.",
+      "flip_condition": "우루과이가 선제골로 앞서가면 홈 분위기 속 역전 가능",
+      "qualification_context": "스페인 4점(+4) 선두, 우루과이 2점. 스페인은 무승부 이상이면 조 1위이고, 우루과이는 승리 또는 무승부+카보베르데 결과로 진출을 노린다.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
-        "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
-        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-monday-15-june-live-scores"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
       ]
     },
     {
