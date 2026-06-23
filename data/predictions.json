@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-22T07:08:00-05:00",
+  "generated_at": "2026-06-23T09:15:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -1653,7 +1653,7 @@
       "group": "I",
       "matchday": 2,
       "kickoff": "2026-06-22T17:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "FRA",
       "away": "IRQ",
       "prob": {
@@ -1662,28 +1662,32 @@
         "loss": 6
       },
       "verdict": "home_win",
-      "rationale": "프랑스는 세계 랭킹과 선수 개인 기량 모두 이라크를 압도하며, 국제 축구에서 이 정도 전력 차는 결과에 명확하게 반영된다. 이라크는 저블록 수비로 버틸 수 있지만, 프랑스의 창조적 중원이 결국 공간을 열어낼 가능성이 높다.",
+      "rationale": "프랑스가 이라크를 3-0으로 완파하며 2연승으로 16강 진출을 확정했다. 창조적 중원이 이라크의 저블록을 결국 열어젖혔고, 이라크는 2연패로 탈락이 확정됐다.",
       "team_notes": {
-        "home": "조 1위 확정 기회 — 주전 로테이션 가능성 있음",
-        "away": "수비 조직력 극대화가 유일한 희망"
+        "home": "2연승 승점 6, 16강 진출 확정",
+        "away": "2연패로 탈락 확정"
       },
       "key_variables": [
-        "프랑스 로테이션 깊이",
-        "이라크 수비 집중력 지속 가능 시간",
-        "정보 부족"
+        "경기 종료"
       ],
-      "flip_condition": "프랑스가 대규모 로테이션 실시 시 이라크의 무승부 가능성 소폭 상승",
-      "qualification_context": "프랑스(3점) 승리 시 16강 진출 사실상 확정, 이라크(0점)는 패배 시 탈락 확정",
+      "flip_condition": "—",
+      "qualification_context": "프랑스 6점(+5) 선두로 16강 확정, 이라크 0점 탈락 확정.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
+        "https://www.aljazeera.com/sports/liveblog/2026/6/22/live-france-vs-iraq-world-cup-2026"
+      ],
+      "result": {
+        "home_score": 3,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "I-MD2-2",
       "group": "I",
       "matchday": 2,
       "kickoff": "2026-06-22T20:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "NOR",
       "away": "SEN",
       "prob": {
@@ -1692,22 +1696,25 @@
         "loss": 27
       },
       "verdict": "home_win",
-      "rationale": "노르웨이와 세네갈은 비슷한 전력을 가진 팀으로, 홀란드의 물리적 강점 대 세네갈의 조직적 수비가 핵심 대결이 된다. 노르웨이의 압박 축구가 세네갈의 역습 패턴을 방해할 경우 노르웨이가 유리하며, 이 경기는 사실상 조 2위 경쟁의 핵심이다.",
+      "rationale": "노르웨이가 세네갈과 골을 주고받는 난타전 끝에 3-2로 승리하며 2연승으로 16강 진출을 확정했다. 홀란드의 화력이 세네갈의 분전을 끝내 눌렀고, 세네갈은 2연패로 탈락 위기에 몰렸다.",
       "team_notes": {
-        "home": "오데가르·홀란드 콤비의 시너지가 최대 변수",
-        "away": "마네의 경험이 압박 상황에서 팀을 안정시키는 역할"
+        "home": "2연승 승점 6, 16강 진출 확정",
+        "away": "분전했으나 2연패, 탈락 위기"
       },
       "key_variables": [
-        "홀란드 대 쿨리발리 공중볼 경합",
-        "세네갈 역습 속도",
-        "노르웨이 중원 압박 강도"
+        "경기 종료"
       ],
-      "flip_condition": "세네갈이 세트피스에서 득점 시 수비적으로 경기 종료 시도 가능",
-      "qualification_context": "노르웨이(3점) 승리 시 16강 진출 유력, 세네갈(0점)은 반드시 이겨야 생존",
+      "flip_condition": "—",
+      "qualification_context": "노르웨이 6점(+4)으로 16강 확정, 세네갈 0점으로 최종전 승리해도 best-3 진출은 희박.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-        "https://www.aljazeera.com/sports/2026/5/30/senegals-world-cup-2026-team-preview-players-to-watch-group-squad-list"
-      ]
+        "https://sports.yahoo.com/soccer/live/world-cup-2026-scores-results-schedule-live-updates-195336732.html"
+      ],
+      "result": {
+        "home_score": 3,
+        "away_score": 2,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "I-MD3-1",
@@ -1723,20 +1730,21 @@
         "loss": 50
       },
       "verdict": "away_win",
-      "rationale": "프랑스는 홀란드의 위협을 통제하면서도 음바페·뎀벨레의 공격력으로 노르웨이의 수비를 무너뜨릴 가능성이 높다. 노르웨이가 조 1위를 노린다면 반드시 승점이 필요한 상황이며 적극적으로 나오겠지만, 프랑스는 수비 블록 유지 후 역습에서도 강점을 보인다.",
+      "rationale": "두 팀 모두 6점으로 16강을 확정해 순수 조 1위 결정전이다. 무승부 시 득실(프랑스 +5 > 노르웨이 +4)로 프랑스가 1위를 차지하므로 노르웨이는 반드시 이겨야 한다. 프랑스는 음바페·뎀벨레의 화력이 홀란드 한 명의 위협을 상회한다.",
       "team_notes": {
-        "home": "홀란드의 대형 무대 첫 월드컵 — 본인 증명 욕구 강함",
-        "away": "조 1위 확정 여부에 따라 선발 로테이션 가능성"
+        "home": "6점 확정 — 1위 위해 승리 필요, 로테이션 자제 전망",
+        "away": "6점 확정 — 무승부만 해도 득실로 1위"
       },
       "key_variables": [
-        "노르웨이 홀란드 컨디션",
-        "프랑스 수비 조직 안정성",
-        "조 순위에 따른 양 팀 동기 차이"
+        "양 팀 주전 로테이션 폭(이미 진출 확정)",
+        "홀란드 vs 프랑스 수비 라인",
+        "득실차 시나리오(프랑스 +5, 노르웨이 +4)"
       ],
-      "flip_condition": "프랑스가 로테이션 대거 실시하고 노르웨이가 선제골 성공 시 노르웨이 승리 가능",
-      "qualification_context": "프랑스·노르웨이 모두 16강 유력 — 사실상 조 1위 결정전",
+      "flip_condition": "노르웨이가 홀란드를 앞세워 선제골을 넣고 리드를 지키면 조 1위 등극",
+      "qualification_context": "프랑스·노르웨이 모두 6점으로 16강 확정 — 무승부면 득실로 프랑스 1위, 노르웨이는 승리 시 1위.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
+        "https://www.foxsports.com/stories/soccer/world-cup-bracket-scenarios-standings"
       ]
     },
     {
@@ -1753,18 +1761,18 @@
         "loss": 13
       },
       "verdict": "home_win",
-      "rationale": "세네갈은 이라크보다 모든 측면에서 우위에 있으며, 16강 진출을 위해 반드시 승점이 필요한 상황에서 강한 동기를 보일 것이다. 이라크는 저블록으로 버티기를 시도하겠지만 세네갈의 물리적 압박과 빠른 측면 공격에 한계를 보일 가능성이 크다.",
+      "rationale": "두 팀 모두 2연패(0점)로 조 2위 진출은 불가능하며, 승자만이 승점 3으로 best-3 진출의 실낱 희망을 남긴다. 세네갈이 개인 기량·물리적 우위에서 앞서지만, 이라크의 저블록과 양 팀의 큰 득실 적자가 변수다.",
       "team_notes": {
-        "home": "마네의 마지막 월드컵 — 결정적 경기에서 자존심 회복 필요",
-        "away": "정보 부족 — 이전 경기 결과에 따라 전술 변화 예상"
+        "home": "0점, 승리해도 best-3 진출은 득실상 희박",
+        "away": "0점(-6), 자존심 회복전"
       },
       "key_variables": [
-        "세네갈의 16강 진출 필요성 여부",
-        "이라크 체력 고갈 정도",
-        "정보 부족"
+        "best-3 진출 경쟁 팀들의 동시 결과",
+        "세네갈 결정력 vs 이라크 저블록",
+        "득실차(세네갈 -3, 이라크 -6)"
       ],
       "flip_condition": "이라크가 초반 선제골로 수비 블록 완성 시 세네갈의 공격이 막힐 수 있음",
-      "qualification_context": "양 팀 모두 1차전 패배로 벼랑 끝, 패자는 탈락 확정",
+      "qualification_context": "두 팀 모두 0점으로 조 2위 불가. 승자만 3점으로 best-3 진출의 희박한 가능성 유지, 패자·무승부 시 탈락.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I"
       ]
@@ -1845,7 +1853,7 @@
       "group": "J",
       "matchday": 2,
       "kickoff": "2026-06-22T13:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "ARG",
       "away": "AUT",
       "prob": {
@@ -1854,28 +1862,32 @@
         "loss": 14
       },
       "verdict": "home_win",
-      "rationale": "아르헨티나의 완성도 높은 조직력과 메시 중심의 공격은 란그닉의 게겐프레싱을 펼치는 오스트리아보다 우위에 있다. 오스트리아는 아르헨티나 수비에 앞서 전방 압박을 시도하겠지만, 아르헨티나의 미드필드 삼각형이 이를 능숙하게 처리할 것으로 보인다.",
+      "rationale": "메시의 득점 행진 속에 아르헨티나가 오스트리아를 2-0으로 제압, 2연승으로 16강 진출을 일찌감치 확정했다. 미드필드 삼각형이 오스트리아의 게겐프레싱을 무력화했다.",
       "team_notes": {
-        "home": "16강 조기 확정 기회 — 다음 경기를 위한 체력 분배 고려 가능",
-        "away": "아르헨티나에 맞서는 고강도 게겐프레싱이 통할지 여부가 핵심"
+        "home": "2연승 승점 6, 16강 진출 확정",
+        "away": "첫 패배, 알제리와 2위 경쟁으로"
       },
       "key_variables": [
-        "오스트리아 게겐프레싱이 아르헨티나 빌드업을 방해하는 시간",
-        "알라바 수비 리더십",
-        "아르헨티나 메시 출전 시간"
+        "경기 종료"
       ],
-      "flip_condition": "오스트리아가 전반 내내 하이프레스를 성공적으로 수행해 실수를 유발할 경우 무승부 가능",
-      "qualification_context": "아르헨티나·오스트리아 모두 1차전 승리 — 승자가 조 1위·16강 진출 사실상 확정",
+      "flip_condition": "—",
+      "qualification_context": "아르헨티나 6점(+5) 조 1위·16강 확정. 오스트리아 3점(0)으로 알제리와 2위 다툼.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
+        "https://www.foxsports.com/stories/soccer/world-cup-bracket-scenarios-standings"
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "J-MD2-2",
       "group": "J",
       "matchday": 2,
       "kickoff": "2026-06-22T22:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "JOR",
       "away": "ALG",
       "prob": {
@@ -1884,21 +1896,25 @@
         "loss": 40
       },
       "verdict": "away_win",
-      "rationale": "알제리는 마에즈와 아무라의 역습 전환 능력으로 요르단의 3백 수비를 공략할 가능성이 높다. 요르단은 알타마리를 중심으로 반격을 시도하겠지만, 벤나세르 부재에도 알제리의 공격 자원이 더 풍부하며 특히 역습에서 위력적이다.",
+      "rationale": "알제리가 요르단에 선제 실점을 허용하고도 역전에 성공, 2-1로 첫 승을 챙기며 2위 경쟁에 합류했다. 역습 전환이 요르단의 3백을 끝내 무너뜨렸고, 요르단은 2연패로 탈락 위기에 몰렸다.",
       "team_notes": {
-        "home": "요르단 월드컵 데뷔 두 번째 경기 — 경험 부족이 변수",
-        "away": "벤나세르 없는 알제리의 중원 조직력 약화 우려"
+        "home": "선제골에도 역전패, 2연패",
+        "away": "역전승으로 첫 승점 3, 2위 경쟁 합류"
       },
       "key_variables": [
-        "알제리 중원 벤나세르 대체자의 역할",
-        "요르단 알타마리의 역습 활용 빈도",
-        "정보 부족"
+        "경기 종료"
       ],
-      "flip_condition": "요르단이 알제리의 역습 공간을 차단하고 세트피스에서 선제 득점 성공 시 무승부 또는 이변 가능",
-      "qualification_context": "양 팀 모두 1차전 패배, 패자는 사실상 탈락하는 생존 매치",
+      "flip_condition": "—",
+      "qualification_context": "알제리 3점(-2)으로 오스트리아(3점, 0)와 2위 다툼. 요르단 0점 탈락 위기.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
-      ]
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
+        "https://www.gmanetwork.com/news/sports/football/992414/2026-fifa-world-cup-updates-and-results-june-23-2026/story/"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 2,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "J-MD3-1",
@@ -1909,25 +1925,26 @@
       "home": "ALG",
       "away": "AUT",
       "prob": {
-        "win": 38,
-        "draw": 30,
-        "loss": 32
+        "win": 36,
+        "draw": 31,
+        "loss": 33
       },
       "verdict": "home_win",
-      "rationale": "알제리와 오스트리아는 16강 진출을 놓고 치열한 접전을 벌일 가능성이 높다. 마에즈의 창조력 대 란그닉의 게겐프레싱 전술이 핵심 대결이며, 이전 경기 결과에 따라 양 팀 동기와 전술이 크게 달라질 것이다.",
+      "rationale": "조 2위를 가리는 사실상의 단판 승부다. 두 팀 모두 3점이지만 득실(오스트리아 0 > 알제리 -2)에서 앞선 오스트리아는 무승부만 해도 진출하므로, 알제리는 반드시 이겨야 한다. 요르단전 역전승으로 기세를 탄 알제리의 역습 대 란그닉의 게겐프레싱이 핵심.",
       "team_notes": {
-        "home": "마에즈의 측면 돌파가 오스트리아 수비 배후를 공략하는 핵심 무기",
-        "away": "바움가르트너 없는 10번 역할의 공백이 알제리 수비를 뚫는 데 발목을 잡을 수 있음"
+        "home": "3점(-2) — 진출 위해 반드시 승리 필요",
+        "away": "3점(0) — 무승부만 해도 득실로 2위 진출"
       },
       "key_variables": [
-        "이전 경기 결과에 따른 양 팀 필요 승점",
-        "알제리 역습 vs 오스트리아 하이프레스 대결",
-        "정보 부족"
+        "오스트리아의 무승부 관리 vs 알제리의 필승 부담",
+        "알제리 마에즈 역습 vs 오스트리아 하이프레스",
+        "득실차 시나리오"
       ],
-      "flip_condition": "오스트리아가 이전 경기에서 이기고 알제리가 지면 오스트리아 이미 16강 진출로 상황 역전",
-      "qualification_context": "오스트리아 승점 우위 속 알제리는 1차전 결과 따라 조 2위 생존 경쟁",
+      "flip_condition": "오스트리아가 선제골을 넣고 리드를 관리하면 무승부 이상으로 진출 확정",
+      "qualification_context": "아르헨티나(6점) 1위 확정. 알제리·오스트리아 모두 3점이나 무승부 시 득실로 오스트리아 2위 — 알제리는 승리 필수.",
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
+        "https://www.foxsports.com/stories/soccer/world-cup-bracket-scenarios-standings"
       ]
     },
     {
@@ -1944,18 +1961,18 @@
         "loss": 70
       },
       "verdict": "away_win",
-      "rationale": "아르헨티나는 현존 최강팀 중 하나로 요르단과의 전력 차가 뚜렷하며, 조 1위 확정 여부와 무관하게 16강 진출 이후를 위한 경기력 유지에 집중할 것이다. 요르단은 알타마리를 중심으로 역습을 시도하겠지만 아르헨티나 수비를 반복적으로 뚫기는 어렵다.",
+      "rationale": "이미 16강과 조 1위를 사실상 확정한 아르헨티나는 녹아웃을 대비해 메시 등 주력을 아끼며 대거 로테이션할 가능성이 크다. 그럼에도 스쿼드 뎁스가 요르단을 압도하며, 요르단은 알타마리의 역습 외엔 활로가 마땅치 않다.",
       "team_notes": {
-        "home": "요르단 월드컵 데뷔 세 번째 경기 — 성장세 주목",
-        "away": "조 1위 확정 후 로테이션 가능성 — 그래도 전력 우위 유지"
+        "home": "0점 탈락 위기 — 자국 첫 월드컵 승점 도전",
+        "away": "6점 1위 확정 — 로테이션 전망, 그래도 전력 우위"
       },
       "key_variables": [
         "아르헨티나 로테이션 규모",
         "알타마리 기습 득점 가능성",
-        "정보 부족"
+        "요르단 홈 부재 속 사기"
       ],
       "flip_condition": "아르헨티나가 대규모 로테이션 실시하고 요르단이 세트피스에서 선제 득점 시 이변 가능",
-      "qualification_context": "아르헨티나 조 1위 유력, 요르단은 자국 첫 월드컵 승리에 도전",
+      "qualification_context": "아르헨티나 6점으로 조 1위 확정권. 요르단 0점으로 탈락 위기, 자국 첫 월드컵 승점에 도전.",
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
       ]
