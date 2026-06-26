@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-25T07:15:00-05:00",
+  "generated_at": "2026-06-26T10:30:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -749,7 +749,7 @@
       "group": "D",
       "matchday": 3,
       "kickoff": "2026-06-25T19:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "TUR",
       "away": "USA",
       "prob": {
@@ -758,29 +758,32 @@
         "loss": 44
       },
       "verdict": "away_win",
-      "rationale": "미국은 이미 D조 1위로 16강을 확정해 주축 로테이션이 예상되고, 터키는 탈락이 확정돼 부담 없이 나선다. 로테이션 변수로 무승부 가능성이 평소보다 높지만 개인 기량은 미국이 앞선다.",
+      "rationale": "경기 종료 — 이미 16강을 확정한 미국이 주축을 대거 로테이션한 가운데 터키가 3-2 승리를 거뒀다. 탈락이 확정된 터키가 마지막 자존심을 세웠고, 미국은 패했지만 조 1위로 16강에 올랐다.",
       "team_notes": {
-        "home": "탈락 확정, 자존심 경기",
-        "away": "조 1위 확정, 주전 로테이션 가능"
+        "home": "로테이션 미국 상대로 3골, 유종의 미",
+        "away": "주전 아끼며 패배했으나 조 1위 진출"
       },
       "key_variables": [
-        "미국 선발 로테이션 폭",
-        "터키 동기부여",
-        "정보 부족(라인업 미확정)"
+        "경기 종료"
       ],
-      "flip_condition": "미국이 풀전력을 가동하면 원정 우위 확대.",
-      "qualification_context": "미국 1위 확정(6점), 터키 탈락 확정. 순위 변동 없음.",
+      "flip_condition": "—",
+      "qualification_context": "미국 D조 1위(6점) 16강 진출, 터키 탈락 확정.",
       "sources": [
-        "https://www.nbcsports.com/soccer/news/2026-world-cup-group-stage-table-full-standings-for-all-12-groups",
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-thursday-25-june-live-scores",
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
+      ],
+      "result": {
+        "home_score": 3,
+        "away_score": 2,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "D-MD3-2",
       "group": "D",
       "matchday": 3,
       "kickoff": "2026-06-25T19:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "PAR",
       "away": "AUS",
       "prob": {
@@ -789,22 +792,25 @@
         "loss": 36
       },
       "verdict": "away_win",
-      "rationale": "승점·진출이 걸린 사실상의 토너먼트다. 파라과이는 홈에서 반드시 이겨야 2위로 올라서지만, 호주는 무승부만으로도 득실 우위(0 > -2)로 진출해 안정적으로 관리한다.",
+      "rationale": "경기 종료 — 파라과이와 호주가 득점 없이 0-0으로 비겼다. 호주는 무승부로 득실 우위를 지켜 2위로 16강에 직행했고, 파라과이도 승점 4(3위)로 와일드카드 진출에 성공했다.",
       "team_notes": {
-        "home": "반드시 승리해야 2위 진출",
-        "away": "무승부면 득실로 진출, 안정 운영"
+        "home": "무승부로 승점 4, 3위 와일드카드 진출",
+        "away": "무실점 무승부로 D조 2위 직행"
       },
       "key_variables": [
-        "파라과이 선제골 여부",
-        "호주 수비 블록",
-        "득실차 시나리오"
+        "경기 종료"
       ],
-      "flip_condition": "파라과이가 선제골로 앞서가면 홈 우위로 역전.",
-      "qualification_context": "호주·파라과이 승점 3 동률. 무승부 시 득실로 호주 진출, 파라과이는 승리 필수.",
+      "flip_condition": "—",
+      "qualification_context": "호주 D조 2위(4점) 직행, 파라과이 3위(4점) 와일드카드 진출.",
       "sources": [
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-thursday-25-june-live-scores",
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 0,
+        "outcome": "draw"
+      }
     },
     {
       "id": "E-MD1-1",
@@ -949,7 +955,7 @@
       "group": "E",
       "matchday": 3,
       "kickoff": "2026-06-25T15:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "CUW",
       "away": "CIV",
       "prob": {
@@ -958,29 +964,32 @@
         "loss": 53
       },
       "verdict": "away_win",
-      "rationale": "코트디부아르는 무승부 이상이면 2위 진출이 확정돼 4-3-3 측면 화력으로 안정적으로 운영한다. 쿠라사우는 큰 점수 차 승리에 더해 득실 대역전이 필요해 진출 가능성이 희박하다.",
+      "rationale": "경기 종료 — 코트디부아르가 쿠라사우를 2-0으로 꺾고 승점 6으로 조 2위를 확정, 16강에 진출했다. 측면 화력이 살아나며 안정적으로 경기를 마무리했다.",
       "team_notes": {
-        "home": "대역전 필요, 사실상 진출 불가",
-        "away": "무승부 이상이면 2위 확정"
+        "home": "최종전 패배로 탈락(승점 1)",
+        "away": "2-0 완승으로 E조 2위 16강 진출"
       },
       "key_variables": [
-        "코트디부아르 측면 공격",
-        "쿠라사우 컴팩트 블록",
-        "득실차 부담"
+        "경기 종료"
       ],
-      "flip_condition": "쿠라사우 선제골 + 에콰도르의 독일전 승리가 겹치면 변수.",
-      "qualification_context": "코트디부아르 무승부 시 2위 진출, 쿠라사우는 대량 득점 필요.",
+      "flip_condition": "—",
+      "qualification_context": "코트디부아르 E조 2위(6점) 진출, 쿠라사우 탈락 확정.",
       "sources": [
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-thursday-25-june-live-scores",
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 2,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "E-MD3-2",
       "group": "E",
       "matchday": 3,
       "kickoff": "2026-06-25T15:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "ECU",
       "away": "GER",
       "prob": {
@@ -989,22 +998,25 @@
         "loss": 39
       },
       "verdict": "away_win",
-      "rationale": "독일은 이미 E조 1위로 진출을 확정했고 슐로터베크 결장 등으로 일부 로테이션이 예상된다. 에콰도르는 승점 4를 만들어 3위 와일드카드를 노려야 해 적극적으로 나서며 무승부 비중이 높아진다.",
+      "rationale": "경기 종료 — 에콰도르가 독일을 2-1로 꺾는 이변을 연출하며 승점 4로 3위 와일드카드 진출 가능성을 높였다. 1위를 이미 확정한 독일은 로테이션 속에 패했지만 조 1위로 16강에 올랐다.",
       "team_notes": {
-        "home": "승리 필요(3위 와일드카드 노림)",
-        "away": "1위 확정, 로테이션 가능(슐로터베크 아웃)"
+        "home": "독일 잡은 이변, 승점 4로 3위 진출 도전",
+        "away": "1위 확정 후 로테이션 속 패배, 조 1위 진출"
       },
       "key_variables": [
-        "독일 로테이션 폭",
-        "에콰도르 컴팩트 블록 역습",
-        "3위 진출 경쟁"
+        "경기 종료"
       ],
-      "flip_condition": "독일이 주전을 대거 가동하면 원정 우위 확대.",
-      "qualification_context": "독일 1위 확정(6점). 에콰도르는 승리 시 4점으로 3위 와일드카드 경쟁.",
+      "flip_condition": "—",
+      "qualification_context": "독일 E조 1위(6점) 진출, 에콰도르 3위(4점)로 와일드카드 경쟁.",
       "sources": [
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-thursday-25-june-live-scores",
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "F-MD1-1",
@@ -1149,7 +1161,7 @@
       "group": "F",
       "matchday": 3,
       "kickoff": "2026-06-25T18:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "JPN",
       "away": "SWE",
       "prob": {
@@ -1158,29 +1170,32 @@
         "loss": 30
       },
       "verdict": "home_win",
-      "rationale": "일본은 무승부면 상위 진출 가능성이 커 안정적으로 임하고, 스웨덴은 역전 진출을 위해 승리가 필요하다. 일본은 미토마·엔도 등 결장 공백이 있으나 조직적 압박이 포터식 스웨덴의 빌드업을 압박한다.",
+      "rationale": "경기 종료 — 일본과 스웨덴이 1-1로 비겼다. 일본은 무승부로 승점 5(조 2위)를 확보해 16강에 진출했고, 스웨덴은 승점 4(3위)로 와일드카드 진출을 노리게 됐다.",
       "team_notes": {
-        "home": "무승부면 진출 유리, 결장 공백 존재",
-        "away": "역전 진출 위해 승리 필수"
+        "home": "무승부로 승점 5, F조 2위 진출",
+        "away": "동점으로 승점 4, 3위 와일드카드 도전"
       },
       "key_variables": [
-        "일본 압박 vs 스웨덴 빌드업",
-        "네덜란드-튀니지 결과 연동",
-        "일본 핵심 결장(미토마·엔도)"
+        "경기 종료"
       ],
-      "flip_condition": "스웨덴이 선제골로 앞서면 일본이 쫓기며 균형이 흔들린다.",
-      "qualification_context": "일본·네덜란드 승점 4 공동선두, 스웨덴 3점. 일본은 무승부면 대체로 진출.",
+      "flip_condition": "—",
+      "qualification_context": "네덜란드 1위·일본 2위 진출, 스웨덴 3위(4점) 와일드카드 경쟁.",
       "sources": [
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-thursday-25-june-live-scores",
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "draw"
+      }
     },
     {
       "id": "F-MD3-2",
       "group": "F",
       "matchday": 3,
       "kickoff": "2026-06-25T18:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "TUN",
       "away": "NED",
       "prob": {
@@ -1189,22 +1204,25 @@
         "loss": 55
       },
       "verdict": "away_win",
-      "rationale": "네덜란드는 무승부 이상이면 조 1위가 유력해 점유율 축구로 경기를 통제한다. 시몬스·더리흐트 등 다수 결장에도 전력 차가 크며, 튀니지는 이미 탈락이 확정됐다.",
+      "rationale": "경기 종료 — 네덜란드가 튀니지를 3-1로 꺾고 2승 1무, 승점 7로 F조 1위를 확정했다. 튀니지는 3전 전패로 대회를 마쳤다.",
       "team_notes": {
-        "home": "탈락 확정",
-        "away": "무승부면 조 1위 유력, 다수 결장에도 우위"
+        "home": "3전 전패로 탈락",
+        "away": "3-1 승리로 F조 1위 확정, 16강 진출"
       },
       "key_variables": [
-        "네덜란드 점유율 통제",
-        "튀니지 수비 블록",
-        "네덜란드 부상 공백"
+        "경기 종료"
       ],
-      "flip_condition": "튀니지가 선 굵은 수비로 무실점하면 무승부 가능.",
-      "qualification_context": "네덜란드 1위 경쟁(4점), 튀니지 탈락 확정.",
+      "flip_condition": "—",
+      "qualification_context": "네덜란드 F조 1위(7점) 진출, 튀니지 탈락 확정.",
       "sources": [
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-thursday-25-june-live-scores",
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 3,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "G-MD1-1",
