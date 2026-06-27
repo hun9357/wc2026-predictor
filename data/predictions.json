@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-26T10:30:00-05:00",
+  "generated_at": "2026-06-27T10:30:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -1377,22 +1377,27 @@
         "loss": 31
       },
       "verdict": "home_win",
-      "rationale": "G조는 4팀이 모두 진출권을 다투는 혼전이다. 이집트는 무승부면 선두로 진출 가능성이 높아 살라(햄스트링 복귀)의 역습에 의존한다. 이란은 컴팩트한 4-1-4-1 블록과 타레미 역습으로 승리를 노린다.",
+      "rationale": "경기 종료 — 사베르가 전반 5분 선제골을 넣었으나 이란이 곧 동점을 만들며 1-1로 마무리됐다. 후반 추가시간 할릴자데의 결승골은 VAR 오프사이드 판정으로 취소돼 이란은 진출이 무산됐다. 이집트는 이 무승부로 사상 첫 녹아웃 진출을 확정했다.",
       "team_notes": {
-        "home": "무승부면 선두 진출 유리, 살라 컨디션 변수",
-        "away": "진출 위해 승리 필요, 역습 의존"
+        "home": "무승부로 사상 첫 16강(R32) 진출 확정, 사베르 선제골",
+        "away": "VAR로 결승골 취소되며 승점 1점에 그쳐 탈락"
       },
       "key_variables": [
-        "살라 컨디션",
-        "이란 수비 블록과 타레미 역습",
+        "VAR 오프사이드 판정",
+        "이란 역습 마무리",
         "조 전체 혼전(승점 밀집)"
       ],
-      "flip_condition": "이란이 선제골로 앞서면 이집트가 라인을 올리며 공간이 열린다.",
-      "qualification_context": "이집트 선두(4점), 이란·벨기에 2점, 뉴질랜드 1점으로 전원 경쟁.",
+      "flip_condition": "할릴자데의 추가시간 골이 인정됐다면 이란이 2위로 진출했을 상황",
+      "qualification_context": "이집트는 5점으로 진출, 이란은 3점으로 탈락. 벨기에가 조 1위로 마감.",
       "sources": [
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-belgium-leapfrogs-egypt-to-win-group-g-while-iran-experiences-var-heartbreak-052016991.html",
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "draw"
+      }
     },
     {
       "id": "G-MD3-2",
@@ -1408,22 +1413,27 @@
         "loss": 48
       },
       "verdict": "away_win",
-      "rationale": "벨기에는 진출을 위해 사실상 승리가 필요해 더 브라위너를 중심으로 적극 공세에 나선다. 뉴질랜드는 우드를 겨냥한 롱볼·세트피스로 맞서지만 개인 기량 차가 크다. 벨기에가 부진했던 만큼 무승부 변수도 존재한다.",
+      "rationale": "경기 종료 — 트로사르가 전반 28분 선제골을 터뜨린 뒤 벨기에가 5-1로 대승했다. 화력을 폭발시킨 벨기에는 이집트를 제치고 조 1위로 16강에 올랐고, 뉴질랜드는 한 골에 그치며 탈락했다.",
       "team_notes": {
-        "home": "진출 위해 승리 필요, 세트피스 의존",
-        "away": "승리 필요, 더 브라위너 중심 공세"
+        "home": "한 골 만회에 그치며 1점으로 조 최하위 탈락",
+        "away": "5-1 대승으로 조 1위 확정, 트로사르 선제골"
       },
       "key_variables": [
-        "벨기에 결정력(루카쿠 컨디션)",
-        "뉴질랜드 세트피스",
-        "벨기에 부진 흐름"
+        "벨기에 결정력 폭발",
+        "뉴질랜드 수비 붕괴",
+        "조 1위 경쟁(골득실)"
       ],
-      "flip_condition": "뉴질랜드가 세트피스로 선제골을 넣으면 벨기에가 조급해진다.",
-      "qualification_context": "벨기에 2점·뉴질랜드 1점. 벨기에는 승리 시 진출 유력.",
+      "flip_condition": "뉴질랜드가 세트피스로 선제골을 넣었다면 벨기에가 조급해졌을 상황",
+      "qualification_context": "벨기에 5점으로 조 1위 진출, 뉴질랜드 1점으로 탈락.",
       "sources": [
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-belgium-leapfrogs-egypt-to-win-group-g-while-iran-experiences-var-heartbreak-052016991.html",
+        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 5,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "H-MD1-1",
@@ -1578,22 +1588,27 @@
         "loss": 32
       },
       "verdict": "home_win",
-      "rationale": "카보베르데는 무승부 이상이면 2~3위 진출 경쟁에서 유리해 단단한 블록 후 역습을 노린다. 사우디는 진출을 위해 승리가 필요해 알다우사리의 측면 침투에 의존하는 정면 승부가 예상된다.",
+      "rationale": "경기 종료 — 카보베르데가 단단한 블록을 유지하며 0-0 무승부를 지켜냈고, 동시에 진행된 우루과이의 패배가 겹치면서 데뷔 대회 만에 조 2위로 16강 진출이라는 역사를 썼다. 사우디는 2점에 그쳐 조 최하위로 탈락했다.",
       "team_notes": {
-        "home": "무승부 이상이면 진출 경쟁 유리",
-        "away": "진출 위해 승리 필요, 측면 역습"
+        "home": "0-0 무승부로 데뷔 대회 16강 진출(조 2위), xG 1.52로 우세",
+        "away": "득점 없이 2점에 그쳐 조 최하위 탈락"
       },
       "key_variables": [
-        "카보베르데 역습 효율",
-        "사우디 알다우사리 측면",
+        "카보베르데 수비 조직력",
+        "사우디 결정력 부재",
         "우루과이-스페인 결과 연동"
       ],
-      "flip_condition": "사우디가 선제골을 넣으면 카보베르데가 전진하며 균형이 흔들린다.",
-      "qualification_context": "카보베르데·우루과이 2점, 사우디 1점. 카보베르데는 무승부면 진출 유리.",
+      "flip_condition": "사우디가 선제골을 넣었다면 진출 경쟁 구도가 뒤집혔을 상황",
+      "qualification_context": "카보베르데 3점(무승부 3회)으로 조 2위 진출, 사우디 2점으로 탈락.",
       "sources": [
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://www.skysports.com/football/news/11095/13556682/world-cup-2026-cape-verde-0-0-saudi-arabia-cape-verde-reach-round-of-32-as-group-h-runners-up-with-saudi-knocked-out",
+        "https://www.espn.com/soccer/match/_/gameId/760478/saudi-arabia-cape-verde"
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 0,
+        "outcome": "draw"
+      }
     },
     {
       "id": "H-MD3-2",
@@ -1609,22 +1624,27 @@
         "loss": 42
       },
       "verdict": "away_win",
-      "rationale": "스페인은 무승부 이상이면 조 1위가 확정돼 야말 복귀와 함께 빠른 템포의 패스 축구로 경기를 지배한다. 우루과이는 진출을 위해 승리가 필요해 비엘사식 고강도 압박으로 맞서지만 벤탄쿠르 등 중원 결장이 약점이다.",
+      "rationale": "경기 종료 — 스페인이 1-0으로 우루과이를 꺾고 3전 전승으로 조 1위를 확정했다. 패한 우루과이는 카보베르데에 밀려 조 3위로 처지며 진출이 좌절됐고, 비엘사의 고강도 압박은 스페인의 점유율 축구에 끝내 결실을 보지 못했다.",
       "team_notes": {
-        "home": "승리 필요, 비엘사 고강도 압박(중원 결장)",
-        "away": "무승부면 조 1위 확정, 야말 복귀"
+        "home": "패배로 2점에 그쳐 조 3위, 진출 좌절",
+        "away": "1-0 승리로 3전 전승 조 1위 확정"
       },
       "key_variables": [
-        "스페인 야말 가동",
-        "우루과이 중원 공백(벤탄쿠르)",
-        "우루과이 진출 절박성"
+        "스페인 점유율 지배",
+        "우루과이 결정력 부족",
+        "카보베르데 결과 연동"
       ],
-      "flip_condition": "우루과이가 압박으로 선제골을 만들면 스페인을 흔들 수 있다.",
-      "qualification_context": "스페인 선두(4점), 우루과이 2점. 우루과이는 승리 필요.",
+      "flip_condition": "우루과이가 압박으로 선제골을 만들었다면 진출 구도가 달라졌을 상황",
+      "qualification_context": "스페인 9점으로 조 1위 진출, 우루과이 2점으로 탈락.",
       "sources": [
-        "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://sports.yahoo.com/soccer/live/world-cup-schedule-scores-live-updates-results-group-g-group-h-group-i-160927428.html",
+        "https://www.espn.com/soccer/story/_/id/49072408/group-h-2026-world-cup-teams-records-stats-know-spain-cape-verde-uruguay-saudi-arabia"
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 1,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "I-MD1-1",
@@ -1778,22 +1798,27 @@
         "loss": 38
       },
       "verdict": "away_win",
-      "rationale": "프랑스·노르웨이 모두 16강을 확정해 조 1위(시드)를 다투는 경기다. 프랑스는 무승부면 1위가 확정돼 음바페를 앞세워 효율적으로 운영하고, 노르웨이는 1위를 위해 홀란드·외데고르 중심의 승리가 필요하다.",
+      "rationale": "경기 종료 — 프랑스가 4-1로 완승하며 3전 전승, 조 1위(시드)를 확정했다. 음바페를 앞세운 화력이 폭발했고, 한 골을 만회하는 데 그친 노르웨이는 조 2위로 16강에 동반 진출했다.",
       "team_notes": {
-        "home": "1위 위해 승리 필요, 홀란드·외데고르",
-        "away": "무승부면 조 1위 확정, 음바페 가동"
+        "home": "1-4 패배로 조 2위, 그래도 16강 동반 진출",
+        "away": "4-1 완승으로 3전 전승 조 1위 확정"
       },
       "key_variables": [
-        "조 1위(시드) 다툼",
-        "홀란드 vs 프랑스 수비",
-        "양 팀 체력 관리"
+        "프랑스 공격 효율",
+        "음바페 결정력",
+        "조 1위(시드) 확정"
       ],
-      "flip_condition": "노르웨이가 홀란드의 결정력으로 앞서가면 홈 우위.",
-      "qualification_context": "프랑스·노르웨이 동반 진출 확정(각 6점). 승자가 조 1위, 무승부 시 프랑스 1위.",
+      "flip_condition": "노르웨이가 홀란드의 결정력으로 먼저 앞섰다면 홈 우위였을 상황",
+      "qualification_context": "프랑스 9점 조 1위, 노르웨이 6점 조 2위로 동반 진출.",
       "sources": [
-        "https://www.nbcsports.com/soccer/news/2026-world-cup-group-stage-table-full-standings-for-all-12-groups",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://sports.yahoo.com/soccer/live/world-cup-schedule-scores-live-updates-results-group-g-group-h-group-i-160927428.html",
+        "https://www.nbcsports.com/soccer/news/2026-world-cup-group-stage-table-full-standings-for-all-12-groups"
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 4,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "I-MD3-2",
@@ -1809,22 +1834,27 @@
         "loss": 23
       },
       "verdict": "home_win",
-      "rationale": "양 팀 모두 탈락이 확정된 순위 무관 경기다. 세네갈은 승점은 없지만 강팀들과의 대진 탓이었고, 4-3-3의 빠른 윙 플레이로 개인 기량에서 이라크를 앞선다. 동기부여 저하가 변수다.",
+      "rationale": "경기 종료 — 양 팀 모두 탈락이 확정된 상황에서 세네갈이 5-0 대승을 거두며 자존심을 세웠다. 4-3-3의 빠른 윙 플레이로 이라크 수비를 무너뜨렸고, 이라크는 3전 전패로 무득점에 그쳤다.",
       "team_notes": {
-        "home": "탈락 확정, 개인 기량 우위",
-        "away": "탈락 확정, 수비 블록 역습"
+        "home": "5-0 대승으로 첫 승점 3점, 개인 기량 우위 입증",
+        "away": "3전 전패·무득점으로 조 최하위 탈락"
       },
       "key_variables": [
-        "양 팀 동기부여 저하",
-        "세네바 윙 플레이",
-        "이라크 수비 조직"
+        "세네갈 윙 플레이",
+        "이라크 수비 붕괴",
+        "탈락 확정 동기부여"
       ],
-      "flip_condition": "이라크가 수비 블록을 단단히 세우면 무승부 가능.",
-      "qualification_context": "세네갈·이라크 모두 탈락 확정(0점). 순위 무관 경기.",
+      "flip_condition": "이라크가 수비 블록을 단단히 세웠다면 실점을 줄였을 상황",
+      "qualification_context": "세네갈·이라크 모두 탈락(세네갈 3점, 이라크 0점). 순위 무관 경기였음.",
       "sources": [
-        "https://www.nbcsports.com/soccer/news/2026-world-cup-group-stage-table-full-standings-for-all-12-groups",
-        "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+        "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-friday-26-june",
+        "https://www.nbcsports.com/soccer/news/2026-world-cup-group-stage-table-full-standings-for-all-12-groups"
+      ],
+      "result": {
+        "home_score": 5,
+        "away_score": 0,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "J-MD1-1",
