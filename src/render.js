@@ -313,17 +313,17 @@ function advanceBar(adv = { home: 50, away: 50 }) {
 }
 function bracketCard(m, byId, now) {
   const home = byId.get(m.home), away = byId.get(m.away);
-  const adv = m.advance || { home: 50, away: 50 };
   const k = m.kickoff ? formatKickoff(m.kickoff, now) : null;
   const played = m.status === 'played' && m.result;
-  const homeWin = played ? m.result.outcome === 'home_win' : m.winner === m.home;
-  const row = (id, team, pct, win, score) =>
+  const homeWin = played && m.result.outcome === 'home_win';
+  // bracket shows the matchup only — no prediction (%/winner). Played matches show the actual score.
+  const row = (id, team, win, score) =>
     `<span class="bk-team${win ? ' bk-win' : ''}">${flagImg(id, team?.name)}<span class="bk-name">${esc(team?.name ?? id ?? '미정')}</span>` +
-    (score != null ? `<b class="bk-score">${esc(score)}</b>` : `<b>${pct}%</b>`) + `</span>`;
+    (score != null ? `<b class="bk-score">${esc(score)}</b>` : '') + `</span>`;
   return `<button class="bk-match${played ? ' is-played' : ''}" type="button" data-ko="${esc(m.id)}">` +
     `<span class="bk-meta">${k ? `${esc(k.rel)} ${esc(k.time)}` : esc(m.id)}${played ? ' · 종료' : ''}</span>` +
-    row(m.home, home, adv.home, homeWin, played ? m.result.home_score : null) +
-    row(m.away, away, adv.away, !homeWin, played ? m.result.away_score : null) + `</button>`;
+    row(m.home, home, homeWin, played ? m.result.home_score : null) +
+    row(m.away, away, played && !homeWin, played ? m.result.away_score : null) + `</button>`;
 }
 export function renderBracket(bracket, teams, now = new Date()) {
   if (!bracket || !bracket.matches || !bracket.matches.length) {
@@ -355,7 +355,7 @@ function detailResultKO(match, byId) {
     `<span class="result-outcome">${esc(byId.get(winId)?.name ?? winId)} 진출</span>` +
     `<span class="hit hit-${ok ? 'ok' : 'no'}">예측 ${ok ? '적중' : '빗나감'}</span></div>`;
 }
-export function renderKnockoutDetail(match, teams, now = new Date()) {
+export function renderKnockoutDetail(match, teams, factors = [], now = new Date()) {
   if (!match) return `<main class="container content"><a class="back-link" href="#/bracket"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 18l-6-6 6-6"/></svg>브래킷으로</a>` +
     renderStatePanel({ icon: 'alert', title: '경기를 찾을 수 없습니다', body: '브래킷으로 돌아가세요.' }) + `</main>`;
   const byId = new Map((teams || []).map(t => [t.id, t]));
@@ -389,6 +389,7 @@ export function renderKnockoutDetail(match, teams, now = new Date()) {
       `<section class="detail-section"><h2>전술 분석</h2>` + (match.rationale ? `<p>${esc(match.rationale)}</p>` : '') +
         `<div class="analysis-grid">${analysisCard(home, match.home, null)}${analysisCard(away, match.away, null)}</div></section>` +
       (match.key_point ? `<section class="detail-section"><h2>키포인트</h2><div class="risk-callout"><b>핵심 변수</b><p>${esc(match.key_point)}</p></div></section>` : '') +
+      ((factors && factors.length) ? `<section class="detail-section"><h2>이번 대회 중점 요소</h2><ul class="insight-list">${factors.map((f, i) => `<li><span class="insight-index">${i + 1}</span><span>${esc(f)}</span></li>`).join('')}</ul></section>` : '') +
       `<section class="detail-section"><h2>양 팀 프로필</h2><div class="detail-profile-grid">${profileCard(home, match.home)}${profileCard(away, match.away)}</div></section>` +
       `<section class="detail-section"><h2>양 팀 명단</h2><div class="detail-profile-grid">${squadCard(home)}${squadCard(away)}</div></section>` +
     `</section>` +

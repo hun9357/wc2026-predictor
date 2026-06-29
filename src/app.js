@@ -122,7 +122,7 @@ function showDetail(match) {
 function showKoDetail(match) {
   hideViews();
   const dv = $('detail-view');
-  dv.innerHTML = renderKnockoutDetail(match, state.teams, new Date());
+  dv.innerHTML = renderKnockoutDetail(match, state.teams, state.bracket?.tournament_factors || [], new Date());
   dv.hidden = false;
   document.body.classList.add('detail-page');
   window.scrollTo(0, 0);

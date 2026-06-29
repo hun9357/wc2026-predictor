@@ -16,7 +16,8 @@ FIFA World Cup 2026 본선 **48개국 · 12개 조(A–L)** 전체를 다룬다.
 ## 토너먼트(녹아웃) 단계 → `data/bracket.json`
 조별리그가 끝나면 32강 대진이 확정된다. 이때부터 **브래킷이 주 작업**:
 - **결과 반영:** 치러진 녹아웃 경기는 status:"played" + `result{home_score, away_score, outcome(home_win|away_win)}` 기록(무승부 없음 — 연장/승부차기 승자가 outcome). **실제 승자를 다음 라운드(`feeds`로 연결된 매치)의 home/away에 채운다**(예측 승자였더라도 실제 결과로 교체).
-- **재예측:** status:"upcoming"인 모든 녹아웃 경기에 `advance{home, away}`(각 팀 진출 % 정수, **합 100**), `winner`(높은 쪽), `rationale`(2~3문장), `key_point`(핵심 변수 한 줄). 다음 라운드는 예측 승자로 채워 **결승·`champion`까지 전체 예측**.
+- **재예측:** status:"upcoming"인 모든 녹아웃 경기에 `advance{home, away}`(각 팀 진출 % 정수, **합 100**), `winner`(높은 쪽), `rationale`(2~3문장 — **이번 대회 중점 요소를 반영**해 분석), `key_point`(핵심 변수 한 줄). 다음 라운드는 예측 승자로 채워 **결승·`champion`까지 전체 예측**.
+- 최상위 **`tournament_factors`**: 이번 대회 중점 요소 5~7개(48팀 확장 포맷·북중미 개최국 이점·멕시코시티 고지대/더위·대륙 이동·시드 경로 등)를 유지하고, 각 경기 rationale이 이를 반영하게 한다.
 - 매치 필드: id(M73..M102, FINAL)/round(R32|R16|QF|SF|Final)/kickoff(CT)/status/home/away/home_src/away_src/advance/winner/rationale/key_point/feeds/sources. 최상위 `champion`=결승 승자. 대진·연결 구조는 위키피디아 "2026 FIFA World Cup knockout stage"를 따른다.
 - `generated_at`(CT) 갱신.
 
