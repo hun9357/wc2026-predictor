@@ -1,15 +1,16 @@
 import { normalizeProb, validateData } from './validate.js';
 import { isStale } from './format.js';
 import { filterMatches } from './filters.js';
-import { renderList, renderMatchDetail, renderStatePanel, renderStandings, headerStatus, esc } from './render.js';
+import { renderList, renderMatchDetail, renderBracket, renderKnockoutDetail, renderStatePanel, renderStandings, headerStatus, esc } from './render.js';
 
 const PRED_URL = './data/predictions.json';
 const TEAMS_URL = './data/teams.json';
+const BRACKET_URL = './data/bracket.json';
 const CACHE_KEY = 'wc2026.cache.v1';
 const DESKTOP = '(min-width: 761px)';
 const $ = id => document.getElementById(id);
 
-const state = { predictions: { matches: [] }, teams: [], cached: false,
+const state = { predictions: { matches: [] }, teams: [], bracket: null, cached: false,
   criteria: { group: null, matchday: 'ALL', remainingOnly: true, query: '' } };
 
 async function fetchJson(url) {
@@ -20,12 +21,14 @@ async function fetchJson(url) {
 async function load() {
   try {
     const [predictions, teams] = await Promise.all([fetchJson(PRED_URL), fetchJson(TEAMS_URL)]);
-    localStorage.setItem(CACHE_KEY, JSON.stringify({ predictions, teams }));
-    return { predictions, teams, cached: false };
+    let bracket = null;
+    try { bracket = await fetchJson(BRACKET_URL); } catch { /* bracket optional */ }
+    localStorage.setItem(CACHE_KEY, JSON.stringify({ predictions, teams, bracket }));
+    return { predictions, teams, bracket, cached: false };
   } catch {
     const c = localStorage.getItem(CACHE_KEY);
-    if (c) { const d = JSON.parse(c); return { predictions: d.predictions, teams: d.teams, cached: true }; }
-    return { predictions: null, teams: [], cached: false };
+    if (c) { const d = JSON.parse(c); return { predictions: d.predictions, teams: d.teams, bracket: d.bracket || null, cached: true }; }
+    return { predictions: null, teams: [], bracket: null, cached: false };
   }
 }
 function normalizeAll(p) {
@@ -87,26 +90,52 @@ function syncDetails() {
 }
 function renderAll() { renderHeaderStatus(); renderTabs(); renderContent(); }
 
-function showDetail(match) {
+function hideViews() {
   $('board').hidden = true;
+  $('bracket-view').hidden = true;
+  $('bracket-view').innerHTML = '';
+  $('detail-view').hidden = true;
+  $('detail-view').innerHTML = '';
+  document.body.classList.remove('detail-page');
+}
+function setNav(hash) {
+  const onBracket = hash === '#/bracket' || /^#\/ko\//.test(hash);
+  $('nav-board').classList.toggle('is-active', !onBracket);
+  $('nav-bracket').classList.toggle('is-active', onBracket);
+}
+function showBoard() { hideViews(); $('board').hidden = false; renderAll(); }
+function showBracket() {
+  hideViews();
+  const v = $('bracket-view');
+  v.innerHTML = renderBracket(state.bracket, state.teams, new Date());
+  v.hidden = false;
+  window.scrollTo(0, 0);
+}
+function showDetail(match) {
+  hideViews();
   const dv = $('detail-view');
   dv.innerHTML = renderMatchDetail(match, state.teams, state.predictions.matches || [], new Date());
   dv.hidden = false;
   document.body.classList.add('detail-page');
   window.scrollTo(0, 0);
 }
-function showBoard() {
+function showKoDetail(match) {
+  hideViews();
   const dv = $('detail-view');
-  dv.hidden = true;
-  dv.innerHTML = '';
-  document.body.classList.remove('detail-page');
-  $('board').hidden = false;
-  renderAll();
+  dv.innerHTML = renderKnockoutDetail(match, state.teams, new Date());
+  dv.hidden = false;
+  document.body.classList.add('detail-page');
+  window.scrollTo(0, 0);
 }
 function route() {
-  const m = location.hash.match(/^#\/match\/(.+)$/);
-  if (m) {
-    const match = (state.predictions.matches || []).find(x => x.id === decodeURIComponent(m[1]));
+  const hash = location.hash;
+  setNav(hash);
+  if (hash === '#/bracket') { showBracket(); return; }
+  const ko = hash.match(/^#\/ko\/(.+)$/);
+  if (ko) { showKoDetail((state.bracket?.matches || []).find(x => x.id === decodeURIComponent(ko[1]))); return; }
+  const gm = hash.match(/^#\/match\/(.+)$/);
+  if (gm) {
+    const match = (state.predictions.matches || []).find(x => x.id === decodeURIComponent(gm[1]));
     if (match) { showDetail(match); return; }
   }
   showBoard();
@@ -137,18 +166,23 @@ function wire() {
     const card = e.target.closest('.match-card');
     if (card) location.hash = '#/match/' + encodeURIComponent(card.dataset.match);
   });
+  $('bracket-view').addEventListener('click', e => {
+    const b = e.target.closest('[data-ko]');
+    if (b) location.hash = '#/ko/' + encodeURIComponent(b.dataset.ko);
+  });
   window.addEventListener('hashchange', route);
   window.matchMedia(DESKTOP).addEventListener('change', syncDetails);
 }
 
 async function main() {
-  const { predictions, teams, cached } = await load();
+  const { predictions, teams, bracket, cached } = await load();
   if (!predictions) {
     $('list').innerHTML = renderStatePanel({ icon: 'alert', title: '데이터를 불러올 수 없습니다', body: '네트워크 실패 후 캐시도 없습니다. 잠시 후 다시 시도해 주세요.', actionId: 'retry', actionLabel: '다시 불러오기' });
     return;
   }
   state.predictions = normalizeAll(predictions);
   state.teams = teams || [];
+  state.bracket = bracket || null;
   state.cached = cached;
   state.criteria.group = 'ALL';
   state.criteria.matchday = 'ALL';

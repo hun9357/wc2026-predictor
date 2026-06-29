@@ -300,3 +300,102 @@ export function headerStatus({ stale = false, cached = false } = {}) {
   if (stale) return { variant: 'warning', label: '업데이트 지연' };
   return { variant: 'live', label: '데이터 정상' };
 }
+
+// ===== Knockout bracket =====
+const KO_LABEL = { R32: '32강', R16: '16강', QF: '8강', SF: '4강', Final: '결승' };
+
+function advanceBar(adv = { home: 50, away: 50 }) {
+  return `<div class="probability" aria-label="진출 확률">` +
+    `<div class="probability-bar adv-bar">` +
+      `<span class="prob-segment prob-home" style="width: ${adv.home}%">${adv.home}%</span>` +
+      `<span class="prob-segment prob-away" style="width: ${adv.away}%">${adv.away}%</span>` +
+    `</div><div class="prob-labels adv-labels"><span>홈 진출</span><span>원정 진출</span></div></div>`;
+}
+function bracketCard(m, byId, now) {
+  const home = byId.get(m.home), away = byId.get(m.away);
+  const adv = m.advance || { home: 50, away: 50 };
+  const k = m.kickoff ? formatKickoff(m.kickoff, now) : null;
+  const played = m.status === 'played' && m.result;
+  const homeWin = played ? m.result.outcome === 'home_win' : m.winner === m.home;
+  const row = (id, team, pct, win, score) =>
+    `<span class="bk-team${win ? ' bk-win' : ''}">${flagImg(id, team?.name)}<span class="bk-name">${esc(team?.name ?? id ?? '미정')}</span>` +
+    (score != null ? `<b class="bk-score">${esc(score)}</b>` : `<b>${pct}%</b>`) + `</span>`;
+  return `<button class="bk-match${played ? ' is-played' : ''}" type="button" data-ko="${esc(m.id)}">` +
+    `<span class="bk-meta">${k ? `${esc(k.rel)} ${esc(k.time)}` : esc(m.id)}${played ? ' · 종료' : ''}</span>` +
+    row(m.home, home, adv.home, homeWin, played ? m.result.home_score : null) +
+    row(m.away, away, adv.away, !homeWin, played ? m.result.away_score : null) + `</button>`;
+}
+export function renderBracket(bracket, teams, now = new Date()) {
+  if (!bracket || !bracket.matches || !bracket.matches.length) {
+    return `<main class="container content">${renderStatePanel({ icon: 'alert', title: '토너먼트 대진이 아직 없습니다', body: '조별리그가 끝나면 자동으로 채워집니다.' })}</main>`;
+  }
+  const byId = new Map((teams || []).map(t => [t.id, t]));
+  const champ = byId.get(bracket.champion);
+  const cols = ['R32', 'R16', 'QF', 'SF', 'Final'].map(r => {
+    const ms = bracket.matches.filter(m => m.round === r);
+    return ms.length ? `<div class="bracket-round"><h3 class="bk-round-title">${KO_LABEL[r]}</h3><div class="bracket-col">${ms.map(m => bracketCard(m, byId, now)).join('')}</div></div>` : '';
+  }).join('');
+  return `<header class="hero"><div class="container hero-content"><div>` +
+    `<p class="kicker">FIFA World Cup 2026 · Knockout Bracket</p>` +
+    `<h1 class="title">토너먼트 브래킷</h1>` +
+    `<p class="hero-copy">32강부터 결승까지 진출 확률 예측과 예상 우승팀. 경기를 누르면 상세 분석이 열립니다.</p>` +
+    `<div class="status-row"><span class="badge badge-live">🏆 예상 우승 ${esc(champ?.name ?? bracket.champion ?? '—')}</span></div>` +
+    `</div><aside class="update-panel" aria-label="예상 우승"><p class="update-label">🏆 예상 우승</p>` +
+    `<p class="update-time">${flagImg(bracket.champion, champ?.name, 'detail-flag')}${esc(champ?.name ?? bracket.champion ?? '—')}</p>` +
+    `<p class="update-meta">결승까지 전체 예측</p></aside></div></header>` +
+    `<main class="container content"><div class="bracket" aria-label="토너먼트 브래킷">${cols}</div></main>`;
+}
+function detailResultKO(match, byId) {
+  const r = match.result;
+  if (!r || r.home_score == null || r.away_score == null) return '';
+  const o = r.outcome || (r.home_score > r.away_score ? 'home_win' : 'away_win');
+  const winId = o === 'home_win' ? match.home : match.away;
+  const ok = match.winner === winId;
+  return `<div class="detail-result"><span class="result-tag">결과</span><span class="result-score">${esc(r.home_score)} - ${esc(r.away_score)}</span>` +
+    `<span class="result-outcome">${esc(byId.get(winId)?.name ?? winId)} 진출</span>` +
+    `<span class="hit hit-${ok ? 'ok' : 'no'}">예측 ${ok ? '적중' : '빗나감'}</span></div>`;
+}
+export function renderKnockoutDetail(match, teams, now = new Date()) {
+  if (!match) return `<main class="container content"><a class="back-link" href="#/bracket"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 18l-6-6 6-6"/></svg>브래킷으로</a>` +
+    renderStatePanel({ icon: 'alert', title: '경기를 찾을 수 없습니다', body: '브래킷으로 돌아가세요.' }) + `</main>`;
+  const byId = new Map((teams || []).map(t => [t.id, t]));
+  const home = byId.get(match.home), away = byId.get(match.away);
+  const adv = match.advance || { home: 50, away: 50 };
+  const winId = match.winner || (adv.home >= adv.away ? match.home : match.away);
+  const winName = esc(byId.get(winId)?.name ?? winId);
+  const winPct = winId === match.home ? adv.home : adv.away;
+  const homeName = esc(home?.name ?? match.home), awayName = esc(away?.name ?? match.away);
+  const round = KO_LABEL[match.round] || match.round;
+  const k = match.kickoff ? formatKickoff(match.kickoff, now) : null;
+  const played = match.status === 'played' && match.result;
+  return `<header class="hero"><div class="container hero-content"><div>` +
+    `<a class="back-link" href="#/bracket" aria-label="브래킷으로"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 18l-6-6 6-6"/></svg>브래킷으로</a>` +
+    `<p class="kicker">토너먼트 · ${esc(round)}${k ? ` · ${esc(k.label)}` : ''}</p>` +
+    `<h1 class="title">${homeName} vs ${awayName}</h1>` +
+    `<p class="hero-copy">녹아웃은 무승부가 없습니다 — 각 팀의 진출 확률과 전술 분석입니다.</p>` +
+    `<div class="status-row"><span class="badge badge-live">${played ? '종료' : '예정'}</span><span class="badge">${esc(round)}</span></div>` +
+    `</div><aside class="update-panel" aria-label="진출 예측"><p class="update-label">진출 예측</p><p class="update-time">${winName} ${winPct}%</p><p class="update-meta">${homeName} ${adv.home}% · ${awayName} ${adv.away}%</p></aside></div></header>` +
+    `<main class="container content match-detail-layout"><section class="detail-main">` +
+      `<article class="matchup-card">` +
+        `<div class="matchup-meta"><span class="meta-chip">${esc(round)}</span><span>${k ? esc(k.label) : ''}</span></div>` +
+        `<div class="matchup-teams">` +
+          `<div class="detail-team"><span class="detail-team-name">${flagImg(match.home, home?.name, 'detail-flag')}${homeName}</span><span class="detail-team-code">${detailCode(home, match.home)}</span></div>` +
+          `<span class="detail-vs">VS</span>` +
+          `<div class="detail-team away"><span class="detail-team-name">${flagImg(match.away, away?.name, 'detail-flag')}${awayName}</span><span class="detail-team-code">${detailCode(away, match.away)}</span></div>` +
+        `</div>` + advanceBar(adv) +
+        `<div class="verdict"><span>진출 예측: ${winName}</span><small>${winPct}%</small></div>` +
+        (played ? detailResultKO(match, byId) : '') +
+      `</article>` +
+      `<section class="detail-section"><h2>전술 분석</h2>` + (match.rationale ? `<p>${esc(match.rationale)}</p>` : '') +
+        `<div class="analysis-grid">${analysisCard(home, match.home, null)}${analysisCard(away, match.away, null)}</div></section>` +
+      (match.key_point ? `<section class="detail-section"><h2>키포인트</h2><div class="risk-callout"><b>핵심 변수</b><p>${esc(match.key_point)}</p></div></section>` : '') +
+      `<section class="detail-section"><h2>양 팀 프로필</h2><div class="detail-profile-grid">${profileCard(home, match.home)}${profileCard(away, match.away)}</div></section>` +
+      `<section class="detail-section"><h2>양 팀 명단</h2><div class="detail-profile-grid">${squadCard(home)}${squadCard(away)}</div></section>` +
+    `</section>` +
+    `<aside class="detail-rail"><div class="detail-summary-card"><p class="summary-eyebrow">Quick Read</p>` +
+      `<div class="summary-pick"><b>${winName} 진출</b><span>진출 확률 ${winPct}%</span></div>` +
+      `<div class="summary-stat-grid"><div class="summary-stat"><span>홈</span><b>${adv.home}</b></div><div class="summary-stat"><span>원정</span><b>${adv.away}</b></div></div>` +
+      (match.key_point ? `<div class="chip-list"><span class="chip">${esc(match.key_point)}</span></div>` : '') +
+    `</div></aside></main>` +
+    `<aside class="mobile-detail-bar"><div><b>${winName} 진출 ${winPct}%</b><span>${homeName} ${adv.home} · ${awayName} ${adv.away}</span></div><a class="segment-tab" href="#/bracket">브래킷</a></aside>`;
+}
