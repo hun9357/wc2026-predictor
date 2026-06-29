@@ -1625,6 +1625,9 @@ details.details .details-inner strong { color: var(--text); }
 .bk-team.bk-win b { color: var(--accent); }
 .bk-team .bk-score { color: var(--text); }
 .bk-match .flag { width: 18px; height: 13px; margin: 0; }
+/* undetermined slot — matchup not decided yet */
+.bk-match.is-tbd { border-style: dashed; background: transparent; box-shadow: none; }
+.bk-team.bk-tbd .bk-name { font-weight: 700; font-style: italic; color: var(--muted); opacity: .85; }
 
 /* advance bar (knockout = 2-way) */
 .adv-bar .prob-draw { display: none; }

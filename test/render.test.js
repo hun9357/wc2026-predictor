@@ -138,6 +138,7 @@ test('renderMatchDetail shows detail-result for a played match', () => {
   const h = renderMatchDetail(pm, teams, [pm], NOW);
   assert.ok(h.includes('detail-result') && h.includes('결과') && h.includes('2 - 0'));
 });
+const koTeams = [...teams, { id: 'KOR', name: '한국' }, { id: 'CZE', name: '체코' }];
 test('renderBracket shows matchups (no prediction on cards), result on played, champion', () => {
   const bracket = { champion: 'MEX', matches: [
     { id: 'M73', round: 'R32', kickoff: '2026-06-28T14:00:00-05:00', status: 'played', home: 'MEX', away: 'POL', advance: { home: 60, away: 40 }, winner: 'MEX', result: { home_score: 2, away_score: 0, outcome: 'home_win' }, feeds: 'M90' },
@@ -146,23 +147,46 @@ test('renderBracket shows matchups (no prediction on cards), result on played, c
   const h = renderBracket(bracket, teams, NOW);
   assert.ok(h.includes('32강') && h.includes('16강'));
   assert.ok(h.includes('bk-match') && h.includes('data-ko="M73"'));
-  assert.ok(h.includes('멕시코') && h.includes('예상 우승'));
+  assert.ok(h.includes('멕시코') && h.includes('🏆 우승'));        // actual champion panel
   assert.ok(h.includes('bk-win') && h.includes('bk-score'));   // played match: winner + score
-  assert.ok(!h.includes('60%') && !h.includes('55%'));         // upcoming card shows NO advance %
+  assert.ok(!h.includes('60%') && !h.includes('55%'));         // cards show NO advance %
+});
+test('renderBracket shows 미정 placeholder for undetermined rounds and no champion (result-driven)', () => {
+  const bracket = { champion: null, matches: [
+    { id: 'M73', round: 'R32', status: 'upcoming', home: 'MEX', away: 'POL', advance: { home: 60, away: 40 }, winner: 'MEX', feeds: 'M89' },
+    { id: 'M74', round: 'R32', status: 'upcoming', home: 'KOR', away: 'CZE', advance: { home: 50, away: 50 }, winner: 'KOR', feeds: 'M89' },
+    { id: 'M89', round: 'R16', status: 'upcoming', home: null, away: null, home_src: 'M73', away_src: 'M74', advance: null, winner: null, feeds: 'M97' },
+  ] };
+  const h = renderBracket(bracket, koTeams, NOW);
+  assert.ok(h.includes('is-tbd') && h.includes('bk-tbd'));          // undetermined slot styling
+  assert.ok(h.includes('멕시코/폴란드 승자') && h.includes('한국/체코 승자')); // placeholders from feeding matches
+  assert.ok(h.includes('진행 현황') && !h.includes('🏆'));          // no champion panel until decided
 });
 test('renderBracket shows an empty state with no matches', () => {
   assert.ok(renderBracket({ matches: [] }, teams, NOW).includes('대진이 아직'));
 });
 test('renderKnockoutDetail shows advance prediction, analysis, tournament factors, back link', () => {
   const m = { id: 'M73', round: 'R32', kickoff: '2026-06-28T14:00:00-05:00', status: 'upcoming', home: 'MEX', away: 'POL', advance: { home: 62, away: 38 }, winner: 'MEX', rationale: '강한 압박.', key_point: '측면 공방' };
-  const h = renderKnockoutDetail(m, teams, ['48팀 확장 포맷', '개최국 이점'], NOW);
+  const h = renderKnockoutDetail(m, teams, ['48팀 확장 포맷', '개최국 이점'], [], NOW);
   assert.ok(h.includes('브래킷으로') && h.includes('진출 예측: 멕시코'));
   assert.ok(h.includes('adv-bar') && h.includes('62%'));
   assert.ok(h.includes('32강') && h.includes('전술 분석') && h.includes('양 팀 명단'));
   assert.ok(h.includes('이번 대회 중점 요소') && h.includes('48팀 확장 포맷'));
 });
+test('renderKnockoutDetail shows TBD state for an undetermined matchup (no prediction)', () => {
+  const bracketMatches = [
+    { id: 'M73', round: 'R32', status: 'upcoming', home: 'MEX', away: 'POL' },
+    { id: 'M74', round: 'R32', status: 'upcoming', home: 'KOR', away: 'CZE' },
+  ];
+  const m = { id: 'M89', round: 'R16', status: 'upcoming', home: null, away: null, home_src: 'M73', away_src: 'M74', advance: null };
+  const h = renderKnockoutDetail(m, koTeams, ['48팀 확장 포맷'], bracketMatches, NOW);
+  assert.ok(h.includes('대진 미확정') && h.includes('16강'));
+  assert.ok(h.includes('멕시코/폴란드 승자') && h.includes('한국/체코 승자'));
+  assert.ok(!h.includes('진출 예측') && !h.includes('adv-bar'));    // no prediction until teams are set
+  assert.ok(h.includes('이번 대회 중점 요소'));                      // factors still shown
+});
 test('renderKnockoutDetail shows result for a played knockout match', () => {
   const m = { id: 'M73', round: 'R32', home: 'MEX', away: 'POL', advance: { home: 62, away: 38 }, winner: 'MEX', status: 'played', result: { home_score: 2, away_score: 1, outcome: 'home_win' } };
-  const h = renderKnockoutDetail(m, teams, [], NOW);
+  const h = renderKnockoutDetail(m, teams, [], [], NOW);
   assert.ok(h.includes('detail-result') && h.includes('2 - 1') && h.includes('멕시코 진출'));
 });
