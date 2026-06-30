@@ -165,13 +165,22 @@ test('renderBracket shows 미정 placeholder for undetermined rounds and no cham
 test('renderBracket shows an empty state with no matches', () => {
   assert.ok(renderBracket({ matches: [] }, teams, NOW).includes('대진이 아직'));
 });
-test('renderKnockoutDetail shows advance prediction, analysis, tournament factors, back link', () => {
+test('renderKnockoutDetail falls back to general factors when team_focus is absent', () => {
   const m = { id: 'M73', round: 'R32', kickoff: '2026-06-28T14:00:00-05:00', status: 'upcoming', home: 'MEX', away: 'POL', advance: { home: 62, away: 38 }, winner: 'MEX', rationale: '강한 압박.', key_point: '측면 공방' };
   const h = renderKnockoutDetail(m, teams, ['48팀 확장 포맷', '개최국 이점'], [], NOW);
   assert.ok(h.includes('브래킷으로') && h.includes('진출 예측: 멕시코'));
   assert.ok(h.includes('adv-bar') && h.includes('62%'));
   assert.ok(h.includes('32강') && h.includes('전술 분석') && h.includes('양 팀 명단'));
   assert.ok(h.includes('이번 대회 중점 요소') && h.includes('48팀 확장 포맷'));
+});
+test('renderKnockoutDetail shows per-team focus (이번 대회에서 알아야 할 점) when team_focus is present', () => {
+  const m = { id: 'M73', round: 'R32', status: 'upcoming', home: 'MEX', away: 'POL', advance: { home: 62, away: 38 }, winner: 'MEX',
+    team_focus: { home: ['멕시코: 아즈테카 고지대 홈 이점', '멕시코: 측면 과부하 전술'], away: ['폴란드: 세트피스 의존', '폴란드: CB 부상 우려'] } };
+  const h = renderKnockoutDetail(m, teams, ['48팀 확장 포맷'], [], NOW);
+  assert.ok(h.includes('이번 대회에서 알아야 할 점') && h.includes('focus-card'));
+  assert.ok(!h.includes('이번 대회 중점 요소'));                 // per-team replaces the general list
+  assert.ok(h.includes('아즈테카 고지대 홈 이점') && h.includes('세트피스 의존'));
+  assert.ok(!h.includes('멕시코: 아즈테카'));                    // redundant team-name prefix stripped
 });
 test('renderKnockoutDetail shows TBD state for an undetermined matchup (no prediction)', () => {
   const bracketMatches = [

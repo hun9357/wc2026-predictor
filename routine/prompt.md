@@ -16,10 +16,11 @@ FIFA World Cup 2026 본선 **48개국 · 12개 조(A–L)** 전체를 다룬다.
 ## 토너먼트(녹아웃) 단계 → `data/bracket.json`
 조별리그가 끝나면 32강 대진이 확정된다. 이때부터 **브래킷이 주 작업**. **핵심 원칙: 브래킷은 실제 결과로만 채운다 — 미래 라운드를 예측 승자로 미리 채우지 않는다.**
 - **결과 반영(우선):** 치러진 녹아웃 경기는 status:"played" + `result{home_score, away_score, outcome(home_win|away_win)}` 기록(무승부 없음 — 연장/승부차기 승자가 outcome). **실제 승자만** 다음 라운드(`feeds`로 연결된 매치)의 home/away에 채운다.
-- **다음 라운드만 예측:** **양 팀이 실제로 확정된** upcoming 경기에만 `advance{home, away}`(각 팀 진출 % 정수, **합 100**)·`winner`(높은 쪽)·`rationale`(2~3문장, **이번 대회 중점 요소 반영**)·`key_point`를 채운다. 예: 지금은 32강만 확정 → 32강만 예측. 16강 경기는 그 32강 결과가 나오기 전까지 home/away=null, advance/winner/rationale/key_point=null(미정)로 둔다.
+- **다음 라운드만 예측:** **양 팀이 실제로 확정된** upcoming 경기에만 `advance{home, away}`(각 팀 진출 % 정수, **합 100**)·`winner`(높은 쪽)·`rationale`(2~3문장, **이번 대회 중점 요소 반영**)·`key_point`·**`team_focus{home, away}`**를 채운다. 예: 지금은 32강만 확정 → 32강만 예측. 16강 경기는 그 32강 결과가 나오기 전까지 home/away=null, advance/winner/rationale/key_point/team_focus=null(미정)로 둔다.
+- **`team_focus{home, away}` (대진별 양 팀 관전 포인트):** 각 팀에 대해 *"이번 대회를 통해 알아야 할 점"* 2~3개(한국어 문자열 배열). 각 항목은 **그 팀에 실제로 영향을 주는 `tournament_factors`(개최지 고도/더위·48팀 일정 뎁스·이동·시드 경로·홈 이점 등)** 와 **그 팀 고유의 전술/폼/핵심 선수/부상**을 결합한 구체적 문장. 두 팀·다른 경기와 겹치지 않게(복붙 금지), 스코어 예측 아님(관전·주의 포인트). 팀이 미정인 경기는 team_focus=null.
 - **금지:** 아직 안 치러진 경기의 승자를 추정해 다음 라운드 home/away를 채우지 말 것. **`champion`은 결승이 실제로 끝나기 전까지 null**(결승 결과가 나오면 실제 우승팀).
 - 최상위 **`tournament_factors`**: 이번 대회 중점 요소 5~7개(48팀 확장 포맷·북중미 개최국 이점·멕시코시티 고지대/더위·대륙 이동·시드 경로 등)를 유지하고, 확정 경기 rationale이 이를 반영하게 한다.
-- 매치 필드: id(M73..M102, FINAL)/round(R32|R16|QF|SF|Final)/kickoff(CT)/status/home/away(미정 시 null)/home_src/away_src/advance(미정 시 null)/winner/rationale/key_point/feeds/sources. 대진·연결(`feeds`/`home_src`/`away_src`) 구조는 위키피디아 "2026 FIFA World Cup knockout stage"를 따른다.
+- 매치 필드: id(M73..M102, FINAL)/round(R32|R16|QF|SF|Final)/kickoff(CT)/status/home/away(미정 시 null)/home_src/away_src/advance(미정 시 null)/winner/rationale/key_point/team_focus(미정 시 null)/feeds/sources. 대진·연결(`feeds`/`home_src`/`away_src`) 구조는 위키피디아 "2026 FIFA World Cup knockout stage"를 따른다.
 - `generated_at`(CT) 갱신.
 
 ## 가드레일
@@ -32,7 +33,7 @@ FIFA World Cup 2026 본선 **48개국 · 12개 조(A–L)** 전체를 다룬다.
 - 동률(최고 확률 공동 1위)에 draw가 포함되면 verdict는 'draw'로 한다.
 - **12개 조(A–L)가 모두 teams.json에 존재(각 조 4팀=48팀), 각 조의 잔여 경기가 predictions.json에 존재**하는지 확인. 빠진 조가 있으면 채운 뒤 재검증.
 - 완료 경기(status:"played")는 `result`(실제 스코어·결과)를 포함하는지 확인.
-- (토너먼트 단계) `bracket.json`: **확정된(home/away 존재) 경기만** advance 합=100·home/away∈teams.id·winner=advance 높은 쪽을 만족하는지 확인. 미정 경기는 home/away/advance가 null이어야 한다(미래 라운드를 미리 채우지 말 것). played 경기의 실제 승자가 `feeds` 다음 라운드에 반영됐는지, 아직 안 끝난 경기로 다음 라운드가 채워지지 않았는지 확인. `champion`은 결승 종료 전이면 null.
+- (토너먼트 단계) `bracket.json`: **확정된(home/away 존재) 경기만** advance 합=100·home/away∈teams.id·winner=advance 높은 쪽·`team_focus.home`/`team_focus.away`가 각 2~3개 존재하는지 확인. 미정 경기는 home/away/advance/team_focus가 null이어야 한다(미래 라운드를 미리 채우지 말 것). played 경기의 실제 승자가 `feeds` 다음 라운드에 반영됐는지, 아직 안 끝난 경기로 다음 라운드가 채워지지 않았는지 확인. `champion`은 결승 종료 전이면 null.
 
 ## 배포
 ```bash

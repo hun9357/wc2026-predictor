@@ -1628,6 +1628,10 @@ details.details .details-inner strong { color: var(--text); }
 /* undetermined slot — matchup not decided yet */
 .bk-match.is-tbd { border-style: dashed; background: transparent; box-shadow: none; }
 .bk-team.bk-tbd .bk-name { font-weight: 700; font-style: italic; color: var(--muted); opacity: .85; }
+/* per-team "things to know" cards */
+.section-lead { margin: 0 0 12px; color: var(--muted); font-size: 13px; }
+.focus-card h3 { margin: 0 0 8px; }
+.focus-card .insight-list { margin: 0; }
 
 /* advance bar (knockout = 2-way) */
 .adv-bar .prob-draw { display: none; }
