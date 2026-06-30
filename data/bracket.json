@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-28T07:00:00-05:00",
+  "generated_at": "2026-06-30T09:00:00-05:00",
   "timezone": "America/Chicago",
   "champion": null,
   "tournament_factors": [
@@ -17,7 +17,7 @@
       "id": "M73",
       "round": "R32",
       "kickoff": "2026-06-28T14:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "RSA",
       "away": "CAN",
       "home_src": null,
@@ -29,13 +29,18 @@
       "winner": "CAN",
       "rationale": "캐나다는 조너선 데이비드(유벤투스)·타용 부캐넌의 공격 조합이 남아공보다 한 수 위이며, 48팀 확장 포맷으로 경기 수가 늘어난 만큼 스쿼드 뎁스 우위도 유효하다. 남아공은 아프리카 특유의 역습 위협이 있지만 알폰소 데이비스(바이에른 뮌헨)의 부상 이탈로 좌측 화력이 제한된 캐나다조차 전반적인 전력 격차를 좁히기 어렵다. 캐나다는 북미 개최국 준홈 분위기를 활용해 조직적으로 이겨낸다.",
       "key_point": "알폰소 데이비스 복귀 여부 — 캐나다 좌측 돌파력의 핵심이자 48팀 장기 레이스에서의 체력 안배 변수",
-      "feeds": "M90"
+      "feeds": "M90",
+      "result": {
+        "home_score": 0,
+        "away_score": 1,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "M74",
       "round": "R32",
       "kickoff": "2026-06-29T11:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "GER",
       "away": "PAR",
       "home_src": null,
@@ -47,13 +52,18 @@
       "winner": "GER",
       "rationale": "독일은 비르츠·무시알라·하버츠의 창의적 트리오가 파라과이의 4-4-2 로우블록을 압도할 전력을 갖추고 있으며, 48팀 포맷의 긴 일정에 대비한 로테이션 능력도 뛰어나다. 파라과이는 알미론과 엔시소의 역습이 유일한 희망이나 독일의 중원 지배와 스쿼드 깊이 차이가 너무 크다. 길럿 스타디움(폭스버러)은 일반 기후로 고도·열 영향 없이 독일이 편안하게 경기를 운영할 수 있다.",
       "key_point": "플로리안 비르츠의 공간 창출 — 48팀 확장 레이스 초반 체력 비축과 파라과이 블록 해체를 동시에 실현할 핵심",
-      "feeds": "M89"
+      "feeds": "M89",
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "M75",
       "round": "R32",
       "kickoff": "2026-06-29T14:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "NED",
       "away": "MAR",
       "home_src": null,
@@ -65,13 +75,18 @@
       "winner": "NED",
       "rationale": "경기 장소가 에스타디오 몬테레이(몬테레이)로 여름 극열·극습 환경이어서 체력 소모가 극대화된다; 모로코는 북아프리카 기후 친화성으로 체력 저하가 상대적으로 덜하고 하키미·암라바트의 조직력으로 강하게 저항한다. 그러나 네덜란드는 판다이크·더용·각포의 검증된 유럽 최정상급 자원과 스쿼드 뎁스로 극열 속에서도 결정적 차이를 만들어낸다.",
       "key_point": "몬테레이 극열 환경에서의 체력 소모 — 모로코의 집단 수비 조직이 90분 이상 버틸 수 있느냐가 핵심 변수",
-      "feeds": "M90"
+      "feeds": "M90",
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "M76",
       "round": "R32",
       "kickoff": "2026-06-29T17:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "BRA",
       "away": "JPN",
       "home_src": null,
@@ -83,7 +98,12 @@
       "winner": "BRA",
       "rationale": "경기 장소 NRG 스타디움(휴스턴)은 돔구장이지만 여름 휴스턴은 세계 최악 수준의 열지수를 기록하며, 개막 전 경기일 동안 물류·이동 피로가 모두에게 쌓인다; 그러나 브라질은 비니시우스·하피냐·엔드리크의 공격 삼각편대와 두꺼운 스쿼드 뎁스로 일본을 압도한다. 일본은 구보를 중심으로 선전을 노리나 48팀 확장 레이스의 긴 일정과 브라질의 개인기 차이를 극복하기 어렵다.",
       "key_point": "쿠보 다케후사의 공간 침투 — 브라질 수비 뒷공간을 얼마나 파고드느냐가 일본의 유일한 생명줄",
-      "feeds": "M91"
+      "feeds": "M91",
+      "result": {
+        "home_score": 2,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "M77",
@@ -306,7 +326,7 @@
       "round": "R16",
       "kickoff": "2026-07-04T14:00:00-05:00",
       "status": "upcoming",
-      "home": null,
+      "home": "PAR",
       "away": null,
       "home_src": "M74",
       "away_src": "M77",
@@ -321,14 +341,17 @@
       "round": "R16",
       "kickoff": "2026-07-04T17:00:00-05:00",
       "status": "upcoming",
-      "home": null,
-      "away": null,
+      "home": "CAN",
+      "away": "MAR",
       "home_src": "M73",
       "away_src": "M75",
-      "advance": null,
-      "winner": null,
-      "rationale": null,
-      "key_point": null,
+      "advance": {
+        "home": 44,
+        "away": 56
+      },
+      "winner": "MAR",
+      "rationale": "모로코는 2022 4강 신화의 조직력에 더해 R32에서 네덜란드를 승부차기로 꺾으며 멘탈 강도를 입증했고, 휴스턴(NRG)의 극심한 더위·습도는 북아프리카 팀에 상대적으로 유리하다. 캐나다는 북중미 개최국의 준홈 분위기와 조너선 데이비드의 결정력으로 맞서지만, 토너먼트 경험과 수비 안정성에서 모로코가 한 수 위다. 박빙이나 승부차기까지 갈 경우 모로코의 침착함이 변수다.",
+      "key_point": "휴스턴 폭염 속 체력 관리 — 알폰소 데이비스의 좌측 돌파가 모로코 백3를 흔들 수 있을지가 분수령",
       "feeds": "M97"
     },
     {
@@ -336,7 +359,7 @@
       "round": "R16",
       "kickoff": "2026-07-05T14:00:00-05:00",
       "status": "upcoming",
-      "home": null,
+      "home": "BRA",
       "away": null,
       "home_src": "M76",
       "away_src": "M78",

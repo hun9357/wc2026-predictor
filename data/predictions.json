@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generated_at": "2026-06-27T10:30:00-05:00",
+  "generated_at": "2026-06-30T09:00:00-05:00",
   "timezone": "America/Chicago",
   "matches": [
     {
@@ -1368,7 +1368,7 @@
       "group": "G",
       "matchday": 3,
       "kickoff": "2026-06-26T20:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "EGY",
       "away": "IRN",
       "prob": {
@@ -1377,17 +1377,15 @@
         "loss": 31
       },
       "verdict": "home_win",
-      "rationale": "경기 종료 — 사베르가 전반 5분 선제골을 넣었으나 이란이 곧 동점을 만들며 1-1로 마무리됐다. 후반 추가시간 할릴자데의 결승골은 VAR 오프사이드 판정으로 취소돼 이란은 진출이 무산됐다. 이집트는 이 무승부로 사상 첫 녹아웃 진출을 확정했다.",
+      "rationale": "이집트와 이란이 1-1로 비겼다. 이집트는 골득실로 조 2위를 확정해 R32에 올랐고 이란은 탈락했다.",
       "team_notes": {
         "home": "무승부로 사상 첫 16강(R32) 진출 확정, 사베르 선제골",
         "away": "VAR로 결승골 취소되며 승점 1점에 그쳐 탈락"
       },
       "key_variables": [
-        "VAR 오프사이드 판정",
-        "이란 역습 마무리",
-        "조 전체 혼전(승점 밀집)"
+        "경기 종료"
       ],
-      "flip_condition": "할릴자데의 추가시간 골이 인정됐다면 이란이 2위로 진출했을 상황",
+      "flip_condition": "—",
       "qualification_context": "이집트는 5점으로 진출, 이란은 3점으로 탈락. 벨기에가 조 1위로 마감.",
       "sources": [
         "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-belgium-leapfrogs-egypt-to-win-group-g-while-iran-experiences-var-heartbreak-052016991.html",
@@ -1404,7 +1402,7 @@
       "group": "G",
       "matchday": 3,
       "kickoff": "2026-06-26T20:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "NZL",
       "away": "BEL",
       "prob": {
@@ -1413,17 +1411,15 @@
         "loss": 48
       },
       "verdict": "away_win",
-      "rationale": "경기 종료 — 트로사르가 전반 28분 선제골을 터뜨린 뒤 벨기에가 5-1로 대승했다. 화력을 폭발시킨 벨기에는 이집트를 제치고 조 1위로 16강에 올랐고, 뉴질랜드는 한 골에 그치며 탈락했다.",
+      "rationale": "벨기에가 뉴질랜드를 5-1로 대파하며 조 1위로 R32 진출. 뉴질랜드는 전력 차를 극복하지 못하고 탈락했다.",
       "team_notes": {
         "home": "한 골 만회에 그치며 1점으로 조 최하위 탈락",
         "away": "5-1 대승으로 조 1위 확정, 트로사르 선제골"
       },
       "key_variables": [
-        "벨기에 결정력 폭발",
-        "뉴질랜드 수비 붕괴",
-        "조 1위 경쟁(골득실)"
+        "경기 종료"
       ],
-      "flip_condition": "뉴질랜드가 세트피스로 선제골을 넣었다면 벨기에가 조급해졌을 상황",
+      "flip_condition": "—",
       "qualification_context": "벨기에 5점으로 조 1위 진출, 뉴질랜드 1점으로 탈락.",
       "sources": [
         "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-belgium-leapfrogs-egypt-to-win-group-g-while-iran-experiences-var-heartbreak-052016991.html",
@@ -1579,7 +1575,7 @@
       "group": "H",
       "matchday": 3,
       "kickoff": "2026-06-26T18:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "CPV",
       "away": "KSA",
       "prob": {
@@ -1588,17 +1584,15 @@
         "loss": 32
       },
       "verdict": "home_win",
-      "rationale": "경기 종료 — 카보베르데가 단단한 블록을 유지하며 0-0 무승부를 지켜냈고, 동시에 진행된 우루과이의 패배가 겹치면서 데뷔 대회 만에 조 2위로 16강 진출이라는 역사를 썼다. 사우디는 2점에 그쳐 조 최하위로 탈락했다.",
+      "rationale": "케이프베르데가 사우디와 0-0으로 비기며 사상 첫 월드컵 본선에서 조 2위로 R32 진출이라는 역사를 썼다. 사우디는 최하위로 탈락.",
       "team_notes": {
         "home": "0-0 무승부로 데뷔 대회 16강 진출(조 2위), xG 1.52로 우세",
         "away": "득점 없이 2점에 그쳐 조 최하위 탈락"
       },
       "key_variables": [
-        "카보베르데 수비 조직력",
-        "사우디 결정력 부재",
-        "우루과이-스페인 결과 연동"
+        "경기 종료"
       ],
-      "flip_condition": "사우디가 선제골을 넣었다면 진출 경쟁 구도가 뒤집혔을 상황",
+      "flip_condition": "—",
       "qualification_context": "카보베르데 3점(무승부 3회)으로 조 2위 진출, 사우디 2점으로 탈락.",
       "sources": [
         "https://www.skysports.com/football/news/11095/13556682/world-cup-2026-cape-verde-0-0-saudi-arabia-cape-verde-reach-round-of-32-as-group-h-runners-up-with-saudi-knocked-out",
@@ -1615,7 +1609,7 @@
       "group": "H",
       "matchday": 3,
       "kickoff": "2026-06-26T18:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "URU",
       "away": "ESP",
       "prob": {
@@ -1624,17 +1618,15 @@
         "loss": 42
       },
       "verdict": "away_win",
-      "rationale": "경기 종료 — 스페인이 1-0으로 우루과이를 꺾고 3전 전승으로 조 1위를 확정했다. 패한 우루과이는 카보베르데에 밀려 조 3위로 처지며 진출이 좌절됐고, 비엘사의 고강도 압박은 스페인의 점유율 축구에 끝내 결실을 보지 못했다.",
+      "rationale": "스페인이 우루과이를 1-0으로 꺾고 7점으로 조 1위 확정. 우루과이는 2점에 그쳐 충격의 조별리그 탈락.",
       "team_notes": {
         "home": "패배로 2점에 그쳐 조 3위, 진출 좌절",
         "away": "1-0 승리로 3전 전승 조 1위 확정"
       },
       "key_variables": [
-        "스페인 점유율 지배",
-        "우루과이 결정력 부족",
-        "카보베르데 결과 연동"
+        "경기 종료"
       ],
-      "flip_condition": "우루과이가 압박으로 선제골을 만들었다면 진출 구도가 달라졌을 상황",
+      "flip_condition": "—",
       "qualification_context": "스페인 9점으로 조 1위 진출, 우루과이 2점으로 탈락.",
       "sources": [
         "https://sports.yahoo.com/soccer/live/world-cup-schedule-scores-live-updates-results-group-g-group-h-group-i-160927428.html",
@@ -1789,7 +1781,7 @@
       "group": "I",
       "matchday": 3,
       "kickoff": "2026-06-26T15:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "NOR",
       "away": "FRA",
       "prob": {
@@ -1798,26 +1790,24 @@
         "loss": 38
       },
       "verdict": "away_win",
-      "rationale": "경기 종료 — 프랑스가 4-1로 완승하며 3전 전승, 조 1위(시드)를 확정했다. 음바페를 앞세운 화력이 폭발했고, 한 골을 만회하는 데 그친 노르웨이는 조 2위로 16강에 동반 진출했다.",
+      "rationale": "노르웨이가 프랑스를 4-1로 대파하는 이변을 연출했으나 프랑스가 9점 조 1위, 노르웨이가 6점 조 2위로 동반 진출했다. 홀란드의 폼이 절정.",
       "team_notes": {
         "home": "1-4 패배로 조 2위, 그래도 16강 동반 진출",
         "away": "4-1 완승으로 3전 전승 조 1위 확정"
       },
       "key_variables": [
-        "프랑스 공격 효율",
-        "음바페 결정력",
-        "조 1위(시드) 확정"
+        "경기 종료"
       ],
-      "flip_condition": "노르웨이가 홀란드의 결정력으로 먼저 앞섰다면 홈 우위였을 상황",
+      "flip_condition": "—",
       "qualification_context": "프랑스 9점 조 1위, 노르웨이 6점 조 2위로 동반 진출.",
       "sources": [
         "https://sports.yahoo.com/soccer/live/world-cup-schedule-scores-live-updates-results-group-g-group-h-group-i-160927428.html",
         "https://www.nbcsports.com/soccer/news/2026-world-cup-group-stage-table-full-standings-for-all-12-groups"
       ],
       "result": {
-        "home_score": 1,
-        "away_score": 4,
-        "outcome": "away_win"
+        "home_score": 4,
+        "away_score": 1,
+        "outcome": "home_win"
       }
     },
     {
@@ -1825,7 +1815,7 @@
       "group": "I",
       "matchday": 3,
       "kickoff": "2026-06-26T15:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "SEN",
       "away": "IRQ",
       "prob": {
@@ -1834,17 +1824,15 @@
         "loss": 23
       },
       "verdict": "home_win",
-      "rationale": "경기 종료 — 양 팀 모두 탈락이 확정된 상황에서 세네갈이 5-0 대승을 거두며 자존심을 세웠다. 4-3-3의 빠른 윙 플레이로 이라크 수비를 무너뜨렸고, 이라크는 3전 전패로 무득점에 그쳤다.",
+      "rationale": "세네갈이 이라크를 5-0으로 완파했다. 세네갈은 R32에 진출했고 이라크는 탈락했다.",
       "team_notes": {
         "home": "5-0 대승으로 첫 승점 3점, 개인 기량 우위 입증",
         "away": "3전 전패·무득점으로 조 최하위 탈락"
       },
       "key_variables": [
-        "세네갈 윙 플레이",
-        "이라크 수비 붕괴",
-        "탈락 확정 동기부여"
+        "경기 종료"
       ],
-      "flip_condition": "이라크가 수비 블록을 단단히 세웠다면 실점을 줄였을 상황",
+      "flip_condition": "—",
       "qualification_context": "세네갈·이라크 모두 탈락(세네갈 3점, 이라크 0점). 순위 무관 경기였음.",
       "sources": [
         "https://www.olympics.com/en/news/fifa-world-cup-2026-every-match-result-friday-26-june",
@@ -2000,7 +1988,7 @@
       "group": "J",
       "matchday": 3,
       "kickoff": "2026-06-27T20:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "ALG",
       "away": "AUT",
       "prob": {
@@ -2009,29 +1997,32 @@
         "loss": 36
       },
       "verdict": "away_win",
-      "rationale": "2위 진출이 걸린 직접 대결이다. 오스트리아는 득실 우위(0 > -2)로 무승부면 진출해 랑닉식 게겐프레싱으로 안정 운영하고, 알제리는 마레즈를 앞세워 반드시 이겨야 한다. 양 팀 핵심 결장(베나세르·바움가르트너)이 변수다.",
+      "rationale": "알제리와 오스트리아가 3-3 난타전 끝에 비겼다. 오스트리아는 4점으로 조 2위 R32 진출, 알제리는 와일드카드로 진출.",
       "team_notes": {
         "home": "승리 필수(2위 진출), 마레즈 의존",
         "away": "무승부면 득실로 진출, 게겐프레싱"
       },
       "key_variables": [
-        "알제리 마레즈 창조력",
-        "오스트리아 압박 강도",
-        "핵심 결장(베나세르·바움가르트너)"
+        "경기 종료"
       ],
-      "flip_condition": "알제리가 선제골로 앞서면 홈 우위로 역전.",
+      "flip_condition": "—",
       "qualification_context": "알제리·오스트리아 승점 3 동률. 무승부 시 득실로 오스트리아 진출, 알제리는 승리 필수.",
       "sources": [
         "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
         "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+      ],
+      "result": {
+        "home_score": 3,
+        "away_score": 3,
+        "outcome": "draw"
+      }
     },
     {
       "id": "J-MD3-2",
       "group": "J",
       "matchday": 3,
       "kickoff": "2026-06-27T20:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "JOR",
       "away": "ARG",
       "prob": {
@@ -2040,22 +2031,25 @@
         "loss": 55
       },
       "verdict": "away_win",
-      "rationale": "아르헨티나는 이미 J조 1위로 16강을 확정해 메시 등 주축 로테이션이 예상된다. 요르단은 탈락이 확정돼 3백 수비 블록으로 버티지만 로테이션을 감안해도 전력 차가 크다.",
+      "rationale": "아르헨티나가 요르단을 3-1로 제압하고 9점 조 1위로 R32 진출. 메시가 마지막 월드컵에서 순항 중이다.",
       "team_notes": {
         "home": "탈락 확정, 수비 블록 운영",
         "away": "조 1위 확정, 메시 등 로테이션 가능"
       },
       "key_variables": [
-        "아르헨티나 로테이션 폭",
-        "메시 출전 시간",
-        "요르단 수비 집중력"
+        "경기 종료"
       ],
-      "flip_condition": "아르헨티나가 풀전력을 가동하면 원정 대승 가능.",
+      "flip_condition": "—",
       "qualification_context": "아르헨티나 1위 확정(6점), 요르단 탈락 확정.",
       "sources": [
         "https://www.nbcsports.com/soccer/news/2026-world-cup-group-stage-table-full-standings-for-all-12-groups",
         "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32"
-      ]
+      ],
+      "result": {
+        "home_score": 1,
+        "away_score": 3,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "K-MD1-1",
@@ -2211,7 +2205,7 @@
       "group": "K",
       "matchday": 3,
       "kickoff": "2026-06-27T18:30:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "COL",
       "away": "POR",
       "prob": {
@@ -2220,29 +2214,32 @@
         "loss": 34
       },
       "verdict": "home_win",
-      "rationale": "콜롬비아는 무승부면 조 1위가 확정돼 2연승의 좋은 흐름과 더블 피벗 전환 공격으로 임한다. 포르투갈은 조 1위를 위해 승리가 필요하지만 디아스 컨디션 불안과 레앙 부진이 변수다. 개인 기량은 대등하다.",
+      "rationale": "콜롬비아와 포르투갈이 0-0으로 비기며 콜롬비아가 조 1위, 호날두의 포르투갈이 조 2위로 동반 R32 진출.",
       "team_notes": {
         "home": "무승부면 조 1위 확정, 좋은 흐름",
         "away": "1위 위해 승리 필요(디아스·레앙 변수)"
       },
       "key_variables": [
-        "조 1위 다툼",
-        "포르투갈 공격 컨디션(디아스·레앙)",
-        "콜롬비아 전환 속도"
+        "경기 종료"
       ],
-      "flip_condition": "포르투갈이 측면 과부하로 선제골을 넣으면 원정 우위.",
+      "flip_condition": "—",
       "qualification_context": "콜롬비아 선두(6점, 진출 확정), 포르투갈 4점. 콜롬비아 무승부면 1위 확정.",
       "sources": [
         "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
         "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 0,
+        "outcome": "draw"
+      }
     },
     {
       "id": "K-MD3-2",
       "group": "K",
       "matchday": 3,
       "kickoff": "2026-06-27T18:30:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "COD",
       "away": "UZB",
       "prob": {
@@ -2251,22 +2248,25 @@
         "loss": 25
       },
       "verdict": "home_win",
-      "rationale": "콩고DR은 진출 가능성을 살리려면 큰 점수 차 승리가 필요해 적극적으로 나선다. 우즈베키스탄은 득실(-7) 열세로 사실상 탈락해 동기부여가 떨어진다. 콩고DR의 역습이 더 위협적이다.",
+      "rationale": "DR콩고가 우즈베키스탄을 3-1로 꺾고 조 3위 와일드카드로 R32 진출에 성공했다. 우즈벡은 탈락.",
       "team_notes": {
         "home": "대승 필요, 역습 중심 공세",
         "away": "사실상 탈락, 동기부여 저하"
       },
       "key_variables": [
-        "콩고DR 역습 효율",
-        "우즈베키스탄 동기부여",
-        "콜롬비아-포르투갈 결과 연동"
+        "경기 종료"
       ],
-      "flip_condition": "우즈베키스탄이 세트피스로 선제골을 넣으면 콩고DR이 조급해진다.",
+      "flip_condition": "—",
       "qualification_context": "콩고DR 1점(대승 시 와일드카드 희박한 가능성), 우즈베키스탄 사실상 탈락.",
       "sources": [
         "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
         "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+      ],
+      "result": {
+        "home_score": 3,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     },
     {
       "id": "L-MD1-1",
@@ -2421,7 +2421,7 @@
       "group": "L",
       "matchday": 3,
       "kickoff": "2026-06-27T16:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "PAN",
       "away": "ENG",
       "prob": {
@@ -2430,29 +2430,32 @@
         "loss": 56
       },
       "verdict": "away_win",
-      "rationale": "잉글랜드는 무승부면 조 1위가 확정돼 전진 풀백을 활용한 점유 축구로 경기를 지배한다. 리브라멘토 결장·사카 관리 변수가 있으나 파나마(탈락 확정)와 전력 차가 크다.",
+      "rationale": "잉글랜드가 파나마를 2-0으로 완승하며 조 1위로 R32 진출. 파나마는 탈락했다.",
       "team_notes": {
         "home": "탈락 확정",
         "away": "무승부면 조 1위 확정, 점유 우위"
       },
       "key_variables": [
-        "잉글랜드 측면 공격",
-        "파나마 수비 블록",
-        "사카 출전 분량 관리"
+        "경기 종료"
       ],
-      "flip_condition": "파나마가 3백 블록으로 무실점하면 무승부 가능.",
+      "flip_condition": "—",
       "qualification_context": "잉글랜드 선두(4점), 무승부면 조 1위. 파나마 탈락 확정.",
       "sources": [
         "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
         "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+      ],
+      "result": {
+        "home_score": 0,
+        "away_score": 2,
+        "outcome": "away_win"
+      }
     },
     {
       "id": "L-MD3-2",
       "group": "L",
       "matchday": 3,
       "kickoff": "2026-06-27T16:00:00-05:00",
-      "status": "upcoming",
+      "status": "played",
       "home": "CRO",
       "away": "GHA",
       "prob": {
@@ -2461,22 +2464,25 @@
         "loss": 27
       },
       "verdict": "home_win",
-      "rationale": "크로아티아는 진출을 위해 반드시 이겨야 해 모드리치 세대의 미드필드 기술로 공세에 나선다. 가나는 무승부면 진출하지만 쿠두스·살리수 결장으로 화력이 약화됐다. 크로아티아의 중원 우위가 관건이다.",
+      "rationale": "크로아티아가 가나를 2-1로 꺾고 조 2위로 R32 진출. 가나는 막판 분전했으나 탈락.",
       "team_notes": {
         "home": "승리 필수(진출), 미드필드 기술 우위",
         "away": "무승부면 진출, 핵심 결장(쿠두스·살리수)"
       },
       "key_variables": [
-        "크로아티아 중원 장악",
-        "가나 역습·세트피스",
-        "그바르디올·코바치치 컨디션"
+        "경기 종료"
       ],
-      "flip_condition": "가나가 역습으로 선제골을 넣으면 크로아티아가 쫓기며 균형이 흔들린다.",
+      "flip_condition": "—",
       "qualification_context": "잉글랜드·가나 4점, 크로아티아 3점. 크로아티아는 승리 필수, 가나는 무승부면 진출.",
       "sources": [
         "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32",
         "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
-      ]
+      ],
+      "result": {
+        "home_score": 2,
+        "away_score": 1,
+        "outcome": "home_win"
+      }
     }
   ]
 }
